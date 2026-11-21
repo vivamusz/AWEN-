@@ -114,22 +114,38 @@ def musicbrainz(song):
 def main():
     songs = read('awen-catalog.json', {'tracks': []})['tracks']
     edits = read('awen-curation.json', {'tracks': {}})['tracks']
+    mb = read('awen-musicbrainz.json', {'tracks': {}}).get('tracks', {})
+    apple = read('awen-apple-metadata.json', {'tracks': {}}).get('tracks', {})
     overlay = read('awen-genre-sources.json', {'schema_version': 1, 'tracks': {}})
     progress = read('awen-genre-source-status.json', {'next_index': 0, 'checked': 0})
     items = overlay.setdefault('tracks', {})
-    i = int(progress.get('next_index') or 0)
+
+    # Check the unknown songs FIRST. A stable list of IDs avoids skipping or
+    # repeating records when other GitHub jobs edit genre metadata concurrently.
+    processed = set(progress.get('processed_ids') or [])
+    if not processed and progress.get('next_index'):
+        # Upgrade the former sequential checkpoint without starting from zero.
+        processed = {str(t.get('id')) for t in songs[:int(progress['next_index'])]}
+    def known(song):
+        ident = str(song.get('id') or '')
+        edit = edits.get(ident, {})
+        verified = apple.get(ident, {})
+        return bool(edit.get('genre') or mb.get(ident, {}).get('genre')
+                    or (verified.get('verified_metadata') and verified.get('genre')))
+    queue = sorted(songs, key=known)
     done = 0
     providers = [lastfm, deezer] + ([musicbrainz] if USE_MB else [])
     unavailable = set()
-    while i < len(songs) and done < BATCH:
-        song = songs[i]
+    for song in queue:
+        if done >= BATCH:
+            break
         ident = str(song.get('id') or '')
         edit = edits.get(ident, {})
-        if not ident or ident in items or edit.get('potential_import_error') or re.match(r'^(ручная|массовая)', str(edit.get('curation_method', ''))):
-            i += 1
+        if (not ident or ident in processed or ident in items or edit.get('potential_import_error')
+                or re.match(r'^(ручная|массовая)', str(edit.get('curation_method', '')))):
             continue
         if norm(song.get('artist')) in {'id', 'unknown', 'ost', ''} or norm(song.get('title')) in {'id', 'unknown', ''}:
-            i += 1
+            processed.add(ident)
             continue
         evidence = []
         for fn in providers:
@@ -142,6 +158,9 @@ def main():
             except (HTTPError, URLError, TimeoutError, ValueError, KeyError, TypeError) as exc:
                 unavailable.add(fn.__name__)
                 print(fn.__name__ + ' temporarily unavailable: ' + str(exc), flush=True)
+        if len(unavailable) == len(providers) and not evidence:
+            progress['last_error'] = 'All sources temporarily unavailable; resume this row next run'
+            break
         if evidence:
             groups = {x['genre'] for x in evidence}
             if len(groups) == 1:
@@ -151,19 +170,25 @@ def main():
             else:
                 items[ident] = {'status': 'conflict', 'suggestions': sorted(groups),
                                 'review_needed': True, 'evidence': evidence}
-        if len(unavailable) == len(providers) and not evidence:
-            progress['last_error'] = 'All sources temporarily unavailable; resume this row next run'
-            break
-        i += 1
+        processed.add(ident)
         done += 1
-    progress.update({'next_index': i, 'checked': int(progress.get('checked') or 0) + done,
-                     'total': len(songs), 'complete': i >= len(songs),
+
+    valid_ids = {str(t.get('id')) for t in songs}
+    progress['processed_ids'] = [str(t.get('id')) for t in songs if str(t.get('id')) in processed]
+    progress.update({'next_index': len(processed & valid_ids), 'checked': len(processed & valid_ids),
+                     'total': len(songs), 'strategy': 'unknown_genres_first',
+                     'complete': not any(
+                         str(t.get('id')) not in processed and str(t.get('id')) not in items
+                         and not edits.get(str(t.get('id')), {}).get('potential_import_error')
+                         and not re.match(r'^(ручная|массовая)', str(edits.get(str(t.get('id')), {}).get('curation_method', '')))
+                         for t in songs),
                      'with_evidence': sum(bool(x.get('genre')) for x in items.values()),
                      'conflicts': sum(x.get('status') == 'conflict' for x in items.values())})
     overlay['provider'] = 'Deezer album genres; Last.fm track tags; MusicBrainz recording tags'
     save('awen-genre-sources.json', overlay)
     save('awen-genre-source-status.json', progress)
-    print('AWEN genre evidence', i, '/', len(songs), 'genres', progress['with_evidence'], 'conflicts', progress['conflicts'])
+    print('AWEN genre evidence', progress['checked'], '/', len(songs),
+          'genres', progress['with_evidence'], 'conflicts', progress['conflicts'])
 
 if __name__ == '__main__':
     main()
