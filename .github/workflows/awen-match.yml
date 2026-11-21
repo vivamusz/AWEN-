@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/awen-match.yml"
       - "scripts/awen_match.py"
+      - "scripts/merge_apple_state.py"
   schedule:
     - cron: "23 * * * *"
 
@@ -29,29 +30,33 @@ jobs:
           AWEN_BATCH: "240"
           AWEN_PAUSE: "3.6"
         run: python3 scripts/awen_match.py
-      - name: Save progress and matches
+      - name: Save progress and matches without overwriting concurrent changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/awen-apple-batch
+          cp awen-catalog.json awen-curation.json awen-match-status.json awen-match-review.json /tmp/awen-apple-batch/
           git add awen-catalog.json awen-match-status.json awen-match-review.json awen-curation.json
           if git diff --cached --quiet; then
             echo "No changes to publish"
             exit 0
           fi
           git commit -m "Update AWEN Apple Music metadata matches"
-          # Another workflow or chat may have updated unrelated files while matching.
-          # Rebase this finished batch onto the latest main before trying again.
-          for attempt in 1 2 3 4; do
+          for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
               echo "Apple Music matches and progress published"
               exit 0
             fi
-            echo "Remote changed; retrying with latest main (attempt $attempt)"
+            echo "Remote changed; merging Apple results with latest main (attempt $attempt)"
             git fetch origin main
-            git rebase origin/main || {
-              echo "Rebase conflict: refusing to overwrite other catalog edits"
-              exit 1
-            }
+            git reset --hard origin/main
+            python3 scripts/merge_apple_state.py /tmp/awen-apple-batch
+            git add awen-catalog.json awen-curation.json awen-match-status.json awen-match-review.json
+            if git diff --cached --quiet; then
+              echo "The remote already contains all updates"
+              exit 0
+            fi
+            git commit -m "Merge AWEN Apple Music metadata batch"
             sleep 2
           done
           exit 1
