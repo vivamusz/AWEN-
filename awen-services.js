@@ -366,6 +366,7 @@
       tracks=found;demo=false;applyAuthorizedStreams();render();
     }catch(err){
       console.warn('AWEN: каталог GitHub недоступен',err);
+      tracks=[];demo=false;render();
       notify('Не удалось загрузить общий каталог — проверь интернет');
     }
   }
