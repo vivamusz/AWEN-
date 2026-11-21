@@ -1,0 +1,57 @@
+name: AWEN catalog integrity check
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/awen-catalog-check.yml"
+      - "scripts/awen_match.py"
+      - "scripts/awen_musicbrainz.py"
+      - "awen-curation.json"
+      - "awen-review-queue.json"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Python syntax
+        run: python3 -m py_compile scripts/awen_match.py scripts/awen_musicbrainz.py
+      - name: Validate JSON catalog and playlist references
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          def read(name):
+              return json.loads(Path(name).read_text(encoding="utf-8"))
+          catalog=read("awen-catalog.json")["tracks"]
+          curation=read("awen-curation.json")["tracks"]
+          musicbrainz=read("awen-musicbrainz.json")["tracks"]
+          review=read("awen-review-queue.json")
+          ids={t["id"] for t in catalog}
+          assert len(ids)==len(catalog),"Duplicate IDs in catalog"
+          assert set(curation)<=ids,"Curation has IDs not present in catalog"
+          assert set(musicbrainz)<=ids,"MusicBrainz has IDs not present in catalog"
+          assert set(x["id"] for x in review["items"])<=ids,"Review queue mismatch"
+          playlists={"road","night","nightplus","dance","chill"}
+          genres={
+            "Pop","Hip-Hop / Rap","R&B / Soul","Phonk","Funk / Disco",
+            "Chill / Lo-Fi / Ambient","House","Techno / Trance",
+            "Bass Music / EDM","Drum & Bass / UK Bass","Latin / Brazilian Club",
+            "Afro / Global Club","Synth / Retro Electronic","Rock / Indie",
+            "Metal / Punk","Jazz / Blues","Folk / Ethno / World",
+            "Classical / Cinematic","Country",
+          }
+          for ident,patch in curation.items():
+              assert set(patch.get("playlists",[]))<=playlists,("Bad playlists",ident)
+              if patch.get("genre"):
+                  assert patch["genre"] in genres,("Unknown genre",ident,patch["genre"])
+          for ident,patch in musicbrainz.items():
+              if patch.get("genre"):
+                  assert patch["genre"] in genres,("Unknown MusicBrainz genre",ident)
+          print("CATALOG OK",len(catalog),"CURATED",len(curation),
+                "MUSICBRAINZ",len(musicbrainz),"REVIEW",len(review["items"]))
+          PY
