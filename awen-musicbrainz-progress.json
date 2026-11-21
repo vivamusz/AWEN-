@@ -3,7 +3,5 @@
   "artists_checked": 123,
   "tracks_assigned": 21,
   "total": 2075,
-  "complete": false,
-  "last_error": "HTTP Error 503: Service Temporarily Unavailable",
-  "last_error_index": 68
+  "complete": false
 }
