@@ -16,8 +16,6 @@
       "album": "Uaiymdama - Single",
       "year": 2026,
       "year_type": "album_release",
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_track_id",
       "duration": 134
     },
     "awen-15": {
@@ -34,7 +32,9 @@
       "album": "childhood - Single",
       "year": 2023,
       "year_type": "album_release",
-      "duration": 129
+      "duration": 129,
+      "genre": "Chill / Lo-Fi / Ambient",
+      "genre_evidence": "itunes_track_id"
     },
     "awen-18": {
       "verified_metadata": {
@@ -270,8 +270,6 @@
       "album": "Breathe - EP",
       "year": 2022,
       "year_type": "album_release",
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_track_id",
       "duration": 56
     },
     "awen-169": {
@@ -702,8 +700,6 @@
       "album": "Cenizas",
       "year": 2020,
       "year_type": "album_release",
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_track_id",
       "duration": 434
     },
     "awen-272": {
@@ -1236,8 +1232,6 @@
       "album": "everything i wanted - Single",
       "year": 2019,
       "year_type": "album_release",
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_track_id",
       "duration": 245
     },
     "awen-425": {
@@ -1304,8 +1298,6 @@
       "album": "Q203 - EP",
       "year": 2019,
       "year_type": "album_release",
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_track_id",
       "duration": 196
     }
   },
