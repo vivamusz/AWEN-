@@ -1,6 +1,47 @@
 {
   "schema_version": 1,
   "provider": "MusicBrainz artist tags; per-song genre unverified",
-  "artists": {},
+  "artists": {
+    "j panda": {
+      "status": "not_found"
+    },
+    "omido": {
+      "status": "unclassified",
+      "artist_mbid": "5293e8c9-2d7e-412c-a760-065135fd1fea",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/5293e8c9-2d7e-412c-a760-065135fd1fea"
+    },
+    "semicenk": {
+      "status": "unclassified",
+      "artist_mbid": "06b7308b-b8d8-4b01-bc69-3073211ec904",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/06b7308b-b8d8-4b01-bc69-3073211ec904"
+    },
+    "daniel mp3": {
+      "status": "unclassified",
+      "artist_mbid": "1bd2aade-499a-4cdc-9c62-9e401c4bf45d",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/1bd2aade-499a-4cdc-9c62-9e401c4bf45d"
+    },
+    "moldex": {
+      "status": "not_found"
+    },
+    "music every day commercial": {
+      "status": "not_found"
+    },
+    "joseph angel": {
+      "status": "unclassified",
+      "artist_mbid": "84dcf9b5-e200-44d3-888d-f5599a63c0fe",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/84dcf9b5-e200-44d3-888d-f5599a63c0fe"
+    },
+    "ჩუბინა": {
+      "status": "not_found"
+    }
+  },
   "tracks": {}
 }
