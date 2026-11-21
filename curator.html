@@ -125,12 +125,21 @@ hr{border:0;border-top:1px solid var(--line);margin:17px 0}
 var GENRES=["Pop","Hip-Hop / Rap","R&B / Soul","Phonk","Funk / Disco","Chill / Lo-Fi / Ambient","House","Techno / Trance","Bass Music / EDM","Drum & Bass / UK Bass","Latin / Brazilian Club","Afro / Global Club","Synth / Retro Electronic","Rock / Indie","Metal / Punk","Jazz / Blues","Folk / Ethno / World","Classical / Cinematic","Country"];
 var PLAYLISTS=[["road","Спокойная дорога"],["night","Ночной вайб"],["nightplus","Ночной вайб +"],["dance","Танцуем"],["chill","Чилл"]];
 var MOODS=["Спокойное","Ночное","Агрессивное","Расслабленное","Меланхоличное","Энергичное","Танцевальное","Романтичное","Дорожное","Мечтательное","Атмосферное","Ностальгическое","Лиричное","Уютное"];
-var KEY="awen-curator-draft-v1",tracks=[],curation={tracks:{}},draft={},selected=new Set(),active="",limit=60;
+var KEY="awen-curator-draft-v1",tracks=[],curation={tracks:{}},appleMeta={},draft={},selected=new Set(),active="",limit=60;
 var $=id=>document.getElementById(id);
 function safe(v){return String(v==null?"":v).replace(/[&<>"']/g,function(x){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[x]})}
 function norm(v){return String(v||"").toLocaleLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g,"").replace(/[^\p{L}\p{N}]+/gu," ").trim()}
 function toast(text){$("notice").textContent=text;$("notice").classList.add("show");setTimeout(function(){$("notice").classList.remove("show")},4000)}
-function base(id){return curation.tracks[id]||{}}
+function base(id){
+ var patch=curation.tracks[id]||{}, verified=appleMeta[id]||{};
+ if(!verified.verified_metadata)return patch;
+ var manual=/^(ручная|массовая)\s/i.test(String(patch.curation_method||""));
+ return Object.assign({},verified,patch,{
+   album:manual?(patch.album||""):(patch.album||verified.album||""),
+   year:manual?(patch.year||null):(patch.year||verified.year||null),
+   genre:manual?(patch.genre||""):(patch.genre||verified.genre||"")
+ })
+}
 function merged(id){return Object.assign({},base(id),draft[id]||{})}
 function issues(t){
  var patch=merged(t.id), res=[];
@@ -191,7 +200,7 @@ function openTrack(id){
  var t=tracks.find(function(x){return x.id===id});if(!t)return;
  active=id;
  var p=merged(id);
- $("details").innerHTML='<div><b>'+safe(t.artist)+' — '+safe(t.title)+'</b></div><div>'+safe(id)+(p.curation_method?' · '+safe(p.curation_method):'')+'</div>'+(t.source_url?'<div><a target="_blank" rel="noopener noreferrer" href="'+safe(t.source_url)+'">Открыть источник</a></div>':'')+(p.potential_import_error?'<div style="color:#ffb7a0">⚠ '+safe(p.potential_import_error)+'</div>':'');
+ $("details").innerHTML='<div><b>'+safe(t.artist)+' — '+safe(t.title)+'</b></div><div>'+safe(id)+(p.curation_method?' · '+safe(p.curation_method):'')+(p.verified_metadata?' · ✓ метаданные релиза Apple Music':'')+'</div>'+(t.source_url?'<div><a target="_blank" rel="noopener noreferrer" href="'+safe(t.source_url)+'">Открыть источник</a></div>':'')+(p.potential_import_error?'<div style="color:#ffb7a0">⚠ '+safe(p.potential_import_error)+'</div>':'');
  $("form").style.display="";
  $("genre").value=p.genre||"";
  $("subgenre").value=(p.subgenres||[]).join(", ");
@@ -267,8 +276,8 @@ function initialize(){
 }
 initialize();
 try{var cache=JSON.parse(localStorage.getItem(KEY)||"{}");if(cache&&typeof cache==="object"&&!Array.isArray(cache))draft=cache}catch(e){}
-Promise.all([fetchJSON("./awen-catalog.json"),fetchJSON("./awen-curation.json")]).then(function(v){
- tracks=Array.isArray(v[0].tracks)?v[0].tracks:[];curation=v[1];computeDuplicates();renderList();
+Promise.all([fetchJSON("./awen-catalog.json"),fetchJSON("./awen-curation.json"),fetchJSON("./awen-apple-metadata.json").catch(function(){return {tracks:{}}})]).then(function(v){
+ tracks=Array.isArray(v[0].tracks)?v[0].tracks:[];curation=v[1];appleMeta=v[2]&&typeof v[2].tracks==="object"?v[2].tracks:{};computeDuplicates();renderList();
  if(tracks.length)openTrack(tracks.find(function(t){return !merged(t.id).genre})?.id||tracks[0].id);
 }).catch(function(err){$("list").innerHTML='<div class="empty">Не удалось загрузить каталог. Проверь GitHub Pages и обнови страницу.<p>'+safe(err.message)+'</p></div>'});
 })();
