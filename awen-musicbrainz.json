@@ -711,6 +711,18 @@
     },
     "фикс": {
       "status": "not_found"
+    },
+    "doja cat": {
+      "status": "found",
+      "artist_mbid": "5df62a88-cac9-490a-b62c-c7c88f4020f4",
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "hip hop",
+        "pop rap",
+        "west coast hip hop",
+        "rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/5df62a88-cac9-490a-b62c-c7c88f4020f4"
     }
   },
   "tracks": {
@@ -934,6 +946,18 @@
         "southern hip hop"
       ],
       "artist_url": "https://musicbrainz.org/artist/14ecd19f-7121-4192-8549-e5056241a42f",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-334": {
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "hip hop",
+        "pop rap",
+        "west coast hip hop",
+        "rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/5df62a88-cac9-490a-b62c-c7c88f4020f4",
       "curation_confidence": "artist_genre_inference",
       "review_needed": true
     }
