@@ -108,6 +108,8 @@ def main():
         "schema_version": 1,
         "generated_at_utc": generated_at,
         "catalog_tracks": len(songs),
+        "quarantined_possible_non_songs": counts["possible_non_music"],
+        "public_music_candidates": len(songs) - counts["possible_non_music"],
         "with_provisional_or_confirmed_genre": counts["known_genre"],
         "without_genre": counts["unknown_genre"],
         "manual_genre_assignments": counts["manual_genre"],
