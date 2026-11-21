@@ -1,0 +1,49 @@
+name: AWEN catalog audit and review queue
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/refresh_review_queue.py"
+      - ".github/workflows/awen-review-refresh.yml"
+      - "awen-catalog.json"
+      - "awen-curation.json"
+      - "awen-musicbrainz.json"
+      - "awen-audius-matches.json"
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+concurrency:
+  group: awen-catalog-audit
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Validate data and build review queue
+        run: |
+          python3 -m py_compile scripts/refresh_review_queue.py
+          python3 scripts/refresh_review_queue.py
+      - name: Publish current report and outstanding issues
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add awen-audit.json awen-review-queue.json
+          if git diff --cached --quiet; then
+            echo "Audit already up-to-date"
+            exit 0
+          fi
+          git commit -m "Refresh AWEN catalog audit and review queue"
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase origin/main || exit 1
+            sleep 2
+          done
+          exit 1
