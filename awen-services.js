@@ -326,9 +326,12 @@
               t.energy=Math.min(5,Math.max(1,Number(patch.energy)));
             }
             if(patch.review_needed)t.curation_review_needed=true;
+            if(patch.potential_import_error)t.import_review_needed=true;
             if(manual){
               t.genre_source='Ручная правка каталога';
               t.playlist_manual=true;
+              t.curation_review_needed=Boolean(patch.review_needed);
+              t.import_review_needed=Boolean(patch.potential_import_error);
             }
           }
         }
