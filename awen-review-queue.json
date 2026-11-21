@@ -1,25 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T15:37:45+00:00",
+  "generated_at_utc": "2026-11-21T16:52:29+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2075,
-    "needs_genre": 910,
+    "needs_genre": 891,
     "possible_import_errors": 16,
     "duplicate_groups": 10,
     "tracks_in_duplicate_groups": 30,
-    "genre_conflicts": 14
+    "genre_conflicts": 16,
+    "cross_source_conflicts": 0
   },
   "items": [
-    {
-      "id": "awen-1",
-      "artist": "J Panda",
-      "title": "Uaiymdama",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/6789179050?i=6789179053"
-    },
     {
       "id": "awen-7",
       "artist": "Omido, Rick Jansen, Ordell",
@@ -94,6 +86,17 @@
       ],
       "proposed_genre": "Bass Music / EDM",
       "genre_conflict": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/453272065",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1274517945?i=1274518661"
     },
     {
@@ -643,15 +646,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-168",
-      "artist": "yglm",
-      "title": "one",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1604558224?i=1604558708"
     },
     {
       "id": "awen-170",
@@ -1706,15 +1700,6 @@
       ]
     },
     {
-      "id": "awen-439",
-      "artist": "Son Little",
-      "title": "neve give up",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1484054682?i=1484054756"
-    },
-    {
       "id": "awen-444",
       "artist": "Robinson",
       "title": "Medicine",
@@ -1990,15 +1975,6 @@
       ]
     },
     {
-      "id": "awen-511",
-      "artist": "Tove Lo",
-      "title": "Habits (Stay High)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1770261069?i=1770262010"
-    },
-    {
       "id": "awen-514",
       "artist": "astn",
       "title": "no more",
@@ -2130,24 +2106,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-549",
-      "artist": "Balmorhea",
-      "title": "HEIR I",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/923392988?i=923392991"
-    },
-    {
-      "id": "awen-551",
-      "artist": "RSAC",
-      "title": "NBA",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1677983547?i=1677983552"
     },
     {
       "id": "awen-562",
@@ -2614,15 +2572,8 @@
       "title": "the thread of the thing",
       "issues": [
         "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-685",
-      "artist": "Prince Taylor",
-      "title": "Multiply",
-      "issues": [
-        "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/466845254?i=466845475"
     },
     {
       "id": "awen-692",
@@ -2649,14 +2600,6 @@
       ]
     },
     {
-      "id": "awen-697",
-      "artist": "Sage the Gemini",
-      "title": "Watchachacha",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-698",
       "artist": "Avay",
       "title": "Can't Stay",
@@ -2673,6 +2616,17 @@
       ]
     },
     {
+      "id": "awen-700",
+      "artist": "John Legend",
+      "title": "I Love, You Love",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "R&B / Soul",
+      "source_url": "https://music.apple.com/kz/album/292767820?i=292767864"
+    },
+    {
       "id": "awen-701",
       "artist": "New year",
       "title": "New feeling",
@@ -2684,14 +2638,6 @@
       "id": "awen-702",
       "artist": "Bekzat Kuttibayev & Bolat Kazken ft. McKenzi",
       "title": "Sezim (AUEN)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-703",
-      "artist": "kamandi",
-      "title": "Like A Rod Stew Your Heart",
       "issues": [
         "genre_not_identified"
       ]
@@ -2777,14 +2723,6 @@
       ]
     },
     {
-      "id": "awen-727",
-      "artist": "j'san",
-      "title": "this feeling's too good",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-730",
       "artist": "Ilkay Sencan",
       "title": "No Sweat",
@@ -2862,15 +2800,8 @@
       "title": "Warm In The Winter",
       "issues": [
         "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-756",
-      "artist": "Lola",
-      "title": "Another Empty Lover",
-      "issues": [
-        "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1192651612?i=1192651853"
     },
     {
       "id": "awen-758",
@@ -2884,14 +2815,6 @@
         "awen-976"
       ],
       "proposed_genre": "Pop"
-    },
-    {
-      "id": "awen-759",
-      "artist": "Alex Clare",
-      "title": "Unconditional",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-761",
@@ -2910,33 +2833,18 @@
       ]
     },
     {
-      "id": "awen-766",
-      "artist": "Meek Mill",
-      "title": "The Difference (Feat. Quavo)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-768",
       "artist": "Dynoro",
       "title": "Hangover",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1846180345?i=1846180707"
     },
     {
       "id": "awen-769",
       "artist": "UNNHOLY",
       "title": "away",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-770",
-      "artist": "Vince Staples",
-      "title": "Relay",
       "issues": [
         "genre_not_identified"
       ]
@@ -2953,14 +2861,6 @@
       "id": "awen-772",
       "artist": "AURORA",
       "title": "Lucky",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-773",
-      "artist": "Emeli Sandé",
-      "title": "Read All About It, Pt. III",
       "issues": [
         "genre_not_identified"
       ]
@@ -3019,7 +2919,8 @@
       "title": "Pai Mei",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1339006997?i=1339007400"
     },
     {
       "id": "awen-792",
@@ -3035,7 +2936,8 @@
       "title": "Siren",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1429790670?i=1429791180"
     },
     {
       "id": "awen-798",
@@ -3062,17 +2964,20 @@
       ]
     },
     {
+      "id": "awen-806",
+      "artist": "Paolo Nutini",
+      "title": "Iron Sky",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "R&B / Soul",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/865263074?i=865263090"
+    },
+    {
       "id": "awen-808",
       "artist": "shyboy",
       "title": "hold me down",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-811",
-      "artist": "Alec Benjamin",
-      "title": "Let Me Down Slowly",
       "issues": [
         "genre_not_identified"
       ]
@@ -3190,25 +3095,9 @@
       ]
     },
     {
-      "id": "awen-835",
-      "artist": "john.k",
-      "title": "best of me",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-839",
       "artist": "Y.V.E. 48 Hier",
       "title": "Records",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-840",
-      "artist": "Lux Holm & Glaceo",
-      "title": "Paranoid",
       "issues": [
         "genre_not_identified"
       ]
@@ -3259,7 +3148,8 @@
       "title": "Hymn",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1436209727?i=1436209737"
     },
     {
       "id": "awen-863",
@@ -3291,7 +3181,8 @@
       "title": "Just Got Paid (feat. French Montana)",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1397962305?i=1397962315"
     },
     {
       "id": "awen-879",
@@ -3393,14 +3284,6 @@
       "id": "awen-910",
       "artist": "24hrs",
       "title": "Queen",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-912",
-      "artist": "Sabrina Claudio",
-      "title": "Messages From Her",
       "issues": [
         "genre_not_identified"
       ]
