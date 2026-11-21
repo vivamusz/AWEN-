@@ -6,7 +6,7 @@ on:
       - ".github/workflows/awen-match.yml"
       - "scripts/awen_match.py"
   schedule:
-    - cron: "17 */3 * * *"
+    - cron: "23 * * * *"
 
 permissions:
   contents: write
@@ -26,7 +26,7 @@ jobs:
           persist-credentials: true
       - name: Match official metadata (no audio downloads)
         env:
-          AWEN_BATCH: "180"
+          AWEN_BATCH: "240"
           AWEN_PAUSE: "3.6"
         run: python3 scripts/awen_match.py
       - name: Save progress and matches
