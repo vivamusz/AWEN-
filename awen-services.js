@@ -69,6 +69,22 @@
     }
     return null;
   }
+  function playerLaunchUrl(src){
+    if(!src||src.external)return '';
+    if(src.name==='YouTube'){
+      const u=new URL(src.src);
+      u.searchParams.set('autoplay','1');
+      u.searchParams.set('playsinline','1');
+      return u.href;
+    }
+    if(src.name==='SoundCloud'){
+      const u=new URL(src.src);
+      u.searchParams.set('auto_play','true');
+      return u.href;
+    }
+    // Spotify and Apple Music embeds do not guarantee automatic full-track playback.
+    return src.src;
+  }
   function getSource(t){
     if(!t)return null;
     return provider(links[t.id])||provider(t.source_url);
@@ -93,7 +109,7 @@
       open.dataset.awenEmbed='1';
       open.addEventListener('click',()=>{
         const frame=document.createElement('iframe');frame.title=t.artist+' — '+t.title+' / '+src.name;
-        frame.src=src.src;frame.loading='eager';frame.referrerPolicy='strict-origin-when-cross-origin';
+        frame.src=playerLaunchUrl(src);frame.loading='eager';frame.referrerPolicy='strict-origin-when-cross-origin';
         frame.allow='autoplay; encrypted-media; fullscreen; picture-in-picture';frame.allowFullscreen=true;
         frame.style.cssText='display:block;width:100%;height:'+(src.name==='YouTube'?'min(45vh,370px)':src.height+'px')+';border:0;border-radius:10px;background:#16131a';
         open.replaceWith(frame);
@@ -137,7 +153,7 @@
     });
     box.appendChild(save);
     const foot=document.createElement('p');
-    foot.textContent='Плеер принадлежит выбранному сервису. Apple Music может воспроизводить фрагмент без подписки; полная песня зависит от авторизации и условий сервиса. MP3 и офлайн-загрузка через ӘУЕН недоступны.';
+    foot.textContent=src?.name==='YouTube'||src?.name==='SoundCloud'?'По нажатию ▶ плеер запрашивает автоматический старт. Если Chrome или сервис его запретит, нажми Play на самом плеере.':'Воспроизведение зависит от правил сервиса. Apple Music может дать только фрагмент. Прямое MP3 и офлайн через внешние плееры недоступны.';
     foot.style.cssText='color:#aaa3b7;font-size:11px;line-height:1.5;margin:0';box.appendChild(foot);
     if(src?.external || approvedAudioUrl(authorizedStreams[id])){
       const licensed=document.createElement('div');
@@ -189,7 +205,19 @@
   playTrack=function(id){
     const t=byId(id);
     if(t)applyAuthorizedStreams();
-    if(t&&!playable(t)&&getSource(t)){openDetails(id);document.querySelector('[data-awen-embed]')?.click();return;}
+    const src=getSource(t);
+    if(t&&!playable(t)&&src?.external){
+      // An external MuzPace song page cannot be played as a media file.
+      // One click opens the provider's own player, without mislabeling it as in-site audio.
+      window.open(src.pageUrl,'_blank','noopener,noreferrer');
+      return;
+    }
+    if(t&&!playable(t)&&src){
+      openDetails(id);
+      // This call is synchronous within the user's ▶ click.
+      document.querySelector('[data-awen-embed]')?.click();
+      return;
+    }
     oldPlay(id);
   };
   let matchingStatus=null;
@@ -228,9 +256,9 @@
       const src=getSource(t);
       if(!src||playable(t))continue;
       button.textContent=src.external?'↗':'▶';
-      button.title=src.external?'Открыть страницу '+src.name:'Слушать через '+src.name;
+      button.title=src.external?'Перейти на MuzPace (не воспроизведение в ӘУЕН)':src.name==='YouTube'||src.name==='SoundCloud'?'Попробовать воспроизвести одним нажатием через '+src.name:'Открыть плеер '+src.name;
       const status=button.closest('.song')?.querySelector('.song-status');
-      if(status){status.textContent=src.external?'Страница · '+src.name:'Онлайн · '+src.name;if(!src.external)status.classList.add('yes');}
+      if(status){status.textContent=src.external?'Перейти · '+src.name:src.name==='Apple Music'?'Предпрослушивание · Apple Music':'Онлайн · '+src.name;if(!src.external)status.classList.add('yes');}
     }
   };
   const oldAbout=aboutPage;
