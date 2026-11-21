@@ -29,6 +29,8 @@ def main():
     edits = read("awen-curation.json", {"tracks": {}})["tracks"]
     musicbrainz = read("awen-musicbrainz.json", {"tracks": {}})["tracks"]
     apple_verified = read("awen-apple-metadata.json", {"tracks": {}})["tracks"]
+    evidence = read("awen-genre-sources.json", {"tracks": {}})["tracks"]
+    evidence_progress = read("awen-genre-source-status.json", {})
     apple = read("awen-match-status.json", {})
     mb_state = read("awen-musicbrainz-progress.json", {})
     audius = read("awen-audius-matches.json", {"matches": {}})
@@ -47,8 +49,23 @@ def main():
         edit = edits.get(ident, {})
         mb = musicbrainz.get(ident, {})
         am = apple_verified.get(ident, {})
+        source = evidence.get(ident, {})
         is_verified = bool(am.get("verified_metadata"))
-        selected_genre = str(edit.get("genre") or mb.get("genre") or (am.get("genre") if is_verified else "") or "")
+        is_manual = str(edit.get("curation_method") or "").startswith(("ручная", "массовая"))
+        prior_genre = str(edit.get("genre") or mb.get("genre") or (am.get("genre") if is_verified else "") or "")
+        suggested_genre = str(source.get("genre") or "")
+        if is_manual:
+            selected_genre = prior_genre
+        elif source.get("status") == "track_evidence" and suggested_genre:
+            if is_verified and am.get("genre") and prior_genre == am.get("genre") and prior_genre != suggested_genre:
+                selected_genre = prior_genre
+            else:
+                selected_genre = suggested_genre
+                counts["track_evidence_genre"] += 1
+        else:
+            selected_genre = prior_genre or suggested_genre
+            if not prior_genre and source.get("status") == "album_hint" and suggested_genre:
+                counts["album_hint_genre"] += 1
         problem = []
         if not selected_genre:
             problem.append("genre_not_identified")
@@ -62,6 +79,12 @@ def main():
                 counts["official_apple_genre"] += 1
             else:
                 counts["provisional_genre"] += 1
+        if source.get("status") == "conflict":
+            problem.append("cross_source_genre_conflict")
+            counts["source_conflict"] += 1
+        elif (source.get("status") == "track_evidence" and suggested_genre and prior_genre
+              and suggested_genre != prior_genre):
+            problem.append("track_evidence_disagrees_with_prior")
         if edit.get("potential_import_error"):
             problem.append("possible_non_music_text")
             counts["possible_non_music"] += 1
@@ -99,6 +122,8 @@ def main():
             item["genre_conflict"] = edit["genre_review_candidate"]
         elif is_verified and am.get("genre") and edit.get("genre") and am["genre"] != edit["genre"]:
             item["genre_conflict"] = am["genre"]
+        if source.get("evidence"):
+            item["external_genre_evidence"] = source["evidence"]
         if song.get("source_url"):
             item["source_url"] = song["source_url"]
         review_items.append(item)
@@ -119,6 +144,9 @@ def main():
         "duplicate_groups": sum(len(g) > 1 for g in groups.values()),
         "tracks_in_duplicate_groups": len(duplicates),
         "genre_conflicts": counts["genre_conflict"],
+        "cross_source_conflicts": counts["source_conflict"],
+        "track_level_evidence_assignments": counts["track_evidence_genre"],
+        "deezer_album_genre_hints_applied": counts["album_hint_genre"],
         "apple_verified_metadata": counts["verified_apple_metadata"],
         "known_albums": counts["album_known"],
         "known_release_years": counts["year_known"],
@@ -131,10 +159,12 @@ def main():
         "genre_counts": dict(sorted(genres.items())),
         "apple_match_progress": apple,
         "musicbrainz_progress": mb_state,
+        "cross_source_genre_progress": evidence_progress,
         "notes": [
             "Genre assignments include artist/title inferences and are not all verified song by song.",
             "Playlists count explicit assignments only; the website may show additional automatic rules.",
             "Missing metadata must not be invented or presented as an official match.",
+            "Cross-source genre tags can be track-level or album-level; Deezer album genres are provisional.",
         ],
     }
     queue = {
@@ -148,6 +178,7 @@ def main():
             "duplicate_groups": audit["duplicate_groups"],
             "tracks_in_duplicate_groups": len(duplicates),
             "genre_conflicts": counts["genre_conflict"],
+            "cross_source_conflicts": counts["source_conflict"],
         },
         "items": review_items,
     }
