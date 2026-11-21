@@ -111,10 +111,11 @@ hr{border:0;border-top:1px solid var(--line);margin:17px 0}
 </div>
 <hr>
 <div class="foot">
-<button class="primary" id="export">↓ Скачать обновлённый awen-curation.json</button>
+<button class="primary" id="export">↓ Скачать только мои правки</button>
+<button id="exportFull">Скачать полный JSON (резервная копия)</button>
 <button id="reset">Отменить мои правки</button>
 </div>
-<small class="help">Чтобы изменения увидели все, нужно загрузить экспортированный JSON в GitHub (заменить файл awen-curation.json) либо передать его в этот чат.</small>
+<small class="help">Рекомендуется скачивать только свои правки: файл awen-curation-patches.json можно безопасно объединить с последней версией каталога. Не заменяй им awen-curation.json целиком. Полная резервная копия нужна только для архива.</small>
 </section>
 </div>
 </main>
@@ -225,14 +226,25 @@ function bulkApply(){
  });
  store();toast("Назначен жанр для "+selected.size+" записей");selected.clear();renderList();
 }
-function exportJSON(){
- var combined=JSON.parse(JSON.stringify(curation));
- if(!combined.tracks)combined.tracks={};
- Object.keys(draft).forEach(function(id){combined.tracks[id]=draft[id]});
- combined.exported_by="AWEN Curator";combined.review_notice="Часть жанров назначена автоматически по исполнителям. Ручные назначения не гарантируют проверку аудио.";
- var b=new Blob([JSON.stringify(combined,null,2)+"\n"],{type:"application/json;charset=utf-8"}),url=URL.createObjectURL(b);
- var a=document.createElement("a");a.href=url;a.download="awen-curation.json";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url)},1500);
- toast("JSON скачан. Для общего сайта загрузи его в GitHub.")
+function exportJSON(full){
+ if(!Object.keys(draft).length&&!full){toast("Пока нет сохранённых правок");return}
+ var payload;
+ if(full){
+   payload=JSON.parse(JSON.stringify(curation));
+   if(!payload.tracks)payload.tracks={};
+   Object.keys(draft).forEach(function(id){payload.tracks[id]=draft[id]});
+   payload.exported_by="AWEN Curator (полная резервная копия)";
+ }else{
+   payload={
+     schema_version:1,
+     patch_format:"awen-curator-patches",
+     purpose:"Merge only edited track IDs into current awen-curation.json; never replace whole catalog",
+     changes:JSON.parse(JSON.stringify(draft))
+   };
+ }
+ var b=new Blob([JSON.stringify(payload,null,2)+"\n"],{type:"application/json;charset=utf-8"}),url=URL.createObjectURL(b);
+ var a=document.createElement("a");a.href=url;a.download=full?"awen-curation-backup.json":"awen-curation-patches.json";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url)},1500);
+ toast(full?"Резервная копия сохранена":"Скачаны только твои изменения; передай файл для безопасного слияния")
 }
 async function fetchJSON(url){var r=await fetch(url,{cache:"no-store"});if(!r.ok)throw Error(url+": HTTP "+r.status);return r.json()}
 function initialize(){
@@ -246,7 +258,8 @@ function initialize(){
  $("clearSelected").addEventListener("click",function(){selected.clear();renderList()});
  $("bulkApply").addEventListener("click",bulkApply);
  $("save").addEventListener("click",save);
- $("export").addEventListener("click",exportJSON);
+ $("export").addEventListener("click",function(){exportJSON(false)});
+ $("exportFull").addEventListener("click",function(){exportJSON(true)});
  $("reset").addEventListener("click",function(){if(confirm("Отменить все локальные правки? Уже экспортированные файлы не затронутся.")){draft={};store();renderList();if(active)openTrack(active)}});
  $("next").addEventListener("click",function(){var other=tracks.find(function(t){return !merged(t.id).genre&&t.id!==active});if(other){openTrack(other.id);window.scrollTo({top:0,behavior:"smooth"})}else toast("Нет других записей без жанра")});
  $("list").addEventListener("click",function(e){var button=e.target.closest("[data-open]");if(button)openTrack(button.dataset.open)});
