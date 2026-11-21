@@ -1,16 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T15:36:54+00:00",
+  "generated_at_utc": "2026-11-21T15:37:45+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2075,
-    "needs_genre": 904,
+    "needs_genre": 910,
     "possible_import_errors": 16,
     "duplicate_groups": 10,
     "tracks_in_duplicate_groups": 30,
     "genre_conflicts": 14
   },
   "items": [
+    {
+      "id": "awen-1",
+      "artist": "J Panda",
+      "title": "Uaiymdama",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://music.apple.com/kz/album/6789179050?i=6789179053"
+    },
     {
       "id": "awen-7",
       "artist": "Omido, Rick Jansen, Ordell",
@@ -634,6 +643,15 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-168",
+      "artist": "yglm",
+      "title": "one",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://music.apple.com/kz/album/1604558224?i=1604558708"
     },
     {
       "id": "awen-170",
@@ -1688,6 +1706,15 @@
       ]
     },
     {
+      "id": "awen-439",
+      "artist": "Son Little",
+      "title": "neve give up",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://music.apple.com/kz/album/1484054682?i=1484054756"
+    },
+    {
       "id": "awen-444",
       "artist": "Robinson",
       "title": "Medicine",
@@ -1963,6 +1990,15 @@
       ]
     },
     {
+      "id": "awen-511",
+      "artist": "Tove Lo",
+      "title": "Habits (Stay High)",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://music.apple.com/kz/album/1770261069?i=1770262010"
+    },
+    {
       "id": "awen-514",
       "artist": "astn",
       "title": "no more",
@@ -2094,6 +2130,24 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-549",
+      "artist": "Balmorhea",
+      "title": "HEIR I",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://music.apple.com/kz/album/923392988?i=923392991"
+    },
+    {
+      "id": "awen-551",
+      "artist": "RSAC",
+      "title": "NBA",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://music.apple.com/kz/album/1677983547?i=1677983552"
     },
     {
       "id": "awen-562",
