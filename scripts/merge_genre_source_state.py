@@ -28,6 +28,14 @@ def main():
     other = load(folder / 'awen-genre-source-status.json', {})
     for key in ('next_index', 'checked', 'total'):
         cur[key] = max(int(cur.get(key) or 0), int(other.get(key) or 0))
+    # Never lose completed per-track research when overlapping jobs merge.
+    existing_ids = set(cur.get('processed_ids', []))
+    incoming_ids = set(other.get('processed_ids', []))
+    ids = existing_ids | incoming_ids
+    all_tracks = load(ROOT / 'awen-catalog.json', {'tracks': []}).get('tracks', [])
+    cur['processed_ids'] = [str(t.get('id')) for t in all_tracks if str(t.get('id')) in ids]
+    cur['next_index'] = cur['checked'] = len(cur['processed_ids'])
+    cur['strategy'] = 'unknown_genres_first'
     cur['with_evidence'] = sum(bool(x.get('genre')) for x in tracks.values())
     cur['conflicts'] = sum(x.get('status') == 'conflict' for x in tracks.values())
     cur['complete'] = bool(cur.get('total') and cur['next_index'] >= cur['total'])
