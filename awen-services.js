@@ -2,11 +2,33 @@
 (() => {
   'use strict';
   const STORAGE = 'awen-official-sources-v1';
+  const STREAM_STORAGE = 'awen-authorized-streams-v1';
   let links = {};
   try {
     const v=JSON.parse(localStorage.getItem(STORAGE)||'{}');
     if(v && typeof v==='object' && !Array.isArray(v)) links=v;
   } catch (_) {}
+  let authorizedStreams = {};
+  try {
+    const a=JSON.parse(localStorage.getItem(STREAM_STORAGE)||'{}');
+    if(a && typeof a==='object' && !Array.isArray(a)) authorizedStreams=a;
+  } catch (_) {}
+  function approvedAudioUrl(value){
+    if(typeof value!=='string'||value.length>1800)return '';
+    try {
+      const u=new URL(value.trim());
+      if(u.protocol!=='https:' || u.username || u.password)return '';
+      // A MuzPace song page is not an audio stream.
+      if(/^(?:www\.)?muzpace\.net$/i.test(u.hostname) && /^\/mp3\/\d+\/?$/i.test(u.pathname))return '';
+      return u.href;
+    }catch(_){return '';}
+  }
+  function applyAuthorizedStreams(){
+    for(const t of tracks){
+      const stream=approvedAudioUrl(authorizedStreams[t.id]);
+      if(stream){t.audio_url=stream;t.source_status='available';}
+    }
+  }
 
   function provider(value) {
     if(typeof value!=='string'||value.length>1800)return null;
@@ -31,6 +53,11 @@
       if(m&&trackId&&/^\d+$/.test(trackId)){
         const country=(path.match(/^\/([a-z]{2})\//i)||[])[1]||'kz';
         return {name:'Apple Music',src:'https://embed.music.apple.com/'+country+'/album/'+m[1]+'?i='+trackId,height:175};
+      }
+    }
+    if(host==='muzpace.net'||host==='www.muzpace.net'){
+      if(/^\/mp3\/\d+\/?$/.test(path)){
+        return {name:'MuzPace',external:true,pageUrl:u.origin+u.pathname};
       }
     }
     if(host==='soundcloud.com'||host==='www.soundcloud.com'){
@@ -58,9 +85,10 @@
     const src=getSource(t);
     if(src){
       const dt=[...root.querySelectorAll('dt')].find(x=>x.textContent==='Статус');
-      if(dt?.nextElementSibling)dt.nextElementSibling.textContent='Официальный плеер '+src.name;
+      if(dt?.nextElementSibling)dt.nextElementSibling.textContent=src.external?'Страница '+src.name+' (открывается отдельно)':'Официальный плеер '+src.name;
       const notice=[...root.querySelectorAll('.selection-note')].find(x=>x.textContent.includes('Аудиофайл не подключён'));
-      if(notice)notice.textContent='Можно слушать через '+src.name+' в плеере ниже.';
+      if(notice)notice.textContent=src.external?'Для прослушивания открой страницу MuzPace. Для плеера внутри ӘУЕН требуется разрешённый прямой аудиопоток.':'Можно слушать через '+src.name+' в плеере ниже.';
+      if(!src.external){
       const open=document.createElement('button');open.className='btn';open.textContent='▶ Встроенный плеер '+src.name;
       open.dataset.awenEmbed='1';
       open.addEventListener('click',()=>{
@@ -71,8 +99,9 @@
         open.replaceWith(frame);
       });
       box.appendChild(open);
+      }
       const full=document.createElement('a');full.className='btn tiny';
-      full.href=links[id]||t.source_url;full.textContent='Открыть в '+src.name;
+      full.href=src.external?src.pageUrl:(links[id]||t.source_url);full.textContent='Открыть в '+src.name;
       full.target='_blank';full.rel='noopener noreferrer';box.appendChild(full);
     }
     const info=document.createElement('p');
@@ -83,7 +112,8 @@
       ['YouTube','https://www.youtube.com/results?search_query='+query],
       ['Spotify','https://open.spotify.com/search/'+query],
       ['SoundCloud','https://soundcloud.com/search/sounds?q='+query],
-      ['Apple Music','https://music.apple.com/kz/search?term='+query]
+      ['Apple Music','https://music.apple.com/kz/search?term='+query],
+      ['MuzPace (главная)','https://muzpace.net/']
     ];
     const bar=document.createElement('div');bar.className='actions';bar.style.margin='0';
     for(const entry of sources){
@@ -92,7 +122,7 @@
     }
     box.appendChild(bar);
     const input=document.createElement('input');
-    input.type='url';input.placeholder='Ссылка на трек YouTube / Spotify / SoundCloud';
+    input.type='url';input.placeholder='Ссылка на трек YouTube / Spotify / SoundCloud / Apple Music / MuzPace';
     input.value=links[id]||((provider(t.source_url)&&t.source_url)||'');
     input.setAttribute('aria-label','Ссылка на конкретную песню');
     input.style.cssText='padding:11px;width:100%;min-width:0;background:#252130;color:white;border:1px solid #5b506a;border-radius:9px';
@@ -100,7 +130,7 @@
     const save=document.createElement('button');save.className='btn primary';save.textContent='Сохранить ссылку на этом устройстве';
     save.addEventListener('click',()=>{
       const v=input.value.trim();
-      if(v&&!provider(v)){notify('Нужна HTTPS-ссылка на конкретный трек YouTube, Spotify или SoundCloud');return;}
+      if(v&&!provider(v)){notify('Нужна ссылка на конкретную запись поддерживаемого сервиса');return;}
       if(v)links[id]=v;else delete links[id];
       try{localStorage.setItem(STORAGE,JSON.stringify(links));}catch(_){notify('Нет доступа к хранилищу браузера');return;}
       notify(v?'Ссылка сохранена':'Ссылка удалена');render();openDetails(id);
@@ -109,6 +139,31 @@
     const foot=document.createElement('p');
     foot.textContent='Плеер принадлежит выбранному сервису. Apple Music может воспроизводить фрагмент без подписки; полная песня зависит от авторизации и условий сервиса. MP3 и офлайн-загрузка через ӘУЕН недоступны.';
     foot.style.cssText='color:#aaa3b7;font-size:11px;line-height:1.5;margin:0';box.appendChild(foot);
+    if(src?.external || approvedAudioUrl(authorizedStreams[id])){
+      const licensed=document.createElement('div');
+      licensed.style.cssText='display:grid;gap:10px;padding:12px;border:1px solid #5c4b69;border-radius:10px';
+      const desc=document.createElement('p');
+      desc.textContent='Прямой поток по разрешению MuzPace: вставь предоставленный ими HTTPS-адрес аудио (MP3/поток), НЕ адрес страницы /mp3/31281. Без согласованного потока музыка играет на MuzPace, а не внутри ӘУЕН.';
+      desc.style.cssText='font-size:12px;color:#d5c8e0;margin:0';
+      const streamInput=document.createElement('input');
+      streamInput.type='url';streamInput.placeholder='https://.../authorized-stream.mp3';
+      streamInput.value=authorizedStreams[id]||'';
+      streamInput.style.cssText='width:100%;background:#252130;color:white;border:1px solid #5b506a;border-radius:9px;padding:11px';
+      const streamSave=document.createElement('button');streamSave.className='btn';
+      streamSave.textContent='Подключить разрешённый аудиопоток';
+      streamSave.addEventListener('click',()=>{
+        const value=streamInput.value.trim();
+        if(value&&!approvedAudioUrl(value)){notify('Нужна HTTPS-ссылка непосредственно на поток, не страница MuzPace');return;}
+        if(value)authorizedStreams[id]=value;else delete authorizedStreams[id];
+        try{localStorage.setItem(STREAM_STORAGE,JSON.stringify(authorizedStreams));}catch(_){notify('Не удалось сохранить ссылку в браузере');return;}
+        if(value){t.audio_url=value;t.source_status='available';}
+        else{t.audio_url='';t.source_status='unknown';}
+        render();openDetails(id);
+        notify(value?'Аудиопоток подключён на этом устройстве':'Локальный аудиопоток удалён');
+      });
+      licensed.append(desc,streamInput,streamSave);
+      box.appendChild(licensed);
+    }
     const settings=document.createElement('details');
     settings.style.cssText='margin-top:5px;padding:12px 14px;border:1px solid #4a3d58;border-radius:10px';
     settings.open=!src;
@@ -133,16 +188,19 @@
   const oldPlay=playTrack;
   playTrack=function(id){
     const t=byId(id);
+    if(t)applyAuthorizedStreams();
     if(t&&!playable(t)&&getSource(t)){openDetails(id);document.querySelector('[data-awen-embed]')?.click();return;}
     oldPlay(id);
   };
   let matchingStatus=null;
   const oldRender=render;
   render=function(){
+    applyAuthorizedStreams();
     oldRender();
-    const linked=tracks.filter(t=>!!getSource(t)).length;
+    const linked=tracks.filter(t=>{const p=getSource(t);return !!p&&!p.external;}).length;
+    const muzpaceLinks=tracks.filter(t=>getSource(t)?.external).length;
     const label=document.querySelector('.top-label');
-    if(label)label.textContent='AWEN · '+linked+' онлайн-источников';
+    if(label)label.textContent='AWEN · '+linked+' плееров'+(muzpaceLinks?' · '+muzpaceLinks+' ссылок MuzPace':'');
     if(st.view==='home'&&!demo){
       const main=document.querySelector('#app');
       if(main){
@@ -150,7 +208,7 @@
         banner.className='notice';
         banner.id='awen-connection-status';
         const intro=document.createElement('strong');
-        intro.textContent=linked+' песен имеют официальные источники прослушивания. ';
+        intro.textContent=linked+' песен имеют встроенные источники; '+muzpaceLinks+' — ссылки MuzPace. ';
         banner.appendChild(intro);
         if(matchingStatus){
           const text=document.createTextNode('Автоподбор Apple Music: обработано '+Number(matchingStatus.next_index||0)+' из '+Number(matchingStatus.total||tracks.length)+', найдено новых точных совпадений '+Number(matchingStatus.matched||0)+', на проверку '+Number(matchingStatus.review||0)+'. ');
@@ -169,15 +227,15 @@
       const t=byId(button.dataset.play);
       const src=getSource(t);
       if(!src||playable(t))continue;
-      button.textContent='▶';
-      button.title='Слушать через '+src.name;
+      button.textContent=src.external?'↗':'▶';
+      button.title=src.external?'Открыть страницу '+src.name:'Слушать через '+src.name;
       const status=button.closest('.song')?.querySelector('.song-status');
-      if(status){status.textContent='Онлайн · '+src.name;status.classList.add('yes');}
+      if(status){status.textContent=src.external?'Страница · '+src.name:'Онлайн · '+src.name;if(!src.external)status.classList.add('yes');}
     }
   };
   const oldAbout=aboutPage;
   aboutPage=function(){
-    return oldAbout()+'<section class="notice"><strong>Официальные источники:</strong> открой карточку трека, нажми «Найти» и сохрани ссылку на конкретную песню. Ссылки хранятся в твоём браузере; для переноса скачай JSON со ссылками.<div class="actions"><button class="btn primary" id="awenExportSources">Экспорт JSON со ссылками</button><button class="btn" id="awenUseShared">Загрузить общий каталог</button></div></section>';
+    return oldAbout()+'<section class="notice"><strong>Тест MuzPace:</strong> <a href="https://muzpace.net/mp3/31281" target="_blank" rel="noopener noreferrer">Открыть присланную страницу /mp3/31281</a>. Для воспроизведения внутри ӘУЕН нужна отдельная разрешённая ссылка на аудиопоток.</section>'+'<section class="notice"><strong>Официальные источники:</strong> открой карточку трека, нажми «Найти» и сохрани ссылку на конкретную песню. Ссылки хранятся в твоём браузере; для переноса скачай JSON со ссылками.<div class="actions"><button class="btn primary" id="awenExportSources">Экспорт JSON со ссылками</button><button class="btn" id="awenUseShared">Загрузить общий каталог</button></div></section>';
   };
   document.addEventListener('click',e=>{
     if(e.target.id==='awenExportSources'){
@@ -196,7 +254,7 @@
       if(!r.ok)throw Error('HTTP '+r.status);
       const found=parseCatalog(await r.json());
       if(!found.length)throw Error('Нет треков в файле');
-      tracks=found;demo=false;render();
+      tracks=found;demo=false;applyAuthorizedStreams();render();
     }catch(err){
       console.warn('AWEN: каталог GitHub недоступен',err);
       notify('Не удалось загрузить общий каталог — проверь интернет');
