@@ -155,25 +155,26 @@
     const foot=document.createElement('p');
     foot.textContent=src?.name==='YouTube'||src?.name==='SoundCloud'?'По нажатию ▶ плеер запрашивает автоматический старт. Если Chrome или сервис его запретит, нажми Play на самом плеере.':'Воспроизведение зависит от правил сервиса. Apple Music может дать только фрагмент. Прямое MP3 и офлайн через внешние плееры недоступны.';
     foot.style.cssText='color:#aaa3b7;font-size:11px;line-height:1.5;margin:0';box.appendChild(foot);
-    if(src?.external || approvedAudioUrl(authorizedStreams[id])){
+    { // Direct licensed HTTPS audio may be configured for any track.
       const licensed=document.createElement('div');
       licensed.style.cssText='display:grid;gap:10px;padding:12px;border:1px solid #5c4b69;border-radius:10px';
       const desc=document.createElement('p');
-      desc.textContent='Прямой поток по разрешению MuzPace: вставь предоставленный ими HTTPS-адрес аудио (MP3/поток), НЕ адрес страницы /mp3/31281. Без согласованного потока музыка играет на MuzPace, а не внутри ӘУЕН.';
+      desc.textContent='Собственный разрешённый аудиопоток: вставь прямой HTTPS-адрес MP3 или другого поддерживаемого аудиофайла. Ссылка на веб-страницу не подходит. Файл должен быть разрешён к воспроизведению через ӘУЕН.';
       desc.style.cssText='font-size:12px;color:#d5c8e0;margin:0';
       const streamInput=document.createElement('input');
       streamInput.type='url';streamInput.placeholder='https://.../authorized-stream.mp3';
       streamInput.value=authorizedStreams[id]||'';
       streamInput.style.cssText='width:100%;background:#252130;color:white;border:1px solid #5b506a;border-radius:9px;padding:11px';
       const streamSave=document.createElement('button');streamSave.className='btn';
-      streamSave.textContent='Подключить разрешённый аудиопоток';
+      streamSave.textContent='Сохранить прямое аудио (▶ в ӘУЕН)';
       streamSave.addEventListener('click',()=>{
         const value=streamInput.value.trim();
         if(value&&!approvedAudioUrl(value)){notify('Нужна HTTPS-ссылка непосредственно на поток, не страница MuzPace');return;}
+        const oldUrl=authorizedStreams[id]||'';
         if(value)authorizedStreams[id]=value;else delete authorizedStreams[id];
         try{localStorage.setItem(STREAM_STORAGE,JSON.stringify(authorizedStreams));}catch(_){notify('Не удалось сохранить ссылку в браузере');return;}
         if(value){t.audio_url=value;t.source_status='available';}
-        else{t.audio_url='';t.source_status='unknown';}
+        else if(t.audio_url===oldUrl){t.audio_url='';t.source_status='unknown';}
         render();openDetails(id);
         notify(value?'Аудиопоток подключён на этом устройстве':'Локальный аудиопоток удалён');
       });
