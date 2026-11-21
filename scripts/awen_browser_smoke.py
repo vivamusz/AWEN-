@@ -57,6 +57,10 @@ def verify():
             assert page.locator(".genre-card").count() == 19
             assert page.get_by_text("Country", exact=True).count() >= 1
             print("PASS: All 19 genres including Country")
+            page.locator("#desktopNav [data-nav='albums']").click()
+            assert page.get_by_text("Uaiymdama - Single", exact=True).count() >= 1
+            assert page.get_by_text("Без альбома", exact=True).count() == 0
+            print("PASS: Verified Apple albums displayed; unknown album is not a fake group")
             page.locator("#desktopNav [data-nav='tracks']").click()
             page.locator("#search").fill("Kordhell")
             assert page.locator(".song").count() >= 1
