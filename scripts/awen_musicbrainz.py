@@ -45,9 +45,6 @@ def primary_artist(s):
 
 def request_json(path, params=None):
     global _last_request
-    now = time.monotonic()
-    if _last_request and now - _last_request < DELAY:
-        time.sleep(DELAY - (now - _last_request))
     endpoint = "https://musicbrainz.org/ws/2/" + path
     if params:
         endpoint += "?" + urlencode(params)
@@ -151,6 +148,7 @@ def main():
     index = max(0, int(state.get("next_index") or 0))
     requested = 0
     assigned = 0
+    failed = False
 
     while index < len(tracks) and requested < BATCH:
         song = tracks[index]
@@ -175,6 +173,7 @@ def main():
                 cached = lookup_artist(artist)
             except (HTTPError, URLError, TimeoutError, ValueError, json.JSONDecodeError) as exc:
                 print(f"MusicBrainz interrupted at {index + 1}: {exc}", file=sys.stderr)
+                failed = True
                 state["last_error"] = str(exc)
                 state["last_error_index"] = index
                 break
@@ -191,7 +190,7 @@ def main():
             }
             assigned += 1
         index += 1
-    if requested > 0 and index > int(state.get("next_index") or 0):
+    if not failed:
         state.pop("last_error", None)
         state.pop("last_error_index", None)
     state["next_index"] = index
