@@ -316,6 +316,33 @@
           }
         }
       }catch(err){console.warn('AWEN: справочник жанров временно недоступен',err);}
+      // Low-confidence MusicBrainz ARTIST tags only fill still-unknown track genres.
+      // They never replace manual curation or a verified Apple song match.
+      try{
+        const mb=await fetch('./awen-musicbrainz.json',{cache:'no-cache'});
+        if(mb.ok){
+          const payload=await mb.json();
+          const ext=(payload&&payload.tracks&&typeof payload.tracks==='object')?payload.tracks:{};
+          for(const t of found){
+            const hint=ext[t.id];
+            if(!hint||typeof hint.genre!=='string')continue;
+            if(t.genre&&t.genre!=='Не определён')continue;
+            if(!genres.some(g=>g.name===hint.genre))continue;
+            t.genre=hint.genre;
+            t.curation_review_needed=true;
+            t.genre_source='MusicBrainz artist tags — предварительно';
+            if(hint.genre==='Chill / Lo-Fi / Ambient')t.playlists=[...new Set([...t.playlists,'chill'])];
+            else if(['House','Techno / Trance','Funk / Disco','Latin / Brazilian Club','Drum & Bass / UK Bass'].includes(hint.genre)){
+              t.playlists=[...new Set([...t.playlists,'dance'])];
+            }
+            if(hint.genre==='Phonk'){
+              const labels=(hint.evidence_tags||[]).map(x=>String(x).toLowerCase());
+              if(labels.some(x=>x.includes('drift phonk')))t.playlists=[...new Set([...t.playlists,'nightplus'])];
+              else if(labels.some(x=>x.includes('chill phonk')||x.includes('atmospheric phonk')))t.playlists=[...new Set([...t.playlists,'night'])];
+            }
+          }
+        }
+      }catch(err){console.warn('AWEN: MusicBrainz временно недоступен',err);}
       tracks=found;demo=false;applyAuthorizedStreams();render();
     }catch(err){
       console.warn('AWEN: каталог GitHub недоступен',err);
