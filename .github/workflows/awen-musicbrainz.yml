@@ -7,7 +7,7 @@ on:
       - "scripts/merge_musicbrainz_state.py"
       - ".github/workflows/awen-musicbrainz.yml"
   schedule:
-    - cron: "8,38 * * * *"
+    - cron: "8 */2 * * *"
 
 permissions:
   contents: write
@@ -28,8 +28,8 @@ jobs:
         run: python3 -m py_compile scripts/awen_musicbrainz.py
       - name: Query official MusicBrainz genre metadata (no audio downloads)
         env:
-          AWEN_MB_BATCH: "110"
-          AWEN_MB_DELAY: "1.25"
+          AWEN_MB_BATCH: "45"
+          AWEN_MB_DELAY: "2.2"
         run: python3 scripts/awen_musicbrainz.py
       - name: Merge and commit even if another job updated GitHub
         run: |
