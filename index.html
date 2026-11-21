@@ -119,6 +119,6 @@ $('#modalBackdrop').addEventListener('click',e=>{if(e.target.id==='modalBackdrop
 $('#play').addEventListener('click',()=>{if(!current)return;if(audio.paused)audio.play().catch(()=>notify('Воспроизведение недоступно'));else audio.pause();});$('#prev').addEventListener('click',()=>stepTrack(-1));$('#next').addEventListener('click',()=>stepTrack(1));$('#volume').addEventListener('input',e=>audio.volume=Number(e.target.value)/100);$('#seek').addEventListener('input',e=>{if(Number.isFinite(audio.duration)&&audio.duration>0)audio.currentTime=audio.duration*Number(e.target.value)/100;});audio.addEventListener('timeupdate',()=>{$('#elapsed').textContent=timefmt(audio.currentTime);if(Number.isFinite(audio.duration)&&audio.duration>0){$('#duration').textContent=timefmt(audio.duration);$('#seek').value=String(Math.round(100*audio.currentTime/audio.duration));}});audio.addEventListener('play',updatePlayer);audio.addEventListener('pause',updatePlayer);audio.addEventListener('loadedmetadata',updatePlayer);audio.addEventListener('ended',()=>{if(queue.length>1)stepTrack(1);else updatePlayer();});audio.addEventListener('error',()=>notify('Аудиофайл не загрузился — проверь ссылку на источник.'));
 render();
 </script>
-<script src="./awen-services.js" defer></script>
+<script src="./awen-services.js?v=20261121-playerfix-3" defer></script>
 </body>
 </html>
