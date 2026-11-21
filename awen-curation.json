@@ -2,7 +2,7 @@
   "schema_version": 1,
   "basis": "awen-catalog.json",
   "method": "conservative title/style and artist genre hints; not listening-based verification",
-  "review_notice": "Жанры и подборки предварительные: проверяйте спорные композиции вручную",
+  "review_notice": "Все назначения по исполнителю, названию и лейблу предварительные. Проверенные метаданные Apple Music имеют отдельную отметку verified_metadata. Нераспознанные записи оставлены для ручной проверки.",
   "generated_at": "2026-11-21",
   "tracks": {
     "awen-2": {
@@ -256,40 +256,56 @@
       "review_needed": true
     },
     "awen-68": {
-      "language": "Без слов",
-      "curation_method": "метаданные названия",
+      "genre": "Funk / Disco",
+      "subgenres": [
+        "Nu-Disco"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "language": "Без слов"
     },
     "awen-69": {
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-70": {
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-71": {
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-72": {
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-73": {
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-80": {
       "genre": "Pop",
@@ -536,10 +552,21 @@
       "review_needed": true
     },
     "awen-138": {
-      "language": "Без слов",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "явное музыкальное обозначение",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "language": "Без слов"
     },
     "awen-139": {
       "genre": "House",
@@ -578,7 +605,8 @@
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-161": {
       "genre": "House",
@@ -1328,7 +1356,8 @@
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-318": {
       "language": "Русский",
@@ -1346,7 +1375,8 @@
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-323": {
       "language": "Русский",
@@ -2672,7 +2702,8 @@
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-589": {
       "language": "Русский",
@@ -4868,7 +4899,8 @@
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-976": {
       "genre": "Pop",
@@ -5146,7 +5178,8 @@
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-1022": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -6231,10 +6264,21 @@
       "review_needed": true
     },
     "awen-1232": {
-      "language": "Без слов",
-      "curation_method": "метаданные названия",
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "language": "Без слов"
     },
     "awen-1233": {
       "genre": "Hip-Hop / Rap",
@@ -6936,7 +6980,8 @@
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-1374": {
       "genre": "Hip-Hop / Rap",
@@ -6946,10 +6991,21 @@
       "review_needed": true
     },
     "awen-1376": {
-      "language": "Русский",
-      "curation_method": "метаданные названия",
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "language": "Русский"
     },
     "awen-1379": {
       "genre": "Pop",
@@ -7510,10 +7566,21 @@
       "review_needed": true
     },
     "awen-1492": {
-      "language": "Без слов",
-      "curation_method": "метаданные названия",
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "language": "Без слов"
     },
     "awen-1495": {
       "genre": "Pop",
@@ -9269,7 +9336,8 @@
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-1838": {
       "genre": "Bass Music / EDM",
@@ -9558,10 +9626,17 @@
       "review_needed": true
     },
     "awen-1890": {
-      "language": "Русский",
-      "curation_method": "метаданные названия",
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "language": "Русский"
     },
     "awen-1894": {
       "genre": "Pop",
@@ -9959,10 +10034,17 @@
       "review_needed": true
     },
     "awen-1966": {
-      "language": "Русский",
-      "curation_method": "метаданные названия",
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "language": "Русский"
     },
     "awen-1968": {
       "genre": "Hip-Hop / Rap",
@@ -10403,10 +10485,21 @@
       "review_needed": true
     },
     "awen-2066": {
-      "language": "Русский",
-      "curation_method": "метаданные названия",
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "language": "Русский"
     },
     "awen-2070": {
       "genre": "Hip-Hop / Rap",
@@ -10419,13 +10512,15 @@
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-2077": {
       "language": "Русский",
       "curation_method": "метаданные названия",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-2078": {
       "genre": "Bass Music / EDM",
@@ -10588,6 +10683,2712 @@
     "awen-2109": {
       "language": "Русский",
       "curation_method": "метаданные названия",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-3": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-4": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Midtempo Bass"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Энергичное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-5": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-6": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-13": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-20": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-24": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-25": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-28": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Midtempo Bass"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Энергичное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-29": {
+      "genre": "Synth / Retro Electronic",
+      "subgenres": [
+        "Darksynth"
+      ],
+      "playlists": [
+        "night"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-30": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-31": {
+      "genre": "Phonk",
+      "subgenres": [
+        "Drift Phonk"
+      ],
+      "playlists": [
+        "nightplus"
+      ],
+      "moods": [
+        "Агрессивное",
+        "Ночное"
+      ],
+      "energy": 5,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-36": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-38": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-39": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-48": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-54": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-60": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-63": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-65": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-66": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-74": {
+      "genre": "House",
+      "subgenres": [
+        "Tropical House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-78": {
+      "genre": "Phonk",
+      "subgenres": [
+        "Drift Phonk"
+      ],
+      "playlists": [
+        "nightplus"
+      ],
+      "moods": [
+        "Агрессивное",
+        "Ночное"
+      ],
+      "energy": 5,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-85": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-95": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-96": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-101": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-106": {
+      "genre": "House",
+      "subgenres": [
+        "Future House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-108": {
+      "genre": "House",
+      "subgenres": [
+        "Tech House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "явное музыкальное обозначение",
+      "curation_confidence": "high",
+      "review_needed": true
+    },
+    "awen-114": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "явное музыкальное обозначение",
+      "curation_confidence": "high",
+      "review_needed": true
+    },
+    "awen-115": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance",
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "явное музыкальное обозначение",
+      "curation_confidence": "high",
+      "review_needed": true
+    },
+    "awen-116": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-117": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-118": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance",
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "явное музыкальное обозначение",
+      "curation_confidence": "high",
+      "review_needed": true
+    },
+    "awen-119": {
+      "genre": "House",
+      "subgenres": [
+        "Future House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-120": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-121": {
+      "genre": "House",
+      "subgenres": [
+        "Tech House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "явное музыкальное обозначение",
+      "curation_confidence": "high",
+      "review_needed": true
+    },
+    "awen-123": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 4,
+      "curation_method": "явное музыкальное обозначение",
+      "curation_confidence": "high",
+      "review_needed": true
+    },
+    "awen-125": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 4,
+      "curation_method": "явное музыкальное обозначение",
+      "curation_confidence": "high",
+      "review_needed": true
+    },
+    "awen-126": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-127": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-129": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-130": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-131": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-132": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-133": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "явное музыкальное обозначение",
+      "curation_confidence": "high",
+      "review_needed": true
+    },
+    "awen-137": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-140": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-141": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-146": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance",
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "явное музыкальное обозначение",
+      "curation_confidence": "high",
+      "review_needed": true
+    },
+    "awen-147": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-149": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-150": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-154": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-156": {
+      "genre": "Synth / Retro Electronic",
+      "subgenres": [
+        "Darksynth"
+      ],
+      "playlists": [
+        "night"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-164": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-166": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-169": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-171": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-172": {
+      "genre": "Phonk",
+      "subgenres": [
+        "Drift Phonk"
+      ],
+      "playlists": [
+        "nightplus"
+      ],
+      "moods": [
+        "Агрессивное",
+        "Ночное"
+      ],
+      "energy": 5,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-179": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-182": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-185": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-187": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-188": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-189": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-193": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-240": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Midtempo Bass"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Энергичное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-269": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-270": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-277": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-342": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-363": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-393": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-396": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Piano Solo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 1,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-403": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-484": {
+      "genre": "Funk / Disco",
+      "subgenres": [
+        "Nu-Disco"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-555": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-563": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-594": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-608": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-612": {
+      "genre": "House",
+      "subgenres": [
+        "Tropical House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-627": {
+      "genre": "Synth / Retro Electronic",
+      "subgenres": [
+        "Darksynth"
+      ],
+      "playlists": [
+        "night"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-639": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-658": {
+      "genre": "Drum & Bass / UK Bass",
+      "subgenres": [
+        "UK Garage"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-675": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-729": {
+      "genre": "Funk / Disco",
+      "subgenres": [
+        "Nu-Disco"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-785": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-789": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-806": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-844": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-866": {
+      "genre": "House",
+      "subgenres": [
+        "Future House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1067": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1139": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1156": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1175": {
+      "genre": "Drum & Bass / UK Bass",
+      "subgenres": [
+        "UK Garage"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1197": {
+      "genre": "House",
+      "subgenres": [
+        "Future House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1203": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1207": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1221": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1239": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Folk Pop"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1244": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1270": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1305": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Folk Pop"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1323": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1354": {
+      "genre": "Drum & Bass / UK Bass",
+      "subgenres": [
+        "UK Garage"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1359": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1365": {
+      "genre": "Metal / Punk",
+      "subgenres": [
+        "Punk Rock"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1368": {
+      "genre": "Drum & Bass / UK Bass",
+      "subgenres": [
+        "UK Garage"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1369": {
+      "genre": "Drum & Bass / UK Bass",
+      "subgenres": [
+        "UK Garage"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1373": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1390": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1416": {
+      "genre": "Metal / Punk",
+      "subgenres": [
+        "Punk Rock"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1417": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1476": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1484": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1490": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Folk Pop"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1493": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1503": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1504": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1531": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Midtempo Bass"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Энергичное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1562": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1573": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1580": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1588": {
+      "genre": "Drum & Bass / UK Bass",
+      "subgenres": [
+        "UK Garage"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Ночное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1614": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1619": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1637": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1649": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1673": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1703": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1727": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1737": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1741": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1743": {
+      "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись",
+      "review_needed": true
+    },
+    "awen-1760": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1774": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1776": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1780": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1783": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1803": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1805": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1808": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1816": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1817": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1825": {
+      "genre": "House",
+      "subgenres": [
+        "Future House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1826": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1858": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1860": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1867": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Piano Solo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 1,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1903": {
+      "genre": "House",
+      "subgenres": [
+        "Tropical House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1913": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1921": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1922": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1934": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1935": {
+      "genre": "Funk / Disco",
+      "subgenres": [
+        "Nu-Disco"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1940": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Boom Bap"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1942": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1946": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1972": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Folk Pop"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1987": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "playlists": [
+        "road"
+      ],
+      "moods": [
+        "Дорожное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-1996": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2003": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2004": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2008": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2009": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2015": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2016": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2038": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2048": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2050": {
+      "genre": "House",
+      "subgenres": [
+        "Future House"
+      ],
+      "playlists": [
+        "dance"
+      ],
+      "moods": [
+        "Танцевальное"
+      ],
+      "energy": 4,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2053": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2055": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2056": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2057": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2073": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2074": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Меланхоличное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2083": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Расслабленное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2093": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "playlists": [
+        "chill"
+      ],
+      "moods": [
+        "Атмосферное"
+      ],
+      "energy": 2,
+      "curation_method": "стиль исполнителя",
+      "curation_confidence": "medium",
+      "review_needed": true
+    },
+    "awen-2101": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "playlists": [],
+      "moods": [],
+      "energy": 3,
+      "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
       "review_needed": true
     }
