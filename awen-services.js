@@ -295,24 +295,38 @@
             const patch=extra[t.id];
             if(!patch||typeof patch!=='object')continue;
             const emptyGenre=!t.genre||t.genre==='Не определён';
-            if(emptyGenre&&typeof patch.genre==='string'&&patch.genre.trim())t.genre=patch.genre.trim();
-            if((emptyGenre||t.genre===patch.genre)&&!t.subgenres.length&&Array.isArray(patch.subgenres)){
+            const manual=/^(ручная|массовая)\s/i.test(String(patch.curation_method||''));
+            if(manual&&typeof patch.genre==='string'){
+              t.genre=patch.genre.trim()||'Не определён';
+            }else if(emptyGenre&&typeof patch.genre==='string'&&patch.genre.trim()){
+              t.genre=patch.genre.trim();
+            }
+            if(Array.isArray(patch.subgenres)&&(manual||!t.subgenres.length)){
               t.subgenres=patch.subgenres.filter(x=>typeof x==='string').slice(0,10);
             }
             if(Array.isArray(patch.moods)){
-              t.moods=[...new Set([...t.moods,...patch.moods.filter(x=>typeof x==='string')])].slice(0,15);
+              const candidate=patch.moods.filter(x=>typeof x==='string');
+              t.moods=manual?candidate.slice(0,15):[...new Set([...t.moods,...candidate])].slice(0,15);
             }
             if(Array.isArray(patch.playlists)){
-              t.playlists=[...new Set([...t.playlists,...patch.playlists.filter(x=>lists.some(p=>p.id===x))])];
+              const candidate=patch.playlists.filter(x=>lists.some(p=>p.id===x));
+              t.playlists=manual?[...new Set(candidate)]:[...new Set([...t.playlists,...candidate])];
             }
-            if((!t.language||t.language==='Не определён')&&typeof patch.language==='string')t.language=patch.language;
-            // Album/year are filled only for a single, strictly matched official release.
-            if((!t.album||t.album==='Без альбома')&&typeof patch.album==='string'&&patch.verified_metadata)t.album=patch.album;
-            if(!t.year&&patch.year&&patch.verified_metadata)t.year=Number(patch.year)||null;
+            if((manual||!t.language||t.language==='Не определён')&&typeof patch.language==='string'&&patch.language.trim()){
+              t.language=patch.language.trim();
+            }
+            // Verified official metadata or edits explicitly saved in the owner-side curator.
+            if((manual||!t.album||t.album==='Без альбома')&&typeof patch.album==='string'&&(manual||patch.verified_metadata)){
+              t.album=patch.album.trim()||'Без альбома';
+            }
+            if((manual||!t.year)&&patch.year&&(manual||patch.verified_metadata))t.year=Number(patch.year)||null;
             if(!t.duration&&patch.duration&&patch.verified_metadata)t.duration=Number(patch.duration)||0;
             if(patch.genre_review_candidate)t.genre_review_candidate=patch.genre_review_candidate;
-            if(emptyGenre&&patch.genre&&Number.isFinite(Number(patch.energy)))t.energy=Math.min(5,Math.max(1,Number(patch.energy)));
+            if((manual||emptyGenre)&&patch.genre&&Number.isFinite(Number(patch.energy))){
+              t.energy=Math.min(5,Math.max(1,Number(patch.energy)));
+            }
             if(patch.review_needed)t.curation_review_needed=true;
+            if(manual)t.genre_source='Ручная правка каталога';
           }
         }
       }catch(err){console.warn('AWEN: справочник жанров временно недоступен',err);}
