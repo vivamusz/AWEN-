@@ -52,9 +52,19 @@ def request_json(path, params=None):
     if params:
         endpoint += "?" + urlencode(params)
     req = Request(endpoint, headers={"User-Agent": UA, "Accept": "application/json"})
-    _last_request = time.monotonic()
-    with urlopen(req, timeout=22) as resp:
-        return json.loads(resp.read(600000))
+    for attempt in range(3):
+        now = time.monotonic()
+        if _last_request and now - _last_request < DELAY:
+            time.sleep(DELAY - (now - _last_request))
+        _last_request = time.monotonic()
+        try:
+            with urlopen(req, timeout=22) as resp:
+                return json.loads(resp.read(600000))
+        except HTTPError as exc:
+            if exc.code not in (429, 502, 503, 504) or attempt == 2:
+                raise
+            print(f"MusicBrainz HTTP {exc.code}; retry {attempt + 1}/2", file=sys.stderr)
+            time.sleep(4 * (attempt + 1))
 
 def map_label(s):
     x = normalize(s)
@@ -165,6 +175,8 @@ def main():
                 cached = lookup_artist(artist)
             except (HTTPError, URLError, TimeoutError, ValueError, json.JSONDecodeError) as exc:
                 print(f"MusicBrainz interrupted at {index + 1}: {exc}", file=sys.stderr)
+                state["last_error"] = str(exc)
+                state["last_error_index"] = index
                 break
             artist_cache[key] = cached
             requested += 1
@@ -179,6 +191,9 @@ def main():
             }
             assigned += 1
         index += 1
+    if requested > 0 and index > int(state.get("next_index") or 0):
+        state.pop("last_error", None)
+        state.pop("last_error_index", None)
     state["next_index"] = index
     state["tracks_assigned"] = len(patches)
     state["total"] = len(tracks)
