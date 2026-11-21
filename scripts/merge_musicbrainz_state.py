@@ -49,10 +49,14 @@ def main():
     progress["tracks_assigned"] = len(combined["tracks"])
     progress["total"] = max(int(remote_progress.get("total") or 0), int(new_progress.get("total") or 0))
     progress["complete"] = progress["next_index"] >= progress["total"] > 0
-    if new_progress.get("last_error") and progress["next_index"] <= int(new_progress.get("next_index") or 0):
+    new_failure_index = int(new_progress.get("last_error_index") or -1)
+    if new_progress.get("last_error") and new_failure_index >= progress["next_index"]:
         progress["last_error"] = new_progress["last_error"]
-        progress["last_error_index"] = new_progress.get("last_error_index")
-    elif progress["next_index"] > int(new_progress.get("next_index") or 0):
+        progress["last_error_index"] = new_failure_index
+    elif int(remote_progress.get("last_error_index") or -1) >= progress["next_index"]:
+        progress["last_error"] = remote_progress["last_error"]
+        progress["last_error_index"] = remote_progress["last_error_index"]
+    else:
         progress.pop("last_error", None)
         progress.pop("last_error_index", None)
     write(ROOT / "awen-musicbrainz.json", combined)
