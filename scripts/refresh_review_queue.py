@@ -28,6 +28,7 @@ def main():
     songs = read("awen-catalog.json", {"tracks": []})["tracks"]
     edits = read("awen-curation.json", {"tracks": {}})["tracks"]
     musicbrainz = read("awen-musicbrainz.json", {"tracks": {}})["tracks"]
+    apple_verified = read("awen-apple-metadata.json", {"tracks": {}})["tracks"]
     apple = read("awen-match-status.json", {})
     mb_state = read("awen-musicbrainz-progress.json", {})
     audius = read("awen-audius-matches.json", {"matches": {}})
@@ -45,7 +46,9 @@ def main():
         ident = str(song.get("id") or "")
         edit = edits.get(ident, {})
         mb = musicbrainz.get(ident, {})
-        selected_genre = str(edit.get("genre") or mb.get("genre") or "")
+        am = apple_verified.get(ident, {})
+        is_verified = bool(am.get("verified_metadata"))
+        selected_genre = str(edit.get("genre") or mb.get("genre") or (am.get("genre") if is_verified else "") or "")
         problem = []
         if not selected_genre:
             problem.append("genre_not_identified")
@@ -58,14 +61,14 @@ def main():
             counts["possible_non_music"] += 1
         if ident in duplicates:
             problem.append("possible_duplicate")
-        if edit.get("genre_review_candidate"):
+        if edit.get("genre_review_candidate") or (is_verified and am.get("genre") and edit.get("genre") and am["genre"] != edit["genre"]):
             problem.append("genre_metadata_conflict")
             counts["genre_conflict"] += 1
-        if edit.get("verified_metadata"):
+        if edit.get("verified_metadata") or is_verified:
             counts["verified_apple_metadata"] += 1
-        if edit.get("album"):
+        if edit.get("album") or (is_verified and am.get("album")):
             counts["album_known"] += 1
-        if edit.get("year"):
+        if edit.get("year") or (is_verified and am.get("year")):
             counts["year_known"] += 1
         if song.get("source_url"):
             counts["source_linked"] += 1
@@ -88,6 +91,8 @@ def main():
             item["proposed_genre"] = selected_genre
         if edit.get("genre_review_candidate"):
             item["genre_conflict"] = edit["genre_review_candidate"]
+        elif is_verified and am.get("genre") and edit.get("genre") and am["genre"] != edit["genre"]:
+            item["genre_conflict"] = am["genre"]
         if song.get("source_url"):
             item["source_url"] = song["source_url"]
         review_items.append(item)
@@ -109,6 +114,8 @@ def main():
         "external_source_links": counts["source_linked"],
         "direct_audio_entries_in_catalog": counts["direct_audio"],
         "audius_exact_matches": len(audius.get("matches", {})),
+        "apple_bulk_lookup_linked_tracks": len([t for t in songs if "music.apple.com" in str(t.get("source_url", ""))]),
+        "apple_bulk_lookup_verified_tracks": len([v for v in apple_verified.values() if v.get("verified_metadata")]),
         "explicit_playlist_assignments": {k: assignments[k] for k in CATEGORIES},
         "genre_counts": dict(sorted(genres.items())),
         "apple_match_progress": apple,
