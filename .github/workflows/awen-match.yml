@@ -7,7 +7,7 @@ on:
       - "scripts/awen_match.py"
       - "scripts/merge_apple_state.py"
   schedule:
-    - cron: "23 * * * *"
+    - cron: "23,53 * * * *"
 
 permissions:
   contents: write
