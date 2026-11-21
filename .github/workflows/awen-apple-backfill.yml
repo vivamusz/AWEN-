@@ -1,0 +1,48 @@
+name: AWEN - Verify linked Apple album metadata
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/awen_apple_backfill.py"
+      - ".github/workflows/awen-apple-backfill.yml"
+  schedule:
+    - cron: "45 4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: awen-apple-backfill
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Check Python syntax
+        run: python3 -m py_compile scripts/awen_apple_backfill.py scripts/awen_match.py scripts/merge_apple_metadata_overlay.py
+      - name: Verify matching Apple song IDs and fetch album metadata
+        run: python3 scripts/awen_apple_backfill.py
+      - name: Publish metadata without modifying catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp awen-apple-metadata.json /tmp/awen-apple-batch.json
+          git add awen-apple-metadata.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update verified AWEN Apple album metadata"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/merge_apple_metadata_overlay.py /tmp/awen-apple-batch.json
+            git add awen-apple-metadata.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "Merge verified AWEN Apple metadata"
+            sleep 2
+          done
+          exit 1
