@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T16:57:10+00:00",
+  "generated_at_utc": "2026-11-21T16:57:53+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2075,
-    "needs_genre": 856,
+    "needs_genre": 852,
     "possible_import_errors": 16,
     "duplicate_groups": 10,
     "tracks_in_duplicate_groups": 30,
@@ -19,15 +19,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-14",
-      "artist": "Semicenk, Doğu Swag, Büken",
-      "title": "Küle Dönmüşsün",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://www.youtube.com/watch?v=neFfixTy3Hs"
     },
     {
       "id": "awen-16",
@@ -632,14 +623,6 @@
       ]
     },
     {
-      "id": "awen-165",
-      "artist": "IAMJJ feat. Baker Grace",
-      "title": "A Different Kind of Blues",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-170",
       "artist": "UpsideDown",
       "title": "Wut Wut",
@@ -847,14 +830,6 @@
       "source_url": "https://music.apple.com/kz/album/1860646385?i=1860646391"
     },
     {
-      "id": "awen-224",
-      "artist": "Les Gordon feat. Batuk",
-      "title": "Lolita Lélé",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-229",
       "artist": "BBM",
       "title": "Drive Forever (Russian remix)",
@@ -925,14 +900,6 @@
       "id": "awen-247",
       "artist": "GODLESS feat. CRYPTIC MACK",
       "title": "WORST NIGHTMARE",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-249",
-      "artist": "Tom Odell",
-      "title": "Another Love",
       "issues": [
         "genre_not_identified"
       ]
