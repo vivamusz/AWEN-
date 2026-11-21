@@ -1,0 +1,54 @@
+name: AWEN - Cross-source genre evidence
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/awen_genre_sources.py"
+      - "scripts/merge_genre_source_state.py"
+      - ".github/workflows/awen-genre-sources.yml"
+  schedule:
+    - cron: "41 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: awen-genre-sources
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Check and run provider research (no audio downloads)
+        env:
+          AWEN_GENRE_BATCH: "70"
+          AWEN_GENRE_MUSICBRAINZ: "1"
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: |
+          python3 -m py_compile scripts/awen_genre_sources.py scripts/merge_genre_source_state.py
+          python3 scripts/awen_genre_sources.py
+      - name: Publish genre evidence with concurrency-safe merge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/awen-genre-sources
+          cp awen-genre-sources.json awen-genre-source-status.json /tmp/awen-genre-sources/
+          git add awen-genre-sources.json awen-genre-source-status.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Refresh AWEN cross-source genre evidence"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/merge_genre_source_state.py /tmp/awen-genre-sources
+            git add awen-genre-sources.json awen-genre-source-status.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "Merge AWEN cross-source genre batch"
+            sleep 2
+          done
+          exit 1
