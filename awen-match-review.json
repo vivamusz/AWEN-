@@ -11502,6 +11502,3522 @@
           "duration_ms": 187787
         }
       ]
+    },
+    {
+      "id": "awen-921",
+      "artist": "Blackbear",
+      "title": "Idfc",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Idfc",
+          "artist": "Elijah Kyle",
+          "url": "https://music.apple.com/kz/album/1523641738?i=1523641739",
+          "collection": "Idfc - Single",
+          "genre_name": "R&B/Soul",
+          "release_date": "2020-07-13T07:00:00Z",
+          "duration_ms": 244966
+        },
+        {
+          "title": "hot girl bummer",
+          "artist": "blackbear",
+          "url": "https://music.apple.com/kz/album/1576025371?i=1576025375",
+          "collection": "everything means nothing",
+          "genre_name": "Pop",
+          "release_date": "2019-08-23T12:00:00Z",
+          "duration_ms": 188344
+        },
+        {
+          "title": "the idea",
+          "artist": "blackbear",
+          "url": "https://music.apple.com/kz/album/1633542673?i=1633542868",
+          "collection": "in loving memory",
+          "genre_name": "Pop Punk",
+          "release_date": "2022-07-08T07:00:00Z",
+          "duration_ms": 203972
+        },
+        {
+          "title": "1 SIDED LOVE",
+          "artist": "blackbear",
+          "url": "https://music.apple.com/kz/album/1576026584?i=1576026603",
+          "collection": "ANONYMOUS",
+          "genre_name": "R&B/Soul",
+          "release_date": "2019-02-14T12:00:00Z",
+          "duration_ms": 170667
+        },
+        {
+          "title": "cheers (with Wiz Khalifa)",
+          "artist": "blackbear",
+          "url": "https://music.apple.com/kz/album/1576019968?i=1576020552",
+          "collection": "cheers (with Wiz Khalifa) - Single",
+          "genre_name": "Pop",
+          "release_date": "2020-12-25T12:00:00Z",
+          "duration_ms": 201010
+        }
+      ]
+    },
+    {
+      "id": "awen-922",
+      "artist": "Echosmith",
+      "title": "Surround You",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Surround You",
+          "artist": "Echosmith",
+          "url": "https://music.apple.com/kz/album/924487443?i=924487464",
+          "collection": "Talking Dreams",
+          "genre_name": "Alternative",
+          "release_date": "2013-10-01T12:00:00Z",
+          "duration_ms": 208253
+        },
+        {
+          "title": "Surround You",
+          "artist": "Echosmith",
+          "url": "https://music.apple.com/kz/album/810705971?i=810706131",
+          "collection": "Endless Love (Original Motion Picture Soundtrack)",
+          "genre_name": "Soundtrack",
+          "release_date": "2013-10-01T12:00:00Z",
+          "duration_ms": 208253
+        }
+      ]
+    },
+    {
+      "id": "awen-929",
+      "artist": "peter manos",
+      "title": "in my head",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "In My Head",
+          "artist": "Peter Manos",
+          "url": "https://music.apple.com/kz/album/1488547793?i=1488547795",
+          "collection": "In My Head - Single",
+          "genre_name": "Alternative",
+          "release_date": "2017-05-24T07:00:00Z",
+          "duration_ms": 214533
+        },
+        {
+          "title": "In My Head",
+          "artist": "Peter Manos",
+          "url": "https://music.apple.com/kz/album/1512866663?i=1512866940",
+          "collection": "Do You Turn Red? - EP",
+          "genre_name": "Alternative",
+          "release_date": "2017-05-24T12:00:00Z",
+          "duration_ms": 214533
+        },
+        {
+          "title": "In My Head",
+          "artist": "Peter Manos",
+          "url": "https://music.apple.com/kz/album/1512530565?i=1512531098",
+          "collection": "Do You Turn Red? - EP",
+          "genre_name": "Alternative",
+          "release_date": "2020-05-26T07:00:00Z",
+          "duration_ms": 214534
+        },
+        {
+          "title": "In My Head",
+          "artist": "Peter Manos",
+          "url": "https://music.apple.com/kz/album/1551249268?i=1551249642",
+          "collection": "To All The Boys: Always and Forever (Music From The Netflix Film)",
+          "genre_name": "Alternative",
+          "release_date": "2017-05-24T12:00:00Z",
+          "duration_ms": 214533
+        }
+      ]
+    },
+    {
+      "id": "awen-930",
+      "artist": "Nicki Minaj",
+      "title": "Majesty (feat. Eminem & Labrinth)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Majesty (feat. Eminem & Labrinth)",
+          "artist": "Nicki Minaj & Labrinth",
+          "url": "https://music.apple.com/kz/album/1398477182?i=1398477212",
+          "collection": "Queen",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-08-10T07:00:00Z",
+          "duration_ms": 295646
+        }
+      ]
+    },
+    {
+      "id": "awen-932",
+      "artist": "Keane",
+      "title": "Somewhere Only We Know",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Somewhere Only We Know",
+          "artist": "Keane",
+          "url": "https://music.apple.com/kz/album/1440818115?i=1440818422",
+          "collection": "The Best of Keane (Deluxe)",
+          "genre_name": "Pop",
+          "release_date": "2004-01-01T12:00:00Z",
+          "duration_ms": 235880
+        },
+        {
+          "title": "Somewhere Only We Know",
+          "artist": "Keane",
+          "url": "https://music.apple.com/kz/album/1440859438?i=1440859675",
+          "collection": "The Best of Keane",
+          "genre_name": "Pop",
+          "release_date": "2004-01-01T12:00:00Z",
+          "duration_ms": 235880
+        }
+      ]
+    },
+    {
+      "id": "awen-935",
+      "artist": "Diplo",
+      "title": "Stay Open (feat. MØ & YUKO)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Stay Open (feat. MØ)",
+          "artist": "Diplo",
+          "url": "https://music.apple.com/kz/album/1381539637?i=1381540224",
+          "collection": "Stay Open (feat. MØ) - Single",
+          "genre_name": "Dance",
+          "release_date": "2018-05-11T12:00:00Z",
+          "duration_ms": 210612
+        },
+        {
+          "title": "Get It Right (feat. MØ)",
+          "artist": "Diplo",
+          "url": "https://music.apple.com/kz/album/1709018206?i=1709018208",
+          "collection": "Get It Right (feat. MØ) - Single",
+          "genre_name": "Dance",
+          "release_date": "2017-11-15T08:00:00Z",
+          "duration_ms": 172500
+        }
+      ]
+    },
+    {
+      "id": "awen-936",
+      "artist": "ZHU",
+      "title": "Coming Home (feat. Majid Jordan)",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Coming Home (feat. Majid Jordan)",
+          "artist": "ZHU",
+          "url": "https://music.apple.com/kz/album/1422911459?i=1422912464",
+          "collection": "Coming Home (feat. Majid Jordan) - Single",
+          "genre_name": "Electronic",
+          "release_date": "2018-08-10T12:00:00Z",
+          "duration_ms": 212724
+        },
+        {
+          "title": "Coming Home (feat. Majid Jordan)",
+          "artist": "ZHU",
+          "url": "https://music.apple.com/kz/album/1424589135?i=1424594619",
+          "collection": "RINGOS DESERT",
+          "genre_name": "Electronic",
+          "release_date": "2018-08-10T12:00:00Z",
+          "duration_ms": 212724
+        }
+      ]
+    },
+    {
+      "id": "awen-937",
+      "artist": "DROELOE",
+      "title": "THE CHOICES WE FACE (EP)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "The First Wish (Flaws Remix)",
+          "artist": "DROELOE",
+          "url": "https://music.apple.com/kz/album/1861627810?i=1861627816",
+          "collection": "The Choices We Face (Remixes) - EP",
+          "genre_name": "Electronic",
+          "release_date": "2018-12-14T12:00:00Z",
+          "duration_ms": 235333
+        },
+        {
+          "title": "Looking Back (Manu Dia Remix)",
+          "artist": "DROELOE",
+          "url": "https://music.apple.com/kz/album/1861627810?i=1861628077",
+          "collection": "The Choices We Face (Remixes) - EP",
+          "genre_name": "Electronic",
+          "release_date": "2018-12-14T12:00:00Z",
+          "duration_ms": 241438
+        },
+        {
+          "title": "Step by Step (feat. Iris Penning) [Fytch Remix]",
+          "artist": "DROELOE",
+          "url": "https://music.apple.com/kz/album/1861627810?i=1861627834",
+          "collection": "The Choices We Face (Remixes) - EP",
+          "genre_name": "Electronic",
+          "release_date": "2018-12-14T12:00:00Z",
+          "duration_ms": 202449
+        },
+        {
+          "title": "Looking Back (Sem Remix)",
+          "artist": "DROELOE",
+          "url": "https://music.apple.com/kz/album/1861627810?i=1861628076",
+          "collection": "The Choices We Face (Remixes) - EP",
+          "genre_name": "Electronic",
+          "release_date": "2018-12-14T12:00:00Z",
+          "duration_ms": 186400
+        },
+        {
+          "title": "Step by Step (feat. Iris Penning) [Imanu / Signal Remix]",
+          "artist": "DROELOE",
+          "url": "https://music.apple.com/kz/album/1861627810?i=1861627829",
+          "collection": "The Choices We Face (Remixes) - EP",
+          "genre_name": "Electronic",
+          "release_date": "2018-12-14T12:00:00Z",
+          "duration_ms": 252351
+        }
+      ]
+    },
+    {
+      "id": "awen-938",
+      "artist": "DROELOE",
+      "title": "The First Wish",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "The First Wish",
+          "artist": "DROELOE",
+          "url": "https://music.apple.com/kz/album/1861616795?i=1861616800",
+          "collection": "The Choices We Face",
+          "genre_name": "Electronic",
+          "release_date": "2018-08-10T12:00:00Z",
+          "duration_ms": 139112
+        },
+        {
+          "title": "The First Wish",
+          "artist": "DROELOE",
+          "url": "https://music.apple.com/kz/album/1534953685?i=1534953908",
+          "collection": "A Matter of Perspective",
+          "genre_name": "Electronic",
+          "release_date": "2018-08-10T12:00:00Z",
+          "duration_ms": 139112
+        },
+        {
+          "title": "The First Wish",
+          "artist": "DROELOE",
+          "url": "https://music.apple.com/kz/album/1861622345?i=1861622762",
+          "collection": "A Matter of Perspective",
+          "genre_name": "Electronic",
+          "release_date": "2018-08-10T12:00:00Z",
+          "duration_ms": 139112
+        }
+      ]
+    },
+    {
+      "id": "awen-939",
+      "artist": "BlocBoy JB feat. Drake",
+      "title": "Look Alive",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Look Alive",
+          "artist": "Rae Sremmurd",
+          "url": "https://music.apple.com/kz/album/1440842514?i=1440842850",
+          "collection": "SremmLife 2 (Deluxe)",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2016-04-14T12:00:00Z",
+          "duration_ms": 227996
+        },
+        {
+          "title": "Look Alive",
+          "artist": "Black Pistol Fire",
+          "url": "https://music.apple.com/kz/album/1537704043?i=1537704052",
+          "collection": "Look Alive",
+          "genre_name": "Alternative",
+          "release_date": "2021-01-29T12:00:00Z",
+          "duration_ms": 192011
+        },
+        {
+          "title": "Look Alive",
+          "artist": "Incubus",
+          "url": "https://music.apple.com/kz/album/315710875?i=315710996",
+          "collection": "Monuments and Melodies",
+          "genre_name": "Rock",
+          "release_date": "2007-11-09T12:00:00Z",
+          "duration_ms": 261400
+        },
+        {
+          "title": "Look Alive",
+          "artist": "Baby Money",
+          "url": "https://music.apple.com/kz/album/1479342562?i=1479342867",
+          "collection": "Time a Tell",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2019-09-05T12:00:00Z",
+          "duration_ms": 89088
+        },
+        {
+          "title": "Look Alive",
+          "artist": "Rae Sremmurd",
+          "url": "https://music.apple.com/kz/album/1442869130?i=1442869460",
+          "collection": "SremmLife 2",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2016-04-14T12:00:00Z",
+          "duration_ms": 227996
+        }
+      ]
+    },
+    {
+      "id": "awen-949",
+      "artist": "Travi$ Scott",
+      "title": "STARGAZING",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Stargazing",
+          "artist": "The Neighbourhood",
+          "url": "https://music.apple.com/kz/album/1541400529?i=1541400545",
+          "collection": "Chip Chrome & The Mono-Tones (Deluxe)",
+          "genre_name": "Alternative",
+          "release_date": "2020-12-11T12:00:00Z",
+          "duration_ms": 217027
+        },
+        {
+          "title": "Stargazing",
+          "artist": "Marcelo De Carvalho",
+          "url": "https://music.apple.com/kz/album/1689763187?i=1689763190",
+          "collection": "Stargazing - Single",
+          "genre_name": "Alternative",
+          "release_date": "2023-04-16T12:00:00Z",
+          "duration_ms": 178448
+        }
+      ]
+    },
+    {
+      "id": "awen-950",
+      "artist": "Rihanna",
+      "title": "We Found Love (feat. Calvin Harris)",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "We Found Love (feat. Calvin Harris)",
+          "artist": "Rihanna",
+          "url": "https://music.apple.com/kz/album/1443102519?i=1443102668",
+          "collection": "Talk That Talk",
+          "genre_name": "Pop",
+          "release_date": "2011-09-22T07:00:00Z",
+          "duration_ms": 215227
+        },
+        {
+          "title": "We Found Love (feat. Calvin Harris)",
+          "artist": "Rihanna",
+          "url": "https://music.apple.com/kz/album/1443061797?i=1443062143",
+          "collection": "Talk That Talk (Deluxe)",
+          "genre_name": "Pop",
+          "release_date": "2011-09-11T12:00:00Z",
+          "duration_ms": 215227
+        }
+      ]
+    },
+    {
+      "id": "awen-952",
+      "artist": "HYLLS",
+      "title": "Feathers",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Feathers",
+          "artist": "HYLLS",
+          "url": "https://music.apple.com/kz/album/1406652468?i=1406652470",
+          "collection": "Feathers - Single",
+          "genre_name": "Pop",
+          "release_date": "2018-07-26T12:00:00Z",
+          "duration_ms": 162571
+        },
+        {
+          "title": "Feathers",
+          "artist": "HYLLS",
+          "url": "https://music.apple.com/kz/album/1453247321?i=1453247329",
+          "collection": "Once",
+          "genre_name": "Pop",
+          "release_date": "2018-07-26T12:00:00Z",
+          "duration_ms": 162571
+        }
+      ]
+    },
+    {
+      "id": "awen-958",
+      "artist": "Woodkid",
+      "title": "I Love You",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "I Love You",
+          "artist": "Woodkid",
+          "url": "https://music.apple.com/kz/album/1440862403?i=1440862621",
+          "collection": "The Golden Age",
+          "genre_name": "Alternative",
+          "release_date": "2013-02-09T12:00:00Z",
+          "duration_ms": 230160
+        },
+        {
+          "title": "I Love You",
+          "artist": "Woodkid",
+          "url": "https://music.apple.com/kz/album/1445859568?i=1445859570",
+          "collection": "I Love You (Remixes) - EP",
+          "genre_name": "Alternative",
+          "release_date": "2013-02-09T12:00:00Z",
+          "duration_ms": 229939
+        }
+      ]
+    },
+    {
+      "id": "awen-959",
+      "artist": "YG",
+      "title": "Handgun (Feat. A$AP Rocky)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "BAND DRUM (feat. A$AP Rocky)",
+          "artist": "YG",
+          "url": "https://music.apple.com/kz/album/1418080290?i=1418080299",
+          "collection": "STAY DANGEROUS",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-07-27T07:00:00Z",
+          "duration_ms": 215536
+        }
+      ]
+    },
+    {
+      "id": "awen-960",
+      "artist": "Shiloh Dynasty",
+      "title": "Grips on your waist",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Grips on Your Waist",
+          "artist": "prxz & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1598672795?i=1598673049",
+          "collection": "Love Wounds",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2017-10-21T12:00:00Z",
+          "duration_ms": 125919
+        },
+        {
+          "title": "Grips On Your Waist",
+          "artist": "GenriX & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1639879546?i=1639879558",
+          "collection": "Melancholia",
+          "genre_name": "Electronic",
+          "release_date": "2022-09-30T12:00:00Z",
+          "duration_ms": 86047
+        },
+        {
+          "title": "Grips On Your Waist.",
+          "artist": "pqori & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1652545812?i=1652545813",
+          "collection": "Grips On Your Waist. - Single",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2022-11-02T12:00:00Z",
+          "duration_ms": 110423
+        },
+        {
+          "title": "Grips On Your Waist",
+          "artist": "LRN Slime, CORBAL & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1653398097?i=1653398100",
+          "collection": "Skins",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2022-12-23T12:00:00Z",
+          "duration_ms": 147569
+        }
+      ]
+    },
+    {
+      "id": "awen-961",
+      "artist": "Benny Mayne",
+      "title": "Say My Name",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "After Midnight",
+          "artist": "benny mayne",
+          "url": "https://music.apple.com/kz/album/1747533823?i=1747533824",
+          "collection": "After Midnight - Single",
+          "genre_name": "Alternative",
+          "release_date": "2024-05-28T12:00:00Z",
+          "duration_ms": 121458
+        },
+        {
+          "title": "I AIN'T SHIT",
+          "artist": "benny mayne",
+          "url": "https://music.apple.com/kz/album/1519105294?i=1519105630",
+          "collection": "SKELETONS - EP",
+          "genre_name": "Pop",
+          "release_date": "2020-07-24T12:00:00Z",
+          "duration_ms": 180000
+        },
+        {
+          "title": "After Midnight (Sped Up Version)",
+          "artist": "benny mayne",
+          "url": "https://music.apple.com/kz/album/1747533823?i=1747533825",
+          "collection": "After Midnight - Single",
+          "genre_name": "Alternative",
+          "release_date": "2024-05-28T12:00:00Z",
+          "duration_ms": 112465
+        },
+        {
+          "title": "Seventh Story",
+          "artist": "benny mayne",
+          "url": "https://music.apple.com/kz/album/1729677794?i=1729677795",
+          "collection": "Seventh Story - Single",
+          "genre_name": "Rock",
+          "release_date": "2024-02-23T12:00:00Z",
+          "duration_ms": 126893
+        },
+        {
+          "title": "HURT ME",
+          "artist": "benny mayne",
+          "url": "https://music.apple.com/kz/album/1519105294?i=1519105629",
+          "collection": "SKELETONS - EP",
+          "genre_name": "Pop",
+          "release_date": "2020-07-24T12:00:00Z",
+          "duration_ms": 150626
+        }
+      ]
+    },
+    {
+      "id": "awen-962",
+      "artist": "mooryc",
+      "title": "communication breakdown",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Communication Breakdown",
+          "artist": "Mooryc",
+          "url": "https://music.apple.com/kz/album/493997280?i=493997287",
+          "collection": "All Those Moments",
+          "genre_name": "Electronic",
+          "release_date": "2012-02-03T12:00:00Z",
+          "duration_ms": 226147
+        },
+        {
+          "title": "Communication Breakdown",
+          "artist": "Mooryc",
+          "url": "https://music.apple.com/kz/album/1437853707?i=1437853828",
+          "collection": "Jazztronics & Chillhop",
+          "genre_name": "Electronic",
+          "release_date": "2012-02-03T12:00:00Z",
+          "duration_ms": 226147
+        },
+        {
+          "title": "Communication Breakdown",
+          "artist": "Mooryc",
+          "url": "https://music.apple.com/kz/album/6793058134?i=6793058157",
+          "collection": "Recreative Sunset Breeze, Vol. 3",
+          "genre_name": "Ambient",
+          "release_date": "2012-02-03T12:00:00Z",
+          "duration_ms": 226147
+        }
+      ]
+    },
+    {
+      "id": "awen-963",
+      "artist": "Peachy",
+      "title": "Falling for you",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Falling For You",
+          "artist": "Ashanti",
+          "url": "https://music.apple.com/kz/album/1641171339?i=1641171341",
+          "collection": "Falling For You - Single",
+          "genre_name": "R&B/Soul",
+          "release_date": "2022-10-28T07:00:00Z",
+          "duration_ms": 199825
+        },
+        {
+          "title": "Falling for You",
+          "artist": "okaywill",
+          "url": "https://music.apple.com/kz/album/1459515855?i=1459515861",
+          "collection": "Falling for You - Single",
+          "genre_name": "Pop",
+          "release_date": "2019-05-17T12:00:00Z",
+          "duration_ms": 168960
+        },
+        {
+          "title": "Falling for You",
+          "artist": "SouMix & Bromar",
+          "url": "https://music.apple.com/kz/album/1868772473?i=1868772474",
+          "collection": "Falling for You - Single",
+          "genre_name": "Electronic",
+          "release_date": "2022-09-27T12:00:00Z",
+          "duration_ms": 129956
+        },
+        {
+          "title": "Falling for You",
+          "artist": "Seabird",
+          "url": "https://music.apple.com/kz/album/716131252?i=716131766",
+          "collection": "'Til We See the Shore",
+          "genre_name": "Alternative",
+          "release_date": "2008-01-01T12:00:00Z",
+          "duration_ms": 249227
+        }
+      ]
+    },
+    {
+      "id": "awen-966",
+      "artist": "Shawn Mendes",
+      "title": "In My Blood",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "In My Blood",
+          "artist": "Shawn Mendes",
+          "url": "https://music.apple.com/kz/album/1376115721?i=1376115725",
+          "collection": "Shawn Mendes",
+          "genre_name": "Pop",
+          "release_date": "2018-03-22T07:00:00Z",
+          "duration_ms": 211360
+        },
+        {
+          "title": "In My Blood",
+          "artist": "Shawn Mendes",
+          "url": "https://music.apple.com/kz/album/1474313635?i=1474313956",
+          "collection": "Shawn Mendes (Deluxe)",
+          "genre_name": "Pop",
+          "release_date": "2018-03-22T07:00:00Z",
+          "duration_ms": 211360
+        }
+      ]
+    },
+    {
+      "id": "awen-968",
+      "artist": "A$AP Rocky",
+      "title": "Angels",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Praise The Lord (Da Shine) [feat. Skepta]",
+          "artist": "A$AP Rocky",
+          "url": "https://music.apple.com/kz/album/1388565682?i=1388566993",
+          "collection": "TESTING",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-05-25T12:00:00Z",
+          "duration_ms": 205813
+        },
+        {
+          "title": "Both Eyes Closed (From \"Highest 2 Lowest\")",
+          "artist": "A$AP Rocky",
+          "url": "https://music.apple.com/kz/album/1833373580?i=1833373581",
+          "collection": "Both Eyes Closed (From \"Highest 2 Lowest\") - Single",
+          "genre_name": "Rap",
+          "release_date": "2025-08-15T07:00:00Z",
+          "duration_ms": 253673
+        }
+      ]
+    },
+    {
+      "id": "awen-971",
+      "artist": "Cigarettes After Sex",
+      "title": "Sesame Syrup",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "John Wayne",
+          "artist": "Cigarettes After Sex",
+          "url": "https://music.apple.com/kz/album/1217977525?i=1217977760",
+          "collection": "Cigarettes After Sex",
+          "genre_name": "Alternative",
+          "release_date": "2017-06-09T12:00:00Z",
+          "duration_ms": 258013
+        },
+        {
+          "title": "Apocalypse",
+          "artist": "Cigarettes After Sex",
+          "url": "https://music.apple.com/kz/album/1217977525?i=1217977755",
+          "collection": "Cigarettes After Sex",
+          "genre_name": "Alternative",
+          "release_date": "2017-03-20T12:00:00Z",
+          "duration_ms": 290147
+        },
+        {
+          "title": "K.",
+          "artist": "Cigarettes After Sex",
+          "url": "https://music.apple.com/kz/album/1217977525?i=1217977706",
+          "collection": "Cigarettes After Sex",
+          "genre_name": "Alternative",
+          "release_date": "2016-12-01T12:00:00Z",
+          "duration_ms": 319560
+        },
+        {
+          "title": "Nothing's Gonna Hurt You Baby",
+          "artist": "Cigarettes After Sex",
+          "url": "https://music.apple.com/kz/album/1266067531?i=1266067536",
+          "collection": "I. - EP",
+          "genre_name": "Alternative",
+          "release_date": "2012-07-21T12:00:00Z",
+          "duration_ms": 286293
+        },
+        {
+          "title": "Heavenly",
+          "artist": "Cigarettes After Sex",
+          "url": "https://music.apple.com/kz/album/1476598231?i=1476598234",
+          "collection": "Cry",
+          "genre_name": "Alternative",
+          "release_date": "2019-08-20T12:00:00Z",
+          "duration_ms": 286773
+        }
+      ]
+    },
+    {
+      "id": "awen-972",
+      "artist": "Wiz Khalifa",
+      "title": "Never Hesitate (Feat. Darrius Willrich)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Karate (feat. Chevy Woods) / Never Hesitate (feat. Darrius Willrich)",
+          "artist": "Wiz Khalifa",
+          "url": "https://music.apple.com/kz/album/1409002741?i=1409002799",
+          "collection": "Rolling Papers 2",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-07-13T07:00:00Z",
+          "duration_ms": 330553
+        }
+      ]
+    },
+    {
+      "id": "awen-976",
+      "artist": "MØ & Diplo",
+      "title": "Sun In Our Eyes",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Sun in Our Eyes",
+          "artist": "MØ & Diplo",
+          "url": "https://music.apple.com/kz/album/1410349352?i=1410349928",
+          "collection": "Sun in Our Eyes - Single",
+          "genre_name": "Pop",
+          "release_date": "2018-07-14T12:00:00Z",
+          "duration_ms": 217933
+        },
+        {
+          "title": "Sun in Our Eyes",
+          "artist": "MØ & Diplo",
+          "url": "https://music.apple.com/kz/album/1434413147?i=1434413452",
+          "collection": "Forever Neverland",
+          "genre_name": "Pop",
+          "release_date": "2018-07-14T07:00:00Z",
+          "duration_ms": 217933
+        }
+      ]
+    },
+    {
+      "id": "awen-977",
+      "artist": "88rising",
+      "title": "Head In The Clouds",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Head In The Clouds",
+          "artist": "88rising & Joji",
+          "url": "https://music.apple.com/kz/album/1724894929?i=1724895274",
+          "collection": "Head In The Clouds",
+          "genre_name": "R&B/Soul",
+          "release_date": "2018-07-20T12:00:00Z",
+          "duration_ms": 178023
+        },
+        {
+          "title": "Head in the Clouds",
+          "artist": "Arrows in Action",
+          "url": "https://music.apple.com/kz/album/1672636092?i=1672636684",
+          "collection": "Built To Last",
+          "genre_name": "Rock",
+          "release_date": "2023-04-14T12:00:00Z",
+          "duration_ms": 175938
+        },
+        {
+          "title": "Head in the Clouds",
+          "artist": "Arrows in Action",
+          "url": "https://music.apple.com/kz/album/1676486210?i=1676486211",
+          "collection": "Head in the Clouds - EP",
+          "genre_name": "Rock",
+          "release_date": "2023-04-14T12:00:00Z",
+          "duration_ms": 175938
+        },
+        {
+          "title": "Head in the Clouds",
+          "artist": "BabyJake",
+          "url": "https://music.apple.com/kz/album/1523950432?i=1523950695",
+          "collection": "Don't give me problems, give me wine",
+          "genre_name": "Alternative",
+          "release_date": "2020-07-29T12:00:00Z",
+          "duration_ms": 147893
+        },
+        {
+          "title": "Head In The Clouds",
+          "artist": "Hayd",
+          "url": "https://music.apple.com/kz/album/1583125945?i=1583125951",
+          "collection": "Changes - EP",
+          "genre_name": "Alternative",
+          "release_date": "2021-09-17T12:00:00Z",
+          "duration_ms": 184559
+        }
+      ]
+    },
+    {
+      "id": "awen-978",
+      "artist": "NF",
+      "title": "Goodbye",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Let Me Go",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1470132470?i=1470132726",
+          "collection": "The Search",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2019-07-26T12:00:00Z",
+          "duration_ms": 277777
+        },
+        {
+          "title": "Paralyzed",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1440816421?i=1440816733",
+          "collection": "Mansion",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2015-03-31T12:00:00Z",
+          "duration_ms": 270453
+        },
+        {
+          "title": "If You Want Love",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1440848910?i=1440849544",
+          "collection": "Perception",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2017-10-06T12:00:00Z",
+          "duration_ms": 199387
+        },
+        {
+          "title": "Hate Myself",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1470132470?i=1470132732",
+          "collection": "The Search",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2019-07-26T12:00:00Z",
+          "duration_ms": 260253
+        },
+        {
+          "title": "Remember This",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1440848910?i=1440849547",
+          "collection": "Perception",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2017-10-06T12:00:00Z",
+          "duration_ms": 240387
+        }
+      ]
+    },
+    {
+      "id": "awen-980",
+      "artist": "Lily Moore",
+      "title": "I Will Never Be",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "I Will Never Be",
+          "artist": "Lily Moore",
+          "url": "https://music.apple.com/kz/album/1436459921?i=1436459923",
+          "collection": "I Will Never Be - EP",
+          "genre_name": "Singer/Songwriter",
+          "release_date": "2018-07-13T12:00:00Z",
+          "duration_ms": 212587
+        },
+        {
+          "title": "I Will Never Be",
+          "artist": "Lily Moore",
+          "url": "https://music.apple.com/kz/album/1408954956?i=1408954960",
+          "collection": "I Will Never Be - Single",
+          "genre_name": "Singer/Songwriter",
+          "release_date": "2018-07-13T12:00:00Z",
+          "duration_ms": 212587
+        }
+      ]
+    },
+    {
+      "id": "awen-981",
+      "artist": "Oh Wonder",
+      "title": "Lose It",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Lose It",
+          "artist": "Oh Wonder",
+          "url": "https://music.apple.com/kz/album/1440871652?i=1440872082",
+          "collection": "Oh Wonder",
+          "genre_name": "Alternative",
+          "release_date": "2015-02-01T12:00:00Z",
+          "duration_ms": 229935
+        },
+        {
+          "title": "Lose It",
+          "artist": "Oh Wonder",
+          "url": "https://music.apple.com/kz/album/1444585108?i=1444585116",
+          "collection": "Lose It - Single",
+          "genre_name": "Alternative",
+          "release_date": "2015-02-01T12:00:00Z",
+          "duration_ms": 228254
+        },
+        {
+          "title": "Lose It",
+          "artist": "Oh Wonder",
+          "url": "https://music.apple.com/kz/album/1440849180?i=1440849318",
+          "collection": "Oh Wonder",
+          "genre_name": "Alternative",
+          "release_date": "2015-02-01T12:00:00Z",
+          "duration_ms": 229935
+        }
+      ]
+    },
+    {
+      "id": "awen-982",
+      "artist": "Nicki Minaj",
+      "title": "Rich Sex (Feat. Lil Wayne)",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Rich Sex (feat. Lil Wayne)",
+          "artist": "Nicki Minaj",
+          "url": "https://music.apple.com/kz/album/1398477182?i=1398477443",
+          "collection": "Queen",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-06-11T07:00:00Z",
+          "duration_ms": 192597
+        },
+        {
+          "title": "Rich Sex (feat. Lil Wayne)",
+          "artist": "Nicki Minaj",
+          "url": "https://music.apple.com/kz/album/1444820462?i=1444820563",
+          "collection": "Queen (Deluxe)",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-06-11T07:00:00Z",
+          "duration_ms": 192597
+        }
+      ]
+    },
+    {
+      "id": "awen-983",
+      "artist": "Halsey",
+      "title": "Sorry",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Sorry",
+          "artist": "Halsey",
+          "url": "https://music.apple.com/kz/album/1440880255?i=1440880494",
+          "collection": "hopeless fountain kingdom (Deluxe)",
+          "genre_name": "Alternative",
+          "release_date": "2017-06-02T12:00:00Z",
+          "duration_ms": 220541
+        },
+        {
+          "title": "Sorry",
+          "artist": "Halsey",
+          "url": "https://music.apple.com/kz/album/1358789952?i=1358790536",
+          "collection": "hopeless fountain kingdom (Deluxe Plus)",
+          "genre_name": "Alternative",
+          "release_date": "2017-06-02T12:00:00Z",
+          "duration_ms": 220541
+        },
+        {
+          "title": "Sorry",
+          "artist": "Halsey",
+          "url": "https://music.apple.com/kz/album/1631582702?i=1631583397",
+          "collection": "Vol. II",
+          "genre_name": "Alternative",
+          "release_date": "2017-06-02T12:00:00Z",
+          "duration_ms": 220541
+        },
+        {
+          "title": "Sorry",
+          "artist": "Halsey",
+          "url": "https://music.apple.com/kz/album/1358793829?i=1358794861",
+          "collection": "hopeless fountain kingdom",
+          "genre_name": "Alternative",
+          "release_date": "2017-06-02T12:00:00Z",
+          "duration_ms": 220541
+        },
+        {
+          "title": "Sorry",
+          "artist": "Halsey",
+          "url": "https://music.apple.com/kz/album/1358775354?i=1358775664",
+          "collection": "hopeless fountain kingdom (Deluxe)",
+          "genre_name": "Alternative",
+          "release_date": "2017-06-02T12:00:00Z",
+          "duration_ms": 220541
+        }
+      ]
+    },
+    {
+      "id": "awen-987",
+      "artist": "M83",
+      "title": "Wait",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Wait",
+          "artist": "M83",
+          "url": "https://music.apple.com/kz/album/1674216738?i=1674217581",
+          "collection": "Hurry up, We're Dreaming",
+          "genre_name": "Rock",
+          "release_date": "2011-10-14T12:00:00Z",
+          "duration_ms": 343253
+        },
+        {
+          "title": "Wait",
+          "artist": "M83",
+          "url": "https://music.apple.com/kz/album/855625837?i=855630952",
+          "collection": "The Fault In Our Stars (Music From the Motion Picture)",
+          "genre_name": "Soundtrack",
+          "release_date": "2011-10-14T12:00:00Z",
+          "duration_ms": 341200
+        }
+      ]
+    },
+    {
+      "id": "awen-988",
+      "artist": "Pham feat. Yung Fusion",
+      "title": "Movements (feat. Yung Fusion)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Movements (feat. Yung Fusion)",
+          "artist": "Pham",
+          "url": "https://music.apple.com/kz/album/1445480519?i=1445480526",
+          "collection": "Tunesdays",
+          "genre_name": "Electronic",
+          "release_date": "2016-09-02T12:00:00Z",
+          "duration_ms": 208640
+        }
+      ]
+    },
+    {
+      "id": "awen-989",
+      "artist": "Dido",
+      "title": "Thank You (Acoustic)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Thank You",
+          "artist": "Dido",
+          "url": "https://music.apple.com/kz/album/731939412?i=731939552",
+          "collection": "Greatest Hits (Deluxe Edition)",
+          "genre_name": "Pop",
+          "release_date": "1999-06-01T07:00:00Z",
+          "duration_ms": 217720
+        },
+        {
+          "title": "Thank You",
+          "artist": "Dido",
+          "url": "https://music.apple.com/kz/album/1005554541?i=1005554548",
+          "collection": "No Angel",
+          "genre_name": "Pop",
+          "release_date": "1999-06-01T07:00:00Z",
+          "duration_ms": 217827
+        },
+        {
+          "title": "Thank You",
+          "artist": "Dido",
+          "url": "https://music.apple.com/kz/album/298166074?i=298166491",
+          "collection": "No Angel",
+          "genre_name": "Pop",
+          "release_date": "1998-04-14T07:00:00Z",
+          "duration_ms": 218360
+        },
+        {
+          "title": "Thank You ((Acoustic) [Live])",
+          "artist": "Dido",
+          "url": "https://music.apple.com/kz/album/1518046809?i=1518047042",
+          "collection": "Girl Who Got Away (Expanded Edition)",
+          "genre_name": "Pop",
+          "release_date": "2013-03-01T12:00:00Z",
+          "duration_ms": 154507
+        },
+        {
+          "title": "Thank You",
+          "artist": "Dido",
+          "url": "https://music.apple.com/kz/album/500404223?i=500404304",
+          "collection": "No Angel",
+          "genre_name": "Pop",
+          "release_date": "1998-04-14T12:00:00Z",
+          "duration_ms": 217827
+        }
+      ]
+    },
+    {
+      "id": "awen-990",
+      "artist": "Tweaks",
+      "title": "Girl on the Wire",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Girl on the Wire",
+          "artist": "Tweaks",
+          "url": "https://music.apple.com/kz/album/1063065814?i=1063065816",
+          "collection": "Girl on the Wire - Single",
+          "genre_name": "Alternative",
+          "release_date": "2016-01-04T12:00:00Z",
+          "duration_ms": 217034
+        },
+        {
+          "title": "Girl on the Wire",
+          "artist": "Tweaks",
+          "url": "https://music.apple.com/kz/album/1063072597?i=1063072654",
+          "collection": "Sisters - EP",
+          "genre_name": "Alternative",
+          "release_date": "2016-01-04T12:00:00Z",
+          "duration_ms": 217034
+        }
+      ]
+    },
+    {
+      "id": "awen-991",
+      "artist": "Radiohead",
+      "title": "Pyramid Song",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Pyramid Song",
+          "artist": "Radiohead",
+          "url": "https://music.apple.com/kz/album/1097864180?i=1097864572",
+          "collection": "Amnesiac",
+          "genre_name": "Alternative",
+          "release_date": "2001-05-16T07:00:00Z",
+          "duration_ms": 288733
+        },
+        {
+          "title": "Pyramid Song",
+          "artist": "Radiohead",
+          "url": "https://music.apple.com/kz/album/1581785974?i=1581786364",
+          "collection": "KID A MNESIA",
+          "genre_name": "Alternative",
+          "release_date": "2001-05-16T12:00:00Z",
+          "duration_ms": 288733
+        },
+        {
+          "title": "Pyramid Song",
+          "artist": "Radiohead",
+          "url": "https://music.apple.com/kz/album/1112405045?i=1112406527",
+          "collection": "Pyramid Song - EP",
+          "genre_name": "Alternative",
+          "release_date": "2001-05-16T07:00:00Z",
+          "duration_ms": 288733
+        }
+      ]
+    },
+    {
+      "id": "awen-994",
+      "artist": "NoMBe",
+      "title": "Rocky Horror",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Rocky Horror",
+          "artist": "NoMBe",
+          "url": "https://music.apple.com/kz/album/1496357027?i=1496357028",
+          "collection": "Rocky Horror - Single",
+          "genre_name": "Singer/Songwriter",
+          "release_date": "2017-09-27T12:00:00Z",
+          "duration_ms": 190333
+        },
+        {
+          "title": "Rocky Horror",
+          "artist": "NoMBe",
+          "url": "https://music.apple.com/kz/album/1500242886?i=1500242901",
+          "collection": "They Might've Even Loved Me",
+          "genre_name": "Alternative",
+          "release_date": "2017-09-27T12:00:00Z",
+          "duration_ms": 190333
+        }
+      ]
+    },
+    {
+      "id": "awen-997",
+      "artist": "Insomnia",
+      "title": "The Games We Play",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Enemy",
+          "artist": "insomnia",
+          "url": "https://music.apple.com/kz/album/1672363018?i=1672363191",
+          "collection": "We Can Be Alone Together",
+          "genre_name": "Indie Rock",
+          "release_date": "2023-03-02T12:00:00Z",
+          "duration_ms": 238572
+        }
+      ]
+    },
+    {
+      "id": "awen-999",
+      "artist": "Khalid & Swae Lee",
+      "title": "The Ways",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "The Ways",
+          "artist": "Khalid, Swae Lee",
+          "url": "https://music.apple.com/kz/album/1440903005?i=1440903365",
+          "collection": "Black Panther: The Album",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-02-09T12:00:00Z",
+          "duration_ms": 238893
+        },
+        {
+          "title": "The Ways",
+          "artist": "Aloma Steele & Electrolight",
+          "url": "https://music.apple.com/kz/album/1869737012?i=1869737335",
+          "collection": "Ncs: The Best of 2015",
+          "genre_name": "Dance",
+          "release_date": "2015-12-18T12:00:00Z",
+          "duration_ms": 279014
+        }
+      ]
+    },
+    {
+      "id": "awen-1001",
+      "artist": "Infinity Ink",
+      "title": "Infinity",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Infinity",
+          "artist": "Infinity Ink",
+          "url": "https://music.apple.com/kz/album/678759166?i=678759414",
+          "collection": "Infinity",
+          "genre_name": "Dance",
+          "release_date": "2012-05-01T12:00:00Z",
+          "duration_ms": 308011
+        },
+        {
+          "title": "Infinity",
+          "artist": "Infinity Ink",
+          "url": "https://music.apple.com/kz/album/1677698320?i=1677698812",
+          "collection": "Rebel Rave 3",
+          "genre_name": "Dance",
+          "release_date": "2012-05-01T12:00:00Z",
+          "duration_ms": 307733
+        }
+      ]
+    },
+    {
+      "id": "awen-1002",
+      "artist": "Kanye West",
+      "title": "I Dont Like (feat.Pusha T)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "God Is",
+          "artist": "Kanye West",
+          "url": "https://music.apple.com/kz/album/1484936940?i=1484937120",
+          "collection": "JESUS IS KING",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2019-10-25T12:00:00Z",
+          "duration_ms": 203141
+        },
+        {
+          "title": "Moon",
+          "artist": "Kanye West",
+          "url": "https://music.apple.com/kz/album/1587795158?i=1587795570",
+          "collection": "Donda",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2021-08-29T12:00:00Z",
+          "duration_ms": 156091
+        },
+        {
+          "title": "Hurricane",
+          "artist": "Kanye West",
+          "url": "https://music.apple.com/kz/album/1587795158?i=1587795284",
+          "collection": "Donda",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2021-08-29T12:00:00Z",
+          "duration_ms": 243188
+        },
+        {
+          "title": "Hurricane",
+          "artist": "Kanye West",
+          "url": "https://music.apple.com/kz/album/1595496182?i=1595496791",
+          "collection": "Donda (Deluxe)",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2021-08-29T07:00:00Z",
+          "duration_ms": 243188
+        },
+        {
+          "title": "Off The Grid",
+          "artist": "Kanye West",
+          "url": "https://music.apple.com/kz/album/1587795158?i=1587795282",
+          "collection": "Donda",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2021-08-29T12:00:00Z",
+          "duration_ms": 339250
+        }
+      ]
+    },
+    {
+      "id": "awen-1006",
+      "artist": "QsensX",
+      "title": "#98",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "QsensX, Pt. 98",
+          "artist": "QsensX",
+          "url": "https://music.apple.com/kz/album/1259513521?i=1259514419",
+          "collection": "Qx 91-110",
+          "genre_name": "Electronic",
+          "release_date": "2017-07-01T12:00:00Z",
+          "duration_ms": 361942
+        }
+      ]
+    },
+    {
+      "id": "awen-1007",
+      "artist": "Post Malone",
+      "title": "Better Now",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Better Now",
+          "artist": "Post Malone",
+          "url": "https://music.apple.com/kz/album/1373504837?i=1373506180",
+          "collection": "beerbongs & bentleys",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-04-27T12:00:00Z",
+          "duration_ms": 231261
+        },
+        {
+          "title": "Better Now",
+          "artist": "Post Malone",
+          "url": "https://music.apple.com/kz/album/1762886343?i=1762886948",
+          "collection": "The Diamond Collection (Deluxe)",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-04-27T12:00:00Z",
+          "duration_ms": 231261
+        },
+        {
+          "title": "Better Now",
+          "artist": "Post Malone",
+          "url": "https://music.apple.com/kz/album/1698404547?i=1698404908",
+          "collection": "The Diamond Collection (Deluxe)",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-04-27T12:00:00Z",
+          "duration_ms": 231261
+        },
+        {
+          "title": "Better Now",
+          "artist": "Post Malone",
+          "url": "https://music.apple.com/kz/album/1683446063?i=1683446191",
+          "collection": "The Diamond Collection",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-04-27T07:00:00Z",
+          "duration_ms": 231261
+        }
+      ]
+    },
+    {
+      "id": "awen-1008",
+      "artist": "J-Soul",
+      "title": "The Life",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "The Life",
+          "artist": "Alicia Keys",
+          "url": "https://music.apple.com/kz/album/6773483329?i=6773483604",
+          "collection": "Songs In A Minor (Deluxe Edition)",
+          "genre_name": "R&B/Soul",
+          "release_date": "2001-06-05T12:00:00Z",
+          "duration_ms": 325067
+        },
+        {
+          "title": "The Life",
+          "artist": "Alicia Keys",
+          "url": "https://music.apple.com/kz/album/256936779?i=256937305",
+          "collection": "Songs In A Minor",
+          "genre_name": "R&B/Soul",
+          "release_date": "2001-06-26T07:00:00Z",
+          "duration_ms": 325067
+        },
+        {
+          "title": "The Life",
+          "artist": "Gary Clark Jr.",
+          "url": "https://music.apple.com/kz/album/560652745?i=560652771",
+          "collection": "Blak and Blu (Deluxe Version)",
+          "genre_name": "Rock",
+          "release_date": "2012-10-16T12:00:00Z",
+          "duration_ms": 305858
+        }
+      ]
+    },
+    {
+      "id": "awen-1012",
+      "artist": "The Neighbourhood",
+      "title": "Lurk",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "The Beach",
+          "artist": "The Neighbourhood",
+          "url": "https://music.apple.com/kz/album/1030115907?i=1030116018",
+          "collection": "Wiped Out!",
+          "genre_name": "Alternative",
+          "release_date": "2015-10-30T07:00:00Z",
+          "duration_ms": 255133
+        },
+        {
+          "title": "Pretty Boy",
+          "artist": "The Neighbourhood",
+          "url": "https://music.apple.com/kz/album/1525010103?i=1525010453",
+          "collection": "Chip Chrome & The Mono-Tones",
+          "genre_name": "Alternative",
+          "release_date": "2020-08-28T07:00:00Z",
+          "duration_ms": 234093
+        },
+        {
+          "title": "Stargazing",
+          "artist": "The Neighbourhood",
+          "url": "https://music.apple.com/kz/album/1541400529?i=1541400545",
+          "collection": "Chip Chrome & The Mono-Tones (Deluxe)",
+          "genre_name": "Alternative",
+          "release_date": "2020-12-11T12:00:00Z",
+          "duration_ms": 217027
+        },
+        {
+          "title": "Nervous",
+          "artist": "The Neighbourhood",
+          "url": "https://music.apple.com/kz/album/1440532502?i=1440532834",
+          "collection": "Hard To Imagine The Neighbourhood Ever Changing",
+          "genre_name": "Alternative",
+          "release_date": "2018-03-03T12:00:00Z",
+          "duration_ms": 245000
+        },
+        {
+          "title": "West Coast",
+          "artist": "The Neighbourhood",
+          "url": "https://music.apple.com/kz/album/766049325?i=766049424",
+          "collection": "The Love Collection - Single",
+          "genre_name": "Alternative",
+          "release_date": "2013-12-10T08:00:00Z",
+          "duration_ms": 253520
+        }
+      ]
+    },
+    {
+      "id": "awen-1013",
+      "artist": "Fabian Mazur",
+      "title": "Edge Of Love (feat. Nevve)",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Edge of Love (feat. Nevve)",
+          "artist": "Fabian Mazur",
+          "url": "https://music.apple.com/kz/album/1439587619?i=1439587620",
+          "collection": "Edge of Love (feat. Nevve) - Single",
+          "genre_name": "Dance",
+          "release_date": "2018-06-29T12:00:00Z",
+          "duration_ms": 161538
+        },
+        {
+          "title": "Edge of Love (feat. Nevve)",
+          "artist": "Fabian Mazur",
+          "url": "https://music.apple.com/kz/album/1446448452?i=1446448466",
+          "collection": "Dim Mak Greatest Hits 2018: Originals",
+          "genre_name": "Dance",
+          "release_date": "2018-06-29T12:00:00Z",
+          "duration_ms": 161538
+        }
+      ]
+    },
+    {
+      "id": "awen-1014",
+      "artist": "blackbear",
+      "title": "playboy shit (feat. lil aaron)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "playboy s**t (feat. lil aaron)",
+          "artist": "blackbear",
+          "url": "https://music.apple.com/kz/album/1576025886?i=1576025889",
+          "collection": "cybersex",
+          "genre_name": "R&B/Soul",
+          "release_date": "2017-11-27T12:00:00Z",
+          "duration_ms": 211646
+        }
+      ]
+    },
+    {
+      "id": "awen-1016",
+      "artist": "Lido",
+      "title": "Ain't No Sunshine",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Ain't No Sunshine",
+          "artist": "Bill Withers",
+          "url": "https://music.apple.com/kz/album/293521570?i=293521573",
+          "collection": "Just As I Am",
+          "genre_name": "R&B/Soul",
+          "release_date": "1971-05-01T07:00:00Z",
+          "duration_ms": 126458
+        },
+        {
+          "title": "Ain't No Sunshine",
+          "artist": "Michael Jackson",
+          "url": "https://music.apple.com/kz/album/1442259586?i=1442259592",
+          "collection": "Got to Be There (2013 Remaster)",
+          "genre_name": "Motown",
+          "release_date": "1972-01-24T12:00:00Z",
+          "duration_ms": 252233
+        },
+        {
+          "title": "Ain't No Sunshine",
+          "artist": "Shawn James",
+          "url": "https://music.apple.com/kz/album/1517345897?i=1517345905",
+          "collection": "The Madrid Sessions - Single",
+          "genre_name": "Traditional Folk",
+          "release_date": "2018-02-28T12:00:00Z",
+          "duration_ms": 177449
+        },
+        {
+          "title": "Ain't No Sunshine",
+          "artist": "Eva Cassidy",
+          "url": "https://music.apple.com/kz/album/6794743079?i=6794743475",
+          "collection": "JAZZED",
+          "genre_name": "Jazz",
+          "release_date": "2026-11-13T12:00:00Z",
+          "duration_ms": 236252
+        },
+        {
+          "title": "Ain't No Sunshine",
+          "artist": "Soul for Real",
+          "url": "https://music.apple.com/kz/album/1443842179?i=1443842256",
+          "collection": "Candy Rain",
+          "genre_name": "R&B/Soul",
+          "release_date": "1995-03-28T12:00:00Z",
+          "duration_ms": 74893
+        }
+      ]
+    },
+    {
+      "id": "awen-1018",
+      "artist": "Martin Solveig feat. Dragonette",
+      "title": "Hello",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Hello",
+          "artist": "Martin Solveig & Dragonette",
+          "url": "https://music.apple.com/kz/album/1715305745?i=1715305997",
+          "collection": "Smash",
+          "genre_name": "Electronic",
+          "release_date": "2010-09-06T12:00:00Z",
+          "duration_ms": 281430
+        },
+        {
+          "title": "Hello",
+          "artist": "Martin Solveig & Dragonette",
+          "url": "https://music.apple.com/kz/album/1717182903?i=1717182909",
+          "collection": "Hello - Single",
+          "genre_name": "Electronic",
+          "release_date": "2010-09-06T07:00:00Z",
+          "duration_ms": 281430
+        }
+      ]
+    },
+    {
+      "id": "awen-1019",
+      "artist": "Melanie Martinez",
+      "title": "Carousel",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Carousel",
+          "artist": "Melanie Martinez",
+          "url": "https://music.apple.com/kz/album/1021871522?i=1021871738",
+          "collection": "Cry Baby (Deluxe Edition)",
+          "genre_name": "Alternative",
+          "release_date": "2014-09-01T07:00:00Z",
+          "duration_ms": 230501
+        },
+        {
+          "title": "Carousel",
+          "artist": "Melanie Martinez",
+          "url": "https://music.apple.com/kz/album/1020518191?i=1020518345",
+          "collection": "Cry Baby",
+          "genre_name": "Alternative",
+          "release_date": "2014-05-19T12:00:00Z",
+          "duration_ms": 230501
+        }
+      ]
+    },
+    {
+      "id": "awen-1029",
+      "artist": "ZHU & Tame Impala",
+      "title": "My Life (AWAY Remix)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "My Life (Kyle Watson Remix)",
+          "artist": "ZHU & Tame Impala",
+          "url": "https://music.apple.com/kz/album/1402849621?i=1402849951",
+          "collection": "My Life (Kyle Watson Remix) - Single",
+          "genre_name": "Dance",
+          "release_date": "2018-06-29T12:00:00Z",
+          "duration_ms": 343803
+        }
+      ]
+    },
+    {
+      "id": "awen-1034",
+      "artist": "Somnia & Migel",
+      "title": "Mendida (Original Mix)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Mendida",
+          "artist": "Somnia & Migel",
+          "url": "https://music.apple.com/kz/album/1730809398?i=1730809399",
+          "collection": "Mendida - Single",
+          "genre_name": "Trance",
+          "release_date": "2018-06-25T12:00:00Z",
+          "duration_ms": 353686
+        }
+      ]
+    },
+    {
+      "id": "awen-1039",
+      "artist": "Post Malone",
+      "title": "No Option",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "No Option",
+          "artist": "Post Malone",
+          "url": "https://music.apple.com/kz/album/1440888125?i=1440888549",
+          "collection": "Stoney (Deluxe)",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2016-12-09T12:00:00Z",
+          "duration_ms": 179824
+        },
+        {
+          "title": "No Option",
+          "artist": "Post Malone",
+          "url": "https://music.apple.com/kz/album/1440901612?i=1440901620",
+          "collection": "Stoney",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2016-12-09T12:00:00Z",
+          "duration_ms": 179824
+        }
+      ]
+    },
+    {
+      "id": "awen-1040",
+      "artist": "Rhys Lewis",
+      "title": "Be Your Man",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Be Your Man",
+          "artist": "Rhys Lewis",
+          "url": "https://music.apple.com/kz/album/1483150182?i=1483150469",
+          "collection": "Be Your Man - Single",
+          "genre_name": "Pop",
+          "release_date": "2019-10-25T12:00:00Z",
+          "duration_ms": 240867
+        },
+        {
+          "title": "Be Your Man",
+          "artist": "Rhys Lewis",
+          "url": "https://music.apple.com/kz/album/1497509126?i=1497509437",
+          "collection": "Things I Chose to Remember",
+          "genre_name": "Pop",
+          "release_date": "2020-02-12T08:00:00Z",
+          "duration_ms": 240347
+        }
+      ]
+    },
+    {
+      "id": "awen-1042",
+      "artist": "Keys N Krates, KRANE",
+      "title": "Right Here",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Right Here",
+          "artist": "Keys N Krates & KRANE",
+          "url": "https://music.apple.com/kz/album/1439650955?i=1439650959",
+          "collection": "Right Here - Single",
+          "genre_name": "Electronica",
+          "release_date": "2017-01-27T12:00:00Z",
+          "duration_ms": 206918
+        },
+        {
+          "title": "Right Here",
+          "artist": "Keys N Krates & KRANE",
+          "url": "https://music.apple.com/kz/album/1439651631?i=1439651632",
+          "collection": "Right Here (Remixes) - EP",
+          "genre_name": "Dance",
+          "release_date": "2017-01-27T12:00:00Z",
+          "duration_ms": 206918
+        },
+        {
+          "title": "Right Here",
+          "artist": "Keys N Krates & KRANE",
+          "url": "https://music.apple.com/kz/album/1439612217?i=1439612220",
+          "collection": "Dim Mak Greatest Hits 2017: Originals",
+          "genre_name": "Dance",
+          "release_date": "2017-01-27T12:00:00Z",
+          "duration_ms": 206918
+        }
+      ]
+    },
+    {
+      "id": "awen-1043",
+      "artist": "skylar grey",
+      "title": "the words",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "I Know You",
+          "artist": "Skylar Grey",
+          "url": "https://music.apple.com/kz/album/1440845197?i=1440846118",
+          "collection": "Fifty Shades of Grey (Original Motion Picture Soundtrack)",
+          "genre_name": "Soundtrack",
+          "release_date": "2015-02-03T12:00:00Z",
+          "duration_ms": 298880
+        },
+        {
+          "title": "Love the Way You Lie, Pt. III (Demo)",
+          "artist": "Skylar Grey",
+          "url": "https://music.apple.com/kz/album/1444063802?i=1444064166",
+          "collection": "Don't Look Down",
+          "genre_name": "Pop",
+          "release_date": "2013-07-05T12:00:00Z",
+          "duration_ms": 249360
+        },
+        {
+          "title": "Everything I Need (Film Version)",
+          "artist": "Skylar Grey",
+          "url": "https://music.apple.com/kz/album/1472067933?i=1472067934",
+          "collection": "Aquaman (Original Motion Picture Soundtrack) [Deluxe Edition]",
+          "genre_name": "Soundtrack",
+          "release_date": "2018-12-14T12:00:00Z",
+          "duration_ms": 196234
+        },
+        {
+          "title": "Love the Way You Lie, Pt. III (Demo)",
+          "artist": "Skylar Grey",
+          "url": "https://music.apple.com/kz/album/1440858254?i=1440858737",
+          "collection": "Don't Look Down",
+          "genre_name": "Pop",
+          "release_date": "2013-07-05T12:00:00Z",
+          "duration_ms": 249933
+        },
+        {
+          "title": "Stand By Me",
+          "artist": "Skylar Grey",
+          "url": "https://music.apple.com/kz/album/1444624189?i=1444624202",
+          "collection": "Stand By Me - Single",
+          "genre_name": "Alternative",
+          "release_date": "2018-01-25T12:00:00Z",
+          "duration_ms": 146453
+        }
+      ]
+    },
+    {
+      "id": "awen-1044",
+      "artist": "Aquilo",
+      "title": "Silhouette",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Silhouette",
+          "artist": "Aquilo",
+          "url": "https://music.apple.com/kz/album/1443266136?i=1443266137",
+          "collection": "Silhouettes",
+          "genre_name": "Alternative",
+          "release_date": "2017-01-18T12:00:00Z",
+          "duration_ms": 230417
+        },
+        {
+          "title": "Silhouette",
+          "artist": "Aquilo",
+          "url": "https://music.apple.com/kz/album/1440865012?i=1440865422",
+          "collection": "Silhouettes",
+          "genre_name": "Alternative",
+          "release_date": "2017-01-18T12:00:00Z",
+          "duration_ms": 273731
+        },
+        {
+          "title": "Silhouette",
+          "artist": "Aquilo",
+          "url": "https://music.apple.com/kz/album/1445289826?i=1445289830",
+          "collection": "Silhouette - Single",
+          "genre_name": "Alternative",
+          "release_date": "2017-01-18T12:00:00Z",
+          "duration_ms": 230417
+        }
+      ]
+    },
+    {
+      "id": "awen-1047",
+      "artist": "Kygo & Imagine Dragons",
+      "title": "Born To Be Yours",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Born to Be Yours",
+          "artist": "Rockabye Baby!",
+          "url": "https://music.apple.com/kz/album/1470690349?i=1470690786",
+          "collection": "Lullaby Renditions of Imagine Dragons",
+          "genre_name": "Children’s Music",
+          "release_date": "2019-08-09T07:00:00Z",
+          "duration_ms": 180493
+        },
+        {
+          "title": "Born To Be Yours",
+          "artist": "Warren Zeiders",
+          "url": "https://music.apple.com/kz/album/1876994463?i=1876994464",
+          "collection": "Born To Be Yours - Single",
+          "genre_name": "Country",
+          "release_date": "2026-02-27T12:00:00Z",
+          "duration_ms": 206498
+        }
+      ]
+    },
+    {
+      "id": "awen-1049",
+      "artist": "A$AP Ferg",
+      "title": "One Night Savage (Feat. Madeintyo)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Move Ya Hips (feat. Nicki Minaj & MadeinTYO)",
+          "artist": "A$AP Ferg",
+          "url": "https://music.apple.com/kz/album/1525273239?i=1525273243",
+          "collection": "Move Ya Hips (feat. Nicki Minaj & MadeinTYO) - Single",
+          "genre_name": "Rap",
+          "release_date": "2020-07-30T07:00:00Z",
+          "duration_ms": 146009
+        },
+        {
+          "title": "Move Ya Hips (feat. Nicki Minaj & MadeinTYO)",
+          "artist": "A$AP Ferg",
+          "url": "https://music.apple.com/kz/album/1534046471?i=1534046485",
+          "collection": "Floor Seats II",
+          "genre_name": "Rap",
+          "release_date": "2020-07-30T12:00:00Z",
+          "duration_ms": 144978
+        }
+      ]
+    },
+    {
+      "id": "awen-1050",
+      "artist": "Nicki Minaj",
+      "title": "Bed (ft. Ariana Grande)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Bed (feat. Ariana Grande)",
+          "artist": "Nicki Minaj",
+          "url": "https://music.apple.com/kz/album/1398477182?i=1398477465",
+          "collection": "Queen",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-06-14T07:00:00Z",
+          "duration_ms": 189534
+        },
+        {
+          "title": "Bed (feat. Ariana Grande)",
+          "artist": "Nicki Minaj",
+          "url": "https://music.apple.com/kz/album/1444820462?i=1444820572",
+          "collection": "Queen (Deluxe)",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-06-14T07:00:00Z",
+          "duration_ms": 189534
+        },
+        {
+          "title": "Bed (feat. Ariana Grande)",
+          "artist": "Nicki Minaj",
+          "url": "https://music.apple.com/kz/album/1642112713?i=1642113387",
+          "collection": "Queen Radio: Volume 1",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-06-14T12:00:00Z",
+          "duration_ms": 189533
+        },
+        {
+          "title": "Bed (feat. Ariana Grande)",
+          "artist": "Nicki Minaj",
+          "url": "https://music.apple.com/kz/album/1641775629?i=1641776394",
+          "collection": "Queen Radio: Volume 1",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-06-14T12:00:00Z",
+          "duration_ms": 189533
+        }
+      ]
+    },
+    {
+      "id": "awen-1051",
+      "artist": "XXXTENTACION",
+      "title": "Moonlight",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Moonlight (Instrumental)",
+          "artist": "XXXTENTACION",
+          "url": "https://music.apple.com/kz/album/1474891456?i=1474891805",
+          "collection": "? (Deluxe)",
+          "genre_name": "Pop",
+          "release_date": "2019-09-06T07:00:00Z",
+          "duration_ms": 135067
+        },
+        {
+          "title": "Look At Me!",
+          "artist": "XXXTENTACION",
+          "url": "https://music.apple.com/kz/album/1208723694?i=1208724643",
+          "collection": "Look At Me! - Single",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2017-02-20T12:00:00Z",
+          "duration_ms": 126346
+        },
+        {
+          "title": "changes",
+          "artist": "XXXTENTACION",
+          "url": "https://music.apple.com/kz/album/1359292515?i=1359294051",
+          "collection": "?",
+          "genre_name": "Pop",
+          "release_date": "2018-03-02T08:00:00Z",
+          "duration_ms": 121887
+        },
+        {
+          "title": "BAD!",
+          "artist": "XXXTENTACION",
+          "url": "https://music.apple.com/kz/album/1441480826?i=1441480831",
+          "collection": "SKINS",
+          "genre_name": "Pop",
+          "release_date": "2018-11-09T08:00:00Z",
+          "duration_ms": 94246
+        },
+        {
+          "title": "NUMB",
+          "artist": "XXXTENTACION",
+          "url": "https://music.apple.com/kz/album/1359292515?i=1359293480",
+          "collection": "?",
+          "genre_name": "Pop",
+          "release_date": "2018-03-16T12:00:00Z",
+          "duration_ms": 186268
+        }
+      ]
+    },
+    {
+      "id": "awen-1054",
+      "artist": "Darci",
+      "title": "Life",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "At Least",
+          "artist": "Darci",
+          "url": "https://music.apple.com/kz/album/1338946869?i=1338947774",
+          "collection": "At Least - Single",
+          "genre_name": "R&B/Soul",
+          "release_date": "2018-02-06T12:00:00Z",
+          "duration_ms": 190460
+        },
+        {
+          "title": "Ghostly",
+          "artist": "Darci",
+          "url": "https://music.apple.com/kz/album/1490361027?i=1490361030",
+          "collection": "Crazy Beautiful Blackout",
+          "genre_name": "R&B/Soul",
+          "release_date": "2019-10-24T12:00:00Z",
+          "duration_ms": 157241
+        },
+        {
+          "title": "Ghostly",
+          "artist": "Darci",
+          "url": "https://music.apple.com/kz/album/1483503438?i=1483503439",
+          "collection": "Ghostly - Single",
+          "genre_name": "R&B/Soul",
+          "release_date": "2019-10-24T12:00:00Z",
+          "duration_ms": 157241
+        },
+        {
+          "title": "Ghostly",
+          "artist": "Darci",
+          "url": "https://music.apple.com/kz/album/1485261564?i=1485261565",
+          "collection": "Ghostly - Single",
+          "genre_name": "R&B/Soul",
+          "release_date": "2019-10-24T12:00:00Z",
+          "duration_ms": 157241
+        },
+        {
+          "title": "At Least",
+          "artist": "Darci",
+          "url": "https://music.apple.com/kz/album/1869289058?i=1869289061",
+          "collection": "At Least - Single",
+          "genre_name": "R&B/Soul",
+          "release_date": "2018-02-06T12:00:00Z",
+          "duration_ms": 190460
+        }
+      ]
+    },
+    {
+      "id": "awen-1055",
+      "artist": "Tyler, The Creator",
+      "title": "Who Dat Boy (Feat. A$AP Rocky)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Like Him (feat. Lola Young)",
+          "artist": "Tyler, The Creator",
+          "url": "https://music.apple.com/kz/album/1789446415?i=1789446436",
+          "collection": "CHROMAKOPIA",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2024-10-28T07:00:00Z",
+          "duration_ms": 278015
+        },
+        {
+          "title": "Sticky (feat. GloRilla, Sexyy Red & Lil Wayne)",
+          "artist": "Tyler, The Creator",
+          "url": "https://music.apple.com/kz/album/1789446415?i=1789446432",
+          "collection": "CHROMAKOPIA",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2024-10-28T07:00:00Z",
+          "duration_ms": 255916
+        }
+      ]
+    },
+    {
+      "id": "awen-1063",
+      "artist": "SLANDER & Bret James",
+      "title": "Slow Motion",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Slow Motion",
+          "artist": "SLANDER & Bret James",
+          "url": "https://music.apple.com/kz/album/1384644800?i=1384644804",
+          "collection": "Slow Motion - Single",
+          "genre_name": "Dance",
+          "release_date": "2018-06-01T12:00:00Z",
+          "duration_ms": 206000
+        },
+        {
+          "title": "Slow Motion",
+          "artist": "SLANDER & Bret James",
+          "url": "https://music.apple.com/kz/album/1394267274?i=1394267344",
+          "collection": "Monstercat Instinct, Vol. 1",
+          "genre_name": "Dance",
+          "release_date": "2018-06-01T12:00:00Z",
+          "duration_ms": 206000
+        }
+      ]
+    },
+    {
+      "id": "awen-1066",
+      "artist": "Illenium",
+      "title": "I'll Be Your Reason",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "I'll Be Your Reason",
+          "artist": "ILLENIUM",
+          "url": "https://music.apple.com/kz/album/1002122832?i=1002122844",
+          "collection": "I'll Be Your Reason - Single",
+          "genre_name": "Electronica",
+          "release_date": "2015-06-15T12:00:00Z",
+          "duration_ms": 219882
+        },
+        {
+          "title": "I'll Be Your Reason",
+          "artist": "ILLENIUM",
+          "url": "https://music.apple.com/kz/album/1700472668?i=1700472864",
+          "collection": "Ashes",
+          "genre_name": "Electronic",
+          "release_date": "2015-06-15T12:00:00Z",
+          "duration_ms": 219882
+        },
+        {
+          "title": "I’ll Be Your Reason",
+          "artist": "ILLENIUM",
+          "url": "https://music.apple.com/kz/album/1509361190?i=1509361204",
+          "collection": "Neptones by Jc Caylen (Edited Version)",
+          "genre_name": "Electronica",
+          "release_date": "2015-12-04T12:00:00Z",
+          "duration_ms": 203662
+        },
+        {
+          "title": "I’ll Be Your Reason",
+          "artist": "ILLENIUM",
+          "url": "https://music.apple.com/kz/album/1810800683?i=1810800689",
+          "collection": "Neptones by JC Caylen (Edited version)",
+          "genre_name": "Electronica",
+          "release_date": "2015-12-04T12:00:00Z",
+          "duration_ms": 203662
+        }
+      ]
+    },
+    {
+      "id": "awen-1067",
+      "artist": "Louis The Child, Wafia",
+      "title": "Better Not",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Better Not",
+          "artist": "Louis The Child & Wafia",
+          "url": "https://music.apple.com/kz/album/1439611416?i=1439611897",
+          "collection": "Kids At Play - EP",
+          "genre_name": "Electronic",
+          "release_date": "2018-04-13T12:00:00Z",
+          "duration_ms": 222866
+        }
+      ]
+    },
+    {
+      "id": "awen-1076",
+      "artist": "QsensX",
+      "title": "#96",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "QsensX, Pt. 96",
+          "artist": "QsensX",
+          "url": "https://music.apple.com/kz/album/1259513521?i=1259514417",
+          "collection": "Qx 91-110",
+          "genre_name": "Electronic",
+          "release_date": "2017-07-01T12:00:00Z",
+          "duration_ms": 361942
+        }
+      ]
+    },
+    {
+      "id": "awen-1077",
+      "artist": "Sheck Wes",
+      "title": "Mo Bamba",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Mo Bamba",
+          "artist": "Blkd Out",
+          "url": "https://music.apple.com/kz/album/1444747739?i=1444747740",
+          "collection": "Mo Bamba - Single",
+          "genre_name": "House",
+          "release_date": "2018-11-27T12:00:00Z",
+          "duration_ms": 199602
+        },
+        {
+          "title": "Mo Bamba",
+          "artist": "Stefan Botes",
+          "url": "https://music.apple.com/kz/album/1704628652?i=1704628654",
+          "collection": "Mo Bamba - Single",
+          "genre_name": "House",
+          "release_date": "2023-08-29T12:00:00Z",
+          "duration_ms": 207076
+        },
+        {
+          "title": "Mo Bamba",
+          "artist": "Daniel D",
+          "url": "https://music.apple.com/kz/album/1455899743?i=1455900033",
+          "collection": "The Singles, Vol. 2",
+          "genre_name": "Instrumental",
+          "release_date": "2019-03-07T12:00:00Z",
+          "duration_ms": 154498
+        },
+        {
+          "title": "Mo Bamba",
+          "artist": "Cardo Grandz",
+          "url": "https://music.apple.com/kz/album/1474462824?i=1474462922",
+          "collection": "Mo Bamba - Single",
+          "genre_name": "Instrumental",
+          "release_date": "2018-12-16T12:00:00Z",
+          "duration_ms": 177534
+        },
+        {
+          "title": "Mo Bamba",
+          "artist": "Instrumental King",
+          "url": "https://music.apple.com/kz/album/1513443889?i=1513443890",
+          "collection": "Mo Bamba - Single",
+          "genre_name": "Karaoke",
+          "release_date": "2018-12-19T12:00:00Z",
+          "duration_ms": 190685
+        }
+      ]
+    },
+    {
+      "id": "awen-1078",
+      "artist": "Kanye West",
+      "title": "I Thought About Killing You (Feat. Francis And The Lights)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Stronger",
+          "artist": "Kanye West",
+          "url": "https://music.apple.com/kz/album/1442845779?i=1442846328",
+          "collection": "Graduation",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2007-07-31T12:00:00Z",
+          "duration_ms": 312027
+        }
+      ]
+    },
+    {
+      "id": "awen-1079",
+      "artist": "Travis Scott",
+      "title": "Stargazing (Demo)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "goosebumps",
+          "artist": "Travis Scott",
+          "url": "https://music.apple.com/kz/album/1151481435?i=1151481750",
+          "collection": "Birds In The Trap Sing McKnight",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2016-09-02T07:00:00Z",
+          "duration_ms": 243837
+        }
+      ]
+    },
+    {
+      "id": "awen-1081",
+      "artist": "Hush",
+      "title": "Waterval",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Waterval",
+          "artist": "Hush",
+          "url": "https://music.apple.com/kz/album/1382936462?i=1382936464",
+          "collection": "Waterval - Single",
+          "genre_name": "Dance",
+          "release_date": "2018-06-05T12:00:00Z",
+          "duration_ms": 195500
+        },
+        {
+          "title": "Waterval",
+          "artist": "Hush",
+          "url": "https://music.apple.com/kz/album/1394267274?i=1394267342",
+          "collection": "Monstercat Instinct, Vol. 1",
+          "genre_name": "Dance",
+          "release_date": "2018-06-05T12:00:00Z",
+          "duration_ms": 195500
+        }
+      ]
+    },
+    {
+      "id": "awen-1082",
+      "artist": "Lana Del Rey",
+      "title": "Summer Bummer (Feat. A$AP Rocky & Playboi Carti)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "White Mustang",
+          "artist": "Lana Del Rey",
+          "url": "https://music.apple.com/kz/album/1440899893?i=1440900264",
+          "collection": "Lust for Life",
+          "genre_name": "Alternative",
+          "release_date": "2017-07-21T12:00:00Z",
+          "duration_ms": 164710
+        },
+        {
+          "title": "West Coast",
+          "artist": "Lana Del Rey",
+          "url": "https://music.apple.com/kz/album/1440818509?i=1440818520",
+          "collection": "Ultraviolence (Deluxe)",
+          "genre_name": "Alternative",
+          "release_date": "2014-04-14T07:00:00Z",
+          "duration_ms": 256760
+        },
+        {
+          "title": "Margaret (feat. Bleachers)",
+          "artist": "Lana Del Rey",
+          "url": "https://music.apple.com/kz/album/1655349115?i=1655349418",
+          "collection": "Did you know that there's a tunnel under Ocean Blvd",
+          "genre_name": "Pop",
+          "release_date": "2023-03-24T12:00:00Z",
+          "duration_ms": 339891
+        },
+        {
+          "title": "Ultraviolence",
+          "artist": "Lana Del Rey",
+          "url": "https://music.apple.com/kz/album/1440818509?i=1440818517",
+          "collection": "Ultraviolence (Deluxe)",
+          "genre_name": "Alternative",
+          "release_date": "2014-06-04T12:00:00Z",
+          "duration_ms": 251480
+        },
+        {
+          "title": "Chemtrails Over the Country Club",
+          "artist": "Lana Del Rey",
+          "url": "https://music.apple.com/kz/album/1545567745?i=1545567750",
+          "collection": "Chemtrails Over the Country Club",
+          "genre_name": "Alternative",
+          "release_date": "2021-01-13T08:00:00Z",
+          "duration_ms": 271177
+        }
+      ]
+    },
+    {
+      "id": "awen-1083",
+      "artist": "Jesse Baez & Dillon Francis",
+      "title": "Quiero Saber",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Quiero Saber",
+          "artist": "Jesse Baez & Dillon Francis",
+          "url": "https://music.apple.com/kz/album/1390802596?i=1390802606",
+          "collection": "Quiero Saber - Single",
+          "genre_name": "Latin Urban",
+          "release_date": "2018-05-31T12:00:00Z",
+          "duration_ms": 166253
+        },
+        {
+          "title": "Quiero Saber",
+          "artist": "Jesse Baez & Dillon Francis",
+          "url": "https://music.apple.com/kz/album/1417382029?i=1417382212",
+          "collection": "Turbo",
+          "genre_name": "Latin Urban",
+          "release_date": "2018-05-31T12:00:00Z",
+          "duration_ms": 166093
+        }
+      ]
+    },
+    {
+      "id": "awen-1084",
+      "artist": "Kygo feat. Will Heard",
+      "title": "Nothing Left",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Nothing Left",
+          "artist": "Halle Kearns",
+          "url": "https://music.apple.com/kz/album/1845744865?i=1845744866",
+          "collection": "Nothing Left - Single",
+          "genre_name": "Country",
+          "release_date": "2021-07-30T12:00:00Z",
+          "duration_ms": 177348
+        },
+        {
+          "title": "Nothing Left",
+          "artist": "Halle Kearns",
+          "url": "https://music.apple.com/kz/album/1845751354?i=1845751358",
+          "collection": "Every Girl - EP",
+          "genre_name": "Country",
+          "release_date": "2021-07-30T12:00:00Z",
+          "duration_ms": 177348
+        },
+        {
+          "title": "Nothing Left",
+          "artist": "Bruno Mars",
+          "url": "https://music.apple.com/kz/album/1866732792?i=1866733081",
+          "collection": "The Romantic",
+          "genre_name": "Pop",
+          "release_date": "2026-02-27T12:00:00Z",
+          "duration_ms": 214749
+        }
+      ]
+    },
+    {
+      "id": "awen-1087",
+      "artist": "Martin Garrix, LOOPERS",
+      "title": "Game Over",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Game Over",
+          "artist": "Martin Garrix & LOOPERS",
+          "url": "https://music.apple.com/kz/album/1371456068?i=1371456355",
+          "collection": "Game Over - Single",
+          "genre_name": "Dance",
+          "release_date": "2018-04-20T12:00:00Z",
+          "duration_ms": 155645
+        }
+      ]
+    },
+    {
+      "id": "awen-1092",
+      "artist": "Bazzi",
+      "title": "Why",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Beautiful (feat. Camila Cabello)",
+          "artist": "Bazzi",
+          "url": "https://music.apple.com/kz/album/1419758421?i=1419758422",
+          "collection": "Beautiful (feat. Camila Cabello) - Single",
+          "genre_name": "Pop",
+          "release_date": "2016-01-01T12:00:00Z",
+          "duration_ms": 180000
+        },
+        {
+          "title": "Beautiful",
+          "artist": "Bazzi",
+          "url": "https://music.apple.com/kz/album/1369438774?i=1369439269",
+          "collection": "COSMIC",
+          "genre_name": "Pop",
+          "release_date": "2017-07-02T07:00:00Z",
+          "duration_ms": 178242
+        },
+        {
+          "title": "Live Forever",
+          "artist": "Bazzi",
+          "url": "https://music.apple.com/kz/album/1475805810?i=1475805821",
+          "collection": "Soul Searching",
+          "genre_name": "Pop",
+          "release_date": "2019-08-09T12:00:00Z",
+          "duration_ms": 152471
+        },
+        {
+          "title": "Myself",
+          "artist": "Bazzi",
+          "url": "https://music.apple.com/kz/album/1369438774?i=1369438949",
+          "collection": "COSMIC",
+          "genre_name": "Pop",
+          "release_date": "2018-04-12T07:00:00Z",
+          "duration_ms": 167553
+        },
+        {
+          "title": "Dreams",
+          "artist": "Bazzi",
+          "url": "https://music.apple.com/kz/album/1369438774?i=1369438946",
+          "collection": "COSMIC",
+          "genre_name": "Pop",
+          "release_date": "2018-04-12T07:00:00Z",
+          "duration_ms": 147021
+        }
+      ]
+    },
+    {
+      "id": "awen-1093",
+      "artist": "Wafia",
+      "title": "Heartburn (Felix Cartal Remix)",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Heartburn (Felix Cartal Remix)",
+          "artist": "Wafia",
+          "url": "https://music.apple.com/kz/album/1709041120?i=1709041430",
+          "collection": "Heartburn (Remixes) - Single",
+          "genre_name": "Electronic",
+          "release_date": "2016-05-06T12:00:00Z",
+          "duration_ms": 215329
+        },
+        {
+          "title": "Heartburn (Felix Cartal Remix)",
+          "artist": "Wafia",
+          "url": "https://music.apple.com/kz/album/1846000962?i=1846000988",
+          "collection": "Heartburn (10 year anniversary edition) - EP",
+          "genre_name": "Electronic",
+          "release_date": "2016-05-06T12:00:00Z",
+          "duration_ms": 215329
+        }
+      ]
+    },
+    {
+      "id": "awen-1097",
+      "artist": "DJ Snake",
+      "title": "Talk",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Talk",
+          "artist": "DJ Snake & George Maple",
+          "url": "https://music.apple.com/kz/album/1443231191?i=1443231203",
+          "collection": "Encore",
+          "genre_name": "Dance",
+          "release_date": "2016-06-02T12:00:00Z",
+          "duration_ms": 237966
+        },
+        {
+          "title": "Talk (feat. George Maple)",
+          "artist": "DJ Snake",
+          "url": "https://music.apple.com/kz/album/1440867448?i=1440867800",
+          "collection": "Encore",
+          "genre_name": "Dance",
+          "release_date": "2016-06-02T12:00:00Z",
+          "duration_ms": 237966
+        },
+        {
+          "title": "A Different Way (feat. Lauv)",
+          "artist": "DJ Snake",
+          "url": "https://music.apple.com/kz/album/1444277947?i=1444277948",
+          "collection": "A Different Way (feat. Lauv) - Single",
+          "genre_name": "Dance",
+          "release_date": "2017-09-21T12:00:00Z",
+          "duration_ms": 198286
+        },
+        {
+          "title": "Let Me Love You (feat. Justin Bieber)",
+          "artist": "DJ Snake",
+          "url": "https://music.apple.com/kz/album/1443231191?i=1443231218",
+          "collection": "Encore",
+          "genre_name": "Dance",
+          "release_date": "2016-08-05T12:00:00Z",
+          "duration_ms": 205950
+        },
+        {
+          "title": "Let Me Love You (feat. Justin Bieber)",
+          "artist": "DJ Snake",
+          "url": "https://music.apple.com/kz/album/1440867448?i=1440867817",
+          "collection": "Encore",
+          "genre_name": "Dance",
+          "release_date": "2016-08-05T12:00:00Z",
+          "duration_ms": 205950
+        }
+      ]
+    },
+    {
+      "id": "awen-1098",
+      "artist": "Sufjan Stevens",
+      "title": "Mystery of Love",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Mystery Of Love (Demo)",
+          "artist": "Sufjan Stevens",
+          "url": "https://music.apple.com/kz/album/1794841863?i=1794842581",
+          "collection": "Carrie & Lowell (10th Anniversary Edition)",
+          "genre_name": "Alternative",
+          "release_date": "2015-03-31T12:00:00Z",
+          "duration_ms": 244767
+        },
+        {
+          "title": "Mystery of Love",
+          "artist": "Alban Claudin",
+          "url": "https://music.apple.com/kz/album/1757656519?i=1757656548",
+          "collection": "Video Games - Single",
+          "genre_name": "Classical Crossover",
+          "release_date": "2024-05-03T12:00:00Z",
+          "duration_ms": 145068
+        },
+        {
+          "title": "Mystery of Love",
+          "artist": "Alban Claudin",
+          "url": "https://music.apple.com/kz/album/1742995356?i=1742995361",
+          "collection": "Mystery of Love - Single",
+          "genre_name": "Classical Crossover",
+          "release_date": "2024-05-03T12:00:00Z",
+          "duration_ms": 145068
+        },
+        {
+          "title": "Mystery of Love",
+          "artist": "Mree",
+          "url": "https://music.apple.com/kz/album/1694342037?i=1694342038",
+          "collection": "Mystery of Love - Single",
+          "genre_name": "Folk",
+          "release_date": "2023-07-21T12:00:00Z",
+          "duration_ms": 262571
+        },
+        {
+          "title": "Mystery of Love",
+          "artist": "Piano Peace",
+          "url": "https://music.apple.com/kz/album/1448866696?i=1448866878",
+          "collection": "Sleep Piano Music",
+          "genre_name": "New Age",
+          "release_date": "2018-01-09T12:00:00Z",
+          "duration_ms": 183748
+        }
+      ]
+    },
+    {
+      "id": "awen-1100",
+      "artist": "Eminem",
+      "title": "Ass Like That",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Ass Like That",
+          "artist": "Eminem",
+          "url": "https://music.apple.com/kz/album/1435774346?i=1435774730",
+          "collection": "Encore",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2004-01-01T12:00:00Z",
+          "duration_ms": 265480
+        },
+        {
+          "title": "Ass Like That",
+          "artist": "Eminem",
+          "url": "https://music.apple.com/kz/album/1425129724?i=1425131552",
+          "collection": "Encore (Deluxe Version)",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2004-01-01T12:00:00Z",
+          "duration_ms": 265480
+        }
+      ]
+    },
+    {
+      "id": "awen-1107",
+      "artist": "OneRepublic feat. Logic",
+      "title": "Start Again",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Start Again",
+          "artist": "OneRepublic & Vegas Jones",
+          "url": "https://music.apple.com/kz/album/1399348058?i=1399348303",
+          "collection": "Start Again - Single",
+          "genre_name": "Pop",
+          "release_date": "2018-06-22T12:00:00Z",
+          "duration_ms": 162876
+        }
+      ]
+    },
+    {
+      "id": "awen-1112",
+      "artist": "Nicki Minaj",
+      "title": "Chun-Li",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Chun-Li",
+          "artist": "Nicki Minaj",
+          "url": "https://music.apple.com/kz/album/1642112713?i=1642112891",
+          "collection": "Queen Radio: Volume 1",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-04-12T12:00:00Z",
+          "duration_ms": 191600
+        },
+        {
+          "title": "Chun-Li",
+          "artist": "Nicki Minaj",
+          "url": "https://music.apple.com/kz/album/1444820462?i=1444820580",
+          "collection": "Queen (Deluxe)",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-04-12T07:00:00Z",
+          "duration_ms": 191606
+        },
+        {
+          "title": "Chun-Li",
+          "artist": "Nicki Minaj",
+          "url": "https://music.apple.com/kz/album/1398477182?i=1398477470",
+          "collection": "Queen",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-04-12T07:00:00Z",
+          "duration_ms": 191606
+        }
+      ]
+    },
+    {
+      "id": "awen-1113",
+      "artist": "Lil Peep",
+      "title": "No Respect",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Awful Things (feat. Lil Tracy)",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1709756917?i=1709756923",
+          "collection": "Come Over When You're Sober, Pt. 1",
+          "genre_name": "Rock",
+          "release_date": "2017-06-28T07:00:00Z",
+          "duration_ms": 214427
+        },
+        {
+          "title": "Spotlight (og version)",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1732783051?i=1732783059",
+          "collection": "HATE ME - Single",
+          "genre_name": "Alternative Rap",
+          "release_date": "2024-03-08T12:00:00Z",
+          "duration_ms": 171800
+        },
+        {
+          "title": "broken smile (og version)",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1714704779?i=1714704781",
+          "collection": "Come Over When You're Sober, Pt. 2 (og version)",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2023-11-10T12:00:00Z",
+          "duration_ms": 161000
+        },
+        {
+          "title": "love letter",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1846463544?i=1846463546",
+          "collection": "love letter - Single",
+          "genre_name": "Hip-Hop",
+          "release_date": "2025-10-31T12:00:00Z",
+          "duration_ms": 152067
+        },
+        {
+          "title": "Better Off (Dying)",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1709756917?i=1709756925",
+          "collection": "Come Over When You're Sober, Pt. 1",
+          "genre_name": "Rock",
+          "release_date": "2017-08-15T12:00:00Z",
+          "duration_ms": 154815
+        }
+      ]
+    },
+    {
+      "id": "awen-1114",
+      "artist": "Emily Browning",
+      "title": "Sweet Dreams",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Sweet Dreams (Are Made Of This)",
+          "artist": "Emily Browning",
+          "url": "https://music.apple.com/kz/album/1455159442?i=1455159443",
+          "collection": "Sucker Punch (Original Motion Picture Soundtrack)",
+          "genre_name": "Pop",
+          "release_date": "2011-03-22T12:00:00Z",
+          "duration_ms": 318640
+        }
+      ]
+    },
+    {
+      "id": "awen-1116",
+      "artist": "xxxtentacion",
+      "title": "fuck love",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Look At Me!",
+          "artist": "XXXTENTACION",
+          "url": "https://music.apple.com/kz/album/1208723694?i=1208724643",
+          "collection": "Look At Me! - Single",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2017-02-20T12:00:00Z",
+          "duration_ms": 126346
+        },
+        {
+          "title": "BAD!",
+          "artist": "XXXTENTACION",
+          "url": "https://music.apple.com/kz/album/1441480826?i=1441480831",
+          "collection": "SKINS",
+          "genre_name": "Pop",
+          "release_date": "2018-11-09T08:00:00Z",
+          "duration_ms": 94246
+        },
+        {
+          "title": "NUMB",
+          "artist": "XXXTENTACION",
+          "url": "https://music.apple.com/kz/album/1359292515?i=1359293480",
+          "collection": "?",
+          "genre_name": "Pop",
+          "release_date": "2018-03-16T12:00:00Z",
+          "duration_ms": 186268
+        },
+        {
+          "title": "Fuck Love",
+          "artist": "ItsAMoney",
+          "url": "https://music.apple.com/kz/album/1455180408?i=1455180413",
+          "collection": "Fuck Love - Single",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2019-03-04T12:00:00Z",
+          "duration_ms": 133971
+        },
+        {
+          "title": "changes",
+          "artist": "XXXTENTACION",
+          "url": "https://music.apple.com/kz/album/1359292515?i=1359294051",
+          "collection": "?",
+          "genre_name": "Pop",
+          "release_date": "2018-03-02T08:00:00Z",
+          "duration_ms": 121887
+        }
+      ]
+    },
+    {
+      "id": "awen-1118",
+      "artist": "Ed Sheeran",
+      "title": "Perfect",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Perfect",
+          "artist": "Ed Sheeran",
+          "url": "https://music.apple.com/kz/album/1193701079?i=1193701400",
+          "collection": "÷ (Deluxe)",
+          "genre_name": "Pop",
+          "release_date": "2017-03-03T08:00:00Z",
+          "duration_ms": 263400
+        },
+        {
+          "title": "Perfect",
+          "artist": "Ed Sheeran",
+          "url": "https://music.apple.com/kz/album/1193700601?i=1193700769",
+          "collection": "÷",
+          "genre_name": "Pop",
+          "release_date": "2017-03-03T08:00:00Z",
+          "duration_ms": 263400
+        },
+        {
+          "title": "Perfect",
+          "artist": "Ed Sheeran",
+          "url": "https://music.apple.com/kz/album/1766261100?i=1766261290",
+          "collection": "+-=÷× (Tour Collection)",
+          "genre_name": "Pop",
+          "release_date": "2017-03-03T12:00:00Z",
+          "duration_ms": 263400
+        }
+      ]
+    },
+    {
+      "id": "awen-1119",
+      "artist": "Cat Power",
+      "title": "Sea Of Love (Remastered Version)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Sea of Love (Remastered)",
+          "artist": "Cat Power",
+          "url": "https://music.apple.com/kz/album/269736803?i=269738568",
+          "collection": "Juno (Music from the Motion Picture)",
+          "genre_name": "Soundtrack",
+          "release_date": "1999-09-14T12:00:00Z",
+          "duration_ms": 142840
+        },
+        {
+          "title": "Have Yourself a Merry Little Christmas",
+          "artist": "Cat Power",
+          "url": "https://music.apple.com/kz/album/1589285212?i=1589285438",
+          "collection": "Have Yourself a Merry Little Christmas - Single",
+          "genre_name": "Alternative",
+          "release_date": "2013-12-18T12:00:00Z",
+          "duration_ms": 133770
+        }
+      ]
+    },
+    {
+      "id": "awen-1122",
+      "artist": "Fink",
+      "title": "Warm Shadow",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Warm Shadow (Dactyl Remix)",
+          "artist": "Fink",
+          "url": "https://music.apple.com/kz/album/1440774620?i=1440774987",
+          "collection": "The Walking Dead: AMC Original Soundtrack, Vol. 1",
+          "genre_name": "Soundtrack",
+          "release_date": "2013-03-17T12:00:00Z",
+          "duration_ms": 333200
+        },
+        {
+          "title": "Warm Shadow (Live from Epicerie Moderne, Lyon – Oct 28 2011)",
+          "artist": "Fink",
+          "url": "https://music.apple.com/kz/album/562220067?i=562220092",
+          "collection": "Wheels Turn Beneath My Feet (Live)",
+          "genre_name": "Alternative",
+          "release_date": "2012-09-18T12:00:00Z",
+          "duration_ms": 408693
+        },
+        {
+          "title": "Warm Shadow (Radio Edit)",
+          "artist": "Fink",
+          "url": "https://music.apple.com/kz/album/615406318?i=615406319",
+          "collection": "Warm Shadow - EP",
+          "genre_name": "Alternative",
+          "release_date": "2013-03-10T12:00:00Z",
+          "duration_ms": 208040
+        },
+        {
+          "title": "Warm Shadow (Marcus Worgull Remix)",
+          "artist": "Fink",
+          "url": "https://music.apple.com/kz/album/615406318?i=615406325",
+          "collection": "Warm Shadow - EP",
+          "genre_name": "Alternative",
+          "release_date": "2013-03-10T12:00:00Z",
+          "duration_ms": 414695
+        },
+        {
+          "title": "Warm Shadow (IIUII)",
+          "artist": "Fink",
+          "url": "https://music.apple.com/kz/album/1560154230?i=1560154232",
+          "collection": "IIUII",
+          "genre_name": "Alternative",
+          "release_date": "2021-08-20T12:00:00Z",
+          "duration_ms": 379456
+        }
+      ]
+    },
+    {
+      "id": "awen-1123",
+      "artist": "LiL PEEP",
+      "title": "Let It Flow",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Let It Flow",
+          "artist": "Toni Braxton",
+          "url": "https://music.apple.com/kz/album/302986472?i=302986597",
+          "collection": "Ultimate Toni Braxton",
+          "genre_name": "R&B/Soul",
+          "release_date": "1995-11-14T08:00:00Z",
+          "duration_ms": 249373
+        },
+        {
+          "title": "Let It Flow",
+          "artist": "ONEPIX",
+          "url": "https://music.apple.com/kz/album/6772191234?i=6772191673",
+          "collection": "Loving Your Heart Vol 08",
+          "genre_name": "Pop",
+          "release_date": "2026-05-22T12:00:00Z",
+          "duration_ms": 279600
+        },
+        {
+          "title": "Let It Flow",
+          "artist": "En Vogue",
+          "url": "https://music.apple.com/kz/album/357826027?i=357826228",
+          "collection": "Ev3",
+          "genre_name": "Pop",
+          "release_date": "1997-06-06T12:00:00Z",
+          "duration_ms": 339933
+        },
+        {
+          "title": "Let it flow",
+          "artist": "Zeroworry Music",
+          "url": "https://music.apple.com/kz/album/1888136004?i=1888136380",
+          "collection": "Vibes from the shore",
+          "genre_name": "Reggae",
+          "release_date": "2026-03-22T12:00:00Z",
+          "duration_ms": 232160
+        },
+        {
+          "title": "Let It Flow",
+          "artist": "Heavy D & The Boyz",
+          "url": "https://music.apple.com/kz/album/1442869923?i=1442870254",
+          "collection": "Big Tyme",
+          "genre_name": "Rap",
+          "release_date": "1989-05-26T12:00:00Z",
+          "duration_ms": 225867
+        }
+      ]
+    },
+    {
+      "id": "awen-1126",
+      "artist": "Amber Run",
+      "title": "I Found",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "I Found",
+          "artist": "Amber Run",
+          "url": "https://music.apple.com/kz/album/907212109?i=907212154",
+          "collection": "Pilot EP",
+          "genre_name": "Alternative",
+          "release_date": "2014-09-19T07:00:00Z",
+          "duration_ms": 274227
+        },
+        {
+          "title": "I Found",
+          "artist": "Amber Run",
+          "url": "https://music.apple.com/kz/album/1818554104?i=1818554105",
+          "collection": "I Found - EP",
+          "genre_name": "Pop",
+          "release_date": "2025-07-02T12:00:00Z",
+          "duration_ms": 272474
+        },
+        {
+          "title": "I Found",
+          "artist": "Amber Run",
+          "url": "https://music.apple.com/kz/album/968213458?i=968213459",
+          "collection": "5AM (Expanded Edition)",
+          "genre_name": "Alternative",
+          "release_date": "2014-09-19T12:00:00Z",
+          "duration_ms": 273000
+        },
+        {
+          "title": "I Found",
+          "artist": "Amber Run",
+          "url": "https://music.apple.com/kz/album/1277287952?i=1277288657",
+          "collection": "Teen Wolf (Original Television Soundtrack)",
+          "genre_name": "Soundtrack",
+          "release_date": "2014-09-19T12:00:00Z",
+          "duration_ms": 275251
+        },
+        {
+          "title": "I Found",
+          "artist": "Amber Run",
+          "url": "https://music.apple.com/kz/album/1780358816?i=1780358820",
+          "collection": "I Found (Mahogany Sessions) - Single",
+          "genre_name": "Alternative",
+          "release_date": "2014-09-19T12:00:00Z",
+          "duration_ms": 273000
+        }
+      ]
+    },
+    {
+      "id": "awen-1129",
+      "artist": "KALEO",
+      "title": "Save Yourself",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Save Yourself",
+          "artist": "KALEO",
+          "url": "https://music.apple.com/kz/album/1107254993?i=1107255005",
+          "collection": "A / B",
+          "genre_name": "Alternative",
+          "release_date": "2016-06-10T07:00:00Z",
+          "duration_ms": 273880
+        },
+        {
+          "title": "Save Yourself",
+          "artist": "KALEO",
+          "url": "https://music.apple.com/kz/album/6769584647?i=6769584658",
+          "collection": "A/B (Deluxe Edition)",
+          "genre_name": "Alternative",
+          "release_date": "2016-06-10T12:00:00Z",
+          "duration_ms": 273880
+        }
+      ]
+    },
+    {
+      "id": "awen-1132",
+      "artist": "A$AP Rocky",
+      "title": "Lord Pretty Flacko Jodye 2 (Y2K Remix)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi)",
+          "artist": "A$AP Rocky",
+          "url": "https://music.apple.com/kz/album/1388565682?i=1388566771",
+          "collection": "TESTING",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-05-25T12:00:00Z",
+          "duration_ms": 315769
+        },
+        {
+          "title": "Praise The Lord (Da Shine) [feat. Skepta]",
+          "artist": "A$AP Rocky",
+          "url": "https://music.apple.com/kz/album/1388565682?i=1388566993",
+          "collection": "TESTING",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-05-25T12:00:00Z",
+          "duration_ms": 205813
+        },
+        {
+          "title": "Sundress",
+          "artist": "A$AP Rocky",
+          "url": "https://music.apple.com/kz/album/1442956429?i=1442956431",
+          "collection": "Sundress - Single",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2018-11-19T12:00:00Z",
+          "duration_ms": 158206
+        },
+        {
+          "title": "I Smoked Away My Brain (I'm God x Demons Mashup) [feat. Imogen Heap & Clams Casino]",
+          "artist": "A$AP Rocky",
+          "url": "https://music.apple.com/kz/album/1702941199?i=1702941200",
+          "collection": "I Smoked Away My Brain (I'm God x Demons Mashup) [feat. Imogen Heap & Clams Casino] - Single",
+          "genre_name": "Rap",
+          "release_date": "2023-08-17T12:00:00Z",
+          "duration_ms": 190286
+        }
+      ]
+    },
+    {
+      "id": "awen-1133",
+      "artist": "Rihanna",
+      "title": "Diamond",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Diamonds (Gregor Salto Downtempo Remix)",
+          "artist": "Rihanna",
+          "url": "https://music.apple.com/kz/album/1417177082?i=1417177327",
+          "collection": "Unapologetic (Deluxe Version)",
+          "genre_name": "Pop",
+          "release_date": "2012-01-01T12:00:00Z",
+          "duration_ms": 269453
+        },
+        {
+          "title": "Diamonds",
+          "artist": "Rihanna",
+          "url": "https://music.apple.com/kz/album/1417177082?i=1417177301",
+          "collection": "Unapologetic (Deluxe Version)",
+          "genre_name": "Pop",
+          "release_date": "2012-09-26T12:00:00Z",
+          "duration_ms": 225147
+        },
+        {
+          "title": "We Found Love (feat. Calvin Harris)",
+          "artist": "Rihanna",
+          "url": "https://music.apple.com/kz/album/1443061797?i=1443062143",
+          "collection": "Talk That Talk (Deluxe)",
+          "genre_name": "Pop",
+          "release_date": "2011-09-11T12:00:00Z",
+          "duration_ms": 215227
+        },
+        {
+          "title": "Only Girl (In The World)",
+          "artist": "Rihanna",
+          "url": "https://music.apple.com/kz/album/1440895867?i=1440896009",
+          "collection": "Loud (Deluxe)",
+          "genre_name": "Pop",
+          "release_date": "2010-09-10T07:00:00Z",
+          "duration_ms": 235493
+        },
+        {
+          "title": "Take a Bow",
+          "artist": "Rihanna",
+          "url": "https://music.apple.com/kz/album/1441154435?i=1441154580",
+          "collection": "Good Girl Gone Bad: Reloaded",
+          "genre_name": "Pop",
+          "release_date": "2008-04-15T07:00:00Z",
+          "duration_ms": 229413
+        }
+      ]
+    },
+    {
+      "id": "awen-1135",
+      "artist": "Khalid",
+      "title": "Location",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Location",
+          "artist": "Khalid",
+          "url": "https://music.apple.com/kz/album/1200868601?i=1200868875",
+          "collection": "American Teen",
+          "genre_name": "R&B/Soul",
+          "release_date": "2016-08-26T07:00:00Z",
+          "duration_ms": 219080
+        },
+        {
+          "title": "Location",
+          "artist": "Khalid",
+          "url": "https://music.apple.com/kz/album/1634933086?i=1634934866",
+          "collection": "Cardio Pop",
+          "genre_name": "Pop",
+          "release_date": "2016-08-26T12:00:00Z",
+          "duration_ms": 219080
+        },
+        {
+          "title": "Location",
+          "artist": "Khalid",
+          "url": "https://music.apple.com/kz/album/1634858216?i=1634859255",
+          "collection": "Internacionais Mais Tocadas",
+          "genre_name": "Pop",
+          "release_date": "2016-08-26T12:00:00Z",
+          "duration_ms": 217566
+        },
+        {
+          "title": "Location",
+          "artist": "Khalid",
+          "url": "https://music.apple.com/kz/album/1634923117?i=1634924836",
+          "collection": "Músicas Pop para Malhar | Academia 2022",
+          "genre_name": "Pop",
+          "release_date": "2016-08-26T12:00:00Z",
+          "duration_ms": 217566
+        },
+        {
+          "title": "Location",
+          "artist": "Khalid",
+          "url": "https://music.apple.com/kz/album/1634884496?i=1634885122",
+          "collection": "Treino Pop 2022",
+          "genre_name": "Pop",
+          "release_date": "2016-08-26T12:00:00Z",
+          "duration_ms": 217566
+        }
+      ]
+    },
+    {
+      "id": "awen-1139",
+      "artist": "Marian Hill",
+      "title": "Down",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Down",
+          "artist": "Marian Hill",
+          "url": "https://music.apple.com/kz/album/1440845571?i=1440845713",
+          "collection": "ACT ONE",
+          "genre_name": "Electronic",
+          "release_date": "2016-03-04T12:00:00Z",
+          "duration_ms": 197780
+        },
+        {
+          "title": "Down",
+          "artist": "Marian Hill",
+          "url": "https://music.apple.com/kz/album/1440879062?i=1440879184",
+          "collection": "Act One (The Complete Collection)",
+          "genre_name": "Electronic",
+          "release_date": "2016-03-04T12:00:00Z",
+          "duration_ms": 197780
+        }
+      ]
+    },
+    {
+      "id": "awen-1143",
+      "artist": "Clairo",
+      "title": "4EVER",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "4EVER",
+          "artist": "Clairo",
+          "url": "https://music.apple.com/kz/album/1893174158?i=1893174597",
+          "collection": "4EVER - Single",
+          "genre_name": "Alternative",
+          "release_date": "2018-04-27T12:00:00Z",
+          "duration_ms": 159595
+        },
+        {
+          "title": "4EVER",
+          "artist": "Clairo",
+          "url": "https://music.apple.com/kz/album/1893174883?i=1893174887",
+          "collection": "diary 001 - EP",
+          "genre_name": "Alternative",
+          "release_date": "2018-04-27T12:00:00Z",
+          "duration_ms": 159595
+        }
+      ]
+    },
+    {
+      "id": "awen-1144",
+      "artist": "James Young",
+      "title": "Moondust",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Moondust",
+          "artist": "Jaymes Young",
+          "url": "https://music.apple.com/kz/album/695027538?i=695027544",
+          "collection": "Dark Star - EP",
+          "genre_name": "Alternative",
+          "release_date": "2013-09-10T12:00:00Z",
+          "duration_ms": 225203
+        },
+        {
+          "title": "Moondust",
+          "artist": "Stardust Dreams",
+          "url": "https://music.apple.com/kz/album/1640449132?i=1640449133",
+          "collection": "Moondust",
+          "genre_name": "New Age",
+          "release_date": "2022-08-11T12:00:00Z",
+          "duration_ms": 210702
+        },
+        {
+          "title": "Moondust",
+          "artist": "Andy Lawrence",
+          "url": "https://music.apple.com/kz/album/1488897825?i=1488897829",
+          "collection": "Moondust - Single",
+          "genre_name": "Singer/Songwriter",
+          "release_date": "2019-12-05T12:00:00Z",
+          "duration_ms": 230750
+        },
+        {
+          "title": "Moondust",
+          "artist": "Sátyr & marsquake",
+          "url": "https://music.apple.com/kz/album/6770618861?i=6770622431",
+          "collection": "Déjà vu",
+          "genre_name": "Electronic",
+          "release_date": "2026-01-26T12:00:00Z",
+          "duration_ms": 141419
+        },
+        {
+          "title": "Moondust",
+          "artist": "James Malikey",
+          "url": "https://music.apple.com/kz/album/1783693929?i=1783694143",
+          "collection": "A Story of Love, Life and Freedom: Journey 1 - EP",
+          "genre_name": "Instrumental",
+          "release_date": "2021-06-28T12:00:00Z",
+          "duration_ms": 187867
+        }
+      ]
+    },
+    {
+      "id": "awen-1147",
+      "artist": "sosi",
+      "title": "this is the thing",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Like This",
+          "artist": "sosi",
+          "url": "https://music.apple.com/kz/album/1352632843?i=1352632846",
+          "collection": "This Is the Thing",
+          "genre_name": "Singer/Songwriter",
+          "release_date": "2018-02-07T12:00:00Z",
+          "duration_ms": 158510
+        },
+        {
+          "title": "Sink With the Light",
+          "artist": "sosi",
+          "url": "https://music.apple.com/kz/album/1352632843?i=1352632849",
+          "collection": "This Is the Thing",
+          "genre_name": "Singer/Songwriter",
+          "release_date": "2018-02-07T12:00:00Z",
+          "duration_ms": 144043
+        },
+        {
+          "title": "Ask for It",
+          "artist": "sosi",
+          "url": "https://music.apple.com/kz/album/1352632843?i=1352632845",
+          "collection": "This Is the Thing",
+          "genre_name": "Singer/Songwriter",
+          "release_date": "2018-02-07T12:00:00Z",
+          "duration_ms": 162936
+        },
+        {
+          "title": "There's No Need",
+          "artist": "sosi",
+          "url": "https://music.apple.com/kz/album/1352632843?i=1352632847",
+          "collection": "This Is the Thing",
+          "genre_name": "Singer/Songwriter",
+          "release_date": "2018-02-07T12:00:00Z",
+          "duration_ms": 237000
+        },
+        {
+          "title": "Mind What's Mine",
+          "artist": "sosi",
+          "url": "https://music.apple.com/kz/album/1352632843?i=1352632844",
+          "collection": "This Is the Thing",
+          "genre_name": "Singer/Songwriter",
+          "release_date": "2018-02-07T12:00:00Z",
+          "duration_ms": 59219
+        }
+      ]
+    },
+    {
+      "id": "awen-1148",
+      "artist": "Travis Scott feat. Kendrick Lamar",
+      "title": "Goosebumps",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "goosebumps",
+          "artist": "Travis Scott",
+          "url": "https://music.apple.com/kz/album/1151481435?i=1151481750",
+          "collection": "Birds In The Trap Sing McKnight",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2016-09-02T07:00:00Z",
+          "duration_ms": 243837
+        }
+      ]
+    },
+    {
+      "id": "awen-1152",
+      "artist": "Reo Cragun",
+      "title": "In Too Deep",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Prom Night",
+          "artist": "Reo Cragun",
+          "url": "https://music.apple.com/kz/album/1443086247?i=1443086616",
+          "collection": "Growing Pains",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2017-08-04T12:00:00Z",
+          "duration_ms": 177394
+        }
+      ]
+    },
+    {
+      "id": "awen-1156",
+      "artist": "Trey Songz",
+      "title": "Na Na",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Na Na",
+          "artist": "Trey Songz",
+          "url": "https://music.apple.com/kz/album/1005208773?i=1005209146",
+          "collection": "Trigga Reloaded",
+          "genre_name": "R&B/Soul",
+          "release_date": "2013-12-26T12:00:00Z",
+          "duration_ms": 231907
+        },
+        {
+          "title": "Na Na",
+          "artist": "Trey Songz",
+          "url": "https://music.apple.com/kz/album/1830482850?i=1830482863",
+          "collection": "Trigga (Deluxe)",
+          "genre_name": "R&B/Soul",
+          "release_date": "2013-12-26T12:00:00Z",
+          "duration_ms": 231907
+        },
+        {
+          "title": "Na Na",
+          "artist": "Trey Songz",
+          "url": "https://music.apple.com/kz/album/1005197085?i=1005197099",
+          "collection": "Trigga Reloaded",
+          "genre_name": "R&B/Soul",
+          "release_date": "2014-01-21T08:00:00Z",
+          "duration_ms": 231907
+        }
+      ]
+    },
+    {
+      "id": "awen-1158",
+      "artist": "longlost",
+      "title": "stay",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "This Is for You",
+          "artist": "Longlost",
+          "url": "https://music.apple.com/kz/album/1809740006?i=1809740008",
+          "collection": "This Is for You - Single",
+          "genre_name": "Pop",
+          "release_date": "2019-02-14T12:00:00Z",
+          "duration_ms": 105387
+        }
+      ]
+    },
+    {
+      "id": "awen-1160",
+      "artist": "Brennan Savage",
+      "title": "Look At Me Now",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Look At Me Now",
+          "artist": "Pastor Mike Jr.",
+          "url": "https://music.apple.com/kz/album/1465322441?i=1465322450",
+          "collection": "Live Free",
+          "genre_name": "Christian",
+          "release_date": "2019-09-20T12:00:00Z",
+          "duration_ms": 246015
+        },
+        {
+          "title": "Look at Me Now",
+          "artist": "TryHardNinja & Groundbreaking",
+          "url": "https://music.apple.com/kz/album/1826304318?i=1826304320",
+          "collection": "Look at Me Now - Single",
+          "genre_name": "Dance",
+          "release_date": "2017-06-09T12:00:00Z",
+          "duration_ms": 242756
+        },
+        {
+          "title": "Look At Me Now",
+          "artist": "Caroline Polachek",
+          "url": "https://music.apple.com/kz/album/1482421639?i=1482422079",
+          "collection": "Pang",
+          "genre_name": "Indie Pop",
+          "release_date": "2019-10-14T12:00:00Z",
+          "duration_ms": 183985
+        },
+        {
+          "title": "Looking for Love",
+          "artist": "Brennan Savage",
+          "url": "https://music.apple.com/kz/album/1467267342?i=1467267506",
+          "collection": "Tragedy",
+          "genre_name": "Alternative",
+          "release_date": "2019-06-07T12:00:00Z",
+          "duration_ms": 123000
+        },
+        {
+          "title": "Look At Me Now",
+          "artist": "Karmin",
+          "url": "https://music.apple.com/kz/album/1464823495?i=1464823556",
+          "collection": "Look At Me Now - Single",
+          "genre_name": "Hip-Hop/Rap",
+          "release_date": "2011-04-12T12:00:00Z",
+          "duration_ms": 210411
+        }
+      ]
     }
   ]
 }
