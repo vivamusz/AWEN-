@@ -1,25 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T14:18:32+00:00",
+  "generated_at_utc": "2026-11-21T15:36:54+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2075,
-    "needs_genre": 921,
+    "needs_genre": 904,
     "possible_import_errors": 16,
     "duplicate_groups": 10,
     "tracks_in_duplicate_groups": 30,
-    "genre_conflicts": 6
+    "genre_conflicts": 14
   },
   "items": [
-    {
-      "id": "awen-1",
-      "artist": "J Panda",
-      "title": "Uaiymdama",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/6789179050?i=6789179053"
-    },
     {
       "id": "awen-7",
       "artist": "Omido, Rick Jansen, Ordell",
@@ -643,15 +634,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-168",
-      "artist": "yglm",
-      "title": "one",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1604558224?i=1604558708"
     },
     {
       "id": "awen-170",
@@ -1706,22 +1688,6 @@
       ]
     },
     {
-      "id": "awen-439",
-      "artist": "Son Little",
-      "title": "neve give up",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-443",
-      "artist": "Lil Tecca",
-      "title": "Ransom",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-444",
       "artist": "Robinson",
       "title": "Medicine",
@@ -1746,14 +1712,6 @@
       ]
     },
     {
-      "id": "awen-452",
-      "artist": "MKTO",
-      "title": "How Can I Forget",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-453",
       "artist": "Landon Forbes",
       "title": "Rebound",
@@ -1767,7 +1725,8 @@
       "title": "Playing at the End of the Universe",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1253501826?i=1253503252"
     },
     {
       "id": "awen-457",
@@ -1839,7 +1798,8 @@
       "title": "Opal",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1894490693?i=1894490700"
     },
     {
       "id": "awen-476",
@@ -1879,6 +1839,17 @@
       ]
     },
     {
+      "id": "awen-481",
+      "artist": "Kodaline",
+      "title": "All I Want",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Rock / Indie",
+      "source_url": "https://music.apple.com/kz/album/610186727?i=610187010"
+    },
+    {
       "id": "awen-482",
       "artist": "Sean Paul, Major Lazer",
       "title": "Tip Pon It",
@@ -1892,7 +1863,8 @@
       "title": "asleep (feat. Moonzz)",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1569154839?i=1569154847"
     },
     {
       "id": "awen-487",
@@ -1983,33 +1955,9 @@
       ]
     },
     {
-      "id": "awen-508",
-      "artist": "changing cleo",
-      "title": "stay",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-510",
       "artist": "Fakear feat. Pouvoir Magique",
       "title": "Kobra",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-511",
-      "artist": "Tove Lo",
-      "title": "Habits (Stay High)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-512",
-      "artist": "Yüzyüzeyken Konuşuruz",
-      "title": "Boş Gemiler",
       "issues": [
         "genre_not_identified"
       ]
@@ -2039,14 +1987,6 @@
       "id": "awen-520",
       "artist": "August Alsina feat. Trinidad James",
       "title": "I Luv This Shit",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-521",
-      "artist": "barnes blvd",
-      "title": "now, i see",
       "issues": [
         "genre_not_identified"
       ]
@@ -2097,12 +2037,15 @@
       ]
     },
     {
-      "id": "awen-534",
-      "artist": "Sencilietti Beats",
-      "title": "Zaufaj Mi Amore Mio",
+      "id": "awen-535",
+      "artist": "Billie Eilish",
+      "title": "i love you",
       "issues": [
-        "genre_not_identified"
-      ]
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Rock / Indie",
+      "source_url": "https://music.apple.com/kz/album/1450695723?i=1450695895"
     },
     {
       "id": "awen-538",
@@ -2153,41 +2096,9 @@
       ]
     },
     {
-      "id": "awen-549",
-      "artist": "Balmorhea",
-      "title": "HEIR I",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-551",
-      "artist": "RSAC",
-      "title": "NBA",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-553",
-      "artist": "¿Téo?",
-      "title": "Belong in the Sun (feat. Lido)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-562",
       "artist": "Stefflon Don",
       "title": "16 Shots",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-569",
-      "artist": "DaniLeigh",
-      "title": "No Limits",
       "issues": [
         "genre_not_identified"
       ]
@@ -2306,6 +2217,17 @@
       ]
     },
     {
+      "id": "awen-597",
+      "artist": "Billie Eilish",
+      "title": "xanny",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Rock / Indie",
+      "source_url": "https://music.apple.com/kz/album/1450695723?i=1450695742"
+    },
+    {
       "id": "awen-600",
       "artist": "6ix9ine",
       "title": "KOODA",
@@ -2320,6 +2242,17 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-607",
+      "artist": "Billie Eilish",
+      "title": "wish you were gay",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Rock / Indie",
+      "source_url": "https://music.apple.com/kz/album/1450695723?i=1450695871"
     },
     {
       "id": "awen-611",
@@ -2375,7 +2308,8 @@
       "title": "Cradles",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1869738882?i=1869738885"
     },
     {
       "id": "awen-624",
@@ -2384,6 +2318,17 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-627",
+      "artist": "nomyn",
+      "title": "reverie",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Synth / Retro Electronic",
+      "genre_conflict": "Chill / Lo-Fi / Ambient",
+      "source_url": "https://music.apple.com/kz/album/1460313884?i=1460313886"
     },
     {
       "id": "awen-630",
@@ -2434,6 +2379,17 @@
       ]
     },
     {
+      "id": "awen-640",
+      "artist": "Tory Lanez",
+      "title": "Say It",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Hip-Hop / Rap",
+      "genre_conflict": "R&B / Soul",
+      "source_url": "https://music.apple.com/kz/album/1443125785?i=1443126796"
+    },
+    {
       "id": "awen-643",
       "artist": "Неизвестен",
       "title": "7 RINGS x MIC DROP - Ariana Grande & BTS (Mixed Mashup)",
@@ -2447,7 +2403,8 @@
       "title": "Coldest Night",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1447480556?i=1447480557"
     },
     {
       "id": "awen-648",
@@ -2487,14 +2444,6 @@
       ]
     },
     {
-      "id": "awen-656",
-      "artist": "Chris Brown",
-      "title": "Hope You Do",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-657",
       "artist": "Mylène Farmer",
       "title": "California",
@@ -2519,6 +2468,17 @@
       ]
     },
     {
+      "id": "awen-662",
+      "artist": "Halsey",
+      "title": "Without Me",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Rock / Indie",
+      "source_url": "https://music.apple.com/kz/album/1481418637?i=1481418646"
+    },
+    {
       "id": "awen-663",
       "artist": "gxtxi",
       "title": "trapped (prod. by Nagra Beats)",
@@ -2535,25 +2495,20 @@
       ]
     },
     {
+      "id": "awen-666",
+      "artist": "Rihanna",
+      "title": "Dancing In The Dark",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Classical / Cinematic",
+      "source_url": "https://music.apple.com/kz/album/1440925066?i=1440925584"
+    },
+    {
       "id": "awen-669",
       "artist": "Be Clever",
       "title": "River",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-670",
-      "artist": "ennio morricone",
-      "title": "togetherness",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-671",
-      "artist": "Titus",
-      "title": "After Hours",
       "issues": [
         "genre_not_identified"
       ]
@@ -2572,7 +2527,8 @@
       "title": "Caught Up (Feat. Cirillo)",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1754528409?i=1754528410"
     },
     {
       "id": "awen-676",
