@@ -7,6 +7,9 @@ on:
       - "scripts/awen_match.py"
       - "scripts/awen_musicbrainz.py"
       - "scripts/apply_curator_patches.py"
+      - "scripts/merge_apple_state.py"
+      - "scripts/merge_musicbrainz_state.py"
+      - "scripts/refresh_review_queue.py"
       - "scripts/test_data_pipeline.py"
       - "awen-curation.json"
       - "awen-review-queue.json"
@@ -24,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check Python syntax
-        run: python3 -m py_compile scripts/awen_match.py scripts/awen_musicbrainz.py
+        run: python3 -m py_compile scripts/awen_match.py scripts/awen_musicbrainz.py scripts/merge_apple_state.py scripts/merge_musicbrainz_state.py scripts/refresh_review_queue.py scripts/apply_curator_patches.py
       - name: Check JS and embedded page scripts
         run: |
           node --check awen-services.js
