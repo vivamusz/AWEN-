@@ -25,6 +25,14 @@
       const m=path.match(/^\/(?:intl-[a-z-]+\/)?track\/([A-Za-z0-9]{22})\/?$/);
       if(m)return {name:'Spotify',src:'https://open.spotify.com/embed/track/'+m[1],height:160};
     }
+    if(host==='music.apple.com'){
+      const m=path.match(/^\/(?:[a-z]{2}\/)?album\/(\d+)\/?$/i);
+      const trackId=u.searchParams.get('i');
+      if(m&&trackId&&/^\d+$/.test(trackId)){
+        const country=(path.match(/^\/([a-z]{2})\//i)||[])[1]||'kz';
+        return {name:'Apple Music',src:'https://embed.music.apple.com/'+country+'/album/'+m[1]+'?i='+trackId,height:175};
+      }
+    }
     if(host==='soundcloud.com'||host==='www.soundcloud.com'){
       const bits=path.split('/').filter(Boolean);
       if(bits.length>=2&&!['search','discover','you','stream','charts','stations'].includes(bits[0].toLowerCase())){
@@ -54,7 +62,8 @@
     const sources=[
       ['YouTube','https://www.youtube.com/results?search_query='+query],
       ['Spotify','https://open.spotify.com/search/'+query],
-      ['SoundCloud','https://soundcloud.com/search/sounds?q='+query]
+      ['SoundCloud','https://soundcloud.com/search/sounds?q='+query],
+      ['Apple Music','https://music.apple.com/kz/search?term='+query]
     ];
     const bar=document.createElement('div');bar.className='actions';bar.style.margin='0';
     for(const entry of sources){
@@ -99,7 +108,7 @@
       full.target='_blank';full.rel='noopener noreferrer';box.appendChild(full);
     }
     const foot=document.createElement('p');
-    foot.textContent='Плеер принадлежит выбранному сервису. Он не даёт скачивать музыку в MP3 или слушать её офлайн через ӘУЕН.';
+    foot.textContent='Плеер принадлежит выбранному сервису. Apple Music может воспроизводить фрагмент без подписки; полная песня зависит от авторизации и условий сервиса. MP3 и офлайн-загрузка через ӘУЕН недоступны.';
     foot.style.cssText='color:#aaa3b7;font-size:11px;line-height:1.5;margin:0';box.appendChild(foot);
     if(src){const grid=root.querySelector('.details-grid');if(grid)root.insertBefore(box,grid);else root.appendChild(box);}else root.appendChild(box);
   };
