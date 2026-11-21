@@ -41,6 +41,75 @@
     },
     "ჩუბინა": {
       "status": "not_found"
+    },
+    "настроение": {
+      "status": "not_found"
+    },
+    "neфть vintage beat": {
+      "status": "not_found"
+    },
+    "les petits chanteurs de saint marc": {
+      "status": "unclassified",
+      "artist_mbid": "37f0e479-9661-4375-98fe-4ffd2f23c3ca",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/37f0e479-9661-4375-98fe-4ffd2f23c3ca"
+    },
+    "fortxna": {
+      "status": "not_found"
+    },
+    "yoshumidzu": {
+      "status": "unclassified",
+      "artist_mbid": "47d65712-b246-441a-b9d7-c6bc73979e9b",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/47d65712-b246-441a-b9d7-c6bc73979e9b"
+    },
+    "korel": {
+      "status": "not_found"
+    },
+    "xadisha": {
+      "status": "unclassified",
+      "artist_mbid": "66213661-45eb-4389-af35-e18afe8ce478",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/66213661-45eb-4389-af35-e18afe8ce478"
+    },
+    "plum": {
+      "status": "ambiguous"
+    },
+    "daniel trevor": {
+      "status": "not_found"
+    },
+    "dygo": {
+      "status": "unclassified",
+      "artist_mbid": "9536020a-5999-4ac9-8e79-023251dae19f",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/9536020a-5999-4ac9-8e79-023251dae19f"
+    },
+    "fea fea": {
+      "status": "not_found"
+    },
+    "pasteldrip": {
+      "status": "unclassified",
+      "artist_mbid": "fddcd890-298c-44f4-9ae3-a80486dba3bf",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/fddcd890-298c-44f4-9ae3-a80486dba3bf"
+    },
+    "гнуснеишая привычка карликoвых умoв": {
+      "status": "not_found"
+    },
+    "free flow flava": {
+      "status": "unclassified",
+      "artist_mbid": "29366ef1-5b7b-4476-8e2f-6e3e6808b51c",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/29366ef1-5b7b-4476-8e2f-6e3e6808b51c"
+    },
+    "ost": {
+      "status": "skip"
     }
   },
   "tracks": {}
