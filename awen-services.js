@@ -238,6 +238,8 @@
         const intro=document.createElement('strong');
         intro.textContent=linked+' песен имеют встроенные источники; '+muzpaceLinks+' — ссылки MuzPace. ';
         banner.appendChild(intro);
+         const classified=tracks.filter(t=>t.genre&&t.genre!=='Не определён').length;
+         banner.appendChild(document.createTextNode(classified+' из '+tracks.length+' композиций предварительно распределены по жанрам. '));
         if(matchingStatus){
           const text=document.createTextNode('Автоподбор Apple Music: обработано '+Number(matchingStatus.next_index||0)+' из '+Number(matchingStatus.total||tracks.length)+', найдено новых точных совпадений '+Number(matchingStatus.matched||0)+', на проверку '+Number(matchingStatus.review||0)+'. ');
           banner.appendChild(text);
@@ -282,6 +284,32 @@
       if(!r.ok)throw Error('HTTP '+r.status);
       const found=parseCatalog(await r.json());
       if(!found.length)throw Error('Нет треков в файле');
+      // Дополнительный справочник, независимый от оригинального каталога и автопоиска ссылок.
+      try{
+        const cur=await fetch('./awen-curation.json',{cache:'no-cache'});
+        if(cur.ok){
+          const payload=await cur.json();
+          const extra=payload&&payload.tracks&&typeof payload.tracks==='object'?payload.tracks:{};
+          for(const t of found){
+            const patch=extra[t.id];
+            if(!patch||typeof patch!=='object')continue;
+            const emptyGenre=!t.genre||t.genre==='Не определён';
+            if(emptyGenre&&typeof patch.genre==='string'&&patch.genre.trim())t.genre=patch.genre.trim();
+            if((emptyGenre||t.genre===patch.genre)&&!t.subgenres.length&&Array.isArray(patch.subgenres)){
+              t.subgenres=patch.subgenres.filter(x=>typeof x==='string').slice(0,10);
+            }
+            if(Array.isArray(patch.moods)){
+              t.moods=[...new Set([...t.moods,...patch.moods.filter(x=>typeof x==='string')])].slice(0,15);
+            }
+            if(Array.isArray(patch.playlists)){
+              t.playlists=[...new Set([...t.playlists,...patch.playlists.filter(x=>lists.some(p=>p.id===x))])];
+            }
+            if((!t.language||t.language==='Не определён')&&typeof patch.language==='string')t.language=patch.language;
+            if(emptyGenre&&patch.genre&&Number.isFinite(Number(patch.energy)))t.energy=Math.min(5,Math.max(1,Number(patch.energy)));
+            if(patch.review_needed)t.curation_review_needed=true;
+          }
+        }
+      }catch(err){console.warn('AWEN: справочник жанров временно недоступен',err);}
       tracks=found;demo=false;applyAuthorizedStreams();render();
     }catch(err){
       console.warn('AWEN: каталог GitHub недоступен',err);
