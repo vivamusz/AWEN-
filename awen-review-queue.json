@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T16:57:53+00:00",
+  "generated_at_utc": "2026-11-21T22:10:39+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2075,
-    "needs_genre": 852,
+    "needs_genre": 833,
     "possible_import_errors": 16,
     "duplicate_groups": 10,
     "tracks_in_duplicate_groups": 30,
-    "genre_conflicts": 16,
+    "genre_conflicts": 19,
     "cross_source_conflicts": 0
   },
   "items": [
@@ -1144,14 +1144,6 @@
       "id": "awen-330",
       "artist": "V $ X V PRiNCE x AZEER",
       "title": "Очередная (Prod. by Chingson)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-334",
-      "artist": "Doja Cat",
-      "title": "Candy",
       "issues": [
         "genre_not_identified"
       ]
@@ -2368,14 +2360,6 @@
       ]
     },
     {
-      "id": "awen-720",
-      "artist": "solonely",
-      "title": "if i die",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-721",
       "artist": "ＬＩＬ ＨＡＷＫ ＢＯＹ",
       "title": "Ｙｏｕ．",
@@ -2416,14 +2400,6 @@
       ]
     },
     {
-      "id": "awen-734",
-      "artist": "Dennis Lloyd",
-      "title": "Nevermind",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-737",
       "artist": "Mark Ronson feat. Miley Cyrus",
       "title": "Nothing Breaks Like a Heart",
@@ -2451,14 +2427,6 @@
       "id": "awen-742",
       "artist": "UNAVERAGE GANG X BLACK SMURF",
       "title": "ANTHRAX",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-746",
-      "artist": "CYN",
-      "title": "I'll Still Have Me",
       "issues": [
         "genre_not_identified"
       ]
@@ -3043,7 +3011,8 @@
       "title": "Deep End",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1614861489?i=1614861491"
     },
     {
       "id": "awen-952",
@@ -3065,14 +3034,6 @@
       "id": "awen-954",
       "artist": "Sigala",
       "title": "We Don't Care (feat. The Vamps)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-955",
-      "artist": "Podval Capella",
-      "title": "sugar",
       "issues": [
         "genre_not_identified"
       ]
@@ -3136,7 +3097,8 @@
         "awen-654",
         "awen-964"
       ],
-      "proposed_genre": "R&B / Soul"
+      "proposed_genre": "R&B / Soul",
+      "source_url": "https://music.apple.com/kz/album/1373822557?i=1373822692"
     },
     {
       "id": "awen-966",
@@ -3164,14 +3126,6 @@
       ]
     },
     {
-      "id": "awen-975",
-      "artist": "Adam Levine",
-      "title": "No One Else Like You",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-976",
       "artist": "MØ & Diplo",
       "title": "Sun In Our Eyes",
@@ -3196,14 +3150,6 @@
       "id": "awen-980",
       "artist": "Lily Moore",
       "title": "I Will Never Be",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-984",
-      "artist": "Lil Yachty",
-      "title": "love me forever",
       "issues": [
         "genre_not_identified"
       ]
@@ -3257,14 +3203,6 @@
       ]
     },
     {
-      "id": "awen-996",
-      "artist": "Kevmo",
-      "title": "Demons",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-997",
       "artist": "Insomnia",
       "title": "The Games We Play",
@@ -3289,14 +3227,6 @@
       ]
     },
     {
-      "id": "awen-1003",
-      "artist": "The Trp",
-      "title": "Clean",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1006",
       "artist": "QsensX",
       "title": "#98",
@@ -3313,12 +3243,34 @@
       ]
     },
     {
+      "id": "awen-1010",
+      "artist": "Kendrick Lamar",
+      "title": "Swimming Pools (Drank)",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Hip-Hop / Rap",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/791354164?i=791354219"
+    },
+    {
       "id": "awen-1013",
       "artist": "Fabian Mazur",
       "title": "Edge Of Love (feat. Nevve)",
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-1015",
+      "artist": "PHLUX",
+      "title": "NYM",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Bass Music / EDM",
+      "genre_conflict": "Chill / Lo-Fi / Ambient",
+      "source_url": "https://music.apple.com/kz/album/1727333303?i=1727333304"
     },
     {
       "id": "awen-1016",
@@ -3407,14 +3359,6 @@
       ]
     },
     {
-      "id": "awen-1035",
-      "artist": "Cheat Codes & Little Mix",
-      "title": "Only You",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1040",
       "artist": "Rhys Lewis",
       "title": "Be Your Man",
@@ -3447,14 +3391,6 @@
       ]
     },
     {
-      "id": "awen-1045",
-      "artist": "Years & Years",
-      "title": "Palo Santo",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1048",
       "artist": "SwagHollywood",
       "title": "Olay",
@@ -3466,14 +3402,6 @@
       "id": "awen-1052",
       "artist": "Darkhan Juzz",
       "title": "QazaqLifeHack (AUEN)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1053",
-      "artist": "CL",
-      "title": "LIFTED",
       "issues": [
         "genre_not_identified"
       ]
@@ -3519,20 +3447,13 @@
       ]
     },
     {
-      "id": "awen-1059",
-      "artist": "Peewee Longway",
-      "title": "His Name Cassius (feat. PARTYNEXTDOOR)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1060",
       "artist": "Oso Oso",
       "title": "gb/ol h/nf",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1392750811?i=1392750812"
     },
     {
       "id": "awen-1061",
@@ -3567,20 +3488,13 @@
       ]
     },
     {
-      "id": "awen-1073",
-      "artist": "KATIE",
-      "title": "Remember",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1074",
       "artist": "unaloon",
       "title": "im not one to cry",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1446790877?i=1446790883"
     },
     {
       "id": "awen-1076",
@@ -3671,14 +3585,6 @@
       ]
     },
     {
-      "id": "awen-1096",
-      "artist": "Just Chase",
-      "title": "Ego",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1098",
       "artist": "Sufjan Stevens",
       "title": "Mystery of Love",
@@ -3687,20 +3593,15 @@
       ]
     },
     {
-      "id": "awen-1101",
-      "artist": "Ieva Zasimauskaitė",
-      "title": "When We’re Old",
+      "id": "awen-1099",
+      "artist": "The Lumineers",
+      "title": "Holdin' Out",
       "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1102",
-      "artist": "The Phantoms",
-      "title": "Watch Me",
-      "issues": [
-        "genre_not_identified"
-      ]
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Folk / Ethno / World",
+      "genre_conflict": "Classical / Cinematic",
+      "source_url": "https://music.apple.com/kz/album/1455908015?i=1455908243"
     },
     {
       "id": "awen-1104",
@@ -3764,7 +3665,8 @@
       "title": "Compass",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1440628510?i=1440628796"
     },
     {
       "id": "awen-1126",
@@ -3780,15 +3682,8 @@
       "title": "Do It Like You Do",
       "issues": [
         "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1128",
-      "artist": "Trinton",
-      "title": "Lately",
-      "issues": [
-        "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1657741031?i=1657741033"
     },
     {
       "id": "awen-1131",
@@ -3836,7 +3731,8 @@
       "title": "homeless",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1684360379?i=1684360388"
     },
     {
       "id": "awen-1151",
@@ -3882,14 +3778,6 @@
       "id": "awen-1159",
       "artist": "Cheprox",
       "title": "i can see",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1162",
-      "artist": "Jacquees",
-      "title": "Feel It (feat Rich Homie Quan & Lloyd)",
       "issues": [
         "genre_not_identified"
       ]
