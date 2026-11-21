@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "provider": "MusicBrainz artist tags; per-song genre unverified",
+  "artists": {},
+  "tracks": {}
+}
