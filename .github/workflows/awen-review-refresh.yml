@@ -9,6 +9,9 @@ on:
       - "awen-curation.json"
       - "awen-musicbrainz.json"
       - "awen-audius-matches.json"
+      - "awen-apple-metadata.json"
+      - "awen-match-status.json"
+      - "awen-musicbrainz-progress.json"
   schedule:
     - cron: "17 */6 * * *"
 
