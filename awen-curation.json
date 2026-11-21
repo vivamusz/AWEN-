@@ -12490,7 +12490,8 @@
       "album": "Reverie - Single",
       "year": 2019,
       "year_type": "album_release",
-      "duration": 207
+      "duration": 207,
+      "genre_review_candidate": "Chill / Lo-Fi / Ambient"
     },
     "awen-639": {
       "genre": "Rock / Indie",
@@ -13961,7 +13962,10 @@
       "album": "childhood - Single",
       "year": 2023,
       "year_type": "album_release",
-      "duration": 129
+      "duration": 129,
+      "genre": "Chill / Lo-Fi / Ambient",
+      "genre_evidence": "itunes_exact",
+      "curation_confidence": "verified_broad_genre"
     },
     "awen-40": {
       "verified_metadata": {
