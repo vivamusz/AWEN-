@@ -55,6 +55,26 @@
     box.style.cssText='border-top:1px solid #494053;margin-top:20px;padding-top:18px;display:grid;gap:10px';
     const h=document.createElement('h3');
     h.textContent='Онлайн-прослушивание';h.style.margin='0';box.appendChild(h);
+    const src=getSource(t);
+    if(src){
+      const dt=[...root.querySelectorAll('dt')].find(x=>x.textContent==='Статус');
+      if(dt?.nextElementSibling)dt.nextElementSibling.textContent='Официальный плеер '+src.name;
+      const notice=[...root.querySelectorAll('.selection-note')].find(x=>x.textContent.includes('Аудиофайл не подключён'));
+      if(notice)notice.textContent='Можно слушать через '+src.name+' в плеере ниже.';
+      const open=document.createElement('button');open.className='btn';open.textContent='▶ Встроенный плеер '+src.name;
+      open.dataset.awenEmbed='1';
+      open.addEventListener('click',()=>{
+        const frame=document.createElement('iframe');frame.title=t.artist+' — '+t.title+' / '+src.name;
+        frame.src=src.src;frame.loading='eager';frame.referrerPolicy='strict-origin-when-cross-origin';
+        frame.allow='autoplay; encrypted-media; fullscreen; picture-in-picture';frame.allowFullscreen=true;
+        frame.style.cssText='display:block;width:100%;height:'+(src.name==='YouTube'?'min(45vh,370px)':src.height+'px')+';border:0;border-radius:10px;background:#16131a';
+        open.replaceWith(frame);
+      });
+      box.appendChild(open);
+      const full=document.createElement('a');full.className='btn tiny';
+      full.href=links[id]||t.source_url;full.textContent='Открыть в '+src.name;
+      full.target='_blank';full.rel='noopener noreferrer';box.appendChild(full);
+    }
     const info=document.createElement('p');
     info.textContent='Выбери точную запись на официальном сервисе, скопируй ссылку на песню и сохрани её. Поиск не гарантирует совпадения версий.';
     info.style.cssText='color:#b5aebe;line-height:1.5;margin:0;font-size:12px';box.appendChild(info);
@@ -86,30 +106,18 @@
       notify(v?'Ссылка сохранена':'Ссылка удалена');render();openDetails(id);
     });
     box.appendChild(save);
-    const src=getSource(t);
-    if(src){
-      const dt=[...root.querySelectorAll('dt')].find(x=>x.textContent==='Статус');
-      if(dt?.nextElementSibling)dt.nextElementSibling.textContent='Официальный плеер '+src.name;
-      const notice=[...root.querySelectorAll('.selection-note')].find(x=>x.textContent.includes('Аудиофайл не подключён'));
-      if(notice)notice.textContent='Можно слушать через '+src.name+' в плеере ниже.';
-      const open=document.createElement('button');open.className='btn';open.textContent='▶ Встроенный плеер '+src.name;
-      open.dataset.awenEmbed='1';
-      open.addEventListener('click',()=>{
-        open.disabled=true;
-        const frame=document.createElement('iframe');frame.title=t.artist+' — '+t.title+' / '+src.name;
-        frame.src=src.src;frame.loading='lazy';frame.referrerPolicy='strict-origin-when-cross-origin';
-        frame.allow='autoplay; encrypted-media; fullscreen; picture-in-picture';frame.allowFullscreen=true;
-        frame.style.cssText='display:block;width:100%;height:'+src.height+'px;border:0;border-radius:10px;background:#16131a';
-        box.appendChild(frame);
-      });
-      box.appendChild(open);
-      const full=document.createElement('a');full.className='btn tiny';
-      full.href=links[id]||t.source_url;full.textContent='Открыть в '+src.name;
-      full.target='_blank';full.rel='noopener noreferrer';box.appendChild(full);
-    }
     const foot=document.createElement('p');
     foot.textContent='Плеер принадлежит выбранному сервису. Apple Music может воспроизводить фрагмент без подписки; полная песня зависит от авторизации и условий сервиса. MP3 и офлайн-загрузка через ӘУЕН недоступны.';
     foot.style.cssText='color:#aaa3b7;font-size:11px;line-height:1.5;margin:0';box.appendChild(foot);
+    const settings=document.createElement('details');
+    settings.style.cssText='margin-top:5px;padding:12px 14px;border:1px solid #4a3d58;border-radius:10px';
+    settings.open=!src;
+    const summary=document.createElement('summary');
+    summary.textContent=src?'Поиск и настройка источника':'Найти запись в музыкальных сервисах';
+    summary.style.cssText='cursor:pointer;font-weight:700;color:#d2b8f5';
+    settings.appendChild(summary);
+    for(const el of [info,bar,input,save,foot])settings.appendChild(el);
+    box.appendChild(settings);
     if(src){const grid=root.querySelector('.details-grid');if(grid)root.insertBefore(box,grid);else root.appendChild(box);}else root.appendChild(box);
   };
   const oldPlay=playTrack;
