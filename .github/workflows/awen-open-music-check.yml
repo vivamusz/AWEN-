@@ -22,9 +22,12 @@ jobs:
           import urllib.error
 
           base = "https://api.audius.co/v1"
-          headers = {"User-Agent": "AWEN-Music/1.0"}
+          headers = {"User-Agent": "AWEN-Music/1.0", "Origin": "https://vivamusz.github.io"}
           req = urllib.request.Request(base + "/tracks/trending?app_name=AWEN&limit=5&time=week", headers=headers)
           with urllib.request.urlopen(req, timeout=18) as response:
+              cors = response.headers.get("Access-Control-Allow-Origin", "")
+              print("Audius browser CORS:", cors)
+              assert cors in ("*", "https://vivamusz.github.io"), "Audius API not accessible from AWEN browser origin"
               data = json.load(response)
           tracks = data.get("data", [])
           print("Trending API tracks:", len(tracks))
