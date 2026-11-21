@@ -405,7 +405,12 @@
           }
         }
       }catch(err){console.warn('AWEN: данные релизов Apple Music временно недоступны',err);}
-      tracks=found;demo=false;applyAuthorizedStreams();render();
+      // Keep questionable VK post fragments in the source JSON and curator for review,
+      // but do not present them to listeners as actual music recordings.
+      const quarantined=found.filter(t=>t.import_review_needed).length;
+      tracks=found.filter(t=>!t.import_review_needed);
+      demo=false;applyAuthorizedStreams();render();
+      if(quarantined)console.info('AWEN: '+quarantined+' текстовых фрагментов скрыты из музыкального списка; исходные записи сохранены');
     }catch(err){
       console.warn('AWEN: каталог GitHub недоступен',err);
       tracks=[];demo=false;render();
