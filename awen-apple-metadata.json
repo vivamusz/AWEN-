@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "provider": "Apple iTunes Lookup API",
+  "tracks": {},
+  "linked_apple_tracks": 0,
+  "verified_track_count": 0,
+  "unresolved_linked_tracks": 0,
+  "note": "Strict Apple track ID + title and artist matching; years refer to album editions"
+}
