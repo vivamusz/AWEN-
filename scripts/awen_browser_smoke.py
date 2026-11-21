@@ -82,6 +82,8 @@ def verify():
                 timeout=25000,
             )
             assert page.locator("#filter").input_value() == "unknown"
+            # The sample may already have an official genre; work from the full index.
+            page.locator("#filter").select_option("all")
             # Edit one track in the test browser, not on GitHub.
             page.locator("#search").fill("Uaiymdama")
             page.locator("button[data-open='awen-1']").click()
