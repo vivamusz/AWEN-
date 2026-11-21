@@ -29,9 +29,14 @@ def norm(text):
 def exact_name(a, b):
     return bool(norm(a)) and norm(a) == norm(b)
 
-def api_search(track):
-    term = (str(track.get("artist") or "") + " " + str(track.get("title") or "")).strip()
-    args = urllib.parse.urlencode({"query": term, "app_name": "AWEN", "limit": "20"})
+def api_search(track, fallback=False):
+    # Pass 1: artist + title. Pass 2: title alone, then require exact artist and title.
+    term = str(track.get("title") or "").strip() if fallback else (
+        str(track.get("artist") or "") + " " + str(track.get("title") or "")
+    ).strip()
+    args = urllib.parse.urlencode({
+        "query": term, "app_name": "AWEN", "limit": "50" if fallback else "20"
+    })
     url = "https://api.audius.co/v1/tracks/search?" + args
     req = urllib.request.Request(url, headers={"User-Agent": "AWEN-Catalog-Matcher/1.0", "Accept": "application/json"})
     with urllib.request.urlopen(req, timeout=22) as resp:
@@ -83,12 +88,17 @@ def read_json(path, fallback):
 def main():
     all_tracks = read_json(CATALOG, {}).get("tracks", [])
     state = read_json(OUTPUT, {"version": 1, "checked": {}, "matches": {}, "review": {}})
-    for key in ("checked", "matches", "review"):
+    for key in ("checked", "matches", "review", "fallback_checked"):
         if not isinstance(state.get(key), dict):
             state[key] = {}
     checked = state["checked"]
     pending = [t for t in all_tracks if t.get("id") and str(t["id"]) not in checked]
-    print(f"Audius exact-match search: total={len(all_tracks)}, already_scanned={len(checked)}, batch={BATCH}")
+    fallback = not pending
+    if fallback:
+        pending = [t for t in all_tracks if t.get("id") and
+                   checked.get(str(t["id"])) == "none" and
+                   str(t["id"]) not in state["fallback_checked"]]
+    print(f"Audius {'fallback title-only' if fallback else 'artist-title'} search: total={len(all_tracks)}, already_scanned={len(checked)}, pending={len(pending)}, batch={BATCH}")
     requests = 0
     for t in pending[:BATCH]:
         track_id = str(t["id"])
@@ -97,13 +107,16 @@ def main():
             checked[track_id] = "invalid"
             continue
         try:
-            found = api_search(t)
+            found = api_search(t, fallback=fallback)
         except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, ValueError) as error:
             print("Audius API problem, safely stopping batch:", error)
             break  # Current track remains pending for retry in a later scheduled run.
         requests += 1
         kind, data = match(t, found)
-        checked[track_id] = kind
+        if fallback:
+            state["fallback_checked"][track_id] = kind
+        else:
+            checked[track_id] = kind
         if kind == "match":
             state["matches"][track_id] = data
             print(f"MATCH {artist} — {title} => {data['audius_id']}")
@@ -116,7 +129,10 @@ def main():
     state["scanned"] = sum(1 for t in all_tracks if str(t.get("id")) in checked)
     state["found"] = len(state["matches"])
     state["needs_review"] = len(state["review"])
-    state["complete"] = state["scanned"] >= len(all_tracks)
+    state["fallback_scanned"] = len(state["fallback_checked"])
+    state["fallback_total"] = sum(1 for t in all_tracks if checked.get(str(t.get("id"))) == "none")
+    state["complete"] = (state["scanned"] >= len(all_tracks) and
+                         state["fallback_scanned"] >= state["fallback_total"])
     state["last_updated"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
     OUTPUT.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Requests:",requests,"scanned:",state["scanned"],"exact:",state["found"],"review:",state["needs_review"],"complete:",state["complete"])
