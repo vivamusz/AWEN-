@@ -1947,6 +1947,2230 @@
           "collection": "Trax for the Track 017"
         }
       ]
+    },
+    {
+      "id": "awen-190",
+      "artist": "Eelke Kleijn",
+      "title": "Transmission",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Transmission",
+          "artist": "Eelke Kleijn",
+          "url": "https://music.apple.com/kz/album/1608464780?i=1608464783",
+          "collection": "Transmission - Single"
+        },
+        {
+          "title": "Transmission",
+          "artist": "Eelke Kleijn",
+          "url": "https://music.apple.com/kz/album/1684834262?i=1684834266",
+          "collection": "Transmission (Remixes) - EP"
+        },
+        {
+          "title": "Transmission",
+          "artist": "Eelke Kleijn",
+          "url": "https://music.apple.com/kz/album/1613656972?i=1613656974",
+          "collection": "Transmission - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-191",
+      "artist": "The Dualz",
+      "title": "Vision",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Vision",
+          "artist": "The Dualz",
+          "url": "https://music.apple.com/kz/album/1612307223?i=1612307441",
+          "collection": "Vision - Single"
+        },
+        {
+          "title": "Vision",
+          "artist": "The Dualz",
+          "url": "https://music.apple.com/kz/album/1659138176?i=1659138195",
+          "collection": "A State of Trance Year Mix 2022 (Selected by Armin Van Buuren)"
+        }
+      ]
+    },
+    {
+      "id": "awen-195",
+      "artist": "Deorbiting",
+      "title": "Das kosmische Ballett",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Das kosmische Ballett",
+          "artist": "Deorbiting",
+          "url": "https://music.apple.com/kz/album/1608950716?i=1608950930",
+          "collection": "Space House"
+        },
+        {
+          "title": "Das kosmische Ballett",
+          "artist": "Deorbiting",
+          "url": "https://music.apple.com/kz/album/1608072885?i=1608073146",
+          "collection": "Veil - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-200",
+      "artist": "Steve Bug & Matthias Tanzmann",
+      "title": "Jupiter Jellyfish",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Jupiter Jellyfish",
+          "artist": "Steve Bug & Matthias Tanzmann",
+          "url": "https://music.apple.com/kz/album/1604228335?i=1604228608",
+          "collection": "Jupiter Jellyfish - Single"
+        },
+        {
+          "title": "Jupiter Jellyfish",
+          "artist": "Steve Bug & Matthias Tanzmann",
+          "url": "https://music.apple.com/kz/album/1659412859?i=1659414136",
+          "collection": "2022: The Review"
+        }
+      ]
+    },
+    {
+      "id": "awen-201",
+      "artist": "Kasablanca",
+      "title": "Alive (Khrebto Remix)",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Alive (Khrebto Remix)",
+          "artist": "Kasablanca",
+          "url": "https://music.apple.com/kz/album/1609099747?i=1609099752",
+          "collection": "Human Learning (Remixes, Pt. 2)"
+        },
+        {
+          "title": "Alive (Khrebto Remix)",
+          "artist": "Kasablanca",
+          "url": "https://music.apple.com/kz/album/1614764563?i=1614764568",
+          "collection": "Human Learning (Remixes, Pt. 2)"
+        }
+      ]
+    },
+    {
+      "id": "awen-203",
+      "artist": "Lane 8",
+      "title": "Red Lights (feat. Emmit Fenn) [EMBRZ Remix]",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Red Lights (feat. Emmit Fenn) [EMBRZ Remix]",
+          "artist": "Lane 8",
+          "url": "https://music.apple.com/kz/album/1610276950?i=1610276951",
+          "collection": "Red Lights (feat. Emmit Fenn) [EMBRZ Remix]"
+        },
+        {
+          "title": "Red Lights (feat. Emmit Fenn) [EMBRZ Remix]",
+          "artist": "Lane 8",
+          "url": "https://music.apple.com/kz/album/1652718063?i=1652718290",
+          "collection": "Reviver Remixed"
+        }
+      ]
+    },
+    {
+      "id": "awen-208",
+      "artist": "Vitalic",
+      "title": "Lost Time",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Lost Times",
+          "artist": "Vitalic",
+          "url": "https://music.apple.com/kz/album/1720356073?i=1720356076",
+          "collection": "Dissidænce Episode 1"
+        },
+        {
+          "title": "Lost Times",
+          "artist": "Vitalic",
+          "url": "https://music.apple.com/kz/album/1720331277?i=1720331281",
+          "collection": "Disco Boy"
+        }
+      ]
+    },
+    {
+      "id": "awen-214",
+      "artist": "Stract, Shiloh Dynasty",
+      "title": "Losing Interest",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Losing Interest",
+          "artist": "Stract & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1569259501?i=1569259502",
+          "collection": "Losing Interest - Single"
+        },
+        {
+          "title": "Losing Interest",
+          "artist": "CuBox & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1617716237?i=1617716250",
+          "collection": "Japan - EP"
+        },
+        {
+          "title": "Losing Interest",
+          "artist": "itssvd, CORBAL, Shiloh Dynasty & Dibyo",
+          "url": "https://music.apple.com/kz/album/1563965921?i=1563965926",
+          "collection": "Missing - Single"
+        },
+        {
+          "title": "Losing Interest",
+          "artist": "Paycheck & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1650860070?i=1650860273",
+          "collection": "Identity Crisis"
+        },
+        {
+          "title": "Losing Interest",
+          "artist": "prxz, Shamana & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1598672795?i=1598673048",
+          "collection": "Love Wounds"
+        }
+      ]
+    },
+    {
+      "id": "awen-227",
+      "artist": "JACKBOYS, Travis Scott feat. Young Thug",
+      "title": "OUT WEST",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Out West",
+          "artist": "ian",
+          "url": "https://music.apple.com/kz/album/1774051658?i=1774051667",
+          "collection": "Goodbye Horses"
+        },
+        {
+          "title": "Out West",
+          "artist": "Meels",
+          "url": "https://music.apple.com/kz/album/1862341243?i=1862341247",
+          "collection": "Across The Raccoon Strait"
+        },
+        {
+          "title": "Out West",
+          "artist": "Fourwalls & Slo Loris",
+          "url": "https://music.apple.com/kz/album/6770655207?i=6770655535",
+          "collection": "Staring Contest"
+        },
+        {
+          "title": "out west",
+          "artist": "mike. & Stevie Daniels",
+          "url": "https://music.apple.com/kz/album/6826270420?i=6826270427",
+          "collection": "out west - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-230",
+      "artist": "LLOYD",
+      "title": "GHOSTS",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Ghosts",
+          "artist": "Gato Barbieri & Charles Lloyd Quartet",
+          "url": "https://music.apple.com/kz/album/276830442?i=276830640",
+          "collection": "Gato Barbieri & Charles Lloyd Quartet"
+        }
+      ]
+    },
+    {
+      "id": "awen-234",
+      "artist": "BRENNAN SAVAGE",
+      "title": "Cold World",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Lonely World",
+          "artist": "Brennan Savage",
+          "url": "https://music.apple.com/kz/album/1295523950?i=1295523963",
+          "collection": "Badlands"
+        },
+        {
+          "title": "Cold Tile",
+          "artist": "Brennan Savage",
+          "url": "https://music.apple.com/kz/album/1557947713?i=1557947720",
+          "collection": "Tragedy"
+        },
+        {
+          "title": "Remember Me",
+          "artist": "Brennan Savage",
+          "url": "https://music.apple.com/kz/album/1467267342?i=1467267348",
+          "collection": "Tragedy"
+        },
+        {
+          "title": "Reflection",
+          "artist": "Brennan Savage",
+          "url": "https://music.apple.com/kz/album/1329749577?i=1329749756",
+          "collection": "Reflection - Single"
+        },
+        {
+          "title": "Cold Tile",
+          "artist": "Brennan Savage",
+          "url": "https://music.apple.com/kz/album/1467267342?i=1467267534",
+          "collection": "Tragedy"
+        }
+      ]
+    },
+    {
+      "id": "awen-235",
+      "artist": "shiloh",
+      "title": "i'll keep you safe",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "I'll Keep You Safe",
+          "artist": "Anitsu & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1613244399?i=1613244401",
+          "collection": "I'll Keep You Safe - Single"
+        },
+        {
+          "title": "I'll Keep You Safe",
+          "artist": "Catbus Stop & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1609315568?i=1609315570",
+          "collection": "I'll Keep You Safe - Single"
+        },
+        {
+          "title": "I'll Keep You Safe",
+          "artist": "Shiloh Beat & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1702261311?i=1702261333",
+          "collection": "Sora"
+        },
+        {
+          "title": "I'll Keep You Safe",
+          "artist": "Shiloh Beat & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1702260813?i=1702260814",
+          "collection": "Fukai"
+        },
+        {
+          "title": "I'll Keep You Safe",
+          "artist": "LRN Slime & Shiloh Dynasty",
+          "url": "https://music.apple.com/kz/album/1594668901?i=1594669907",
+          "collection": "Certified Loner Boy"
+        }
+      ]
+    },
+    {
+      "id": "awen-236",
+      "artist": "Powfu, beabadoobee",
+      "title": "death bed (coffee for your head)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Death Bed (Coffee For Your Head)",
+          "artist": "KLIO & DJ Satomi",
+          "url": "https://music.apple.com/kz/album/1701480104?i=1701480105",
+          "collection": "Death Bed (Coffee For Your Head) - Single"
+        },
+        {
+          "title": "Death Bed (Coffee For Your Head)",
+          "artist": "Faber Drive & Dave Faber",
+          "url": "https://music.apple.com/kz/album/1555058909?i=1555058915",
+          "collection": "Death Bed (Coffee For Your Head) - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-237",
+      "artist": "Petit Biscuit",
+      "title": "Parachute (Remixes)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Parachute (Big Gigantic Remix)",
+          "artist": "Petit Biscuit",
+          "url": "https://music.apple.com/kz/album/1554111679?i=1554111684",
+          "collection": "Parachute (Remixes)"
+        },
+        {
+          "title": "Parachute (Tony Romera Remix)",
+          "artist": "Petit Biscuit",
+          "url": "https://music.apple.com/kz/album/1554111679?i=1554112392",
+          "collection": "Parachute (Remixes)"
+        },
+        {
+          "title": "Pick Your Battles (Malaa Remix)",
+          "artist": "Petit Biscuit",
+          "url": "https://music.apple.com/kz/album/1554111679?i=1554112061",
+          "collection": "Parachute (Remixes)"
+        },
+        {
+          "title": "Drivin Thru the Night (Jai Wolf Remix)",
+          "artist": "Petit Biscuit",
+          "url": "https://music.apple.com/kz/album/1554111679?i=1554112266",
+          "collection": "Parachute (Remixes)"
+        },
+        {
+          "title": "Take Cover (Manila Killa Remix)",
+          "artist": "Petit Biscuit",
+          "url": "https://music.apple.com/kz/album/1554111679?i=1554112065",
+          "collection": "Parachute (Remixes)"
+        }
+      ]
+    },
+    {
+      "id": "awen-239",
+      "artist": "DROELOE",
+      "title": "Panorama",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Panorama",
+          "artist": "DROELOE",
+          "url": "https://music.apple.com/kz/album/1534953685?i=1534953686",
+          "collection": "A Matter of Perspective"
+        },
+        {
+          "title": "Panorama",
+          "artist": "DROELOE",
+          "url": "https://music.apple.com/kz/album/1861622345?i=1861622592",
+          "collection": "A Matter of Perspective"
+        }
+      ]
+    },
+    {
+      "id": "awen-240",
+      "artist": "What So Not & Ganz",
+      "title": "Lone Ft JOY.(Slow Hours Remix)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Lone (feat. JOY.) [Slow Hours Remix]",
+          "artist": "What So Not & GANZ",
+          "url": "https://music.apple.com/kz/album/1240579973?i=1240580158",
+          "collection": "Divide & Conquer (Remixes)"
+        },
+        {
+          "title": "Lone (feat. JOY.) [SLUMBERJACK Remix]",
+          "artist": "What So Not & GANZ",
+          "url": "https://music.apple.com/kz/album/1240579973?i=1240580163",
+          "collection": "Divide & Conquer (Remixes)"
+        },
+        {
+          "title": "Lone (feat. JOY.) [Ribongia Remix]",
+          "artist": "What So Not & GANZ",
+          "url": "https://music.apple.com/kz/album/1240579973?i=1240580161",
+          "collection": "Divide & Conquer (Remixes)"
+        }
+      ]
+    },
+    {
+      "id": "awen-241",
+      "artist": "NF",
+      "title": "CLOUDS (MIXTAPE)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "CLOUDS (Edit)",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1553380833?i=1553381559",
+          "collection": "CLOUDS (THE MIXTAPE)"
+        },
+        {
+          "title": "CLOUDS",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1553380833?i=1553381058",
+          "collection": "CLOUDS (THE MIXTAPE)"
+        },
+        {
+          "title": "DRIFTING",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1553380833?i=1553381304",
+          "collection": "CLOUDS (THE MIXTAPE)"
+        },
+        {
+          "title": "PAID MY DUES",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1553380833?i=1553381309",
+          "collection": "CLOUDS (THE MIXTAPE)"
+        },
+        {
+          "title": "THAT'S A JOKE",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1553380833?i=1553381067",
+          "collection": "CLOUDS (THE MIXTAPE)"
+        }
+      ]
+    },
+    {
+      "id": "awen-242",
+      "artist": "NF",
+      "title": "CLOUDS (THE MIXTAPE)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "CLOUDS",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1553380833?i=1553381058",
+          "collection": "CLOUDS (THE MIXTAPE)"
+        },
+        {
+          "title": "CLOUDS (Edit)",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1553380833?i=1553381559",
+          "collection": "CLOUDS (THE MIXTAPE)"
+        },
+        {
+          "title": "JUST LIKE YOU",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1553380833?i=1553381287",
+          "collection": "CLOUDS (THE MIXTAPE)"
+        },
+        {
+          "title": "DRIFTING",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1553380833?i=1553381304",
+          "collection": "CLOUDS (THE MIXTAPE)"
+        },
+        {
+          "title": "PAID MY DUES",
+          "artist": "NF",
+          "url": "https://music.apple.com/kz/album/1553380833?i=1553381309",
+          "collection": "CLOUDS (THE MIXTAPE)"
+        }
+      ]
+    },
+    {
+      "id": "awen-245",
+      "artist": "The Weeknd",
+      "title": "Blinding Lights",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Blinding Lights",
+          "artist": "The Weeknd",
+          "url": "https://music.apple.com/kz/album/1499378108?i=1499378607",
+          "collection": "After Hours"
+        },
+        {
+          "title": "Blinding Lights",
+          "artist": "The Weeknd",
+          "url": "https://music.apple.com/kz/album/1505683705?i=1505683988",
+          "collection": "After Hours (Deluxe)"
+        },
+        {
+          "title": "Blinding Lights",
+          "artist": "The Weeknd",
+          "url": "https://music.apple.com/kz/album/1550875218?i=1550875220",
+          "collection": "The Highlights"
+        },
+        {
+          "title": "Blinding Lights",
+          "artist": "The Weeknd",
+          "url": "https://music.apple.com/kz/album/1499385848?i=1499386265",
+          "collection": "After Hours"
+        },
+        {
+          "title": "Blinding Lights",
+          "artist": "The Weeknd",
+          "url": "https://music.apple.com/kz/album/1505683624?i=1505683967",
+          "collection": "After Hours (Deluxe)"
+        }
+      ]
+    },
+    {
+      "id": "awen-246",
+      "artist": "Daft Punk",
+      "title": "Get Lucky",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Get Lucky",
+          "artist": "Daft Punk, Pharrell Williams & Nile Rodgers",
+          "url": "https://music.apple.com/kz/album/617154241?i=617154366",
+          "collection": "Random Access Memories"
+        },
+        {
+          "title": "Get Lucky (feat. Pharrell Williams & Nile Rodgers) [Daft Punk Remix]",
+          "artist": "Daft Punk",
+          "url": "https://music.apple.com/kz/album/664332737?i=664332744",
+          "collection": "Get Lucky (feat. Pharrell Williams & Nile Rodgers) [Daft Punk Remix]"
+        },
+        {
+          "title": "Get Lucky",
+          "artist": "Smooth Jazz All Stars",
+          "url": "https://music.apple.com/kz/album/688491437?i=688491439",
+          "collection": "Smooth Jazz Tribute to Daft Punk - EP"
+        },
+        {
+          "title": "Get Lucky",
+          "artist": "Daft Punk, Pharrell Williams & Nile Rodgers",
+          "url": "https://music.apple.com/kz/album/1673536063?i=1673536443",
+          "collection": "Random Access Memories (10th Anniversary Edition)"
+        },
+        {
+          "title": "Get Lucky",
+          "artist": "Vitamin String Quartet",
+          "url": "https://music.apple.com/kz/album/1086277239?i=1086277803",
+          "collection": "Vitamin String Quartet Performs Daft Punk's Random Access Memories"
+        }
+      ]
+    },
+    {
+      "id": "awen-249",
+      "artist": "Tom Odell",
+      "title": "Another Love",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Another Love (Zwette Edit)",
+          "artist": "Tom Odell",
+          "url": "https://music.apple.com/kz/album/719002751?i=719002824",
+          "collection": "Another Love (Zwette Edit) - Single"
+        },
+        {
+          "title": "Another Love (Dimitri Vangelis & Wyman Remix)",
+          "artist": "Tom Odell",
+          "url": "https://music.apple.com/kz/album/922123431?i=922123499",
+          "collection": "Another Love (Dimitri Vangelis & Wyman Remix) - Single"
+        },
+        {
+          "title": "Another Love",
+          "artist": "High Frequency Karaoke",
+          "url": "https://music.apple.com/kz/album/611194531?i=611194809",
+          "collection": "Another Love (Karaoke Version) [In the Style of Tom Odell] - EP"
+        }
+      ]
+    },
+    {
+      "id": "awen-251",
+      "artist": "Tails, Inverness feat. Nevve",
+      "title": "Skeleton (feat. Nevve)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Skeleton (feat. Nevve)",
+          "artist": "Tails & inverness",
+          "url": "https://music.apple.com/kz/album/1438667320?i=1438667544",
+          "collection": "Skeleton (feat. Nevve) - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-258",
+      "artist": "John Williams",
+      "title": "Main Title \"Somewhere in My Memory\" (From \"Home Alone\")",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Somewhere in My Memory (Chorus & Orchestra Version)",
+          "artist": "John Williams",
+          "url": "https://music.apple.com/kz/album/1049526462?i=1049529734",
+          "collection": "Home Alone (Original Motion Picture Soundtrack) [Anniversary Edition]"
+        },
+        {
+          "title": "Somewhere In My Memory (From \"Home Alone\") [Voice]",
+          "artist": "John Williams",
+          "url": "https://music.apple.com/kz/album/158330495?i=158331404",
+          "collection": "Greatest Hits 1969-1999"
+        },
+        {
+          "title": "Main Title (From \"Home Alone\") [Somewhere In My Memory] {Voice}",
+          "artist": "John Williams",
+          "url": "https://music.apple.com/kz/album/394315091?i=394315734",
+          "collection": "Greatest Hits 1969-1999"
+        },
+        {
+          "title": "Somewhere in My Memory",
+          "artist": "John Williams",
+          "url": "https://music.apple.com/kz/album/1853914817?i=1853914819",
+          "collection": "Home Alone 2: Lost in New York (Original Score)"
+        }
+      ]
+    },
+    {
+      "id": "awen-262",
+      "artist": "Gunna feat. Young Thug",
+      "title": "DOLLAZ ON MY HEAD (feat. Young Thug)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "DOLLAZ ON MY HEAD (feat. Young Thug)",
+          "artist": "Gunna",
+          "url": "https://music.apple.com/kz/album/1514515498?i=1514515780",
+          "collection": "WUNNA"
+        },
+        {
+          "title": "DOLLAZ ON MY HEAD (feat. Young Thug)",
+          "artist": "Gunna",
+          "url": "https://music.apple.com/kz/album/1525028341?i=1525028599",
+          "collection": "WUNNA (Deluxe)"
+        }
+      ]
+    },
+    {
+      "id": "awen-263",
+      "artist": "Usher",
+      "title": "Confessions",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Confessions",
+          "artist": "USHER",
+          "url": "https://music.apple.com/kz/album/386153476?i=386153610",
+          "collection": "Confessions (Expanded Edition)"
+        },
+        {
+          "title": "Confessions",
+          "artist": "USHER",
+          "url": "https://music.apple.com/kz/album/1765605269?i=1765605476",
+          "collection": "Confessions (20th Anniversary Edition)"
+        }
+      ]
+    },
+    {
+      "id": "awen-267",
+      "artist": "Jorja Smith",
+      "title": "By Any Means",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "By Any Means",
+          "artist": "Jorja Smith",
+          "url": "https://music.apple.com/kz/album/1534801816?i=1534802230",
+          "collection": "REPRISE: A Roc Nation Album"
+        },
+        {
+          "title": "By Any Means",
+          "artist": "Jorja Smith",
+          "url": "https://music.apple.com/kz/album/1523314551?i=1523314552",
+          "collection": "By Any Means - Single"
+        },
+        {
+          "title": "By Any Means",
+          "artist": "Jorja Smith",
+          "url": "https://music.apple.com/kz/album/1534795483?i=1534795501",
+          "collection": "REPRISE: A Roc Nation Album"
+        }
+      ]
+    },
+    {
+      "id": "awen-268",
+      "artist": "Miley Cyrus",
+      "title": "Plastic Hearts",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Plastic Hearts",
+          "artist": "Miley Cyrus",
+          "url": "https://music.apple.com/kz/album/1536966025?i=1536966406",
+          "collection": "Plastic Hearts"
+        },
+        {
+          "title": "Plastic Hearts",
+          "artist": "Miley Cyrus",
+          "url": "https://music.apple.com/kz/album/1541088821?i=1541088823",
+          "collection": "Plastic Hearts (Apple Music Backyard Sessions Edition)"
+        },
+        {
+          "title": "Plastic Hearts",
+          "artist": "Miley Cyrus",
+          "url": "https://music.apple.com/kz/album/1536976111?i=1536976358",
+          "collection": "Plastic Hearts"
+        }
+      ]
+    },
+    {
+      "id": "awen-269",
+      "artist": "Christian Loffler",
+      "title": "Parallels [EP]",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Pastoral",
+          "artist": "Christian Löffler",
+          "url": "https://music.apple.com/kz/album/1537396676?i=1537396678",
+          "collection": "Parallels: Shellac Reworks (Beethoven) by Christian Löffler - EP"
+        },
+        {
+          "title": "Funebre",
+          "artist": "Christian Löffler",
+          "url": "https://music.apple.com/kz/album/1537396676?i=1537396867",
+          "collection": "Parallels: Shellac Reworks (Beethoven) by Christian Löffler - EP"
+        },
+        {
+          "title": "Fate",
+          "artist": "Christian Löffler",
+          "url": "https://music.apple.com/kz/album/1537396676?i=1537396681",
+          "collection": "Parallels: Shellac Reworks (Beethoven) by Christian Löffler - EP"
+        },
+        {
+          "title": "Freiyheit",
+          "artist": "Christian Löffler",
+          "url": "https://music.apple.com/kz/album/1537396676?i=1537396868",
+          "collection": "Parallels: Shellac Reworks (Beethoven) by Christian Löffler - EP"
+        }
+      ]
+    },
+    {
+      "id": "awen-270",
+      "artist": "Christian Löffler",
+      "title": "Pastoral",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Pastoral",
+          "artist": "Christian Löffler",
+          "url": "https://music.apple.com/kz/album/1537396676?i=1537396678",
+          "collection": "Parallels: Shellac Reworks (Beethoven) by Christian Löffler - EP"
+        },
+        {
+          "title": "Pastoral",
+          "artist": "Christian Löffler",
+          "url": "https://music.apple.com/kz/album/1542964535?i=1542964963",
+          "collection": "Parallels: Shellac Reworks By Christian Löffler"
+        }
+      ]
+    },
+    {
+      "id": "awen-275",
+      "artist": "Alina Baraz, Galimatias",
+      "title": "Unfold",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Unfold",
+          "artist": "Alina Baraz & Galimatias",
+          "url": "https://music.apple.com/kz/album/982629045?i=982629053",
+          "collection": "Urban Flora"
+        }
+      ]
+    },
+    {
+      "id": "awen-282",
+      "artist": "LANY",
+      "title": "If You See Her",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Super Far",
+          "artist": "LANY",
+          "url": "https://music.apple.com/kz/album/1440893646?i=1440894151",
+          "collection": "LANY"
+        },
+        {
+          "title": "Valentine's Day",
+          "artist": "LANY",
+          "url": "https://music.apple.com/kz/album/1435482172?i=1435482372",
+          "collection": "Malibu Nights"
+        },
+        {
+          "title": "Someone Else",
+          "artist": "LANY",
+          "url": "https://music.apple.com/kz/album/1772129855?i=1772129858",
+          "collection": "I Loved You. - EP"
+        }
+      ]
+    },
+    {
+      "id": "awen-283",
+      "artist": "DJ SMASH, Poёt",
+      "title": "БЕГИ",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "БЕГИ",
+          "artist": "DJ Smash & Poёt",
+          "url": "https://music.apple.com/kz/album/1524431459?i=1524431460",
+          "collection": "БЕГИ - Single"
+        },
+        {
+          "title": "БЕГИ",
+          "artist": "DJ Smash & Poёt",
+          "url": "https://music.apple.com/kz/album/1727506686?i=1727506696",
+          "collection": "MIU MЯU"
+        }
+      ]
+    },
+    {
+      "id": "awen-285",
+      "artist": "KDA",
+      "title": "ALL OUT",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "All Out",
+          "artist": "Masaru Yokoyama",
+          "url": "https://music.apple.com/kz/album/1527574759?i=1527578207",
+          "collection": "MOBILE SUIT GUNDAM IRON-BLOODED ORPHANS Original Motion Picture Soundtrack Ⅱ"
+        },
+        {
+          "title": "All Out",
+          "artist": "Anna Lunoe",
+          "url": "https://music.apple.com/kz/album/1712545643?i=1712545834",
+          "collection": "All Out EP - EP"
+        },
+        {
+          "title": "All Out",
+          "artist": "Sean Paul",
+          "url": "https://music.apple.com/kz/album/1265878629?i=1265878810",
+          "collection": "Strictly the Best, Vol. 35"
+        },
+        {
+          "title": "All Out",
+          "artist": "Haley & Michaels",
+          "url": "https://music.apple.com/kz/album/1603193904?i=1603195061",
+          "collection": "Hail Mary (Album)"
+        },
+        {
+          "title": "All Out",
+          "artist": "Johnny Yukon",
+          "url": "https://music.apple.com/kz/album/1378244415?i=1378244655",
+          "collection": "Installation I"
+        }
+      ]
+    },
+    {
+      "id": "awen-288",
+      "artist": "Ólafur Arnalds, JFDR",
+      "title": "Back To The Sky",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Back to the Sky",
+          "artist": "Ólafur Arnalds & JFDR",
+          "url": "https://music.apple.com/kz/album/1524885935?i=1524886270",
+          "collection": "Back to the Sky - Single"
+        },
+        {
+          "title": "Back to the Sky",
+          "artist": "Ólafur Arnalds & JFDR",
+          "url": "https://music.apple.com/kz/album/1524005856?i=1524005863",
+          "collection": "some kind of peace"
+        },
+        {
+          "title": "Back To The Sky",
+          "artist": "Ólafur Arnalds & JFDR",
+          "url": "https://music.apple.com/kz/album/1714916710?i=1714917001",
+          "collection": "It’s 2am and i’m not tired"
+        }
+      ]
+    },
+    {
+      "id": "awen-289",
+      "artist": "Earth, Wind & Fire",
+      "title": "September",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "September",
+          "artist": "Earth, Wind & Fire",
+          "url": "https://music.apple.com/kz/album/1456623332?i=1456623340",
+          "collection": "The Best Of Earth, Wind & Fire Vol. 1"
+        },
+        {
+          "title": "September",
+          "artist": "Earth, Wind & Fire",
+          "url": "https://music.apple.com/kz/album/1456444801?i=1456444818",
+          "collection": "Greatest Hits"
+        },
+        {
+          "title": "September",
+          "artist": "Earth, Wind & Fire",
+          "url": "https://music.apple.com/kz/album/830431219?i=830431255",
+          "collection": "The Essential Earth, Wind & Fire"
+        },
+        {
+          "title": "September",
+          "artist": "Earth, Wind & Fire",
+          "url": "https://music.apple.com/kz/album/1456445670?i=1456446747",
+          "collection": "The Eternal Dance"
+        }
+      ]
+    },
+    {
+      "id": "awen-293",
+      "artist": "Ash, Amelie Martinez",
+      "title": "Dans La Peau",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Dans La Peau",
+          "artist": "Ash & Amélie Martinez",
+          "url": "https://music.apple.com/kz/album/6794324859?i=6794324860",
+          "collection": "Dans La Peau - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-294",
+      "artist": "Tamahau",
+      "title": "Know My Name",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Know My Name (Max Beatstone Remix)",
+          "artist": "Tamahau",
+          "url": "https://music.apple.com/kz/album/1498404174?i=1498404175",
+          "collection": "Know My Name (Max Beatstone Remix) - Single"
+        },
+        {
+          "title": "Know My Name",
+          "artist": "Tamahau & Rebel Musique",
+          "url": "https://music.apple.com/kz/album/1701063398?i=1701063400",
+          "collection": "Know My Name - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-295",
+      "artist": "Diplo, SIDEPIECE",
+      "title": "On My Mind",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "On My Mind",
+          "artist": "Diplo & SIDEPIECE",
+          "url": "https://music.apple.com/kz/album/1489005961?i=1489005963",
+          "collection": "On My Mind - Single"
+        },
+        {
+          "title": "On My Mind",
+          "artist": "Diplo & SIDEPIECE",
+          "url": "https://music.apple.com/kz/album/1607400716?i=1607400994",
+          "collection": "Diplo"
+        },
+        {
+          "title": "On My Mind",
+          "artist": "Diplo & SIDEPIECE",
+          "url": "https://music.apple.com/kz/album/1636802824?i=1636803436",
+          "collection": "Diplo (Deluxe)"
+        },
+        {
+          "title": "On My Mind",
+          "artist": "Diplo & SIDEPIECE",
+          "url": "https://music.apple.com/kz/album/1556562872?i=1556562874",
+          "collection": "Do You Dance?"
+        },
+        {
+          "title": "On My Mind",
+          "artist": "Ellie Goulding",
+          "url": "https://music.apple.com/kz/album/1443293505?i=1443293593",
+          "collection": "Delirium"
+        }
+      ]
+    },
+    {
+      "id": "awen-300",
+      "artist": "Paco Versailles",
+      "title": "Gemini",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Gemini",
+          "artist": "Paco Versailles",
+          "url": "https://music.apple.com/kz/album/1560605395?i=1560605403",
+          "collection": "Dancemenco"
+        },
+        {
+          "title": "Gemini",
+          "artist": "Paco Versailles",
+          "url": "https://music.apple.com/kz/album/1534344656?i=1534344657",
+          "collection": "Gemini - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-302",
+      "artist": "Rook Monroe",
+      "title": "Jolie",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Jolie",
+          "artist": "Rook Monroe",
+          "url": "https://music.apple.com/kz/album/1668231445?i=1668231446",
+          "collection": "Jolie - Single"
+        },
+        {
+          "title": "Jolie",
+          "artist": "Rook Monroe",
+          "url": "https://music.apple.com/kz/album/1668222961?i=1668222963",
+          "collection": "Californialand"
+        }
+      ]
+    },
+    {
+      "id": "awen-304",
+      "artist": "BICEP",
+      "title": "Apricots",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Apricots",
+          "artist": "Bicep",
+          "url": "https://music.apple.com/kz/album/1531704818?i=1531704822",
+          "collection": "Isles"
+        },
+        {
+          "title": "Apricots",
+          "artist": "Bicep",
+          "url": "https://music.apple.com/kz/album/1560650222?i=1560650225",
+          "collection": "Isles (Deluxe)"
+        },
+        {
+          "title": "Apricots",
+          "artist": "Bicep",
+          "url": "https://music.apple.com/kz/album/1582022844?i=1582024577",
+          "collection": "Nova Tunes 4.2"
+        }
+      ]
+    },
+    {
+      "id": "awen-307",
+      "artist": "Pusha T feat. Tyler, The Creator",
+      "title": "Trouble On My Mind",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Trouble On My Mind",
+          "artist": "The Sextones",
+          "url": "https://music.apple.com/kz/album/1820978158?i=1820978168",
+          "collection": "Love Can't Be Borrowed"
+        },
+        {
+          "title": "Trouble on My Mind",
+          "artist": "The Staves & yMusic",
+          "url": "https://music.apple.com/kz/album/1304461483?i=1304461917",
+          "collection": "The Way Is Read"
+        },
+        {
+          "title": "Trouble On My Mind",
+          "artist": "Lew Apollo",
+          "url": "https://music.apple.com/kz/album/1662434206?i=1662434207",
+          "collection": "Trouble On My Mind - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-308",
+      "artist": "Lil Peep",
+      "title": "haunt u",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Haunt U",
+          "artist": "Sickheart",
+          "url": "https://music.apple.com/kz/album/1883081014?i=1883081015",
+          "collection": "Haunt U - Single"
+        },
+        {
+          "title": "Awful Things (feat. Lil Tracy)",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1709756917?i=1709756923",
+          "collection": "Come Over When You're Sober, Pt. 1"
+        },
+        {
+          "title": "The Brightside",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1709756917?i=1709757286",
+          "collection": "Come Over When You're Sober, Pt. 1"
+        },
+        {
+          "title": "Better Off (Dying)",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1709756917?i=1709756925",
+          "collection": "Come Over When You're Sober, Pt. 1"
+        },
+        {
+          "title": "Haunt U",
+          "artist": "HVDES",
+          "url": "https://music.apple.com/kz/album/1881733459?i=1881733461",
+          "collection": "Haunt U - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-311",
+      "artist": "Russ",
+      "title": "Aw Aw",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Aw-Aw",
+          "artist": "Budots Dance",
+          "url": "https://music.apple.com/kz/album/1565554230?i=1565554235",
+          "collection": "Aw-Aw - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-314",
+      "artist": "Billie Eilish",
+      "title": "No Time To Die",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "No Time To Die",
+          "artist": "Billie Eilish",
+          "url": "https://music.apple.com/kz/album/1498647640?i=1498647654",
+          "collection": "No Time To Die - Single"
+        },
+        {
+          "title": "No Time To Die",
+          "artist": "Billie Eilish",
+          "url": "https://music.apple.com/kz/album/1533265529?i=1533268537",
+          "collection": "No Time To Die (Original Motion Picture Soundtrack)"
+        }
+      ]
+    },
+    {
+      "id": "awen-316",
+      "artist": "Sango",
+      "title": "Da Rocinha 4",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Rocinha to King Drive",
+          "artist": "Sango",
+          "url": "https://music.apple.com/kz/album/1527816870?i=1527817088",
+          "collection": "Da Rocinha 4"
+        },
+        {
+          "title": "Kalimba Funk",
+          "artist": "Sango",
+          "url": "https://music.apple.com/kz/album/1527816870?i=1527816872",
+          "collection": "Da Rocinha 4"
+        },
+        {
+          "title": "Cangaíba to 7 Mile",
+          "artist": "Sango",
+          "url": "https://music.apple.com/kz/album/1527816870?i=1527817087",
+          "collection": "Da Rocinha 4"
+        },
+        {
+          "title": "Detalhe",
+          "artist": "Sango",
+          "url": "https://music.apple.com/kz/album/1527816870?i=1527816871",
+          "collection": "Da Rocinha 4"
+        },
+        {
+          "title": "Noite Após Noite (feat. VHOOR)",
+          "artist": "Sango",
+          "url": "https://music.apple.com/kz/album/1527816870?i=1527817092",
+          "collection": "Da Rocinha 4"
+        }
+      ]
+    },
+    {
+      "id": "awen-327",
+      "artist": "Disclosure",
+      "title": "ENERGY",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "ENERGY",
+          "artist": "Disclosure",
+          "url": "https://music.apple.com/kz/album/1511913981?i=1511914540",
+          "collection": "ENERGY (Deluxe)"
+        },
+        {
+          "title": "ENERGY",
+          "artist": "Disclosure",
+          "url": "https://music.apple.com/kz/album/1512184858?i=1512184861",
+          "collection": "ENERGY - Single"
+        },
+        {
+          "title": "ENERGY",
+          "artist": "Disclosure",
+          "url": "https://music.apple.com/kz/album/1547983242?i=1547983612",
+          "collection": "ENERGY (Special Edition)"
+        },
+        {
+          "title": "ENERGY",
+          "artist": "Disclosure",
+          "url": "https://music.apple.com/kz/album/1543305969?i=1543305981",
+          "collection": "ENERGY (Special Edition)"
+        }
+      ]
+    },
+    {
+      "id": "awen-328",
+      "artist": "David Guetta, Sia",
+      "title": "Let's Love",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Let's Love",
+          "artist": "David Guetta & Sia",
+          "url": "https://music.apple.com/kz/album/1526859322?i=1526859615",
+          "collection": "Let's Love - Single"
+        },
+        {
+          "title": "Let's Love",
+          "artist": "David Guetta & Sia",
+          "url": "https://music.apple.com/kz/album/1539761594?i=1539761749",
+          "collection": "Let's Love (Acoustic) - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-334",
+      "artist": "Doja Cat",
+      "title": "Candy",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Candy",
+          "artist": "Doja Cat",
+          "url": "https://music.apple.com/kz/album/1453888706?i=1453888925",
+          "collection": "Amala (Deluxe Version)"
+        },
+        {
+          "title": "Candy",
+          "artist": "Doja Cat",
+          "url": "https://music.apple.com/kz/album/1364572914?i=1364574094",
+          "collection": "Amala"
+        },
+        {
+          "title": "Candy",
+          "artist": "Doja Cat",
+          "url": "https://music.apple.com/kz/album/1360504813?i=1360504825",
+          "collection": "Candy - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-337",
+      "artist": "Eminem feat. Juice WRLD",
+      "title": "Godzilla",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Godzilla",
+          "artist": "Twinkle Twinkle Little Rock Star",
+          "url": "https://music.apple.com/kz/album/1606010489?i=1606010788",
+          "collection": "Lullaby Versions of Eminem"
+        },
+        {
+          "title": "Godzilla",
+          "artist": "Blue Öyster Cult",
+          "url": "https://music.apple.com/kz/album/170587019?i=170587687",
+          "collection": "Don't Fear the Reaper: The Best of Blue Öyster Cult"
+        },
+        {
+          "title": "Godzilla",
+          "artist": "Kesha",
+          "url": "https://music.apple.com/kz/album/1253656856?i=1253657081",
+          "collection": "Rainbow"
+        },
+        {
+          "title": "Godzilla",
+          "artist": "Racer X",
+          "url": "https://music.apple.com/kz/album/1048254102?i=1048254117",
+          "collection": "Superheroes"
+        },
+        {
+          "title": "Godzilla!",
+          "artist": "Alexandre Desplat",
+          "url": "https://music.apple.com/kz/album/1455160845?i=1455160846",
+          "collection": "Godzilla (Original Motion Picture Soundtrack)"
+        }
+      ]
+    },
+    {
+      "id": "awen-339",
+      "artist": "Various Artists",
+      "title": "At home with the kids",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "God Bless The USA",
+          "artist": "Various Artists",
+          "url": "https://music.apple.com/kz/album/317694542?i=317694679",
+          "collection": "4th of July (Proud To Be An American)"
+        }
+      ]
+    },
+    {
+      "id": "awen-342",
+      "artist": "Shawn Mendes & Camila Cabello",
+      "title": "Senorita",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Señorita",
+          "artist": "Shawn Mendes & Camila Cabello",
+          "url": "https://music.apple.com/kz/album/1468910011?i=1468910018",
+          "collection": "Señorita - Single"
+        },
+        {
+          "title": "Señorita",
+          "artist": "Shawn Mendes & Camila Cabello",
+          "url": "https://music.apple.com/kz/album/1474313635?i=1474313941",
+          "collection": "Shawn Mendes (Deluxe)"
+        },
+        {
+          "title": "Señorita",
+          "artist": "Shawn Mendes & Camila Cabello",
+          "url": "https://music.apple.com/kz/album/1487577356?i=1487577500",
+          "collection": "Romance"
+        }
+      ]
+    },
+    {
+      "id": "awen-345",
+      "artist": "Jordan Stephens",
+      "title": "Sunshine Skin",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Sunshine Skin",
+          "artist": "Jordan Stephens",
+          "url": "https://music.apple.com/kz/album/1676895643?i=1676895887",
+          "collection": "Let Me Die Inside You"
+        },
+        {
+          "title": "Sunshine Skin",
+          "artist": "Jordan Stephens",
+          "url": "https://music.apple.com/kz/album/1523472980?i=1523472982",
+          "collection": "Sunshine Skin - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-348",
+      "artist": "Beyonce",
+      "title": "Brown skin",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Brown Skin",
+          "artist": "India.Arie",
+          "url": "https://music.apple.com/kz/album/1440785961?i=1440785978",
+          "collection": "Acoustic Soul"
+        },
+        {
+          "title": "Brown Skin",
+          "artist": "Richie Spice",
+          "url": "https://music.apple.com/kz/album/309136984?i=309137061",
+          "collection": "In the Streets to Africa"
+        },
+        {
+          "title": "Dangerously in Love 2",
+          "artist": "Beyoncé",
+          "url": "https://music.apple.com/kz/album/201274359?i=201277862",
+          "collection": "Dangerously in Love"
+        },
+        {
+          "title": "Check On It (feat. Slim Thug)",
+          "artist": "Beyoncé",
+          "url": "https://music.apple.com/kz/album/296334546?i=296334744",
+          "collection": "#1's: Destiny's Child"
+        }
+      ]
+    },
+    {
+      "id": "awen-349",
+      "artist": "Drake feat. Lil Durk",
+      "title": "Laugh Now Cry Later",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Laugh Now Cry Later",
+          "artist": "Janine",
+          "url": "https://music.apple.com/kz/album/1530176264?i=1530176266",
+          "collection": "Laugh Now Cry Later - Single"
+        },
+        {
+          "title": "Laugh Now Cry Later",
+          "artist": "Los Shadows",
+          "url": "https://music.apple.com/kz/album/1441685203?i=1441685204",
+          "collection": "Laugh Now Cry Later - Single"
+        },
+        {
+          "title": "Laugh Now Cry Later",
+          "artist": "Mareux",
+          "url": "https://music.apple.com/kz/album/1808798318?i=1808798326",
+          "collection": "Nonstop Romance"
+        },
+        {
+          "title": "Laugh Now Cry Later",
+          "artist": "Pachino Dino",
+          "url": "https://music.apple.com/kz/album/6249673?i=6249669",
+          "collection": "Dummin Out"
+        },
+        {
+          "title": "Laugh Now, Cry Later",
+          "artist": "Ice Cube",
+          "url": "https://music.apple.com/kz/album/714556981?i=714557199",
+          "collection": "Laugh Now, Cry Later"
+        }
+      ]
+    },
+    {
+      "id": "awen-350",
+      "artist": "MEMBA, WiDE AWAKE feat. Xo Man",
+      "title": "Vexed (feat. Xo Man)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Vexed (feat. Xo Man)",
+          "artist": "MEMBA & WiDE AWAKE",
+          "url": "https://music.apple.com/kz/album/1500914565?i=1500914566",
+          "collection": "Vexed (feat. Xo Man) - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-351",
+      "artist": "Dillon Francis",
+      "title": "You Do You",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "You Do You (feat. BabyJake)",
+          "artist": "Dillon Francis",
+          "url": "https://music.apple.com/kz/album/1501777884?i=1501777886",
+          "collection": "You Do You (feat. BabyJake) - Single"
+        },
+        {
+          "title": "You Do You (feat. BabyJake) [Sofi Tukker Remix]",
+          "artist": "Dillon Francis",
+          "url": "https://music.apple.com/kz/album/1515787760?i=1515787763",
+          "collection": "You Do You (feat. BabyJake) [Sofi Tukker Remix] - Single"
+        },
+        {
+          "title": "You Do You (feat. BabyJake) [DJ Hanzel Remix]",
+          "artist": "Dillon Francis",
+          "url": "https://music.apple.com/kz/album/1517110419?i=1517110420",
+          "collection": "You Do You (feat. BabyJake) [DJ Hanzel Remix] - Single"
+        },
+        {
+          "title": "Touch (feat. BabyJake)",
+          "artist": "Dillon Francis",
+          "url": "https://music.apple.com/kz/album/1501777884?i=1501777926",
+          "collection": "You Do You (feat. BabyJake) - Single"
+        },
+        {
+          "title": "You Do You",
+          "artist": "Zayde Wølf",
+          "url": "https://music.apple.com/kz/album/1676654560?i=1676654794",
+          "collection": "Modern Alchemy (Deluxe)"
+        }
+      ]
+    },
+    {
+      "id": "awen-352",
+      "artist": "Akif Sarıkaya",
+      "title": "Look At Me (Desibel Series)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Baby (Desibel Series)",
+          "artist": "Akif Sarıkaya",
+          "url": "https://music.apple.com/kz/album/1661617083?i=1661617084",
+          "collection": "Baby (Desibel Series) - Single"
+        },
+        {
+          "title": "Side Kick (Desibel Series)",
+          "artist": "Akif Sarıkaya",
+          "url": "https://music.apple.com/kz/album/1661615519?i=1661615520",
+          "collection": "Side Kick (Desibel Series) - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-354",
+      "artist": "Dua Lipa",
+      "title": "Hallucinate",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Hallucinate",
+          "artist": "Dua Lipa",
+          "url": "https://music.apple.com/kz/album/1538003494?i=1538003853",
+          "collection": "Future Nostalgia"
+        },
+        {
+          "title": "Hallucinate",
+          "artist": "Dua Lipa",
+          "url": "https://music.apple.com/kz/album/1552269067?i=1552269075",
+          "collection": "Future Nostalgia (The Moonlight Edition)"
+        },
+        {
+          "title": "Hallucinate",
+          "artist": "Dua Lipa",
+          "url": "https://music.apple.com/kz/album/6772178540?i=6772180093",
+          "collection": "Disc 6"
+        },
+        {
+          "title": "Hallucinate",
+          "artist": "Dua Lipa",
+          "url": "https://music.apple.com/kz/album/1551178998?i=1551179422",
+          "collection": "Future Nostalgia (The Moonlight Edition)"
+        }
+      ]
+    },
+    {
+      "id": "awen-357",
+      "artist": "LXST CXNTURY",
+      "title": "Osaka",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "THERAPY",
+          "artist": "LXST CXNTURY",
+          "url": "https://music.apple.com/kz/album/1727010508?i=1727010515",
+          "collection": "THERAPY - Single"
+        },
+        {
+          "title": "HUSHLOCK REALM",
+          "artist": "LXST CXNTURY",
+          "url": "https://music.apple.com/kz/album/1795798268?i=1795798275",
+          "collection": "HUSHLOCK REALM - EP"
+        },
+        {
+          "title": "UMBRA",
+          "artist": "LXST CXNTURY",
+          "url": "https://music.apple.com/kz/album/1740088096?i=1740088284",
+          "collection": "UMBRA - Single"
+        },
+        {
+          "title": "SYNTHETIC",
+          "artist": "LXST CXNTURY",
+          "url": "https://music.apple.com/kz/album/1795798268?i=1795798415",
+          "collection": "HUSHLOCK REALM - EP"
+        },
+        {
+          "title": "VISTA",
+          "artist": "LXST CXNTURY",
+          "url": "https://music.apple.com/kz/album/1795798268?i=1795798404",
+          "collection": "HUSHLOCK REALM - EP"
+        }
+      ]
+    },
+    {
+      "id": "awen-360",
+      "artist": "BiBi",
+      "title": "Sola",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Sola",
+          "artist": "Bibi33",
+          "url": "https://music.apple.com/kz/album/1831155085?i=1831155090",
+          "collection": "Sola - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-361",
+      "artist": "The XX",
+      "title": "Unfold",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Unfold",
+          "artist": "The xx",
+          "url": "https://music.apple.com/kz/album/555642294?i=555642357",
+          "collection": "Coexist"
+        },
+        {
+          "title": "Unfold",
+          "artist": "The xx",
+          "url": "https://music.apple.com/kz/album/1653153052?i=1653153379",
+          "collection": "Coexist (Deluxe)"
+        }
+      ]
+    },
+    {
+      "id": "awen-363",
+      "artist": "Belly",
+      "title": "Maintain (feat. NAV)",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Maintain (feat. NAV)",
+          "artist": "Belly",
+          "url": "https://music.apple.com/kz/album/1365699428?i=1365699930",
+          "collection": "Maintain (feat. NAV) - Single"
+        },
+        {
+          "title": "Maintain (feat. NAV)",
+          "artist": "Belly",
+          "url": "https://music.apple.com/kz/album/1438140993?i=1438141242",
+          "collection": "IMMIGRANT"
+        }
+      ]
+    },
+    {
+      "id": "awen-369",
+      "artist": "Disclosure, Fatoumata Diawara",
+      "title": "Douha (Mali Mali)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Douha (Mali Mali)",
+          "artist": "Disclosure & Fatoumata Diawara",
+          "url": "https://music.apple.com/kz/album/1511913981?i=1511914366",
+          "collection": "ENERGY (Deluxe)"
+        },
+        {
+          "title": "Douha (Mali Mali)",
+          "artist": "Disclosure & Fatoumata Diawara",
+          "url": "https://music.apple.com/kz/album/1543305969?i=1543305977",
+          "collection": "ENERGY (Special Edition)"
+        },
+        {
+          "title": "Douha (Mali Mali)",
+          "artist": "Disclosure & Fatoumata Diawara",
+          "url": "https://music.apple.com/kz/album/1547983242?i=1547983602",
+          "collection": "ENERGY (Special Edition)"
+        }
+      ]
+    },
+    {
+      "id": "awen-371",
+      "artist": "kavabanga Depo kolibri",
+      "title": "Сука-любовь",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Девочка",
+          "artist": "kavabanga Depo kolibri",
+          "url": "https://music.apple.com/kz/album/1354419971?i=1354419976",
+          "collection": "Самовыдуманный рай"
+        },
+        {
+          "title": "Царапины",
+          "artist": "kavabanga Depo kolibri",
+          "url": "https://music.apple.com/kz/album/1823720125?i=1823720131",
+          "collection": "KDKin"
+        },
+        {
+          "title": "Птицы",
+          "artist": "kavabanga Depo kolibri",
+          "url": "https://music.apple.com/kz/album/1123973683?i=1123973897",
+          "collection": "#ИДИСНАМИ"
+        }
+      ]
+    },
+    {
+      "id": "awen-373",
+      "artist": "The Neighbourhood",
+      "title": "Sweater Weather",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Sweater Weather",
+          "artist": "The Neighbourhood",
+          "url": "https://music.apple.com/kz/album/635016635?i=635016640",
+          "collection": "I Love You."
+        },
+        {
+          "title": "Sweater Weather",
+          "artist": "The Neighbourhood",
+          "url": "https://music.apple.com/kz/album/1682583963?i=1682584224",
+          "collection": "I Love You. (10th Anniversary Edition)"
+        },
+        {
+          "title": "Sweater Weather",
+          "artist": "The Neighbourhood",
+          "url": "https://music.apple.com/kz/album/548656698?i=548656753",
+          "collection": "I'm Sorry... - EP"
+        },
+        {
+          "title": "Sweater Weather",
+          "artist": "The Neighbourhood",
+          "url": "https://music.apple.com/kz/album/1691429251?i=1691429257",
+          "collection": "Internacionais Mais Tocadas 2023"
+        }
+      ]
+    },
+    {
+      "id": "awen-375",
+      "artist": "Джизус",
+      "title": "Группа крови",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Группа крови",
+          "artist": "Kino",
+          "url": "https://music.apple.com/kz/album/1375628135?i=1375629293",
+          "collection": "Легенда"
+        }
+      ]
+    },
+    {
+      "id": "awen-379",
+      "artist": "Wiz Khalifa",
+      "title": "Still Wiz",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Still Wiz",
+          "artist": "Wiz Khalifa",
+          "url": "https://music.apple.com/kz/album/1534028162?i=1534028621",
+          "collection": "The Saga of Wiz Khalifa (Deluxe)"
+        },
+        {
+          "title": "Still Wiz",
+          "artist": "Wiz Khalifa",
+          "url": "https://music.apple.com/kz/album/1508575464?i=1508575469",
+          "collection": "The Saga of Wiz Khalifa"
+        }
+      ]
+    },
+    {
+      "id": "awen-383",
+      "artist": "Black Atlass",
+      "title": "Blonde (J-Louis Remix)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Sacrifice (feat. Jessie Reyez)",
+          "artist": "Black Atlass",
+          "url": "https://music.apple.com/kz/album/1440899253?i=1440899493",
+          "collection": "Fifty Shades Freed (Original Motion Picture Soundtrack)"
+        }
+      ]
+    },
+    {
+      "id": "awen-386",
+      "artist": "Ellie Goulding",
+      "title": "Brightest Blue",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Brightest Blue",
+          "artist": "Ellie Goulding",
+          "url": "https://music.apple.com/kz/album/1514631992?i=1514632424",
+          "collection": "Brightest Blue"
+        },
+        {
+          "title": "Brightest Blue",
+          "artist": "Ellie Goulding",
+          "url": "https://music.apple.com/kz/album/1523762342?i=1523762814",
+          "collection": "Brightest Blue"
+        }
+      ]
+    },
+    {
+      "id": "awen-387",
+      "artist": "DJ Khaled feat. Drake",
+      "title": "POPSTAR",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Popstar",
+          "artist": "BAYZY",
+          "url": "https://music.apple.com/kz/album/1818780990?i=1818780992",
+          "collection": "Popstar - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-388",
+      "artist": "Dabro",
+      "title": "Юность",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Юность",
+          "artist": "Dabro",
+          "url": "https://music.apple.com/kz/album/1613842680?i=1613842995",
+          "collection": "Юность - Single"
+        },
+        {
+          "title": "Юность",
+          "artist": "Dabro",
+          "url": "https://music.apple.com/kz/album/1613845240?i=1613845788",
+          "collection": "Юность"
+        }
+      ]
+    },
+    {
+      "id": "awen-400",
+      "artist": "ZES",
+      "title": "Somewhere in the MIDDLE (EP)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Closeby",
+          "artist": "Zes",
+          "url": "https://music.apple.com/kz/album/1861618575?i=1861618582",
+          "collection": "Somewhere in the Middle - EP"
+        },
+        {
+          "title": "Dive",
+          "artist": "Zes",
+          "url": "https://music.apple.com/kz/album/1861618575?i=1861618576",
+          "collection": "Somewhere in the Middle - EP"
+        },
+        {
+          "title": "Avenue",
+          "artist": "Zes",
+          "url": "https://music.apple.com/kz/album/1861618575?i=1861618581",
+          "collection": "Somewhere in the Middle - EP"
+        },
+        {
+          "title": "Alright",
+          "artist": "Zes",
+          "url": "https://music.apple.com/kz/album/1861618575?i=1861618577",
+          "collection": "Somewhere in the Middle - EP"
+        },
+        {
+          "title": "To Care Less",
+          "artist": "Zes",
+          "url": "https://music.apple.com/kz/album/1861618575?i=1861618580",
+          "collection": "Somewhere in the Middle - EP"
+        }
+      ]
+    },
+    {
+      "id": "awen-401",
+      "artist": "ZES",
+      "title": "Somewhere in the Middle EP",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Closeby",
+          "artist": "Zes",
+          "url": "https://music.apple.com/kz/album/1861618575?i=1861618582",
+          "collection": "Somewhere in the Middle - EP"
+        },
+        {
+          "title": "Dive",
+          "artist": "Zes",
+          "url": "https://music.apple.com/kz/album/1861618575?i=1861618576",
+          "collection": "Somewhere in the Middle - EP"
+        },
+        {
+          "title": "Avenue",
+          "artist": "Zes",
+          "url": "https://music.apple.com/kz/album/1861618575?i=1861618581",
+          "collection": "Somewhere in the Middle - EP"
+        },
+        {
+          "title": "Alright",
+          "artist": "Zes",
+          "url": "https://music.apple.com/kz/album/1861618575?i=1861618577",
+          "collection": "Somewhere in the Middle - EP"
+        },
+        {
+          "title": "To Care Less",
+          "artist": "Zes",
+          "url": "https://music.apple.com/kz/album/1861618575?i=1861618580",
+          "collection": "Somewhere in the Middle - EP"
+        }
+      ]
+    },
+    {
+      "id": "awen-404",
+      "artist": "KVPV",
+      "title": "Mari",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Mari",
+          "artist": "Twoxi",
+          "url": "https://music.apple.com/kz/album/6781217447?i=6781217448",
+          "collection": "Mari - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-408",
+      "artist": "Lewis Capaldi",
+      "title": "Someone You Loved",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Someone You Loved",
+          "artist": "Lewis Capaldi",
+          "url": "https://music.apple.com/kz/album/1452618876?i=1452619054",
+          "collection": "Divinely Uninspired To A Hellish Extent"
+        },
+        {
+          "title": "Someone You Loved",
+          "artist": "Lewis Capaldi",
+          "url": "https://music.apple.com/kz/album/1536560818?i=1536561036",
+          "collection": "Divinely Uninspired To A Hellish Extent (Extended Deluxe)"
+        },
+        {
+          "title": "Someone You Loved",
+          "artist": "Lewis Capaldi",
+          "url": "https://music.apple.com/kz/album/1441539148?i=1441539154",
+          "collection": "Breach - EP"
+        },
+        {
+          "title": "Someone You Loved",
+          "artist": "Lewis Capaldi",
+          "url": "https://music.apple.com/kz/album/1485383702?i=1485383987",
+          "collection": "Divinely Uninspired To a Hellish Extent (Extended Edition)"
+        }
+      ]
+    },
+    {
+      "id": "awen-412",
+      "artist": "mareux",
+      "title": "cold summer",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Cold Summer",
+          "artist": "Mareux",
+          "url": "https://music.apple.com/kz/album/1566338703?i=1566339427",
+          "collection": "Decade - EP"
+        },
+        {
+          "title": "Cold Summer",
+          "artist": "Mareux",
+          "url": "https://music.apple.com/kz/album/1513520560?i=1513520561",
+          "collection": "Cold Summer - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-417",
+      "artist": "Kaan Pars, Aivarask",
+      "title": "Pleasure & Pain",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Pleasure & Pain",
+          "artist": "Kaan Pars & Aivarask",
+          "url": "https://music.apple.com/kz/album/6767747168?i=6767747171",
+          "collection": "Pleasure & Pain - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-419",
+      "artist": "timmies",
+      "title": "soft skin (ft. shiloh)",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Soft Skin (feat. Shiloh Dynasty)",
+          "artist": "timmies",
+          "url": "https://music.apple.com/kz/album/1564188489?i=1564188494",
+          "collection": "Passion & Confusion (feat. Shiloh Dynasty) - EP"
+        }
+      ]
+    },
+    {
+      "id": "awen-424",
+      "artist": "French Montana feat. Drake",
+      "title": "No Stylist",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "No Stylist",
+          "artist": "Diamond String Orchestra",
+          "url": "https://music.apple.com/kz/album/6797943904?i=6797943909",
+          "collection": "Orchestral String Versions of French Montana"
+        },
+        {
+          "title": "No Stylist",
+          "artist": "Josh Vietti",
+          "url": "https://music.apple.com/kz/album/1478985840?i=1478985842",
+          "collection": "Strings Attached"
+        },
+        {
+          "title": "No Stylist",
+          "artist": "Frsh, Young Ellens, Chardy & Dirty T",
+          "url": "https://music.apple.com/kz/album/1688728597?i=1688728858",
+          "collection": "NO STYLIST - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-426",
+      "artist": "Lil Peep",
+      "title": "Gym Class",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Awful Things (feat. Lil Tracy)",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1709756917?i=1709756923",
+          "collection": "Come Over When You're Sober, Pt. 1"
+        },
+        {
+          "title": "Better Off (Dying)",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1709756917?i=1709756925",
+          "collection": "Come Over When You're Sober, Pt. 1"
+        },
+        {
+          "title": "Gym Class",
+          "artist": "Music For Students, Piano for Classrooms & Night Cramming Before Exams",
+          "url": "https://music.apple.com/kz/album/1474515418?i=1474515587",
+          "collection": "Songs for Study and Focus, Vol. 2"
+        },
+        {
+          "title": "The Brightside",
+          "artist": "Lil Peep",
+          "url": "https://music.apple.com/kz/album/1709756917?i=1709757286",
+          "collection": "Come Over When You're Sober, Pt. 1"
+        },
+        {
+          "title": "Gym Class",
+          "artist": "John Jacobson & Mac Huff",
+          "url": "https://music.apple.com/kz/album/1195230559?i=1195230800",
+          "collection": "Harmony High"
+        }
+      ]
+    },
+    {
+      "id": "awen-429",
+      "artist": "Future feat. Drake",
+      "title": "Life Is Good",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Life Is Good",
+          "artist": "Lil Man J",
+          "url": "https://music.apple.com/kz/album/1837299974?i=1837299975",
+          "collection": "Life Is Good"
+        },
+        {
+          "title": "LIFE IS GOOD",
+          "artist": "Forrest Frank",
+          "url": "https://music.apple.com/kz/album/1755273435?i=1755273603",
+          "collection": "CHILD OF GOD"
+        },
+        {
+          "title": "LIFE IS GOOD",
+          "artist": "Forrest Frank",
+          "url": "https://music.apple.com/kz/album/1800088490?i=1800088504",
+          "collection": "DISC 1"
+        },
+        {
+          "title": "Life Is Good",
+          "artist": "Kenny Chesney",
+          "url": "https://music.apple.com/kz/album/254559675?i=254560324",
+          "collection": "Everywhere We Go"
+        },
+        {
+          "title": "life is good",
+          "artist": "angelbaby & Jagwar Twin",
+          "url": "https://music.apple.com/kz/album/1743707359?i=1743707361",
+          "collection": "life is good - Single"
+        }
+      ]
+    },
+    {
+      "id": "awen-430",
+      "artist": "Bruno Mars",
+      "title": "Treasure",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Treasure (Cash Cash Radio Mix)",
+          "artist": "Bruno Mars",
+          "url": "https://music.apple.com/kz/album/683636599?i=683636625",
+          "collection": "Treasure (Remixes) - EP"
+        },
+        {
+          "title": "Treasure (Bailey Smalls Radio Edit)",
+          "artist": "Bruno Mars",
+          "url": "https://music.apple.com/kz/album/683636599?i=683636627",
+          "collection": "Treasure (Remixes) - EP"
+        },
+        {
+          "title": "24K Magic",
+          "artist": "Bruno Mars",
+          "url": "https://music.apple.com/kz/album/1161503945?i=1161504024",
+          "collection": "24K Magic"
+        },
+        {
+          "title": "When I Was Your Man",
+          "artist": "Bruno Mars",
+          "url": "https://music.apple.com/kz/album/573962245?i=573962555",
+          "collection": "Unorthodox Jukebox"
+        },
+        {
+          "title": "Versace On The Floor",
+          "artist": "Bruno Mars",
+          "url": "https://music.apple.com/kz/album/1161503945?i=1161504045",
+          "collection": "24K Magic"
+        }
+      ]
+    },
+    {
+      "id": "awen-432",
+      "artist": "X Ambassadors",
+      "title": "Renegades",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Renegades",
+          "artist": "X Ambassadors",
+          "url": "https://music.apple.com/kz/album/1440816349?i=1440816490",
+          "collection": "VHS"
+        },
+        {
+          "title": "Renegades",
+          "artist": "X Ambassadors",
+          "url": "https://music.apple.com/kz/album/1440828258?i=1440828561",
+          "collection": "VHS"
+        },
+        {
+          "title": "Renegades",
+          "artist": "X Ambassadors",
+          "url": "https://music.apple.com/kz/album/1443295190?i=1443295206",
+          "collection": "VHS 2.0"
+        },
+        {
+          "title": "Renegades",
+          "artist": "X Ambassadors",
+          "url": "https://music.apple.com/kz/album/1858766426?i=1858766430",
+          "collection": "VHS"
+        },
+        {
+          "title": "Renegades",
+          "artist": "X Ambassadors",
+          "url": "https://music.apple.com/kz/album/1440846598?i=1440847016",
+          "collection": "VHS 2.0"
+        }
+      ]
+    },
+    {
+      "id": "awen-433",
+      "artist": "Rupert Holmes",
+      "title": "Escape (The Pina Colada Song)",
+      "reason": "ambiguous",
+      "candidates": [
+        {
+          "title": "Escape (The Pina Colada Song)",
+          "artist": "Rupert Holmes",
+          "url": "https://music.apple.com/kz/album/1452677540?i=1452677848",
+          "collection": "20 #1’s: Pop"
+        },
+        {
+          "title": "Escape (The Pina Colada Song)",
+          "artist": "Rupert Holmes",
+          "url": "https://music.apple.com/kz/album/1440883811?i=1440884489",
+          "collection": "Throwback Tunes: 70s"
+        },
+        {
+          "title": "Escape (The Pina Colada Song)",
+          "artist": "Rupert Holmes",
+          "url": "https://music.apple.com/kz/album/1440657117?i=1440657721",
+          "collection": "Guardians of the Galaxy: Awesome Mix, Vol. 1 (Original Motion Picture Soundtrack)"
+        }
+      ]
+    },
+    {
+      "id": "awen-434",
+      "artist": "Thom Yorke, Flea",
+      "title": "Daily Battles",
+      "reason": "review",
+      "candidates": [
+        {
+          "title": "Daily Battles",
+          "artist": "Thom Yorke & Flea",
+          "url": "https://music.apple.com/kz/album/1477219427?i=1477219674",
+          "collection": "Motherless Brooklyn (Original Motion Picture Soundtrack)"
+        }
+      ]
     }
   ]
 }
