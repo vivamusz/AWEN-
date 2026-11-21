@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#13121c">
+<title>AWEN · Редактор каталога</title>
+<style>
+:root{color-scheme:dark;--bg:#12111a;--panel:#1e1b28;--line:#353144;--soft:#aaa4b8;--purple:#ae82ef;--ink:#f6f3fb}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{position:sticky;top:0;z-index:5;background:#171420eF;border-bottom:1px solid var(--line);padding:14px clamp(12px,3vw,32px);display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+header strong{font-size:20px} a{color:#d9b7ff}p{color:var(--soft);margin:.4em 0 1em}
+.container{margin:auto;max-width:1400px;padding:18px clamp(12px,3vw,32px)}
+.stats{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+.pill{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:9px 13px;font-size:12px}
+.pill b{font-size:17px;color:#d9b7ff}
+.layout{display:grid;grid-template-columns:minmax(320px, 1fr) minmax(330px,.85fr);gap:15px;align-items:start}
+section{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}
+.editor{position:sticky;top:82px} .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+input,select,textarea{background:#12111c;border:1px solid #494052;border-radius:8px;color:var(--ink);padding:10px 11px;font:inherit;min-width:0;width:100%}
+input:focus,select:focus{outline:2px solid #b891f9;outline-offset:1px}
+button{border:1px solid #574467;background:#352b47;color:var(--ink);border-radius:9px;padding:10px 14px;cursor:pointer;font:inherit}
+button:hover{border-color:#a57ade}button.primary{background:#8751bc;color:white;border-color:#a77bd0}
+button:disabled{opacity:.4;cursor:not-allowed}
+.toolbar input{flex:1 1 160px}.toolbar select{flex:1 1 150px}
+.song{width:100%;text-align:left;background:#211d2b;padding:11px 10px;margin:5px 0;display:flex;gap:10px;align-items:center}
+.song.selected{background:#453456;border-color:#be99ec}
+.song b{display:block;font-weight:700;overflow-wrap:anywhere}.song small{display:block;color:#b3abbc;overflow-wrap:anywhere}
+.song .check{width:18px;flex:0 0 18px;margin:0}
+.song .info{flex:1;min-width:0}
+.song .mark{font-size:11px;white-space:nowrap;color:#dfbfff}
+.meta{font-size:12px;color:#b8afc7;line-height:1.6}
+.field{margin-top:12px}.field label{display:block;margin-bottom:5px;color:#c6bcd3;font-size:12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.check-list{display:flex;flex-wrap:wrap;gap:7px}
+.check-list label{border:1px solid var(--line);border-radius:9px;padding:6px 8px;font-size:12px;display:flex;gap:6px;align-items:center}
+.check-list input{width:auto;margin:0}
+.foot{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+small.help{color:#aaa1b9;display:block;margin-top:7px}
+#list{max-height:66vh;overflow:auto;padding-right:3px}
+#notice{display:none;margin:10px 0;color:#a7ecc9}
+#notice.show{display:block}
+#bulk{margin:12px 0;padding:12px;background:#292336;border-radius:9px}
+#bulkControls{display:flex;gap:7px;flex-wrap:wrap}
+#bulkControls select{min-width:180px;flex:1}
+hr{border:0;border-top:1px solid var(--line);margin:17px 0}
+.empty{padding:22px 12px;color:var(--soft);text-align:center}
+@media(max-width:810px){.layout{grid-template-columns:1fr}.editor{position:static}header{position:static}#list{max-height:350px}.grid2{grid-template-columns:1fr 1fr}}
+@media(max-width:390px){.grid2{grid-template-columns:1fr}.toolbar select{min-width:0}}
+</style>
+</head>
+<body>
+<header>
+<strong>♫ AWEN / Редактор каталога</strong>
+<a href="./">← Музыкальный сайт</a>
+<span style="margin-left:auto;font-size:12px;color:#beb2cf">Работает локально · Без доступа к GitHub</span>
+</header>
+<main class="container">
+<h1 style="font-size:clamp(22px,3vw,32px);margin:0">Проверка жанров и подборок</h1>
+<p>Все песни берутся из общих JSON-файлов AWEN. Ручные изменения остаются в этом браузере до экспорта. Ничего не удаляется из оригинального каталога.</p>
+<div id="stats" class="stats"></div>
+<div id="notice" role="status"></div>
+<div class="layout">
+<section>
+<div class="toolbar">
+<input id="search" placeholder="Название или исполнитель…" aria-label="Поиск"/>
+<select id="filter" aria-label="Тип проверки">
+<option value="unknown">Без жанра</option>
+<option value="review">Требуют проверки</option>
+<option value="duplicates">Возможные дубликаты</option>
+<option value="invalid">Ошибки импорта</option>
+<option value="edited">Мои правки</option>
+<option value="all">Все композиции</option>
+</select>
+<select id="sort" aria-label="Сортировка"><option value="order">Порядок каталога</option><option value="artist">По исполнителю</option></select>
+</div>
+<div id="bulk">
+<div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap"><b>Групповое редактирование</b><span id="selectedCount">0 выбрано</span></div>
+<div id="bulkControls">
+<select id="bulkGenre" aria-label="Жанр для выбранных"><option value="">Выбрать жанр</option></select>
+<button id="bulkApply" disabled>Назначить выбранным</button>
+<button id="clearSelected">Снять выделение</button>
+</div>
+<small class="help">Массовое изменение не применяется автоматически. Проверь список выделенных треков.</small>
+</div>
+<div id="results" class="meta"></div>
+<div id="list"><div class="empty">Загрузка каталога…</div></div>
+<div class="foot"><button id="more" style="display:none">Показать ещё</button></div>
+</section>
+<section class="editor">
+<h2 style="margin:0 0 3px">Карточка композиции</h2>
+<div id="details" class="meta">Выбери трек в списке слева.</div>
+<div id="form" style="display:none">
+<div class="field"><label for="genre">Основной жанр</label><select id="genre"></select></div>
+<div class="grid2">
+<div class="field"><label for="subgenre">Поджанр</label><input id="subgenre" placeholder="Например, Chill Phonk"/></div>
+<div class="field"><label for="language">Язык</label><select id="language">
+<option value="">Не определён</option><option>Русский</option><option>Қазақша</option><option>English</option><option>Без слов</option><option>Другой</option>
+</select></div>
+<div class="field"><label for="album">Альбом</label><input id="album" placeholder="Не определён"/></div>
+<div class="field"><label for="year">Год релиза</label><input id="year" type="number" min="1900" max="2100" placeholder="Не определён"/></div>
+</div>
+<div class="field"><label>Подборки</label><div id="playlistChecks" class="check-list"></div></div>
+<div class="field"><label>Настроения</label><div id="moodChecks" class="check-list"></div></div>
+<div class="foot">
+<button class="primary" id="save">Сохранить правку</button>
+<button id="next">Следующий без жанра →</button>
+</div>
+<small class="help">Ручные изменения не подтверждают жанр автоматически. Выбирай его только если знаешь композицию или проверил запись.</small>
+</div>
+<hr>
+<div class="foot">
+<button class="primary" id="export">↓ Скачать обновлённый awen-curation.json</button>
+<button id="reset">Отменить мои правки</button>
+</div>
+<small class="help">Чтобы изменения увидели все, нужно загрузить экспортированный JSON в GitHub (заменить файл awen-curation.json) либо передать его в этот чат.</small>
+</section>
+</div>
+</main>
+<script>
+(function(){
+"use strict";
+var GENRES=["Pop","Hip-Hop / Rap","R&B / Soul","Phonk","Funk / Disco","Chill / Lo-Fi / Ambient","House","Techno / Trance","Bass Music / EDM","Drum & Bass / UK Bass","Latin / Brazilian Club","Afro / Global Club","Synth / Retro Electronic","Rock / Indie","Metal / Punk","Jazz / Blues","Folk / Ethno / World","Classical / Cinematic","Country"];
+var PLAYLISTS=[["road","Спокойная дорога"],["night","Ночной вайб"],["nightplus","Ночной вайб +"],["dance","Танцуем"],["chill","Чилл"]];
+var MOODS=["Спокойное","Ночное","Агрессивное","Расслабленное","Меланхоличное","Энергичное","Танцевальное","Романтичное","Дорожное","Мечтательное","Атмосферное","Ностальгическое","Лиричное","Уютное"];
+var KEY="awen-curator-draft-v1",tracks=[],curation={tracks:{}},draft={},selected=new Set(),active="",limit=60;
+var $=id=>document.getElementById(id);
+function safe(v){return String(v==null?"":v).replace(/[&<>"']/g,function(x){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[x]})}
+function norm(v){return String(v||"").toLocaleLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g,"").replace(/[^\p{L}\p{N}]+/gu," ").trim()}
+function toast(text){$("notice").textContent=text;$("notice").classList.add("show");setTimeout(function(){$("notice").classList.remove("show")},4000)}
+function base(id){return curation.tracks[id]||{}}
+function merged(id){return Object.assign({},base(id),draft[id]||{})}
+function issues(t){
+ var patch=merged(t.id), res=[];
+ if(!patch.genre)res.push("genre");
+ if(patch.review_needed)res.push("review");
+ if(patch.potential_import_error)res.push("invalid");
+ if(duplicates[t.id])res.push("duplicate");
+ return res
+}
+var duplicates={};
+function computeDuplicates(){
+ var groups={};
+ tracks.forEach(function(t){var k=norm(t.artist)+"|"+norm(t.title);(groups[k]||(groups[k]=[])).push(t.id)});
+ Object.keys(groups).forEach(function(k){if(groups[k].length>1)groups[k].forEach(function(id){duplicates[id]=groups[k]})})
+}
+function filtered(){
+ var q=norm($("search").value),f=$("filter").value;
+ var list=tracks.filter(function(t){
+  if(q&&!norm(t.artist+" "+t.title+" "+t.id).includes(q))return false;
+  var p=merged(t.id);
+  if(f==="unknown"&&p.genre)return false;
+  if(f==="review"&&p.genre&&!p.review_needed&&!p.potential_import_error&&!duplicates[t.id])return false;
+  if(f==="duplicates"&&!duplicates[t.id])return false;
+  if(f==="invalid"&&!p.potential_import_error)return false;
+  if(f==="edited"&&!draft[t.id])return false;
+  return true
+ });
+ if($("sort").value==="artist")list.sort(function(a,b){return a.artist.localeCompare(b.artist,"ru")});
+ return list
+}
+function stats(){
+ var genre=0,invalid=0,review=0;
+ tracks.forEach(function(t){var p=merged(t.id);if(p.genre)genre++;if(p.potential_import_error)invalid++;if(issues(t).length)review++});
+ $("stats").innerHTML='<span class="pill"><b>'+tracks.length+'</b> всего</span><span class="pill"><b>'+genre+'</b> с жанром</span><span class="pill"><b>'+(tracks.length-genre)+'</b> без жанра</span><span class="pill"><b>'+invalid+'</b> подозрительных</span><span class="pill"><b>'+Object.keys(draft).length+'</b> правок в браузере</span>';
+}
+function renderList(){
+ stats();
+ var list=filtered(),visible=list.slice(0,limit);
+ $("results").textContent="Найдено "+list.length+" композиций";
+ $("list").innerHTML=visible.length?visible.map(function(t){
+  var p=merged(t.id),flags=issues(t);
+  var kind=p.genre?p.genre:"Без жанра";
+  if(flags.includes("invalid"))kind="⚠ Проверь импорт";
+  else if(flags.includes("duplicate"))kind+=" · дубликат?";
+  return '<div class="song'+(t.id===active?' selected':'')+'"><input class="check" type="checkbox" data-select="'+safe(t.id)+'" '+(selected.has(t.id)?'checked':'')+' aria-label="Выбрать для группы"><button type="button" data-open="'+safe(t.id)+'" style="display:block;background:none;border:none;padding:0;text-align:left;flex:1;min-width:0"><b>'+safe(t.title)+'</b><small>'+safe(t.artist)+'</small><span class="mark">'+safe(kind)+'</span></button></div>'
+ }).join(""):'<div class="empty">Записей с такими фильтрами нет.</div>';
+ $("more").style.display=list.length>limit?"":"none";
+ $("selectedCount").textContent=selected.size+" выбрано";
+ $("bulkApply").disabled=!selected.size||!$("bulkGenre").value;
+}
+function checkList(root,items,picked,type){
+ $(root).innerHTML=items.map(function(x){
+  var id=typeof x==="string"?x:x[0],name=typeof x==="string"?x:x[1];
+  return '<label><input type="checkbox" data-'+type+'="'+safe(id)+'" '+(picked.includes(id)?"checked":"")+'>'+safe(name)+'</label>'
+ }).join("")
+}
+function openTrack(id){
+ var t=tracks.find(function(x){return x.id===id});if(!t)return;
+ active=id;
+ var p=merged(id);
+ $("details").innerHTML='<div><b>'+safe(t.artist)+' — '+safe(t.title)+'</b></div><div>'+safe(id)+(p.curation_method?' · '+safe(p.curation_method):'')+'</div>'+(t.source_url?'<div><a target="_blank" rel="noopener noreferrer" href="'+safe(t.source_url)+'">Открыть источник</a></div>':'')+(p.potential_import_error?'<div style="color:#ffb7a0">⚠ '+safe(p.potential_import_error)+'</div>':'');
+ $("form").style.display="";
+ $("genre").value=p.genre||"";
+ $("subgenre").value=(p.subgenres||[]).join(", ");
+ $("language").value=p.language||"";
+ $("album").value=p.album||"";
+ $("year").value=p.year||"";
+ checkList("playlistChecks",PLAYLISTS,p.playlists||[],"playlist");
+ checkList("moodChecks",MOODS,p.moods||[],"mood");
+ renderList();
+}
+function chosen(attr){return Array.from(document.querySelectorAll('[data-'+attr+']:checked')).map(function(x){return x.dataset[attr]})}
+function save(){
+ if(!active)return;
+ var genre=$("genre").value,year=$("year").value,prev=merged(active);
+ var patch=Object.assign({},prev,{
+  genre:genre,subgenres:$("subgenre").value.split(",").map(function(x){return x.trim()}).filter(Boolean).slice(0,12),
+  language:$("language").value,album:$("album").value.trim(),year:year?Number(year):null,
+  playlists:chosen("playlist"),moods:chosen("mood"),
+  curation_method:"ручная правка владельца",curation_confidence:"manual",
+  review_needed:false
+ });
+ draft[active]=patch;store();
+ toast("Сохранено локально: "+active);renderList();
+}
+function store(){try{localStorage.setItem(KEY,JSON.stringify(draft))}catch(e){toast("Браузер не разрешил локальное сохранение; сделай экспорт")}}
+function bulkApply(){
+ var genre=$("bulkGenre").value;if(!genre||!selected.size)return;
+ if(!confirm("Назначить жанр "+genre+" для "+selected.size+" выбранных записей? Это НЕ проверка каждого аудио."))return;
+ selected.forEach(function(id){
+  var p=merged(id);
+  draft[id]=Object.assign({},p,{genre:genre,subgenres:[],curation_method:"массовая ручная правка",curation_confidence:"manual",review_needed:true})
+ });
+ store();toast("Назначен жанр для "+selected.size+" записей");selected.clear();renderList();
+}
+function exportJSON(){
+ var combined=JSON.parse(JSON.stringify(curation));
+ if(!combined.tracks)combined.tracks={};
+ Object.keys(draft).forEach(function(id){combined.tracks[id]=draft[id]});
+ combined.exported_by="AWEN Curator";combined.review_notice="Часть жанров назначена автоматически по исполнителям. Ручные назначения не гарантируют проверку аудио.";
+ var b=new Blob([JSON.stringify(combined,null,2)+"\n"],{type:"application/json;charset=utf-8"}),url=URL.createObjectURL(b);
+ var a=document.createElement("a");a.href=url;a.download="awen-curation.json";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url)},1500);
+ toast("JSON скачан. Для общего сайта загрузи его в GitHub.")
+}
+async function fetchJSON(url){var r=await fetch(url,{cache:"no-store"});if(!r.ok)throw Error(url+": HTTP "+r.status);return r.json()}
+function initialize(){
+ $("genre").innerHTML='<option value="">Не определён</option>'+GENRES.map(function(v){return '<option>'+safe(v)+'</option>'}).join("");
+ $("bulkGenre").innerHTML+='<option>'+GENRES.join('</option><option>')+'</option>';
+ $("search").addEventListener("input",function(){limit=60;renderList()});
+ $("filter").addEventListener("change",function(){limit=60;renderList()});
+ $("sort").addEventListener("change",renderList);
+ $("more").addEventListener("click",function(){limit+=60;renderList()});
+ $("bulkGenre").addEventListener("change",renderList);
+ $("clearSelected").addEventListener("click",function(){selected.clear();renderList()});
+ $("bulkApply").addEventListener("click",bulkApply);
+ $("save").addEventListener("click",save);
+ $("export").addEventListener("click",exportJSON);
+ $("reset").addEventListener("click",function(){if(confirm("Отменить все локальные правки? Уже экспортированные файлы не затронутся.")){draft={};store();renderList();if(active)openTrack(active)}});
+ $("next").addEventListener("click",function(){var other=tracks.find(function(t){return !merged(t.id).genre&&t.id!==active});if(other){openTrack(other.id);window.scrollTo({top:0,behavior:"smooth"})}else toast("Нет других записей без жанра")});
+ $("list").addEventListener("click",function(e){var button=e.target.closest("[data-open]");if(button)openTrack(button.dataset.open)});
+ $("list").addEventListener("change",function(e){var c=e.target.closest("[data-select]");if(!c)return;if(c.checked)selected.add(c.dataset.select);else selected.delete(c.dataset.select);renderList()});
+}
+initialize();
+try{var cache=JSON.parse(localStorage.getItem(KEY)||"{}");if(cache&&typeof cache==="object"&&!Array.isArray(cache))draft=cache}catch(e){}
+Promise.all([fetchJSON("./awen-catalog.json"),fetchJSON("./awen-curation.json")]).then(function(v){
+ tracks=Array.isArray(v[0].tracks)?v[0].tracks:[];curation=v[1];computeDuplicates();renderList();
+ if(tracks.length)openTrack(tracks.find(function(t){return !merged(t.id).genre})?.id||tracks[0].id);
+}).catch(function(err){$("list").innerHTML='<div class="empty">Не удалось загрузить каталог. Проверь GitHub Pages и обнови страницу.<p>'+safe(err.message)+'</p></div>'});
+})();
+</script>
+</body>
+</html>
