@@ -13942,13 +13942,12 @@
         "genre_name": "Pop/Rock",
         "release_date": "2026-06-26T12:00:00Z"
       },
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_exact",
-      "curation_confidence": "verified_broad_genre",
       "album": "Uaiymdama - Single",
       "year": 2026,
       "year_type": "album_release",
-      "duration": 134
+      "duration": 134,
+      "genre_review_candidate": "",
+      "review_needed": true
     },
     "awen-15": {
       "verified_metadata": {
@@ -14007,13 +14006,12 @@
         "genre_name": "Alternative",
         "release_date": "2022-01-09T12:00:00Z"
       },
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_exact",
-      "curation_confidence": "verified_broad_genre",
       "album": "Breathe - EP",
       "year": 2022,
       "year_type": "album_release",
-      "duration": 56
+      "duration": 56,
+      "genre_review_candidate": "",
+      "review_needed": true
     },
     "awen-170": {
       "verified_metadata": {
@@ -14080,13 +14078,12 @@
         "genre_name": "Alternative",
         "release_date": "2019-06-27T12:00:00Z"
       },
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_exact",
-      "curation_confidence": "verified_broad_genre",
       "album": "Aloha",
       "year": 2019,
       "year_type": "album_release",
-      "duration": 221
+      "duration": 221,
+      "genre_review_candidate": "",
+      "review_needed": true
     },
     "awen-443": {
       "verified_metadata": {
@@ -14190,13 +14187,12 @@
         "genre_name": "Alternative",
         "release_date": "2024-09-27T07:00:00Z"
       },
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_exact",
-      "curation_confidence": "verified_broad_genre",
       "album": "Queen Of The Clouds: X",
       "year": 2024,
       "year_type": "album_release",
-      "duration": 209
+      "duration": 209,
+      "genre_review_candidate": "",
+      "review_needed": true
     },
     "awen-512": {
       "verified_metadata": {
@@ -14258,13 +14254,12 @@
         "genre_name": "Alternative",
         "release_date": "2014-10-14T12:00:00Z"
       },
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_exact",
-      "curation_confidence": "verified_broad_genre",
       "album": "Heir - Single",
       "year": 2014,
       "year_type": "album_release",
-      "duration": 301
+      "duration": 301,
+      "genre_review_candidate": "",
+      "review_needed": true
     },
     "awen-551": {
       "verified_metadata": {
@@ -14275,13 +14270,12 @@
         "genre_name": "Alternative",
         "release_date": "2018-10-26T12:00:00Z"
       },
-      "genre": "Rock / Indie",
-      "genre_evidence": "itunes_exact",
-      "curation_confidence": "verified_broad_genre",
       "album": "АРГУМЕНТЫ",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 133
+      "duration": 133,
+      "genre_review_candidate": "",
+      "review_needed": true
     },
     "awen-553": {
       "verified_metadata": {
