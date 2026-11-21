@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T16:52:37+00:00",
+  "generated_at_utc": "2026-11-21T16:57:10+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2075,
-    "needs_genre": 891,
+    "needs_genre": 856,
     "possible_import_errors": 16,
     "duplicate_groups": 10,
     "tracks_in_duplicate_groups": 30,
@@ -269,14 +269,6 @@
       "id": "awen-83",
       "artist": "ǂ The Neighbourhood",
       "title": "Say My Name/Cry Me A River",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-84",
-      "artist": "Yume.Play",
-      "title": "Kanashī",
       "issues": [
         "genre_not_identified"
       ]
@@ -996,25 +988,9 @@
       ]
     },
     {
-      "id": "awen-259",
-      "artist": "Truwer",
-      "title": "Муса",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-263",
       "artist": "Usher",
       "title": "Confessions",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-268",
-      "artist": "Miley Cyrus",
-      "title": "Plastic Hearts",
       "issues": [
         "genre_not_identified"
       ]
@@ -1098,14 +1074,6 @@
       "source_url": "https://music.apple.com/kz/album/1535494229?i=1535494597"
     },
     {
-      "id": "awen-302",
-      "artist": "Rook Monroe",
-      "title": "Jolie",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-303",
       "artist": "elliqa",
       "title": "unwind",
@@ -1171,14 +1139,6 @@
       "issues": [
         "genre_not_identified",
         "possible_non_music_text"
-      ]
-    },
-    {
-      "id": "awen-322",
-      "artist": "Cuban Doll",
-      "title": "My Ex",
-      "issues": [
-        "genre_not_identified"
       ]
     },
     {
@@ -1265,14 +1225,6 @@
       "id": "awen-344",
       "artist": "Calica, SMLE",
       "title": "Little Girl",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-345",
-      "artist": "Jordan Stephens",
-      "title": "Sunshine Skin",
       "issues": [
         "genre_not_identified"
       ]
@@ -1399,29 +1351,12 @@
       ]
     },
     {
-      "id": "awen-371",
-      "artist": "kavabanga Depo kolibri",
-      "title": "Сука-любовь",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-372",
       "artist": "SAFIA",
       "title": "Listen To Soul, Listen To Blues (Indian Summer Remix)",
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-374",
-      "artist": "DROPKILLERZ",
-      "title": "Check It",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/947692189?i=947692224"
     },
     {
       "id": "awen-375",
@@ -1435,14 +1370,6 @@
       "id": "awen-376",
       "artist": "Strehlow x Ian Ewing",
       "title": "Poke Date",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-377",
-      "artist": "Kid Trunks",
-      "title": "MAKEOUTHILL",
       "issues": [
         "genre_not_identified"
       ]
@@ -1475,14 +1402,6 @@
       "id": "awen-385",
       "artist": "The Fourth Dimension",
       "title": "loveboi - dolce & gabbana",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-388",
-      "artist": "Dabro",
-      "title": "Юность",
       "issues": [
         "genre_not_identified"
       ]
@@ -1651,31 +1570,6 @@
       "source_url": "https://music.apple.com/kz/album/1668997570?i=1668997862"
     },
     {
-      "id": "awen-430",
-      "artist": "Bruno Mars",
-      "title": "Treasure",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-431",
-      "artist": "NEFFEX",
-      "title": "Primal",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1482309478?i=1482309484"
-    },
-    {
-      "id": "awen-433",
-      "artist": "Rupert Holmes",
-      "title": "Escape (The Pina Colada Song)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-434",
       "artist": "Thom Yorke, Flea",
       "title": "Daily Battles",
@@ -1708,14 +1602,6 @@
       ]
     },
     {
-      "id": "awen-446",
-      "artist": "Carla Morrison",
-      "title": "Disfruto",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-448",
       "artist": "Biltmore feat. Whissell",
       "title": "Feel Something Good",
@@ -1739,14 +1625,6 @@
         "genre_not_identified"
       ],
       "source_url": "https://music.apple.com/kz/album/1253501826?i=1253503252"
-    },
-    {
-      "id": "awen-457",
-      "artist": "Liam Payne",
-      "title": "All I Want (For Christmas)",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-459",
@@ -1784,22 +1662,6 @@
       "id": "awen-465",
       "artist": "Prince of falls",
       "title": "Marlboro BASS REMIX (LEVAR RECORDS)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-466",
-      "artist": "ROSALÍA",
-      "title": "MALAMENTE",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-470",
-      "artist": "prxz",
-      "title": "i'm shy, i'm anxious",
       "issues": [
         "genre_not_identified"
       ]
@@ -1879,14 +1741,6 @@
       "source_url": "https://music.apple.com/kz/album/1569154839?i=1569154847"
     },
     {
-      "id": "awen-487",
-      "artist": "Josh Turner",
-      "title": "Your Man",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-488",
       "artist": "A Boogie Wit da Hoodie feat. 6ix9ine",
       "title": "Swervin (feat. 6ix9ine)",
@@ -1898,22 +1752,6 @@
       "id": "awen-491",
       "artist": "AC/DC",
       "title": "Highway to Hell",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-493",
-      "artist": "Burgos",
-      "title": "Hiding my face",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-496",
-      "artist": "Prince Of Falls",
-      "title": "Marlboro",
       "issues": [
         "genre_not_identified"
       ]
@@ -1935,33 +1773,9 @@
       ]
     },
     {
-      "id": "awen-499",
-      "artist": "Why Don't We",
-      "title": "Talk",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-500",
       "artist": "Outlandish",
       "title": "Aicha",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-503",
-      "artist": "a-ha",
-      "title": "Take On Me",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-505",
-      "artist": "Queen Key",
-      "title": "My Way",
       "issues": [
         "genre_not_identified"
       ]
@@ -2033,14 +1847,6 @@
       ]
     },
     {
-      "id": "awen-531",
-      "artist": "Sueco",
-      "title": "fast",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-532",
       "artist": "Avi Kaplan",
       "title": "Change on the Rise",
@@ -2068,25 +1874,9 @@
       ]
     },
     {
-      "id": "awen-541",
-      "artist": "Stormzy",
-      "title": "Vossi Bop",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-542",
       "artist": "Queen feat. David Bowie",
       "title": "Under Pressure",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-543",
-      "artist": "Hamza",
-      "title": "Paradise",
       "issues": [
         "genre_not_identified"
       ]
@@ -2108,33 +1898,9 @@
       ]
     },
     {
-      "id": "awen-562",
-      "artist": "Stefflon Don",
-      "title": "16 Shots",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-574",
-      "artist": "Ghostemane",
-      "title": "Nihil",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-575",
       "artist": "Jeremih feat. 50 Cent",
       "title": "Down On Me",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-576",
-      "artist": "Nights",
-      "title": "Tequila",
       "issues": [
         "genre_not_identified"
       ]
@@ -2238,14 +2004,6 @@
       "proposed_genre": "Pop",
       "genre_conflict": "Rock / Indie",
       "source_url": "https://music.apple.com/kz/album/1450695723?i=1450695742"
-    },
-    {
-      "id": "awen-600",
-      "artist": "6ix9ine",
-      "title": "KOODA",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-601",
@@ -2359,14 +2117,6 @@
       ]
     },
     {
-      "id": "awen-633",
-      "artist": "AARON MAY",
-      "title": "Let Go",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-635",
       "artist": "HUNANIAN",
       "title": "Emptiness",
@@ -2378,14 +2128,6 @@
       "id": "awen-636",
       "artist": "The Hazel Effect",
       "title": "A REASON LIKE MINE",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-638",
-      "artist": "Angèle",
-      "title": "Ta reine",
       "issues": [
         "genre_not_identified"
       ]
@@ -2451,22 +2193,6 @@
       "id": "awen-655",
       "artist": "Cooliecut, Craig Xen, Killstation",
       "title": "Nothing",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-657",
-      "artist": "Mylène Farmer",
-      "title": "California",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-659",
-      "artist": "teen suicide",
-      "title": "swallow",
       "issues": [
         "genre_not_identified"
       ]
@@ -2579,14 +2305,6 @@
       "id": "awen-692",
       "artist": "Tep No",
       "title": "Me and My Guitar",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-693",
-      "artist": "DEVILISH TRIO",
-      "title": "DECISIONS OF TORMENT",
       "issues": [
         "genre_not_identified"
       ]
