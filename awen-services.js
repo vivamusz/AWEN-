@@ -412,6 +412,45 @@
           }
         }
       }catch(err){console.warn('AWEN: данные релизов Apple Music временно недоступны',err);}
+      // Extra evidence is independently checked against the original track/artist.
+      // Manual decisions always win; ambiguous album tags do not overwrite track genres.
+      try{
+        const er=await fetch('./awen-genre-sources.json',{cache:'no-cache'});
+        if(er.ok){
+          const evidence=await er.json();
+          const patches=evidence&&evidence.tracks&&typeof evidence.tracks==='object'?evidence.tracks:{};
+          for(const t of found){
+            const patch=patches[t.id];
+            if(!patch||t.genre_source==='Ручная правка каталога'||t.import_review_needed)continue;
+            if(patch.status==='conflict'){
+              t.genre_source_conflict=patch.suggestions||[];
+              t.curation_review_needed=true;
+              continue;
+            }
+            const proposed=String(patch.genre||'');
+            if(!genres.some(g=>g.name===proposed))continue;
+            const unknown=!t.genre||t.genre==='Не определён';
+            const direct=patch.status==='track_evidence';
+            const apple=t.genre_source==='Apple Music · подтверждённое совпадение';
+            if(apple&&!unknown&&t.genre!==proposed){
+              t.genre_review_candidate=proposed;
+              t.curation_review_needed=true;
+              continue;
+            }
+            if(unknown||direct){
+              const old=t.genre;
+              if(old&&old!==proposed&&old!=='Не определён')t.subgenres=[];
+              t.genre=proposed;
+              t.genre_source=direct?'Теги конкретного трека · '+(patch.evidence||[]).map(x=>x.provider).join(', '):'Deezer · жанр альбома (предварительно)';
+              t.genre_evidence_urls=(patch.evidence||[]).map(x=>x.url).filter(Boolean);
+              t.curation_review_needed=Boolean(patch.review_needed)||(Boolean(old&&old!==proposed&&old!=='Не определён'));
+            }else if(t.genre!==proposed){
+              t.genre_review_candidate=proposed;
+              t.curation_review_needed=true;
+            }
+          }
+        }
+      }catch(err){console.warn('AWEN: дополнительные жанровые свидетельства недоступны',err);}
       // Keep questionable VK post fragments in the source JSON and curator for review,
       // but do not present them to listeners as actual music recordings.
       const quarantined=found.filter(t=>t.import_review_needed).length;
