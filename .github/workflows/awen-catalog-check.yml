@@ -5,6 +5,9 @@ on:
     paths:
       - ".github/workflows/awen-catalog-check.yml"
       - "scripts/awen_match.py"
+      - "scripts/awen_apple_backfill.py"
+      - "scripts/merge_apple_metadata_overlay.py"
+      - "awen-apple-metadata.json"
       - "scripts/awen_musicbrainz.py"
       - "scripts/apply_curator_patches.py"
       - "scripts/merge_apple_state.py"
@@ -27,7 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check Python syntax
-        run: python3 -m py_compile scripts/awen_match.py scripts/awen_musicbrainz.py scripts/merge_apple_state.py scripts/merge_musicbrainz_state.py scripts/refresh_review_queue.py scripts/apply_curator_patches.py
+        run: python3 -m py_compile scripts/awen_match.py scripts/awen_apple_backfill.py scripts/merge_apple_metadata_overlay.py scripts/awen_musicbrainz.py scripts/merge_apple_state.py scripts/merge_musicbrainz_state.py scripts/refresh_review_queue.py scripts/apply_curator_patches.py
       - name: Check JS and embedded page scripts
         run: |
           node --check awen-services.js
@@ -55,11 +58,14 @@ jobs:
           catalog=read("awen-catalog.json")["tracks"]
           curation=read("awen-curation.json")["tracks"]
           musicbrainz=read("awen-musicbrainz.json")["tracks"]
+          apple=read("awen-apple-metadata.json")["tracks"]
           review=read("awen-review-queue.json")
           ids={t["id"] for t in catalog}
           assert len(ids)==len(catalog),"Duplicate IDs in catalog"
           assert set(curation)<=ids,"Curation has IDs not present in catalog"
           assert set(musicbrainz)<=ids,"MusicBrainz has IDs not present in catalog"
+          assert set(apple)<=ids,"Apple metadata has IDs not present in catalog"
+          assert all(isinstance(v.get("verified_metadata"),dict) for v in apple.values()),"Unverified Apple overlay rows"
           assert set(x["id"] for x in review["items"])<=ids,"Review queue mismatch"
           playlists={"road","night","nightplus","dance","chill"}
           genres={
@@ -78,5 +84,5 @@ jobs:
               if patch.get("genre"):
                   assert patch["genre"] in genres,("Unknown MusicBrainz genre",ident)
           print("CATALOG OK",len(catalog),"CURATED",len(curation),
-                "MUSICBRAINZ",len(musicbrainz),"REVIEW",len(review["items"]))
+                "MUSICBRAINZ",len(musicbrainz),"APPLE",len(apple),"REVIEW",len(review["items"]))
           PY
