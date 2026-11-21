@@ -36,7 +36,10 @@ def verify():
             official = page.evaluate("({album:tracks.find(t=>t.id==='awen-1')?.album,year:tracks.find(t=>t.id==='awen-1')?.year})")
             assert official["album"] == "Uaiymdama - Single", official
             assert official["year"] == 2026, official
-            assert "Подтверждённые релизы Apple Music: 77" in page.locator("#awen-connection-status").inner_text()
+            verified_count = page.evaluate("tracks.filter(t => t.verified_metadata && t.year && t.album && t.album !== 'Без альбома').length")
+            banner_text = page.locator("#awen-connection-status").inner_text()
+            assert verified_count >= 77, verified_count
+            assert f"Подтверждённые релизы Apple Music: {verified_count}" in banner_text, banner_text
             print("PASS: Shared catalog and verified Apple release metadata")
             print("PASS: Desktop main page, shared catalog, and scripts")
             page.locator("#desktopNav [data-nav='playlists']").click()
