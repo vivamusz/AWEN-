@@ -15624,6 +15624,48 @@
       "year": 2018,
       "year_type": "album_release",
       "duration": 290
+    },
+    "awen-14": {
+      "genre": "Pop",
+      "subgenres": [
+        "Turkish Pop"
+      ],
+      "genre_evidence": "Apple Music · Turkish Pop (релиз точного названия)",
+      "genre_evidence_url": "https://music.apple.com/us/album/k%C3%BCle-d%C3%B6nm%C3%BC%C5%9Fs%C3%BCn-single/1749606527",
+      "curation_confidence": "high",
+      "curation_method": "ручная проверка источника",
+      "review_needed": false
+    },
+    "awen-165": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "genre_evidence": "Публикация о песне, Alternative Rock IAMJJ",
+      "genre_evidence_url": "https://ventsmagazine.com/2021/06/28/iamjj-releases-new-single-a-different-kind-of-blues-ft-baker-grace/",
+      "curation_confidence": "medium",
+      "curation_method": "ручная проверка источника",
+      "review_needed": true
+    },
+    "awen-224": {
+      "genre": "House",
+      "subgenres": [],
+      "genre_evidence": "Qobuz · жанр альбома ALTURA: House",
+      "genre_evidence_url": "https://www.qobuz.com/us-en/album/altura-les-gordon/q7ywi8cktajua",
+      "curation_confidence": "medium",
+      "curation_method": "ручная проверка источника",
+      "review_needed": true
+    },
+    "awen-249": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "genre_evidence": "Qobuz · альтернативный / инди релиз с песней Another Love",
+      "genre_evidence_url": "https://www.qobuz.com/us-en/album/songs-from-another-love-tom-odell/0886443853324",
+      "curation_confidence": "medium",
+      "curation_method": "ручная проверка источника",
+      "review_needed": true
     }
   }
 }
