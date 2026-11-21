@@ -26,7 +26,7 @@ jobs:
           persist-credentials: true
       - name: Search Audius with strict artist and title matching
         env:
-          AWEN_AUDIUS_BATCH: "120"
+          AWEN_AUDIUS_BATCH: "240"
           AWEN_AUDIUS_DELAY: "1.3"
         run: python3 scripts/awen_audius_match.py
       - name: Save independent Audius match map
