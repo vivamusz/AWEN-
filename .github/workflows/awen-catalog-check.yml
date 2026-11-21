@@ -6,6 +6,8 @@ on:
       - ".github/workflows/awen-catalog-check.yml"
       - "scripts/awen_match.py"
       - "scripts/awen_musicbrainz.py"
+      - "scripts/apply_curator_patches.py"
+      - "scripts/test_data_pipeline.py"
       - "awen-curation.json"
       - "awen-review-queue.json"
       - "curator.html"
@@ -38,6 +40,8 @@ jobs:
                   Path(f"/tmp/awen-{file}-{idx}.js").write_text(script,encoding="utf-8")
           PY
           for f in /tmp/awen-*.js; do node --check "$f"; done
+      - name: Test enrichment logic and patch merger
+        run: python3 scripts/test_data_pipeline.py
       - name: Validate JSON catalog and playlist references
         run: |
           python3 - <<'PY'
