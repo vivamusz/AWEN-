@@ -34,6 +34,7 @@ def verify():
             official = page.evaluate("({album:tracks.find(t=>t.id==='awen-1')?.album,year:tracks.find(t=>t.id==='awen-1')?.year})")
             assert official["album"] == "Uaiymdama - Single", official
             assert official["year"] == 2026, official
+            assert "Подтверждённые релизы Apple Music: 77" in page.locator("#awen-connection-status").inner_text()
             print("PASS: Shared catalog and verified Apple release metadata")
             print("PASS: Desktop main page, shared catalog, and scripts")
             page.locator("#desktopNav [data-nav='playlists']").click()
@@ -43,6 +44,15 @@ def verify():
             assert "Чилл" in page.locator("h1.page-title").inner_text()
             assert page.locator(".song").count() >= 1
             print("PASS: Five playlists and Chill playlist track list")
+            manual_respected = page.evaluate("""() => {
+              const t = {genre:'Phonk',subgenres:['Chill Phonk'],moods:['Ночное'],
+                energy:2,language:'Без слов',playlists:[],playlist_manual:true};
+              const removed = !isOnList(t,'night');
+              t.playlists=['night'];
+              return removed && isOnList(t,'night');
+            }""")
+            assert manual_respected, "Automatic playlists must not override manual removal"
+            print("PASS: Owner's manual playlist selection takes priority")
             page.locator("#desktopNav [data-nav='genres']").click()
             assert page.locator(".genre-card").count() == 19
             assert page.get_by_text("Country", exact=True).count() >= 1
