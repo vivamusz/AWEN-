@@ -25,12 +25,14 @@ def verify():
             response = page.goto(URL, wait_until="domcontentloaded", timeout=20000)
             assert response and response.status == 200
             page.wait_for_function(
-                "typeof tracks !== 'undefined' && tracks.length >= 2075 && !!document.querySelector('#awen-connection-status')",
+                "typeof tracks !== 'undefined' && tracks.length >= 2059 && !!document.querySelector('#awen-connection-status')",
                 timeout=25000,
             )
             catalog_count = page.evaluate("tracks.length")
-            assert catalog_count >= 2075, catalog_count
+            assert catalog_count == 2059, catalog_count
             assert page.title().startswith("AWEN Music"), page.title()
+            hidden = page.evaluate("!tracks.some(t=>['awen-69','awen-70','awen-71','awen-72','awen-73','awen-158','awen-317'].includes(t.id))")
+            assert hidden, "Non-song text fragments must be quarantined from the public catalog"
             official = page.evaluate("({album:tracks.find(t=>t.id==='awen-1')?.album,year:tracks.find(t=>t.id==='awen-1')?.year})")
             assert official["album"] == "Uaiymdama - Single", official
             assert official["year"] == 2026, official
