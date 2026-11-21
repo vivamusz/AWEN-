@@ -4,6 +4,28 @@
 if(window.__awenOpenMusic)return;window.__awenOpenMusic=true;
 const AU='https://api.audius.co/v1',JM='https://api.jamendo.com/v3.0/tracks/',KEY='awen-jamendo-client-id-v1';
 let service='Audius',query='',items=[],busy=false,nonce=0,msg='Загружаем открытую музыку…',jamId='';
+let matches = {}, matchStats = null;
+const matchURL = './awen-audius-matches.json';
+function applyMatches(){
+  if(typeof tracks==='undefined')return;
+  for(const t of tracks){
+    const m=matches[t.id];
+    if(!m || t.audio_url || !/^[a-zA-Z0-9_-]{2,55}$/.test(String(m.audius_id||'')))continue;
+    // The full-track stream is an official Audius URL, not an MP3 copied by AWEN.
+    t.audio_url='https://api.audius.co/v1/tracks/'+m.audius_id+'/stream?app_name=AWEN';
+    t.source_status='available';
+  }
+}
+async function refreshMatches(){
+  try{
+    const response=await fetch(matchURL,{cache:'no-store'});
+    if(!response.ok)return;
+    const data=await response.json();
+    if(!data||typeof data!=='object'||typeof data.matches!=='object')return;
+    matches=data.matches;matchStats=data;applyMatches();
+    render();
+  }catch(error){console.info('AWEN: Audius match map not published yet',error);}
+}
 try{jamId=localStorage.getItem(KEY)||''}catch(_){}
 const css=document.createElement('style');
 css.textContent='.awen-open{background:linear-gradient(120deg,#2c203a,#191421);border:1px solid #604d70;border-radius:15px;padding:17px;margin:16px 0 24px}.awen-open h2{font-size:22px;margin:0 0 6px}.awen-open p{font-size:12px;line-height:1.6;color:#bfb1c8}.awen-ctrl{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.awen-open button{background:#493359;border:1px solid #805f98;border-radius:10px;padding:9px 13px;color:#fff;cursor:pointer}.awen-open button.on{background:#874eb5}.awen-open input{min-width:140px;flex:1;max-width:400px;padding:10px;color:#fff;background:#191320;border:1px solid #746080;border-radius:9px}.awen-result{display:grid;grid-template-columns:repeat(auto-fill,minmax(225px,1fr));gap:9px}.awen-result button{display:flex;align-items:center;gap:10px;text-align:left;width:100%;background:#241c30;padding:8px}.awen-result button:hover{border-color:#dfb2fc}.awen-result .awen-name{flex:1;min-width:0}.awen-result strong,.awen-result small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.awen-result small{color:#bfaecc}.awen-result img{width:44px;height:44px;border-radius:7px;object-fit:cover}.awen-open .awen-state{font-size:12px;color:#cbb9d6;margin:10px 0}.awen-open details{margin-top:12px;color:#bfaecc;font-size:12px}@media(max-width:600px){.awen-open{padding:12px}.awen-result{grid-template-columns:1fr}}';
@@ -27,12 +49,21 @@ function paint(){
  app.querySelector('#awen-open-music')?.remove();
  const s=el('section',undefined,'awen-open');s.id='awen-open-music';
  s.append(el('h2','🎧 Открытая музыка — нажал ▶ и слушаешь'),
-  el('p','Полные доступные треки Audius; Jamendo можно подключить по бесплатному client_id. Это отдельный поиск, исходные 2 075 песен не меняются.'));
+  el('p','Ниже — открытая подборка Audius (первые 20 записей), а НЕ результат проверки твоего Excel. Сопоставление каталога по исполнителю и названию идёт отдельно. Jamendo доступен по client_id.'));
  const bar=el('div',undefined,'awen-ctrl');
  for(const name of ['Audius','Jamendo']){const b=el('button',name,service===name?'on':'');b.dataset.awenSource=name;bar.appendChild(b)}
  const input=el('input');input.type='search';input.id='awen-open-query';input.value=query;input.placeholder='Название или исполнитель';input.maxLength=110;bar.appendChild(input);
  const find=el('button','Найти');find.dataset.awenSearch='1';bar.appendChild(find);s.appendChild(bar);
  s.appendChild(el('p',msg,'awen-state'));
+ if(matchStats){
+  const scanned=Number(matchStats.scanned)||0,total=Number(matchStats.total)||0,
+    exact=Number(matchStats.found)||0,review=Number(matchStats.needs_review)||0;
+  const line='Твой каталог: проверено '+scanned+' из '+total+'; точных совпадений Audius: '+exact+
+    '; требуют проверки: '+review+(matchStats.complete?'. Проверка завершена.':'. Проверка продолжается.');
+  s.appendChild(el('p',line,'awen-state'));
+ }else{
+  s.appendChild(el('p','Автопроверка твоего каталога Audius запущена. Цифры появятся после первой сохранённой партии.','awen-state'));
+ }
  const list=el('div',undefined,'awen-result');
  for(const t of items){
   const b=el('button');b.dataset.awenTrack=t.id;b.title='Слушать '+t.artist+' — '+t.title;
@@ -90,5 +121,7 @@ document.addEventListener('click',e=>{
  if(b.dataset.awenJamSave){const v=(document.querySelector('#awen-jam-id')?.value||'').trim();if(!/^[\w-]{3,120}$/.test(v)){msg='Неверный client_id';paint();return}jamId=v;try{localStorage.setItem(KEY,v)}catch(_){}load()}
 });
 document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target?.id==='awen-open-query'){e.preventDefault();query=e.target.value.trim();load()}});
-const oldRender=render;render=function(){oldRender();paint()};paint();load();
+const oldRender=render;
+render=function(){applyMatches();oldRender();paint()};
+paint();load();refreshMatches();
 })();
