@@ -8,6 +8,9 @@ on:
       - "scripts/awen_musicbrainz.py"
       - "awen-curation.json"
       - "awen-review-queue.json"
+      - "curator.html"
+      - "awen-services.js"
+      - "index.html"
 
 permissions:
   contents: read
@@ -20,6 +23,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check Python syntax
         run: python3 -m py_compile scripts/awen_match.py scripts/awen_musicbrainz.py
+      - name: Check JS and embedded page scripts
+        run: |
+          node --check awen-services.js
+          node --check awen-open-music.js
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          for file in ("curator.html", "index.html"):
+              source=Path(file).read_text(encoding="utf-8")
+              scripts=re.findall(r'<script(?:\\s[^>]*)?>([\\s\\S]*?)</script>',source)
+              assert scripts, f"No embedded JS in {file}"
+              for idx,script in enumerate(scripts):
+                  Path(f"/tmp/awen-{file}-{idx}.js").write_text(script,encoding="utf-8")
+          PY
+          for f in /tmp/awen-*.js; do node --check "$f"; done
       - name: Validate JSON catalog and playlist references
         run: |
           python3 - <<'PY'
