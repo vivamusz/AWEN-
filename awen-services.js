@@ -118,9 +118,35 @@
     if(t&&!playable(t)&&getSource(t)){openDetails(id);document.querySelector('[data-awen-embed]')?.click();return;}
     oldPlay(id);
   };
+  let matchingStatus=null;
   const oldRender=render;
   render=function(){
     oldRender();
+    const linked=tracks.filter(t=>!!getSource(t)).length;
+    const label=document.querySelector('.top-label');
+    if(label)label.textContent='AWEN · '+linked+' онлайн-источников';
+    if(st.view==='home'&&!demo){
+      const main=document.querySelector('#app');
+      if(main){
+        const banner=document.createElement('div');
+        banner.className='notice';
+        banner.id='awen-connection-status';
+        const intro=document.createElement('strong');
+        intro.textContent=linked+' песен имеют официальные источники прослушивания. ';
+        banner.appendChild(intro);
+        if(matchingStatus){
+          const text=document.createTextNode('Автоподбор Apple Music: обработано '+Number(matchingStatus.next_index||0)+' из '+Number(matchingStatus.total||tracks.length)+', найдено новых точных совпадений '+Number(matchingStatus.matched||0)+', на проверку '+Number(matchingStatus.review||0)+'. ');
+          banner.appendChild(text);
+        } else {
+          banner.appendChild(document.createTextNode('Остальные треки ищем по официальным каталогам. '));
+        }
+        const link=document.createElement('a');
+        link.href='https://github.com/vivamusz/AWEN-/actions/workflows/awen-match.yml';
+        link.target='_blank';link.rel='noopener noreferrer';link.textContent='Статус подбора на GitHub';
+        banner.appendChild(link);
+        main.prepend(banner);
+      }
+    }
     for(const button of document.querySelectorAll('.song button[data-play]')){
       const t=byId(button.dataset.play);
       const src=getSource(t);
@@ -158,6 +184,9 @@
       notify('Не удалось загрузить общий каталог — проверь интернет');
     }
   }
+  fetch('./awen-match-status.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(status=>{
+    if(status&&typeof status==='object'){matchingStatus=status;render();}
+  }).catch(()=>{});
   const mode=localStorage.getItem('awen-catalog-mode')||'shared';
   if(mode==='local'){
     dbRead().then(local=>{
