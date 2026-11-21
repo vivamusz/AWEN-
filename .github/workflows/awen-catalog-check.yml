@@ -15,6 +15,7 @@ on:
       - "scripts/refresh_review_queue.py"
       - "scripts/test_data_pipeline.py"
       - "awen-curation.json"
+      - "awen-import-reconciliation.json"
       - "awen-review-queue.json"
       - "curator.html"
       - "awen-services.js"
@@ -62,6 +63,14 @@ jobs:
           review=read("awen-review-queue.json")
           ids={t["id"] for t in catalog}
           assert len(ids)==len(catalog),"Duplicate IDs in catalog"
+          source=read("awen-import-reconciliation.json")
+          excluded={int(x) for x in source["reconciliation"]["raw_source_numbers_not_in_catalog"]}
+          quarantine={int(x) for x in source["reconciliation"]["quarantined_non_song_source_numbers"]}
+          assert len(excluded)==35 and len(quarantine)==16, "Excel quarantine count drift"
+          assert len(catalog)+len(excluded)==source["source"]["rows"], "Source Excel row accounting mismatch"
+          assert all(f"awen-{i}" not in ids for i in excluded), "Excluded prose re-imported"
+          assert all(f"awen-{i}" in ids for i in quarantine), "Quarantined IDs deleted"
+          assert all(curation[f"awen-{i}"].get("potential_import_error") for i in quarantine), "Quarantine metadata lost"
           assert set(curation)<=ids,"Curation has IDs not present in catalog"
           assert set(musicbrainz)<=ids,"MusicBrainz has IDs not present in catalog"
           assert set(apple)<=ids,"Apple metadata has IDs not present in catalog"
