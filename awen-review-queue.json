@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T14:00:33+00:00",
+  "generated_at_utc": "2026-11-21T14:09:49+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2075,
-    "needs_genre": 961,
+    "needs_genre": 942,
     "possible_import_errors": 16,
     "duplicate_groups": 10,
     "tracks_in_duplicate_groups": 30,
-    "genre_conflicts": 0
+    "genre_conflicts": 6
   },
   "items": [
     {
@@ -36,15 +36,6 @@
         "genre_not_identified"
       ],
       "source_url": "https://www.youtube.com/watch?v=neFfixTy3Hs"
-    },
-    {
-      "id": "awen-15",
-      "artist": "daniel.mp3 & zamaro",
-      "title": "childhood",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1705206955?i=1705206960"
     },
     {
       "id": "awen-16",
@@ -95,13 +86,15 @@
       ]
     },
     {
-      "id": "awen-40",
-      "artist": "Les Petits Chanteurs de Saint-Marc",
-      "title": "Vois sur ton chemin",
+      "id": "awen-37",
+      "artist": "TROYBOI",
+      "title": "KinjaBang",
       "issues": [
-        "genre_not_identified"
+        "genre_metadata_conflict"
       ],
-      "source_url": "https://music.apple.com/kz/album/980400626?i=980401784"
+      "proposed_genre": "Bass Music / EDM",
+      "genre_conflict": "Hip-Hop / Rap",
+      "source_url": "https://music.apple.com/kz/album/1274517945?i=1274518661"
     },
     {
       "id": "awen-41",
@@ -627,15 +620,6 @@
       ]
     },
     {
-      "id": "awen-155",
-      "artist": "Damaji",
-      "title": "Братка",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1693799488?i=1693799491"
-    },
-    {
       "id": "awen-158",
       "artist": "Из всех искусств музыка",
       "title": "самое человечное и распространенное.",
@@ -687,6 +671,17 @@
       "source_url": "https://music.apple.com/kz/album/1760605909?i=1760605910"
     },
     {
+      "id": "awen-173",
+      "artist": "DXRTYTYPE",
+      "title": "arabian drift",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Phonk",
+      "genre_conflict": "Hip-Hop / Rap",
+      "source_url": "https://music.apple.com/kz/album/1613508655?i=1613508819"
+    },
+    {
       "id": "awen-176",
       "artist": "Edgars Bukovskis",
       "title": "So On!",
@@ -732,6 +727,17 @@
         "awen-153",
         "awen-183"
       ]
+    },
+    {
+      "id": "awen-185",
+      "artist": "Coeus",
+      "title": "Floating Away",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Techno / Trance",
+      "genre_conflict": "House",
+      "source_url": "https://music.apple.com/kz/album/1608435834?i=1608435999"
     },
     {
       "id": "awen-186",
@@ -818,15 +824,6 @@
       "source_url": "https://music.apple.com/kz/album/1849877637?i=1849878130"
     },
     {
-      "id": "awen-205",
-      "artist": "Maga, Sean Doron & Tim Engelhardt",
-      "title": "Here To Stay",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1682532439?i=1682532445"
-    },
-    {
       "id": "awen-208",
       "artist": "Vitalic",
       "title": "Lost Time",
@@ -849,15 +846,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-212",
-      "artist": "moow",
-      "title": "Baby",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/6784573180?i=6784573197"
     },
     {
       "id": "awen-213",
@@ -900,6 +888,17 @@
         "genre_not_identified"
       ],
       "source_url": "https://music.apple.com/kz/album/1695706961?i=1695706963"
+    },
+    {
+      "id": "awen-221",
+      "artist": "Jinsang",
+      "title": "Elevated.",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Chill / Lo-Fi / Ambient",
+      "genre_conflict": "Hip-Hop / Rap",
+      "source_url": "https://music.apple.com/kz/album/1860646385?i=1860646391"
     },
     {
       "id": "awen-224",
@@ -980,6 +979,17 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-238",
+      "artist": "Petit Biscuit",
+      "title": "Burnin",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Chill / Lo-Fi / Ambient",
+      "genre_conflict": "House",
+      "source_url": "https://music.apple.com/kz/album/1532274650?i=1532274658"
     },
     {
       "id": "awen-243",
@@ -1138,15 +1148,6 @@
       ]
     },
     {
-      "id": "awen-278",
-      "artist": "Wildways",
-      "title": "Sirens",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1303640660?i=1303640670"
-    },
-    {
       "id": "awen-279",
       "artist": "K/DA, Madison Beer, Kim Petras, League of Legends",
       "title": "VILLAIN",
@@ -1203,15 +1204,6 @@
       ]
     },
     {
-      "id": "awen-291",
-      "artist": "Josh Tobias",
-      "title": "All Night",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1533543763?i=1533543764"
-    },
-    {
       "id": "awen-293",
       "artist": "Ash, Amelie Martinez",
       "title": "Dans La Peau",
@@ -1226,6 +1218,17 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-297",
+      "artist": "Petit Biscuit",
+      "title": "Parachute",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Chill / Lo-Fi / Ambient",
+      "genre_conflict": "House",
+      "source_url": "https://music.apple.com/kz/album/1532274650?i=1532274656"
     },
     {
       "id": "awen-299",
@@ -1301,15 +1304,6 @@
         "genre_not_identified"
       ],
       "source_url": "https://music.apple.com/kz/album/1846205346?i=1846205347"
-    },
-    {
-      "id": "awen-315",
-      "artist": "Tanir & Tyomcha",
-      "title": "До мурашек",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1508158440?i=1508158555"
     },
     {
       "id": "awen-316",
@@ -1402,30 +1396,12 @@
       ]
     },
     {
-      "id": "awen-333",
-      "artist": "Фикс",
-      "title": "Кожаные штаны",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1526316404?i=1526316405"
-    },
-    {
       "id": "awen-334",
       "artist": "Doja Cat",
       "title": "Candy",
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-335",
-      "artist": "Eva Cassidy",
-      "title": "What A Wonderful World (The Best Of Eva Cassidy)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1828313460?i=1828313466"
     },
     {
       "id": "awen-338",
@@ -1541,15 +1517,6 @@
       ]
     },
     {
-      "id": "awen-358",
-      "artist": "ARIA",
-      "title": "Bleu Chanel",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1659324152?i=1659324158"
-    },
-    {
       "id": "awen-359",
       "artist": "OMELONI",
       "title": "Краш",
@@ -1663,24 +1630,6 @@
       ]
     },
     {
-      "id": "awen-380",
-      "artist": "Black Rebel Motorcycle Club",
-      "title": "Done All Wrong",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/334818018?i=334818027"
-    },
-    {
-      "id": "awen-381",
-      "artist": "Christian Scott",
-      "title": "Isadora",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1443109839?i=1443109984"
-    },
-    {
       "id": "awen-383",
       "artist": "Black Atlass",
       "title": "Blonde (J-Louis Remix)",
@@ -1713,30 +1662,12 @@
       ]
     },
     {
-      "id": "awen-390",
-      "artist": "Am I Right",
-      "title": "Winter Rain",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1525093672?i=1525093673"
-    },
-    {
       "id": "awen-391",
       "artist": "Sampha",
       "title": "Too Much (Loston Rework)",
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-392",
-      "artist": "HVOB",
-      "title": "Dogs",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1528144298?i=1528144321"
     },
     {
       "id": "awen-396",
@@ -1803,15 +1734,6 @@
       ]
     },
     {
-      "id": "awen-405",
-      "artist": "Канги",
-      "title": "Просто услышь меня",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1711638080?i=1711638090"
-    },
-    {
       "id": "awen-406",
       "artist": "Ganju",
       "title": "Close",
@@ -1861,39 +1783,12 @@
       "source_url": "https://music.apple.com/kz/album/1617246216?i=1617247242"
     },
     {
-      "id": "awen-416",
-      "artist": "EXES",
-      "title": "Grey",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1778823836?i=1778823840"
-    },
-    {
       "id": "awen-417",
       "artist": "Kaan Pars, Aivarask",
       "title": "Pleasure & Pain",
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-418",
-      "artist": "fawlin",
-      "title": "demons (feat. XAM)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1504434080?i=1504434081"
-    },
-    {
-      "id": "awen-420",
-      "artist": "The Seige",
-      "title": "Take It",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1205051251?i=1205051462"
     },
     {
       "id": "awen-422",
