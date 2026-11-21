@@ -58,7 +58,7 @@ def verify():
 
             page.goto(URL.rstrip("/") + "/curator.html", wait_until="domcontentloaded")
             page.wait_for_function(
-                "typeof tracks !== 'undefined' && tracks.length >= 2075 && document.querySelectorAll('#list .song').length > 0",
+                "document.querySelectorAll('#list .song').length > 0 && document.querySelector('#stats')?.textContent?.includes('2075')",
                 timeout=25000,
             )
             assert page.locator("#filter").input_value() == "unknown"
@@ -78,7 +78,7 @@ def verify():
             assert payload["patch_format"] == "awen-curator-patches"
             assert payload["changes"]["awen-1"]["genre"] == "Country"
             page.reload(wait_until="domcontentloaded")
-            page.wait_for_function("typeof tracks !== 'undefined' && tracks.length >= 2075", timeout=25000)
+            page.wait_for_function("document.querySelectorAll('#list .song').length > 0", timeout=25000)
             page.locator("#search").fill("Uaiymdama")
             page.locator("button[data-open='awen-1']").click()
             assert page.locator("#genre").input_value() == "Country"
