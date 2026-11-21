@@ -56,6 +56,12 @@ def main():
         else:
             genres[selected_genre] += 1
             counts["known_genre"] += 1
+            if str(edit.get("curation_method") or "").startswith(("ручная", "массовая")):
+                counts["manual_genre"] += 1
+            elif (is_verified and am.get("genre") == selected_genre) or edit.get("genre_evidence") == "itunes_exact":
+                counts["official_apple_genre"] += 1
+            else:
+                counts["provisional_genre"] += 1
         if edit.get("potential_import_error"):
             problem.append("possible_non_music_text")
             counts["possible_non_music"] += 1
@@ -104,6 +110,9 @@ def main():
         "catalog_tracks": len(songs),
         "with_provisional_or_confirmed_genre": counts["known_genre"],
         "without_genre": counts["unknown_genre"],
+        "manual_genre_assignments": counts["manual_genre"],
+        "official_apple_genre_assignments": counts["official_apple_genre"],
+        "provisional_genre_assignments": counts["provisional_genre"],
         "possible_non_music_rows": counts["possible_non_music"],
         "duplicate_groups": sum(len(g) > 1 for g in groups.values()),
         "tracks_in_duplicate_groups": len(duplicates),
