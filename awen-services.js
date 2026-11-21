@@ -306,6 +306,11 @@
               t.playlists=[...new Set([...t.playlists,...patch.playlists.filter(x=>lists.some(p=>p.id===x))])];
             }
             if((!t.language||t.language==='Не определён')&&typeof patch.language==='string')t.language=patch.language;
+            // Album/year are filled only for a single, strictly matched official release.
+            if((!t.album||t.album==='Без альбома')&&typeof patch.album==='string'&&patch.verified_metadata)t.album=patch.album;
+            if(!t.year&&patch.year&&patch.verified_metadata)t.year=Number(patch.year)||null;
+            if(!t.duration&&patch.duration&&patch.verified_metadata)t.duration=Number(patch.duration)||0;
+            if(patch.genre_review_candidate)t.genre_review_candidate=patch.genre_review_candidate;
             if(emptyGenre&&patch.genre&&Number.isFinite(Number(patch.energy)))t.energy=Math.min(5,Math.max(1,Number(patch.energy)));
             if(patch.review_needed)t.curation_review_needed=true;
           }
