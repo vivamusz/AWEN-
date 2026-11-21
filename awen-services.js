@@ -101,7 +101,7 @@
     const foot=document.createElement('p');
     foot.textContent='Плеер принадлежит выбранному сервису. Он не даёт скачивать музыку в MP3 или слушать её офлайн через ӘУЕН.';
     foot.style.cssText='color:#aaa3b7;font-size:11px;line-height:1.5;margin:0';box.appendChild(foot);
-    root.appendChild(box);
+    if(src){const grid=root.querySelector('.details-grid');if(grid)root.insertBefore(box,grid);else root.appendChild(box);}else root.appendChild(box);
   };
   const oldPlay=playTrack;
   playTrack=function(id){
