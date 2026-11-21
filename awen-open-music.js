@@ -2,7 +2,7 @@
 (()=>{
 'use strict';
 if(window.__awenOpenMusic)return;window.__awenOpenMusic=true;
-const AU='https://api.audius.co/v1',JM='https://api.jamendo.com/v3.0/tracks/',KEY='awen-jamendo-client-id-v1';
+const AU='https://api.audius.co/v1',JM='https://api.jamendo.com/v3.0/tracks/',OV='https://api.openverse.org/v1/audio/',KEY='awen-jamendo-client-id-v1';
 let service='Audius',query='',items=[],busy=false,nonce=0,msg='Загружаем открытую музыку…',jamId='';
 let matches = {}, matchStats = null;
 const matchURL = './awen-audius-matches.json';
@@ -29,10 +29,26 @@ async function refreshMatches(){
 try{jamId=localStorage.getItem(KEY)||''}catch(_){}
 const css=document.createElement('style');
 css.textContent='.awen-open{background:linear-gradient(120deg,#2c203a,#191421);border:1px solid #604d70;border-radius:15px;padding:17px;margin:16px 0 24px}.awen-open h2{font-size:22px;margin:0 0 6px}.awen-open p{font-size:12px;line-height:1.6;color:#bfb1c8}.awen-ctrl{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.awen-open button{background:#493359;border:1px solid #805f98;border-radius:10px;padding:9px 13px;color:#fff;cursor:pointer}.awen-open button.on{background:#874eb5}.awen-open input{min-width:140px;flex:1;max-width:400px;padding:10px;color:#fff;background:#191320;border:1px solid #746080;border-radius:9px}.awen-result{display:grid;grid-template-columns:repeat(auto-fill,minmax(225px,1fr));gap:9px}.awen-result button{display:flex;align-items:center;gap:10px;text-align:left;width:100%;background:#241c30;padding:8px}.awen-result button:hover{border-color:#dfb2fc}.awen-result .awen-name{flex:1;min-width:0}.awen-result strong,.awen-result small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.awen-result small{color:#bfaecc}.awen-result img{width:44px;height:44px;border-radius:7px;object-fit:cover}.awen-open .awen-state{font-size:12px;color:#cbb9d6;margin:10px 0}.awen-open details{margin-top:12px;color:#bfaecc;font-size:12px}@media(max-width:600px){.awen-open{padding:12px}.awen-result{grid-template-columns:1fr}}';
+css.textContent += '.awen-license-credit{font-size:10px;color:#bcb0ca;margin:4px 5px 10px}.awen-license-credit a{color:#cdb0ed;text-decoration:underline}.awen-result>div{min-width:0}';
 document.head.appendChild(css);
 const el=(tag,content,cl)=>{const x=document.createElement(tag);if(content!==undefined)x.textContent=content;if(cl)x.className=cl;return x};
 const url=s=>{try{const x=new URL(s);return x.protocol==='https:'?x.href:''}catch(_){return ''}};
 function normalize(t){
+ if(service==='Openverse'){
+  const id=String(t?.id||'');
+  const title=String(t?.title||'').trim(),artist=String(t?.creator||'').trim();
+  const lic=String(t?.license||'').toLowerCase();
+  const audio=url(t?.url||''),page=url(t?.foreign_landing_url||'');
+  const licensePage=url(t?.license_url||'');
+  const durationMs=Number(t?.duration||0);
+  const allowedLicenses=new Set(['cc0','by','by-sa','pdm']);
+  if(!/^[0-9a-f-]{36}$/i.test(id)||!title||!artist||!audio||!page||!licensePage||
+     t.category!=='music'||!allowedLicenses.has(lic)||durationMs<60e3||
+     durationMs>60*60*1e3||t.mature===true)return null;
+  return {id:'awen-openverse-'+id,artist,title,audio,image:url(t?.thumbnail||''),
+    page,license:lic.toUpperCase(),licenseUrl:licensePage,
+    duration:Math.round(durationMs/1000),genre:'Creative Commons',source:'Openverse'};
+ }
  if(service==='Audius'){
   const id=String(t?.id||'');if(!/^[a-zA-Z0-9_-]{2,55}$/.test(id)||t.is_streamable===false||t.is_stream_gated===true||t.is_unlisted===true||t.access?.stream===false)return null;
   const artist=String(t.user?.name||t.artist||''),title=String(t.title||'');
@@ -49,9 +65,9 @@ function paint(){
  app.querySelector('#awen-open-music')?.remove();
  const s=el('section',undefined,'awen-open');s.id='awen-open-music';
  s.append(el('h2','🎧 Открытая музыка — нажал ▶ и слушаешь'),
-  el('p','Ниже — открытая подборка Audius (первые 20 записей), а НЕ результат проверки твоего Excel. Сопоставление каталога по исполнителю и названию идёт отдельно. Jamendo доступен по client_id.'));
+  el('p','Ниже — отдельный поиск по Audius, Openverse и Jamendo, а НЕ 2 075 совпадений из Excel. Принадлежность записи исполнителю и лицензия должны проверяться отдельно. Для Jamendo нужен client_id.'));
  const bar=el('div',undefined,'awen-ctrl');
- for(const name of ['Audius','Jamendo']){const b=el('button',name,service===name?'on':'');b.dataset.awenSource=name;bar.appendChild(b)}
+ for(const name of ['Audius','Openverse','Jamendo']){const b=el('button',name,service===name?'on':'');b.dataset.awenSource=name;bar.appendChild(b)}
  const input=el('input');input.type='search';input.id='awen-open-query';input.value=query;input.placeholder='Название или исполнитель';input.maxLength=110;bar.appendChild(input);
  const find=el('button','Найти');find.dataset.awenSearch='1';bar.appendChild(find);s.appendChild(bar);
  s.appendChild(el('p',msg,'awen-state'));
@@ -68,9 +84,28 @@ function paint(){
  for(const t of items){
   const b=el('button');b.dataset.awenTrack=t.id;b.title='Слушать '+t.artist+' — '+t.title;
   if(t.image){const art=el('img');art.src=t.image;art.alt='';art.loading='lazy';b.appendChild(art)}else b.appendChild(el('span','♫'));
-  const desc=el('span',undefined,'awen-name');desc.append(el('strong',t.title),el('small',t.artist+' · '+t.source));b.append(desc,el('span','▶'));list.appendChild(b);
+  const desc=el('span',undefined,'awen-name');
+  desc.append(el('strong',t.title),el('small',t.artist+' · '+t.source+(t.license?' · '+t.license:'')));
+  b.append(desc,el('span','▶'));
+  if(t.license && t.page && t.licenseUrl){
+    const card=el('div');card.appendChild(b);
+    const links=el('div',undefined,'awen-license-credit');
+    const src=el('a','Запись: '+t.artist+' — '+t.title);
+    src.href=t.page;src.target='_blank';src.rel='noopener noreferrer';
+    const lic=el('a','Лицензия '+t.license);
+    lic.href=t.licenseUrl;lic.target='_blank';lic.rel='noopener noreferrer';
+    links.append(src,document.createTextNode(' · '),lic);
+    card.appendChild(links);list.appendChild(card);
+  }else list.appendChild(b);
  }
  s.appendChild(list);
+ if(service==='Openverse'){
+  const note=el('p','Результаты индексируются Openverse, а файлы размещаются на сторонних площадках. Это не подтверждение прав; перед повторным использованием проверь источник и лицензию.');
+  s.appendChild(note);
+  const credit=el('a','Создано с использованием Openverse · не является официальным приложением Openverse');
+  credit.href='https://openverse.org/';credit.target='_blank';credit.rel='noopener noreferrer';
+  credit.style.cssText='display:block;font-size:11px;margin-top:6px';s.appendChild(credit);
+ }
  if(service==='Jamendo'){
   const opts=el('details');opts.open=!jamId;opts.appendChild(el('summary',jamId?'Настройки Jamendo':'Jamendo: нужен client_id'));
   const row=el('div',undefined,'awen-ctrl');const field=el('input');field.id='awen-jam-id';field.value=jamId;field.placeholder='client_id из devportal.jamendo.com';
@@ -93,6 +128,10 @@ async function load(){
    if(query)p.set('query',query);else p.set('time','week');
    data=await fetchJSON(AU+(query?'/tracks/search':'/tracks/trending')+'?'+p);
    items=(Array.isArray(data?.data)?data.data:[]).map(normalize).filter(Boolean);
+  }else if(service==='Openverse'){
+   const p=new URLSearchParams({q:query||'ambient',category:'music',page_size:'60',license_type:'commercial'});
+   data=await fetchJSON(OV+'?'+p);
+   items=(Array.isArray(data?.results)?data.results:[]).map(normalize).filter(Boolean).slice(0,20);
   }else{
    const p=new URLSearchParams({client_id:jamId,format:'json',limit:'20',audioformat:'mp32'});
    if(query)p.set('search',query);else p.set('order','popularity_week');
