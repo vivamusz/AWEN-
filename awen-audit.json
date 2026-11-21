@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T14:13:03+00:00",
+  "generated_at_utc": "2026-11-21T14:18:11+00:00",
   "catalog_tracks": 2075,
-  "with_provisional_or_confirmed_genre": 1133,
-  "without_genre": 942,
+  "with_provisional_or_confirmed_genre": 1154,
+  "without_genre": 921,
   "possible_non_music_rows": 16,
   "duplicate_groups": 10,
   "tracks_in_duplicate_groups": 30,
@@ -24,24 +24,25 @@
     "chill": 188
   },
   "genre_counts": {
+    "Afro / Global Club": 1,
     "Bass Music / EDM": 91,
-    "Chill / Lo-Fi / Ambient": 96,
+    "Chill / Lo-Fi / Ambient": 97,
     "Classical / Cinematic": 22,
     "Country": 1,
-    "Drum & Bass / UK Bass": 6,
+    "Drum & Bass / UK Bass": 7,
     "Folk / Ethno / World": 7,
     "Funk / Disco": 7,
-    "Hip-Hop / Rap": 342,
-    "House": 97,
-    "Jazz / Blues": 3,
+    "Hip-Hop / Rap": 347,
+    "House": 100,
+    "Jazz / Blues": 4,
     "Latin / Brazilian Club": 6,
     "Metal / Punk": 3,
     "Phonk": 14,
-    "Pop": 234,
-    "R&B / Soul": 101,
-    "Rock / Indie": 93,
+    "Pop": 237,
+    "R&B / Soul": 102,
+    "Rock / Indie": 94,
     "Synth / Retro Electronic": 3,
-    "Techno / Trance": 7
+    "Techno / Trance": 11
   },
   "apple_match_progress": {
     "next_index": 420,
@@ -53,13 +54,11 @@
     "complete": false
   },
   "musicbrainz_progress": {
-    "next_index": 68,
-    "artists_checked": 23,
-    "tracks_assigned": 0,
+    "next_index": 321,
+    "artists_checked": 123,
+    "tracks_assigned": 21,
     "total": 2075,
-    "complete": false,
-    "last_error": "HTTP Error 503: Service Temporarily Unavailable",
-    "last_error_index": 68
+    "complete": false
   },
   "notes": [
     "Genre assignments include artist/title inferences and are not all verified song by song.",

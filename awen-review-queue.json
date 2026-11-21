@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T14:13:03+00:00",
+  "generated_at_utc": "2026-11-21T14:18:11+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2075,
-    "needs_genre": 942,
+    "needs_genre": 921,
     "possible_import_errors": 16,
     "duplicate_groups": 10,
     "tracks_in_duplicate_groups": 30,
@@ -314,14 +314,6 @@
       "id": "awen-103",
       "artist": "ritmo",
       "title": "mistakes",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-105",
-      "artist": "Ömer Bükülmezoğlu",
-      "title": "ROE",
       "issues": [
         "genre_not_identified"
       ]
@@ -698,14 +690,6 @@
       ]
     },
     {
-      "id": "awen-181",
-      "artist": "Fred again.., Romy & HAAi",
-      "title": "Lights Out",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-183",
       "artist": "ID",
       "title": "ID",
@@ -748,14 +732,6 @@
       ]
     },
     {
-      "id": "awen-190",
-      "artist": "Eelke Kleijn",
-      "title": "Transmission",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-192",
       "artist": "Chloé Caillet",
       "title": "Love Ain't Over (Carlita Remix)",
@@ -790,14 +766,6 @@
       "source_url": "https://music.apple.com/kz/album/1593849289?i=1593849304"
     },
     {
-      "id": "awen-200",
-      "artist": "Steve Bug & Matthias Tanzmann",
-      "title": "Jupiter Jellyfish",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-201",
       "artist": "Kasablanca",
       "title": "Alive (Khrebto Remix)",
@@ -822,14 +790,6 @@
         "genre_not_identified"
       ],
       "source_url": "https://music.apple.com/kz/album/1849877637?i=1849878130"
-    },
-    {
-      "id": "awen-208",
-      "artist": "Vitalic",
-      "title": "Lost Time",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-210",
@@ -909,22 +869,6 @@
       ]
     },
     {
-      "id": "awen-225",
-      "artist": "King Princess",
-      "title": "1950",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-228",
-      "artist": "Tiwa Savage feat. Amaarae",
-      "title": "Tales By Moonlight",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-229",
       "artist": "BBM",
       "title": "Drive Forever (Russian remix)",
@@ -973,14 +917,6 @@
       ]
     },
     {
-      "id": "awen-236",
-      "artist": "Powfu, beabadoobee",
-      "title": "death bed (coffee for your head)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-238",
       "artist": "Petit Biscuit",
       "title": "Burnin",
@@ -995,14 +931,6 @@
       "id": "awen-243",
       "artist": "Picon ft. Yama",
       "title": "Atatakai ikimono(суета)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-244",
-      "artist": "Imanbek, Afrojack feat. Gia Koka",
-      "title": "Hey Baby",
       "issues": [
         "genre_not_identified"
       ]
@@ -1049,14 +977,6 @@
       ]
     },
     {
-      "id": "awen-253",
-      "artist": "Gnothi Seauton",
-      "title": "Say (vs. Nelly Furtado)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-255",
       "artist": "Самое лучшее в жизни",
       "title": "бесплатно. Лучшее – очень дорого.",
@@ -1085,14 +1005,6 @@
       "id": "awen-259",
       "artist": "Truwer",
       "title": "Муса",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-260",
-      "artist": "Bremer/McCoy",
-      "title": "Vega",
       "issues": [
         "genre_not_identified"
       ]
@@ -1140,30 +1052,6 @@
       "source_url": "https://music.apple.com/kz/album/1541406539?i=1541406758"
     },
     {
-      "id": "awen-275",
-      "artist": "Alina Baraz, Galimatias",
-      "title": "Unfold",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-279",
-      "artist": "K/DA, Madison Beer, Kim Petras, League of Legends",
-      "title": "VILLAIN",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-280",
-      "artist": "GONE.Fludd",
-      "title": "МАМБЛ",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-283",
       "artist": "DJ SMASH, Poёt",
       "title": "БЕГИ",
@@ -1183,30 +1071,6 @@
       "id": "awen-285",
       "artist": "KDA",
       "title": "ALL OUT",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-286",
-      "artist": "K/DA, i-dle, Wolftyla, Bea Miller, League of Legends",
-      "title": "THE BADDEST",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-290",
-      "artist": "will.i.am feat. Eva Simons",
-      "title": "This Is Love",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-293",
-      "artist": "Ash, Amelie Martinez",
-      "title": "Dans La Peau",
       "issues": [
         "genre_not_identified"
       ]
@@ -1240,14 +1104,6 @@
       "source_url": "https://music.apple.com/kz/album/1535494229?i=1535494597"
     },
     {
-      "id": "awen-301",
-      "artist": "Ludacris Ft. Mary J Blidge",
-      "title": "Runaway Love (See Dee Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-302",
       "artist": "Rook Monroe",
       "title": "Jolie",
@@ -1264,22 +1120,6 @@
       ]
     },
     {
-      "id": "awen-304",
-      "artist": "BICEP",
-      "title": "Apricots",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-305",
-      "artist": "Ben Böhmer feat. Romain Garcia",
-      "title": "Cappadocia",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-306",
       "artist": "KAASI",
       "title": "Caroline Street",
@@ -1287,14 +1127,6 @@
         "genre_not_identified"
       ],
       "source_url": "https://music.apple.com/kz/album/1677441182?i=1677441184"
-    },
-    {
-      "id": "awen-307",
-      "artist": "Pusha T feat. Tyler, The Creator",
-      "title": "Trouble On My Mind",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-312",
