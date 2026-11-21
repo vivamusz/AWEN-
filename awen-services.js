@@ -118,7 +118,17 @@
     settings.appendChild(summary);
     for(const el of [info,bar,input,save,foot])settings.appendChild(el);
     box.appendChild(settings);
-    if(src){const grid=root.querySelector('.details-grid');if(grid)root.insertBefore(box,grid);else root.appendChild(box);}else root.appendChild(box);
+    if(src){
+      // Source player belongs immediately beneath the track title and artist, not at the bottom.
+      const coverEl=root.querySelector('.cover');
+      if(coverEl)coverEl.style.display='none';
+      const titleEl=root.querySelector('h2');
+      const artistEl=titleEl?.nextElementSibling;
+      if(artistEl)artistEl.insertAdjacentElement('afterend',box);
+      else root.prepend(box);
+    }else root.appendChild(box);
+    const modal=document.querySelector('#modal');
+    if(modal)modal.scrollTop=0;
   };
   const oldPlay=playTrack;
   playTrack=function(id){
