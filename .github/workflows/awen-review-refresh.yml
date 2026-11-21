@@ -12,6 +12,8 @@ on:
       - "awen-apple-metadata.json"
       - "awen-match-status.json"
       - "awen-musicbrainz-progress.json"
+      - "awen-genre-sources.json"
+      - "awen-genre-source-status.json"
   schedule:
     - cron: "17 */6 * * *"
 
