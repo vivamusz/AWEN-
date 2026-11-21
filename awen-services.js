@@ -345,6 +345,7 @@
           const ext=(payload&&payload.tracks&&typeof payload.tracks==='object')?payload.tracks:{};
           for(const t of found){
             const hint=ext[t.id];
+            if(t.genre_source==='Ручная правка каталога')continue;
             if(!hint||typeof hint.genre!=='string')continue;
             if(t.genre&&t.genre!=='Не определён')continue;
             if(!genres.some(g=>g.name===hint.genre))continue;
@@ -374,10 +375,12 @@
             if(!patch||!patch.verified_metadata||
                patch.metadata_confidence!=='exact_apple_track_id_artist_title')continue;
             const manual=t.genre_source==='Ручная правка каталога';
-            if(!manual&&(!t.album||t.album==='Без альбома')&&typeof patch.album==='string'){
+            // A manual genre decision must not block album/year enrichment
+            // unless the editor explicitly set those particular fields.
+            if((!t.album||t.album==='Без альбома')&&typeof patch.album==='string'){
               t.album=patch.album;
             }
-            if(!manual&&!t.year&&Number.isInteger(patch.year)){
+            if(!t.year&&Number.isInteger(patch.year)){
               t.year=patch.year;
               t.year_type='album_release';
             }
