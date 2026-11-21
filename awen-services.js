@@ -241,6 +241,8 @@
         banner.appendChild(intro);
          const classified=tracks.filter(t=>t.genre&&t.genre!=='Не определён').length;
          banner.appendChild(document.createTextNode(classified+' из '+tracks.length+' композиций предварительно распределены по жанрам. '));
+          const appleAlbums=tracks.filter(t=>t.verified_metadata&&t.year&&t.album&&t.album!=='Без альбома').length;
+          banner.appendChild(document.createTextNode('Подтверждённые релизы Apple Music: '+appleAlbums+'. '));
         if(matchingStatus){
           const text=document.createTextNode('Автоподбор Apple Music: обработано '+Number(matchingStatus.next_index||0)+' из '+Number(matchingStatus.total||tracks.length)+', найдено новых точных совпадений '+Number(matchingStatus.matched||0)+', на проверку '+Number(matchingStatus.review||0)+'. ');
           banner.appendChild(text);
