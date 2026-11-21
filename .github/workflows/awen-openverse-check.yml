@@ -37,4 +37,27 @@ jobs:
                 "foreign_landing_url","source","category","filetype","duration"
               )},ensure_ascii=False))
 
+          print("Checking an actual licensed music stream (small byte range)...")
+          params={"q":"ambient","category":"music","page_size":"60","license_type":"commercial"}
+          req=urllib.request.Request(base+"?"+urllib.parse.urlencode(params),headers={
+            "User-Agent":"AWEN Music 1.0","Origin":"https://vivamusz.github.io","Accept":"application/json"
+          })
+          with urllib.request.urlopen(req,timeout=25) as resp: data=json.load(resp)
+          licensed=[x for x in data.get("results",[]) if x.get("category")=="music" and
+             x.get("license") in ("by","by-sa","cc0","pdm") and
+             int(x.get("duration") or 0)>60000 and x.get("url")]
+          print("Licensed full-length candidates in sample:",len(licensed))
+          if licensed:
+            item=licensed[0]
+            req=urllib.request.Request(item["url"],headers={
+              "User-Agent":"AWEN Music 1.0","Range":"bytes=0-3"
+            })
+            try:
+              with urllib.request.urlopen(req,timeout=20) as resp:
+                tiny=resp.read(4)
+                print("Audio URL:",item["url"],"HTTP:",resp.status,
+                      "Content-Type:",resp.headers.get("Content-Type"),"sample_bytes:",len(tiny))
+            except Exception as exc:
+              print("Publisher audio may block remote playback:",repr(exc))
+
           PY
