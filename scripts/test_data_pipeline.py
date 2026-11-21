@@ -8,6 +8,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 from awen_match import choose, apply_verified_metadata, broad_genre
 from awen_musicbrainz import map_label
 from apply_curator_patches import check_patch
+from merge_apple_state import merge_catalog, merge_curations, merge_status, merge_candidates
+from merge_musicbrainz_state import merge as merge_musicbrainz
 
 class CatalogPipelineTests(unittest.TestCase):
     def setUp(self):
@@ -73,6 +75,44 @@ class CatalogPipelineTests(unittest.TestCase):
             with self.subTest(patch=patch):
                 with self.assertRaises(ValueError):
                     check_patch("awen-123", patch)
+
+    def test_apple_concurrent_merge_retains_existing_track_links(self):
+        old = {"tracks": [
+            {"id": "a", "title": "A", "source_url": "https://youtube.com/x"},
+            {"id": "b", "title": "B", "source_url": ""},
+        ]}
+        new = {"tracks": [
+            {"id": "a", "source_url": "https://music.apple.com/override"},
+            {"id": "b", "source_url": "https://music.apple.com/added"},
+        ]}
+        merged, count = merge_catalog(old, new)
+        self.assertEqual(count, 1)
+        self.assertEqual(merged["tracks"][0]["source_url"], "https://youtube.com/x")
+        self.assertEqual(merged["tracks"][1]["source_url"], "https://music.apple.com/added")
+
+    def test_apple_merge_does_not_override_manual_genre(self):
+        old = {"tracks": {"a": {"genre": "Phonk", "curation_method": "ручная правка владельца"}}}
+        new = {"tracks": {"a": {"genre": "Pop", "verified_metadata": {"provider": "Apple"}}}}
+        value = merge_curations(old, new)["tracks"]["a"]
+        self.assertEqual(value["genre"], "Phonk")
+        self.assertEqual(value["genre_review_candidate"], "Pop")
+        self.assertEqual(value["verified_metadata"]["provider"], "Apple")
+
+    def test_apple_cursor_and_review_merge(self):
+        p = merge_status({"next_index": 80, "matched": 12, "total": 200},
+                         {"next_index": 120, "matched": 30, "total": 200})
+        self.assertEqual(p["next_index"], 120)
+        self.assertEqual(p["matched"], 30)
+        reviews = merge_candidates({"items": [{"id": "a", "reason": "review"}]},
+                                   {"items": [{"id": "a", "reason": "review"}, {"id": "b", "reason": "review"}]})
+        self.assertEqual(len(reviews["items"]), 2)
+
+    def test_musicbrainz_union(self):
+        a = {"artists": {"a": {"genre": "House"}}, "tracks": {"t1": {"genre": "House"}}}
+        b = {"artists": {"b": {"genre": "Pop"}}, "tracks": {"t2": {"genre": "Pop"}}}
+        result = merge_musicbrainz(a, b)
+        self.assertEqual(len(result["artists"]), 2)
+        self.assertEqual(len(result["tracks"]), 2)
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
