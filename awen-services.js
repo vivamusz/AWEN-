@@ -323,6 +323,13 @@
             }
             if((manual||!t.year)&&patch.year&&(manual||patch.verified_metadata))t.year=Number(patch.year)||null;
             if(!t.duration&&patch.duration&&patch.verified_metadata)t.duration=Number(patch.duration)||0;
+            if(patch.verified_metadata&&typeof patch.verified_metadata==='object'&&
+               String(patch.verified_metadata.url||'').startsWith('https://music.apple.com/')){
+              // Song/artist identity was verified by the official matching workflow.
+              t.verified_metadata=patch.verified_metadata;
+              if(patch.year_type==='album_release')t.year_type='album_release';
+              if(patch.album)t.album_source='Apple Music · конкретное издание';
+            }
             if(patch.genre_review_candidate)t.genre_review_candidate=patch.genre_review_candidate;
             if((manual||emptyGenre)&&patch.genre&&Number.isFinite(Number(patch.energy))){
               t.energy=Math.min(5,Math.max(1,Number(patch.energy)));
