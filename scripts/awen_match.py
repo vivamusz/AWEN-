@@ -104,7 +104,13 @@ def broad_genre(value):
     label = normalize(value)
     if not label:
         return ""
+    # Apple's broad Alternative and hybrid Pop/Rock tags do not identify
+    # the sound of one specific recording. Keep them unclassified.
+    if label in {"alternative", "indie", "pop rock", "pop and rock"}:
+        return ""
     for hint, genre in (
+        ("ambient", "Chill / Lo-Fi / Ambient"),
+        ("downtempo", "Chill / Lo-Fi / Ambient"),
         ("country", "Country"),
         ("hip hop", "Hip-Hop / Rap"),
         ("rap", "Hip-Hop / Rap"),
@@ -117,7 +123,7 @@ def broad_genre(value):
         ("trance", "Techno / Trance"),
         ("techno", "Techno / Trance"),
         ("house", "House"),
-        ("alternative", "Rock / Indie"),
+        ("alternative rock", "Rock / Indie"),
         ("indie rock", "Rock / Indie"),
         ("rock", "Rock / Indie"),
         ("metal", "Metal / Punk"),
