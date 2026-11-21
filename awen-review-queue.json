@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
-  "description": "Очередь редакторской проверки AWEN. Не удалять и не считать жанры установленными, пока не подтверждены.",
+  "generated_at_utc": "2026-11-21T14:00:33+00:00",
+  "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2075,
     "needs_genre": 961,
-    "potential_import_errors": 16,
-    "duplicates_groups": 10,
+    "possible_import_errors": 16,
+    "duplicate_groups": 10,
     "tracks_in_duplicate_groups": 30,
     "genre_conflicts": 0
   },
@@ -754,7 +755,8 @@
       "title": "Love Ain't Over (Carlita Remix)",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1607601342?i=1607601343"
     },
     {
       "id": "awen-194",
@@ -778,7 +780,8 @@
       "title": "Light Beam",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1593849289?i=1593849304"
     },
     {
       "id": "awen-200",
@@ -802,7 +805,8 @@
       "title": "lOnDn",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1609378335?i=1609378338"
     },
     {
       "id": "awen-204",
@@ -810,7 +814,8 @@
       "title": "Salt",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1849877637?i=1849878130"
     },
     {
       "id": "awen-205",
@@ -818,7 +823,8 @@
       "title": "Here To Stay",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1682532439?i=1682532445"
     },
     {
       "id": "awen-208",
@@ -850,7 +856,8 @@
       "title": "Baby",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/6784573180?i=6784573197"
     },
     {
       "id": "awen-213",
@@ -858,7 +865,8 @@
       "title": "OPHANIM SIGHT",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1618045685?i=1618045956"
     },
     {
       "id": "awen-215",
@@ -890,7 +898,8 @@
       "title": "Rinse 2003",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1695706961?i=1695706963"
     },
     {
       "id": "awen-224",
@@ -1010,7 +1019,8 @@
       "title": "By My Side",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1131201916?i=1131201931"
     },
     {
       "id": "awen-251",
@@ -1050,7 +1060,8 @@
       "title": "Bella",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1420109834?i=1420110224"
     },
     {
       "id": "awen-257",
@@ -1106,7 +1117,8 @@
       "title": "Kalemba (Wegue Wegue)",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1477356921?i=1477356925"
     },
     {
       "id": "awen-274",
@@ -1114,7 +1126,8 @@
       "title": "Quest",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1541406539?i=1541406758"
     },
     {
       "id": "awen-275",
@@ -1130,7 +1143,8 @@
       "title": "Sirens",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1303640660?i=1303640670"
     },
     {
       "id": "awen-279",
@@ -1194,7 +1208,8 @@
       "title": "All Night",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1533543763?i=1533543764"
     },
     {
       "id": "awen-293",
@@ -1218,7 +1233,8 @@
       "title": "Voynich",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1535494229?i=1535494597"
     },
     {
       "id": "awen-301",
@@ -1266,7 +1282,8 @@
       "title": "Caroline Street",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1677441182?i=1677441184"
     },
     {
       "id": "awen-307",
@@ -1282,7 +1299,8 @@
       "title": "Where Are You",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1846205346?i=1846205347"
     },
     {
       "id": "awen-315",
@@ -1290,7 +1308,8 @@
       "title": "До мурашек",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1508158440?i=1508158555"
     },
     {
       "id": "awen-316",
@@ -1388,7 +1407,8 @@
       "title": "Кожаные штаны",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1526316404?i=1526316405"
     },
     {
       "id": "awen-334",
@@ -1404,7 +1424,8 @@
       "title": "What A Wonderful World (The Best Of Eva Cassidy)",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1828313460?i=1828313466"
     },
     {
       "id": "awen-338",
@@ -1500,7 +1521,8 @@
       "title": "Moonlight",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1692817095?i=1692817458"
     },
     {
       "id": "awen-355",
@@ -1524,7 +1546,8 @@
       "title": "Bleu Chanel",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1659324152?i=1659324158"
     },
     {
       "id": "awen-359",
@@ -1604,7 +1627,8 @@
       "title": "Check It",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/947692189?i=947692224"
     },
     {
       "id": "awen-375",
@@ -1644,7 +1668,8 @@
       "title": "Done All Wrong",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/334818018?i=334818027"
     },
     {
       "id": "awen-381",
@@ -1652,7 +1677,8 @@
       "title": "Isadora",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1443109839?i=1443109984"
     },
     {
       "id": "awen-383",
@@ -1692,7 +1718,8 @@
       "title": "Winter Rain",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1525093672?i=1525093673"
     },
     {
       "id": "awen-391",
@@ -1708,7 +1735,8 @@
       "title": "Dogs",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1528144298?i=1528144321"
     },
     {
       "id": "awen-396",
@@ -1721,7 +1749,8 @@
         "awen-396",
         "awen-1867"
       ],
-      "proposed_genre": "Classical / Cinematic"
+      "proposed_genre": "Classical / Cinematic",
+      "source_url": "https://music.apple.com/kz/album/654221871?i=654222190"
     },
     {
       "id": "awen-397",
@@ -1779,7 +1808,8 @@
       "title": "Просто услышь меня",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1711638080?i=1711638090"
     },
     {
       "id": "awen-406",
@@ -1827,7 +1857,8 @@
       "title": "Ice Bucket (Kill Paris Remix)",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1617246216?i=1617247242"
     },
     {
       "id": "awen-416",
@@ -1835,7 +1866,8 @@
       "title": "Grey",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1778823836?i=1778823840"
     },
     {
       "id": "awen-417",
@@ -1851,7 +1883,8 @@
       "title": "demons (feat. XAM)",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1504434080?i=1504434081"
     },
     {
       "id": "awen-420",
@@ -1859,7 +1892,8 @@
       "title": "Take It",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1205051251?i=1205051462"
     },
     {
       "id": "awen-422",
@@ -1883,7 +1917,8 @@
       "title": "Trying To Be Nice",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1504891281?i=1504891283"
     },
     {
       "id": "awen-427",
@@ -1891,7 +1926,8 @@
       "title": "Adventure",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1668997570?i=1668997862"
     },
     {
       "id": "awen-430",
@@ -1907,7 +1943,8 @@
       "title": "Primal",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1482309478?i=1482309484"
     },
     {
       "id": "awen-433",
