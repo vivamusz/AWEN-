@@ -19,8 +19,8 @@ CATALOG = ROOT / "awen-catalog.json"
 CURATION = ROOT / "awen-curation.json"
 OVERLAY = ROOT / "awen-musicbrainz.json"
 PROGRESS = ROOT / "awen-musicbrainz-progress.json"
-BATCH = max(1, min(200, int(os.environ.get("AWEN_MB_BATCH", "110"))))
-DELAY = max(1.2, float(os.environ.get("AWEN_MB_DELAY", "1.25")))
+BATCH = max(1, min(100, int(os.environ.get("AWEN_MB_BATCH", "45"))))
+DELAY = max(2.0, float(os.environ.get("AWEN_MB_DELAY", "2.2")))
 UA = "AWENMusicGenreEnrichment/1.0 (https://github.com/vivamusz/AWEN-)"
 _last_request = 0.0
 
@@ -49,7 +49,7 @@ def request_json(path, params=None):
     if params:
         endpoint += "?" + urlencode(params)
     req = Request(endpoint, headers={"User-Agent": UA, "Accept": "application/json"})
-    for attempt in range(3):
+    for attempt in range(2):
         now = time.monotonic()
         if _last_request and now - _last_request < DELAY:
             time.sleep(DELAY - (now - _last_request))
@@ -58,9 +58,9 @@ def request_json(path, params=None):
             with urlopen(req, timeout=22) as resp:
                 return json.loads(resp.read(600000))
         except HTTPError as exc:
-            if exc.code not in (429, 502, 503, 504) or attempt == 2:
+            if exc.code not in (429, 502, 503, 504) or attempt == 1:
                 raise
-            print(f"MusicBrainz HTTP {exc.code}; retry {attempt + 1}/2", file=sys.stderr)
+            print(f"MusicBrainz HTTP {exc.code}; one delayed retry", file=sys.stderr)
             time.sleep(4 * (attempt + 1))
 
 def map_label(s):
