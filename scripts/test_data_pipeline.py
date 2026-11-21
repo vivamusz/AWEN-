@@ -8,6 +8,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from awen_match import choose, apply_verified_metadata, broad_genre
 from awen_musicbrainz import map_label
 from apply_curator_patches import check_patch
+from awen_apple_backfill import apple_track_id, verified as verify_apple_id
 from merge_apple_state import merge_catalog, merge_curations, merge_status, merge_candidates
 from merge_musicbrainz_state import merge as merge_musicbrainz
 
@@ -113,6 +114,27 @@ class CatalogPipelineTests(unittest.TestCase):
         result = merge_musicbrainz(a, b)
         self.assertEqual(len(result["artists"]), 2)
         self.assertEqual(len(result["tracks"]), 2)
+
+    def test_linked_apple_lookup_does_not_guess_incorrect_track(self):
+        self.assertEqual(apple_track_id("https://music.apple.com/kz/album/123?i=456"), 456)
+        self.assertIsNone(apple_track_id("https://example.org/kz/album/123?i=456"))
+        song = {"id": "awen-test", "artist": "Demo Artist", "title": "Demo Song"}
+        record = {"kind": "song", "trackId": 456, "collectionId": 123,
+                  "trackName": "Demo Song", "artistName": "Demo Artist",
+                  "collectionName": "Demo EP", "primaryGenreName": "Ambient",
+                  "releaseDate": "2020-04-05T12:00:00Z", "trackTimeMillis": 180000}
+        result = verify_apple_id(song, record, 456)
+        self.assertEqual(result["album"], "Demo EP")
+        self.assertEqual(result["year"], 2020)
+        self.assertEqual(result["year_type"], "album_release")
+        self.assertEqual(result["genre"], "Chill / Lo-Fi / Ambient")
+        self.assertIsNone(verify_apple_id(song, {**record, "trackName": "Different"}, 456))
+        self.assertIsNone(verify_apple_id(song, {**record, "artistName": "Other Artist"}, 456))
+
+    def test_ambiguous_broad_apple_genres_are_not_fabricated(self):
+        self.assertEqual(broad_genre("Pop/Rock"), "")
+        self.assertEqual(broad_genre("Alternative"), "")
+        self.assertEqual(broad_genre("Ambient"), "Chill / Lo-Fi / Ambient")
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
