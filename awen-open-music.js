@@ -5,6 +5,7 @@ if(window.__awenOpenMusic)return;window.__awenOpenMusic=true;
 const AU='https://api.audius.co/v1',JM='https://api.jamendo.com/v3.0/tracks/',OV='https://api.openverse.org/v1/audio/',KEY='awen-jamendo-client-id-v1';
 let service='Audius',query='',items=[],busy=false,nonce=0,msg='Загружаем открытую музыку…',jamId='';
 let matches = {}, matchStats = null;
+const openverseCredits = new Map();
 const matchURL = './awen-audius-matches.json';
 function applyMatches(){
   if(typeof tracks==='undefined')return;
@@ -148,6 +149,7 @@ async function load(){
 }
 function play(id){
  const t=items.find(x=>x.id===id);if(!t)return;
+ if(t.source==='Openverse'&&t.page&&t.licenseUrl)openverseCredits.set(id,t);
  let rec=tracks.find(x=>x.id===id);
  if(!rec){
   rec=sanitize({id:t.id,artist:t.artist,title:t.title,genre:t.genre,album:t.source,duration:t.duration,audio_url:t.audio,source_url:t.page,source_status:'available'},tracks.length);
@@ -163,6 +165,24 @@ document.addEventListener('click',e=>{
  if(b.dataset.awenJamSave){const v=(document.querySelector('#awen-jam-id')?.value||'').trim();if(!/^[\w-]{3,120}$/.test(v)){msg='Неверный client_id';paint();return}jamId=v;try{localStorage.setItem(KEY,v)}catch(_){}load()}
 });
 document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target?.id==='awen-open-query'){e.preventDefault();query=e.target.value.trim();load()}});
+const previousDetails=openDetails;
+openDetails=function(id){
+ previousDetails(id);
+ const t=openverseCredits.get(id);
+ if(!t)return;
+ const root=document.querySelector('#modalContent');
+ if(!root)return;
+ const note=el('section',undefined,'awen-license-credit');
+ const title=el('strong','Лицензированная запись Openverse');
+ note.appendChild(title);
+ note.appendChild(document.createTextNode(' · '+t.title+' — '+t.artist+' · '));
+ const source=el('a','Исходная страница');
+ source.href=t.page;source.target='_blank';source.rel='noopener noreferrer';
+ const license=el('a','Лицензия '+t.license);
+ license.href=t.licenseUrl;license.target='_blank';license.rel='noopener noreferrer';
+ note.append(source,document.createTextNode(' · '),license);
+ root.appendChild(note);
+};
 const oldRender=render;
 render=function(){applyMatches();oldRender();paint()};
 paint();load();refreshMatches();
