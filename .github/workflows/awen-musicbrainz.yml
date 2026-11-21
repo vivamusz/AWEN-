@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "scripts/awen_musicbrainz.py"
+      - "scripts/merge_musicbrainz_state.py"
       - ".github/workflows/awen-musicbrainz.yml"
   schedule:
     - cron: "8,38 * * * *"
@@ -30,20 +31,33 @@ jobs:
           AWEN_MB_BATCH: "110"
           AWEN_MB_DELAY: "1.25"
         run: python3 scripts/awen_musicbrainz.py
-      - name: Commit independent genre hints and progress
+      - name: Merge and commit even if another job updated GitHub
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp awen-musicbrainz.json /tmp/awen-mb-batch.json
+          cp awen-musicbrainz-progress.json /tmp/awen-mb-progress.json
           git add awen-musicbrainz.json awen-musicbrainz-progress.json
           if git diff --cached --quiet; then
             echo "No enrichment changes"
             exit 0
           fi
           git commit -m "Update AWEN MusicBrainz artist genre hints"
-          for attempt in 1 2 3 4; do
-            if git push origin HEAD:main; then exit 0; fi
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "MusicBrainz batch published"
+              exit 0
+            fi
+            echo "Remote changed: merge batch with latest main (attempt $attempt)"
             git fetch origin main
-            git rebase origin/main || exit 1
+            git reset --hard origin/main
+            python3 scripts/merge_musicbrainz_state.py /tmp/awen-mb-batch.json /tmp/awen-mb-progress.json
+            git add awen-musicbrainz.json awen-musicbrainz-progress.json
+            if git diff --cached --quiet; then
+              echo "Remote already contains batch"
+              exit 0
+            fi
+            git commit -m "Merge AWEN MusicBrainz genre hints"
             sleep 2
           done
           exit 1
