@@ -33,8 +33,8 @@ css.textContent += '.awen-license-credit{font-size:10px;color:#bcb0ca;margin:4px
 document.head.appendChild(css);
 const el=(tag,content,cl)=>{const x=document.createElement(tag);if(content!==undefined)x.textContent=content;if(cl)x.className=cl;return x};
 const url=s=>{try{const x=new URL(s);return x.protocol==='https:'?x.href:''}catch(_){return ''}};
-function normalize(t){
- if(service==='Openverse'){
+function normalize(t,providerName=service){
+ if(providerName==='Openverse'){
   const id=String(t?.id||'');
   const title=String(t?.title||'').trim(),artist=String(t?.creator||'').trim();
   const lic=String(t?.license||'').toLowerCase();
@@ -49,7 +49,7 @@ function normalize(t){
     page,license:lic.toUpperCase(),licenseUrl:licensePage,
     duration:Math.round(durationMs/1000),genre:'Creative Commons',source:'Openverse'};
  }
- if(service==='Audius'){
+ if(providerName==='Audius'){
   const id=String(t?.id||'');if(!/^[a-zA-Z0-9_-]{2,55}$/.test(id)||t.is_streamable===false||t.is_stream_gated===true||t.is_unlisted===true||t.access?.stream===false)return null;
   const artist=String(t.user?.name||t.artist||''),title=String(t.title||'');
   if(!artist||!title)return null;
@@ -75,7 +75,7 @@ function paint(){
   const scanned=Number(matchStats.scanned)||0,total=Number(matchStats.total)||0,
     exact=Number(matchStats.found)||0,review=Number(matchStats.needs_review)||0;
   const line='Твой каталог: проверено '+scanned+' из '+total+'; точных совпадений Audius: '+exact+
-    '; требуют проверки: '+review+(matchStats.complete?'. Проверка завершена.':'. Проверка продолжается.');
+    '; требуют проверки: '+review+(matchStats.fallback_total?'; повторный поиск '+(Number(matchStats.fallback_scanned)||0)+' из '+matchStats.fallback_total:'')+(matchStats.complete?'. Проверка завершена.':'. Проверка продолжается.');
   s.appendChild(el('p',line,'awen-state'));
  }else{
   s.appendChild(el('p','Автопроверка твоего каталога Audius запущена. Цифры появятся после первой сохранённой партии.','awen-state'));
@@ -119,28 +119,31 @@ async function fetchJSON(path){
  try{const r=await fetch(path,{mode:'cors',cache:'no-store',signal:controller.signal});if(!r.ok)throw Error('HTTP '+r.status);return await r.json()}finally{clearTimeout(timeout)}
 }
 async function load(){
- if(busy)return;busy=true;const token=++nonce;items=[];msg='Ищем доступную музыку…';paint();
+ if(busy)return;busy=true;const token=++nonce;const requestedService=service;items=[];msg='Ищем доступную музыку…';paint();
  try{
-  if(service==='Jamendo'&&!jamId){msg='Чтобы использовать Jamendo, введи свой бесплатный client_id ниже.';return}
+  if(requestedService==='Jamendo'&&!jamId){msg='Чтобы использовать Jamendo, введи свой бесплатный client_id ниже.';return}
   let data;
-  if(service==='Audius'){
+  if(requestedService==='Audius'){
    const p=new URLSearchParams({app_name:'AWEN',limit:'20'});
    if(query)p.set('query',query);else p.set('time','week');
    data=await fetchJSON(AU+(query?'/tracks/search':'/tracks/trending')+'?'+p);
-   items=(Array.isArray(data?.data)?data.data:[]).map(normalize).filter(Boolean);
-  }else if(service==='Openverse'){
-   const p=new URLSearchParams({q:query||'ambient',category:'music',page_size:'60',license_type:'commercial'});
+   if(token!==nonce)return;
+   items=(Array.isArray(data?.data)?data.data:[]).map(t=>normalize(t,requestedService)).filter(Boolean);
+  }else if(requestedService==='Openverse'){
+   const p=new URLSearchParams({q:query||'ambient',category:'music',page_size:'20',license_type:'commercial'});
    data=await fetchJSON(OV+'?'+p);
-   items=(Array.isArray(data?.results)?data.results:[]).map(normalize).filter(Boolean).slice(0,20);
+   if(token!==nonce)return;
+   items=(Array.isArray(data?.results)?data.results:[]).map(t=>normalize(t,requestedService)).filter(Boolean).slice(0,20);
   }else{
    const p=new URLSearchParams({client_id:jamId,format:'json',limit:'20',audioformat:'mp32'});
    if(query)p.set('search',query);else p.set('order','popularity_week');
    data=await fetchJSON(JM+'?'+p);
+   if(token!==nonce)return;
    if(data?.headers?.status!=='success')throw Error(data?.headers?.error_message||'Ошибка Jamendo');
-   items=(Array.isArray(data?.results)?data.results:[]).map(normalize).filter(x=>x&&x.title&&x.artist);
+   items=(Array.isArray(data?.results)?data.results:[]).map(t=>normalize(t,requestedService)).filter(x=>x&&x.title&&x.artist);
   }
   msg=items.length?'Найдено '+items.length+' песен. Нажми ▶ — звук пойдёт в стандартном плеере ӘУЕН.':'Подходящих записей не найдено. Попробуй другой запрос.';
- }catch(e){msg='Источник '+service+' недоступен: '+(e.name==='AbortError'?'превышено время ожидания':e.message)+'. Попробуй позже.'}
+ }catch(e){if(token!==nonce)return;msg='Источник '+requestedService+' недоступен: '+(e.name==='AbortError'?'превышено время ожидания':e.message)+'. Попробуй позже.'}
  finally{if(token===nonce){busy=false;paint()}}
 }
 function play(id){
