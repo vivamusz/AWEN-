@@ -31,6 +31,10 @@ def verify():
             catalog_count = page.evaluate("tracks.length")
             assert catalog_count >= 2075, catalog_count
             assert page.title().startswith("AWEN Music"), page.title()
+            official = page.evaluate("({album:tracks.find(t=>t.id==='awen-1')?.album,year:tracks.find(t=>t.id==='awen-1')?.year})")
+            assert official["album"] == "Uaiymdama - Single", official
+            assert official["year"] == 2026, official
+            print("PASS: Shared catalog and verified Apple release metadata")
             print("PASS: Desktop main page, shared catalog, and scripts")
             page.locator("#desktopNav [data-nav='playlists']").click()
             assert page.locator(".playlist-card").count() == 5
@@ -65,6 +69,8 @@ def verify():
             # Edit one track in the test browser, not on GitHub.
             page.locator("#search").fill("Uaiymdama")
             page.locator("button[data-open='awen-1']").click()
+            assert page.locator("#year").input_value() == "2026"
+            assert page.locator("#album").input_value() == "Uaiymdama - Single"
             page.locator("#genre").select_option("Country")
             page.locator("#save").click()
             assert page.locator("#genre").input_value() == "Country"
