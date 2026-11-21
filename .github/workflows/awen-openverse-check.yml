@@ -1,0 +1,37 @@
+name: AWEN Openverse media API check
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/awen-openverse-check.yml"
+permissions:
+  contents: read
+jobs:
+  openverse-api:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify Openverse audio metadata and CORS
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request, urllib.parse
+          base="https://api.openverse.org/v1/audio/"
+          url=base+"?"+urllib.parse.urlencode({
+            "q":"ambient", "page_size":"5", "category":"music",
+            "excluded_source":"jamendo", "license_type":"commercial"
+          })
+          req=urllib.request.Request(url,headers={
+            "User-Agent":"AWEN Music 1.0 (noncommercial audio license search)",
+            "Origin":"https://vivamusz.github.io",
+            "Accept":"application/json",
+          })
+          with urllib.request.urlopen(req, timeout=25) as resp:
+            print("HTTP:",resp.status,"CORS:",resp.headers.get("Access-Control-Allow-Origin"))
+            obj=json.load(resp)
+          print("Results:",obj.get("result_count"))
+          for item in obj.get("results",[])[:3]:
+            print("ITEM",json.dumps({k:item.get(k) for k in (
+               "id","title","creator","license","license_url","url",
+               "foreign_landing_url","source","category","filetype","duration"
+            )},ensure_ascii=False))
+          PY
