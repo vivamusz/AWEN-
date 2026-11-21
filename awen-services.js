@@ -363,6 +363,43 @@
           }
         }
       }catch(err){console.warn('AWEN: MusicBrainz временно недоступен',err);}
+      // Proven release information from Apple ID-based lookups. This is not an audio URL.
+      try{
+        const ar=await fetch('./awen-apple-metadata.json',{cache:'no-cache'});
+        if(ar.ok){
+          const payload=await ar.json();
+          const extra=(payload&&payload.tracks&&typeof payload.tracks==='object')?payload.tracks:{};
+          for(const t of found){
+            const patch=extra[t.id];
+            if(!patch||!patch.verified_metadata||
+               patch.metadata_confidence!=='exact_apple_track_id_artist_title')continue;
+            const manual=t.genre_source==='Ручная правка каталога';
+            if(!manual&&(!t.album||t.album==='Без альбома')&&typeof patch.album==='string'){
+              t.album=patch.album;
+            }
+            if(!manual&&!t.year&&Number.isInteger(patch.year)){
+              t.year=patch.year;
+              t.year_type='album_release';
+            }
+            if(!t.duration&&Number.isInteger(patch.duration))t.duration=patch.duration;
+            if(typeof patch.genre==='string'&&genres.some(g=>g.name===patch.genre)){
+              if(!manual&&(!t.genre||t.genre==='Не определён')){
+                t.genre=patch.genre;
+                t.genre_source='Apple Music · подтверждённое совпадение';
+                t.curation_review_needed=false;
+              }else if(t.genre!==patch.genre){
+                t.genre_review_candidate=patch.genre;
+                t.curation_review_needed=true;
+              }else if(!manual&&t.genre_source!=='Ручная правка каталога'){
+                t.genre_source='Apple Music · подтверждённое совпадение';
+                t.curation_review_needed=false;
+              }
+            }
+            t.verified_metadata=patch.verified_metadata;
+            t.album_source='Apple Music · конкретное издание';
+          }
+        }
+      }catch(err){console.warn('AWEN: данные релизов Apple Music временно недоступны',err);}
       tracks=found;demo=false;applyAuthorizedStreams();render();
     }catch(err){
       console.warn('AWEN: каталог GitHub недоступен',err);
