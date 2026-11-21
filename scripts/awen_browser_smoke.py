@@ -79,6 +79,8 @@ def verify():
             assert payload["changes"]["awen-1"]["genre"] == "Country"
             page.reload(wait_until="domcontentloaded")
             page.wait_for_function("document.querySelectorAll('#list .song').length > 0", timeout=25000)
+            # The edited record is no longer in the default "Unknown genre" queue.
+            page.locator("#filter").select_option("all")
             page.locator("#search").fill("Uaiymdama")
             page.locator("button[data-open='awen-1']").click()
             assert page.locator("#genre").input_value() == "Country"
