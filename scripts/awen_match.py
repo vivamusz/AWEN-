@@ -282,6 +282,10 @@ def main():
     for i in range(start, end):
         track = tracks[i]
         state["next_index"] = i + 1
+        # Public VK posts are sometimes quotes with a dash, not artist-song pairs.
+        # Preserve these rows for editorial review but never query song APIs for them.
+        if (curation.get("tracks", {}).get(track.get("id"), {}) or {}).get("potential_import_error"):
+            continue
         if track.get("source_url"):
             continue
         artist, title = str(track.get("artist", "")).strip(), str(track.get("title", "")).strip()
