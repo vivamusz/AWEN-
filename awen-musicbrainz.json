@@ -110,7 +110,832 @@
     },
     "ost": {
       "status": "skip"
+    },
+    "mostus": {
+      "status": "not_found"
+    },
+    "n ҝ ø η": {
+      "status": "not_found"
+    },
+    "ǂ the neighbourhood": {
+      "status": "not_found"
+    },
+    "yume play": {
+      "status": "unclassified",
+      "artist_mbid": "e3848672-8458-4675-bb3f-9500e20f42ad",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/e3848672-8458-4675-bb3f-9500e20f42ad"
+    },
+    "rialex": {
+      "status": "not_found"
+    },
+    "クフ": {
+      "status": "not_found"
+    },
+    "blan jalouqa": {
+      "status": "not_found"
+    },
+    "за кровь": {
+      "status": "not_found"
+    },
+    "ritmo": {
+      "status": "ambiguous"
+    },
+    "omer bukulmezoglu": {
+      "status": "found",
+      "artist_mbid": "d05abba3-3c8a-42a9-b452-7959cd93541b",
+      "genre": "House",
+      "evidence_tags": [
+        "deep house"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/d05abba3-3c8a-42a9-b452-7959cd93541b"
+    },
+    "aera": {
+      "status": "ambiguous"
+    },
+    "inner sense": {
+      "status": "ambiguous"
+    },
+    "oling": {
+      "status": "unclassified",
+      "artist_mbid": "c8e07818-6e5f-4aa8-bcd1-08c0e2568820",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/c8e07818-6e5f-4aa8-bcd1-08c0e2568820"
+    },
+    "calvin logue": {
+      "status": "unclassified",
+      "artist_mbid": "6e9185be-7377-4341-bf23-e1be47c17a4b",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/6e9185be-7377-4341-bf23-e1be47c17a4b"
+    },
+    "fabrication": {
+      "status": "unclassified",
+      "artist_mbid": "56edc999-ebbc-44cd-90a1-fc63c102b470",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/56edc999-ebbc-44cd-90a1-fc63c102b470"
+    },
+    "damaji": {
+      "status": "not_found"
+    },
+    "auen": {
+      "status": "not_found"
+    },
+    "admt": {
+      "status": "unclassified",
+      "artist_mbid": "bdc02a78-7bb1-45c4-81b5-70115abc4508",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/bdc02a78-7bb1-45c4-81b5-70115abc4508"
+    },
+    "iamjj": {
+      "status": "unclassified",
+      "artist_mbid": "9e87093d-5880-4123-8c89-623ea882d4a0",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/9e87093d-5880-4123-8c89-623ea882d4a0"
+    },
+    "yglm": {
+      "status": "not_found"
+    },
+    "upsidedown": {
+      "status": "unclassified",
+      "artist_mbid": "a2d637e6-f003-4ce4-a74d-061a9a19f885",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/a2d637e6-f003-4ce4-a74d-061a9a19f885"
+    },
+    "edgars bukovskis": {
+      "status": "unclassified",
+      "artist_mbid": "0dffeeb7-e746-45c3-bf6e-392f9b8571c7",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/0dffeeb7-e746-45c3-bf6e-392f9b8571c7"
+    },
+    "esta": {
+      "status": "ambiguous"
+    },
+    "fred again": {
+      "status": "found",
+      "artist_mbid": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+      "genre": "Drum & Bass / UK Bass",
+      "evidence_tags": [
+        "breakbeat",
+        "drum and bass",
+        "uk garage"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+    },
+    "d formation": {
+      "status": "unclassified",
+      "artist_mbid": "c55f730a-522f-46c4-9ad5-cd64fe7add3d",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/c55f730a-522f-46c4-9ad5-cd64fe7add3d"
+    },
+    "eelke kleijn": {
+      "status": "found",
+      "artist_mbid": "9567a29f-cb0e-4880-8b23-beac15a2cf94",
+      "genre": "Techno / Trance",
+      "evidence_tags": [
+        "melodic techno",
+        "peak time techno",
+        "techno",
+        "trance"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/9567a29f-cb0e-4880-8b23-beac15a2cf94"
+    },
+    "chloe caillet": {
+      "status": "unclassified",
+      "artist_mbid": "e9139284-f58d-4440-927b-8a3bf41eee51",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/e9139284-f58d-4440-927b-8a3bf41eee51"
+    },
+    "james harcourt": {
+      "status": "unclassified",
+      "artist_mbid": "90a9baa9-9f22-48ea-b922-b282259cd8cc",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/90a9baa9-9f22-48ea-b922-b282259cd8cc"
+    },
+    "deorbiting": {
+      "status": "unclassified",
+      "artist_mbid": "5fcc7846-c17b-486e-94da-10c947ecae3e",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/5fcc7846-c17b-486e-94da-10c947ecae3e"
+    },
+    "tinlicker": {
+      "status": "unclassified",
+      "artist_mbid": "2d098124-cb9d-4e80-992f-47e47c405452",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/2d098124-cb9d-4e80-992f-47e47c405452"
+    },
+    "steve bug": {
+      "status": "found",
+      "artist_mbid": "af583eb9-9871-4217-98c3-9c8e34feab1b",
+      "genre": "Techno / Trance",
+      "evidence_tags": [
+        "dub techno",
+        "techno"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/af583eb9-9871-4217-98c3-9c8e34feab1b"
+    },
+    "kasablanca": {
+      "status": "ambiguous"
+    },
+    "embrz": {
+      "status": "unclassified",
+      "artist_mbid": "87f756f7-1c19-4f78-bfc6-920105a82949",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/87f756f7-1c19-4f78-bfc6-920105a82949"
+    },
+    "atrip": {
+      "status": "unclassified",
+      "artist_mbid": "c98c02c5-eb3e-4ae3-b6c1-c851187830d1",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/c98c02c5-eb3e-4ae3-b6c1-c851187830d1"
+    },
+    "maga": {
+      "status": "ambiguous"
+    },
+    "vitalic": {
+      "status": "found",
+      "artist_mbid": "1f064e2d-aa55-4631-8f62-e2c14bbe1f4e",
+      "genre": "Techno / Trance",
+      "evidence_tags": [
+        "techno"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/1f064e2d-aa55-4631-8f62-e2c14bbe1f4e"
+    },
+    "tango": {
+      "status": "ambiguous"
+    },
+    "ton obsidian": {
+      "status": "not_found"
+    },
+    "moow": {
+      "status": "unclassified",
+      "artist_mbid": "a0abff27-5580-4d16-860a-cbceaff32d60",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/a0abff27-5580-4d16-860a-cbceaff32d60"
+    },
+    "epiphagi": {
+      "status": "unclassified",
+      "artist_mbid": "729956b9-9524-469c-9194-1c4aa9f725e8",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/729956b9-9524-469c-9194-1c4aa9f725e8"
+    },
+    "matonges": {
+      "status": "unclassified",
+      "artist_mbid": "1aaf1924-fd01-49a8-b3d6-ad865300b70c",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/1aaf1924-fd01-49a8-b3d6-ad865300b70c"
+    },
+    "omarcameup": {
+      "status": "unclassified",
+      "artist_mbid": "f30b7316-1121-4677-8943-03bfc025cfee",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/f30b7316-1121-4677-8943-03bfc025cfee"
+    },
+    "xav": {
+      "status": "ambiguous"
+    },
+    "les gordon": {
+      "status": "unclassified",
+      "artist_mbid": "02e5ab4c-7391-4614-ab0f-961b155c5887",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/02e5ab4c-7391-4614-ab0f-961b155c5887"
+    },
+    "king princess": {
+      "status": "found",
+      "artist_mbid": "158778fe-55c1-4dd5-8a3a-9d1b968a5e52",
+      "genre": "Pop",
+      "evidence_tags": [
+        "alternative pop",
+        "indie pop",
+        "pop",
+        "left-field pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/158778fe-55c1-4dd5-8a3a-9d1b968a5e52"
+    },
+    "tiwa savage": {
+      "status": "found",
+      "artist_mbid": "9d9f7ce8-e1cf-4413-b2c9-b90b69bc17f6",
+      "genre": "Afro / Global Club",
+      "evidence_tags": [
+        "afrobeats"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/9d9f7ce8-e1cf-4413-b2c9-b90b69bc17f6"
+    },
+    "bbm": {
+      "status": "ambiguous"
+    },
+    "lloyd": {
+      "status": "unclassified",
+      "artist_mbid": "e9296a90-9c59-4657-9165-1f1b5319de00",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/e9296a90-9c59-4657-9165-1f1b5319de00"
+    },
+    "vaggelis germanos": {
+      "status": "not_found"
+    },
+    "memba": {
+      "status": "unclassified",
+      "artist_mbid": "7a19248b-04aa-4c1f-87a7-99bfe56d45e1",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/7a19248b-04aa-4c1f-87a7-99bfe56d45e1"
+    },
+    "shiloh": {
+      "status": "ambiguous"
+    },
+    "powfu": {
+      "status": "found",
+      "artist_mbid": "bfb7bc12-4b79-412f-8303-ad6d7c772aca",
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "emo rap",
+        "hip hop",
+        "rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/bfb7bc12-4b79-412f-8303-ad6d7c772aca"
+    },
+    "picon": {
+      "status": "not_found"
+    },
+    "imanbek": {
+      "status": "found",
+      "artist_mbid": "23c723b3-f54f-4634-83dc-b2989d05ae88",
+      "genre": "House",
+      "evidence_tags": [
+        "deep house"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/23c723b3-f54f-4634-83dc-b2989d05ae88"
+    },
+    "godless": {
+      "status": "ambiguous"
+    },
+    "tom odell": {
+      "status": "unclassified",
+      "artist_mbid": "fee6a7fb-80d9-4290-a171-e48f1f20e381",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/fee6a7fb-80d9-4290-a171-e48f1f20e381"
+    },
+    "craves": {
+      "status": "unclassified",
+      "artist_mbid": "3d44c445-5059-484e-8a0f-e0cc13300164",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/3d44c445-5059-484e-8a0f-e0cc13300164"
+    },
+    "tails": {
+      "status": "ambiguous"
+    },
+    "naza": {
+      "status": "ambiguous"
+    },
+    "gnothi seauton": {
+      "status": "found",
+      "artist_mbid": "6fe36f90-a742-4579-94e2-2de8d7349a20",
+      "genre": "Chill / Lo-Fi / Ambient",
+      "evidence_tags": [
+        "dark ambient"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/6fe36f90-a742-4579-94e2-2de8d7349a20"
+    },
+    "самое лучшее в жизни": {
+      "status": "not_found"
+    },
+    "podval capella": {
+      "status": "unclassified",
+      "artist_mbid": "67d3f7bb-efa0-4d22-a4a6-9e25f0b1c657",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/67d3f7bb-efa0-4d22-a4a6-9e25f0b1c657"
+    },
+    "rud wolf": {
+      "status": "not_found"
+    },
+    "truwer": {
+      "status": "unclassified",
+      "artist_mbid": "ba22304c-1672-4222-a005-5ff2b9900080",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/ba22304c-1672-4222-a005-5ff2b9900080"
+    },
+    "bremer mccoy": {
+      "status": "found",
+      "artist_mbid": "d3fe0251-0d0d-4d3a-ad2e-53188d7065d5",
+      "genre": "Jazz / Blues",
+      "evidence_tags": [
+        "jazz"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/d3fe0251-0d0d-4d3a-ad2e-53188d7065d5"
+    },
+    "usher": {
+      "status": "ambiguous"
+    },
+    "miley cyrus": {
+      "status": "unclassified",
+      "artist_mbid": "6950ce3c-f396-44c0-be1c-80bcc4d68b36",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/6950ce3c-f396-44c0-be1c-80bcc4d68b36"
+    },
+    "sade": {
+      "status": "ambiguous"
+    },
+    "burkima": {
+      "status": "not_found"
+    },
+    "dronez": {
+      "status": "ambiguous"
+    },
+    "alina baraz": {
+      "status": "found",
+      "artist_mbid": "7fedfdaf-4146-4996-9e2a-a7e39080c329",
+      "genre": "R&B / Soul",
+      "evidence_tags": [
+        "alternative r&b",
+        "neo soul",
+        "r&b",
+        "soul",
+        "neo-soul"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/7fedfdaf-4146-4996-9e2a-a7e39080c329"
+    },
+    "wildways": {
+      "status": "unclassified",
+      "artist_mbid": "72b357ac-defe-4d96-9455-a8a07ff87dcb",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/72b357ac-defe-4d96-9455-a8a07ff87dcb"
+    },
+    "k da": {
+      "status": "found",
+      "artist_mbid": "35f3e736-e27b-4a26-892c-c00179d163d5",
+      "genre": "Pop",
+      "evidence_tags": [
+        "k-pop",
+        "pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/35f3e736-e27b-4a26-892c-c00179d163d5"
+    },
+    "gone fludd": {
+      "status": "found",
+      "artist_mbid": "d3ac145e-4ac6-470f-9177-406bd5735e88",
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "hip hop",
+        "russian rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/d3ac145e-4ac6-470f-9177-406bd5735e88"
+    },
+    "dj smash": {
+      "status": "ambiguous"
+    },
+    "third floor and boswell": {
+      "status": "not_found"
+    },
+    "kda": {
+      "status": "unclassified",
+      "artist_mbid": "e44f4ca1-820e-44f5-822d-e7f910d38f75",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/e44f4ca1-820e-44f5-822d-e7f910d38f75"
+    },
+    "will i am": {
+      "status": "found",
+      "artist_mbid": "d574c9bd-46f6-440a-8d6a-8412a283eeb1",
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "hip hop",
+        "pop rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/d574c9bd-46f6-440a-8d6a-8412a283eeb1"
+    },
+    "josh tobias": {
+      "status": "unclassified",
+      "artist_mbid": "68d41215-bc8e-4db6-80f0-02ef6a967335",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/68d41215-bc8e-4db6-80f0-02ef6a967335"
+    },
+    "ash": {
+      "status": "found",
+      "artist_mbid": "99164692-c02d-407c-81c9-25d338dd21f4",
+      "genre": "Rock / Indie",
+      "evidence_tags": [
+        "alternative rock",
+        "britpop",
+        "indie rock",
+        "post-britpop",
+        "rock"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/99164692-c02d-407c-81c9-25d338dd21f4"
+    },
+    "tamahau": {
+      "status": "unclassified",
+      "artist_mbid": "f67f8781-0e0c-4d8f-94f1-c6d81eead76d",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/f67f8781-0e0c-4d8f-94f1-c6d81eead76d"
+    },
+    "sorrow": {
+      "status": "ambiguous"
+    },
+    "ludacris": {
+      "status": "found",
+      "artist_mbid": "0638ba22-040f-438d-83a5-9b670c4adaf5",
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "gangsta rap",
+        "hip hop",
+        "pop rap",
+        "southern hip hop",
+        "trap rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/0638ba22-040f-438d-83a5-9b670c4adaf5"
+    },
+    "rook monroe": {
+      "status": "unclassified",
+      "artist_mbid": "f9268a77-b11b-4777-a514-037dbaf774a3",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/f9268a77-b11b-4777-a514-037dbaf774a3"
+    },
+    "elliqa": {
+      "status": "not_found"
+    },
+    "bicep": {
+      "status": "found",
+      "artist_mbid": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+      "genre": "Techno / Trance",
+      "evidence_tags": [
+        "techno"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+    },
+    "ben bohmer": {
+      "status": "found",
+      "artist_mbid": "e4f12dfc-1ee7-4250-8e24-549b6d46676d",
+      "genre": "House",
+      "evidence_tags": [
+        "deep house",
+        "progressive house",
+        "tech house"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/e4f12dfc-1ee7-4250-8e24-549b6d46676d"
+    },
+    "kaasi": {
+      "status": "unclassified",
+      "artist_mbid": "d1017171-c815-4355-bd75-62d2343f0d81",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/d1017171-c815-4355-bd75-62d2343f0d81"
+    },
+    "pusha t": {
+      "status": "found",
+      "artist_mbid": "14ecd19f-7121-4192-8549-e5056241a42f",
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "boom bap",
+        "east coast hip hop",
+        "gangsta rap",
+        "hardcore hip hop",
+        "hip hop",
+        "southern hip hop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/14ecd19f-7121-4192-8549-e5056241a42f"
+    },
+    "otnicka": {
+      "status": "unclassified",
+      "artist_mbid": "fec551b2-a1e1-4daa-bedb-4d3eecf184fb",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/fec551b2-a1e1-4daa-bedb-4d3eecf184fb"
+    },
+    "tanir": {
+      "status": "unclassified",
+      "artist_mbid": "8aa2f5a8-e81e-4cc3-bf72-da73a3353f3b",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/8aa2f5a8-e81e-4cc3-bf72-da73a3353f3b"
+    },
+    "sango": {
+      "status": "ambiguous"
+    },
+    "жду": {
+      "status": "not_found"
+    },
+    "всю зиму я": {
+      "status": "not_found"
+    },
+    "cuban doll": {
+      "status": "unclassified",
+      "artist_mbid": "ef68e96d-66bf-4150-a82e-d009ec51a04b",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/ef68e96d-66bf-4150-a82e-d009ec51a04b"
+    },
+    "pablondini": {
+      "status": "not_found"
+    },
+    "haarper prod luga": {
+      "status": "not_found"
+    },
+    "marcus americano": {
+      "status": "not_found"
+    },
+    "экси": {
+      "status": "unclassified",
+      "artist_mbid": "f32ad289-3cb6-4cb5-9b7a-399897d406b1",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/f32ad289-3cb6-4cb5-9b7a-399897d406b1"
+    },
+    "фикс": {
+      "status": "not_found"
     }
   },
-  "tracks": {}
+  "tracks": {
+    "awen-105": {
+      "genre": "House",
+      "evidence_tags": [
+        "deep house"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/d05abba3-3c8a-42a9-b452-7959cd93541b",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-181": {
+      "genre": "Drum & Bass / UK Bass",
+      "evidence_tags": [
+        "breakbeat",
+        "drum and bass",
+        "uk garage"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-190": {
+      "genre": "Techno / Trance",
+      "evidence_tags": [
+        "melodic techno",
+        "peak time techno",
+        "techno",
+        "trance"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/9567a29f-cb0e-4880-8b23-beac15a2cf94",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-200": {
+      "genre": "Techno / Trance",
+      "evidence_tags": [
+        "dub techno",
+        "techno"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/af583eb9-9871-4217-98c3-9c8e34feab1b",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-208": {
+      "genre": "Techno / Trance",
+      "evidence_tags": [
+        "techno"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/1f064e2d-aa55-4631-8f62-e2c14bbe1f4e",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-225": {
+      "genre": "Pop",
+      "evidence_tags": [
+        "alternative pop",
+        "indie pop",
+        "pop",
+        "left-field pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/158778fe-55c1-4dd5-8a3a-9d1b968a5e52",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-228": {
+      "genre": "Afro / Global Club",
+      "evidence_tags": [
+        "afrobeats"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/9d9f7ce8-e1cf-4413-b2c9-b90b69bc17f6",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-236": {
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "emo rap",
+        "hip hop",
+        "rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/bfb7bc12-4b79-412f-8303-ad6d7c772aca",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-244": {
+      "genre": "House",
+      "evidence_tags": [
+        "deep house"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/23c723b3-f54f-4634-83dc-b2989d05ae88",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-253": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "evidence_tags": [
+        "dark ambient"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/6fe36f90-a742-4579-94e2-2de8d7349a20",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-260": {
+      "genre": "Jazz / Blues",
+      "evidence_tags": [
+        "jazz"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/d3fe0251-0d0d-4d3a-ad2e-53188d7065d5",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-275": {
+      "genre": "R&B / Soul",
+      "evidence_tags": [
+        "alternative r&b",
+        "neo soul",
+        "r&b",
+        "soul",
+        "neo-soul"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/7fedfdaf-4146-4996-9e2a-a7e39080c329",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-279": {
+      "genre": "Pop",
+      "evidence_tags": [
+        "k-pop",
+        "pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/35f3e736-e27b-4a26-892c-c00179d163d5",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-280": {
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "hip hop",
+        "russian rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/d3ac145e-4ac6-470f-9177-406bd5735e88",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-286": {
+      "genre": "Pop",
+      "evidence_tags": [
+        "k-pop",
+        "pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/35f3e736-e27b-4a26-892c-c00179d163d5",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-290": {
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "hip hop",
+        "pop rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/d574c9bd-46f6-440a-8d6a-8412a283eeb1",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-293": {
+      "genre": "Rock / Indie",
+      "evidence_tags": [
+        "alternative rock",
+        "britpop",
+        "indie rock",
+        "post-britpop",
+        "rock"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/99164692-c02d-407c-81c9-25d338dd21f4",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-301": {
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "gangsta rap",
+        "hip hop",
+        "pop rap",
+        "southern hip hop",
+        "trap rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/0638ba22-040f-438d-83a5-9b670c4adaf5",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-304": {
+      "genre": "Techno / Trance",
+      "evidence_tags": [
+        "techno"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-305": {
+      "genre": "House",
+      "evidence_tags": [
+        "deep house",
+        "progressive house",
+        "tech house"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/e4f12dfc-1ee7-4250-8e24-549b6d46676d",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-307": {
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "boom bap",
+        "east coast hip hop",
+        "gangsta rap",
+        "hardcore hip hop",
+        "hip hop",
+        "southern hip hop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/14ecd19f-7121-4192-8549-e5056241a42f",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    }
+  }
 }
