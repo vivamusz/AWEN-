@@ -1,0 +1,38 @@
+name: AWEN Discovery validation
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "awen-discovery-*.js"
+      - "awen-discovery.css"
+      - "awen-ai-provenance.json"
+      - "awen-playlist-*.js"
+      - "awen-playlist-profiles.json"
+      - "awen-curation.json"
+      - "awen-catalog.json"
+      - "tests/**"
+      - ".github/workflows/awen-discovery-ci.yml"
+  pull_request:
+    paths:
+      - "index.html"
+      - "awen-discovery-*.js"
+      - "awen-discovery.css"
+      - "awen-ai-provenance.json"
+      - "awen-playlist-*.js"
+      - "tests/**"
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Test AWEN Algotorial playlists
+        run: node tests/playlist-engine.test.js
+      - name: Test 12 AWEN Discovery workflows
+        run: node tests/discovery-core.test.js
