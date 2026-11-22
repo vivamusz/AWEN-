@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "api_base_url": "",
+  "status": "not_configured",
+  "note": "Set api_base_url to your deployed Cloudflare Worker HTTPS URL. Until then users can download a local TXT; there is no central submission inbox."
+}
