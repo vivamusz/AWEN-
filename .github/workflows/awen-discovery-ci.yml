@@ -8,6 +8,8 @@ on:
       - "awen-discovery.css"
       - "awen-my-playlists.js"
       - "awen-my-playlists.css"
+      - "awen-genre-contributions.js"
+      - "awen-genre-contributions.css"
       - "awen-ai-provenance.json"
       - "awen-playlist-*.js"
       - "awen-playlist-profiles.json"
@@ -22,6 +24,8 @@ on:
       - "awen-discovery.css"
       - "awen-my-playlists.js"
       - "awen-my-playlists.css"
+      - "awen-genre-contributions.js"
+      - "awen-genre-contributions.css"
       - "awen-ai-provenance.json"
       - "awen-playlist-*.js"
       - "tests/**"
@@ -44,3 +48,5 @@ jobs:
         run: node tests/discovery-ui.test.js
       - name: Verify personal playlists, persistence, backup and sharing
         run: node tests/my-playlists.test.js
+      - name: Check Other genre and community suggestions
+        run: node tests/genre-suggestions.test.js
