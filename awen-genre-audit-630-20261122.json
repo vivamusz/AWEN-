@@ -2949,13 +2949,11 @@
       "subgenre_before": [
         "Deep House"
       ],
-      "subgenre_after": [
-        "Deep House"
-      ],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "subgenre_after": [],
+      "confidence": "medium",
+      "status": "release_identity_confirmed_subgenre_pending",
+      "source_url": "https://music.apple.com/us/album/infinity/678759166",
+      "reason": "Apple Music Infinity Ink Infinity release identity established; deep house subtype not independently supported",
       "exact_duplicate_ids": [],
       "version_sensitive": false
     },
@@ -3836,13 +3834,15 @@
       "title": "Sodom, South Georgia",
       "artist": "Iron & Wine",
       "genre_before": "Rock / Indie",
-      "genre_after": "Rock / Indie",
+      "genre_after": "Folk / Ethno / World",
       "subgenre_before": [],
-      "subgenre_after": [],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "subgenre_after": [
+        "Indie Folk"
+      ],
+      "confidence": "high",
+      "status": "genre_supported_by_release",
+      "source_url": "https://music.apple.com/us/album/our-endless-numbered-days/5644896",
+      "reason": "Apple Music editorial identifies Sodom, South Georgia and explicitly describes Iron & Wine as indie folk",
       "exact_duplicate_ids": [],
       "version_sensitive": false
     },
@@ -4027,10 +4027,10 @@
       "subgenre_after": [
         "Indie Rock"
       ],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "confidence": "high",
+      "status": "genre_supported_by_release",
+      "source_url": "https://music.apple.com/us/album/high-violet-bonus-track-version/368054407",
+      "reason": "Apple Music The National High Violet categorized Alternative and lists Runaway",
       "exact_duplicate_ids": [],
       "version_sensitive": false
     },
@@ -4964,13 +4964,15 @@
       "title": "Poison & Wine",
       "artist": "The Civil Wars",
       "genre_before": "Rock / Indie",
-      "genre_after": "Rock / Indie",
+      "genre_after": "Folk / Ethno / World",
       "subgenre_before": [],
-      "subgenre_after": [],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "subgenre_after": [
+        "Indie Folk"
+      ],
+      "confidence": "medium",
+      "status": "release_identity_confirmed_subgenre_pending",
+      "source_url": "https://music.apple.com/us/album/barton-hollow/1582343496",
+      "reason": "Apple Music The Civil Wars album lists Poison & Wine and describes Americana/roots music, aligning folk more than Rock/Indie",
       "exact_duplicate_ids": [],
       "version_sensitive": false
     },
@@ -5309,10 +5311,10 @@
       "subgenre_after": [
         "Indie Rock"
       ],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "confidence": "medium",
+      "status": "release_identity_confirmed_subgenre_pending",
+      "source_url": "https://music.apple.com/us/album/encyclopedia/901754252",
+      "reason": "Apple Music The Drums editorial describes indie pop, however Days from another release; subtype still needs exact release confirmation",
       "exact_duplicate_ids": [],
       "version_sensitive": false
     },
@@ -5424,7 +5426,7 @@
       "confidence": "high",
       "status": "genre_supported_by_release",
       "source_url": "https://music.apple.com/us/album/short-change-hero-single/1754187798",
-      "reason": "Apple Music The Heavy Short Change Hero single categorized Rock; alternative-rock subtype uncertain",
+      "reason": "Apple Music exact The Heavy Short Change Hero single classified Rock; narrower alternative-rock style unverified",
       "exact_duplicate_ids": [],
       "version_sensitive": false
     },
@@ -6689,13 +6691,11 @@
       "subgenre_before": [
         "Indie Rock"
       ],
-      "subgenre_after": [
-        "Indie Rock"
-      ],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "subgenre_after": [],
+      "confidence": "medium",
+      "status": "release_identity_confirmed_subgenre_pending",
+      "source_url": "https://music.apple.com/us/album/truth-is-a-beautiful-thing-deluxe/1217577315",
+      "reason": "Apple Music Truth Is a Beautiful Thing (Deluxe) is album by London Grammar, not standalone track",
       "exact_duplicate_ids": [
         "awen-1849"
       ],
@@ -6805,13 +6805,11 @@
       "subgenre_before": [
         "Indie Rock"
       ],
-      "subgenre_after": [
-        "Indie Rock"
-      ],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "subgenre_after": [],
+      "confidence": "medium",
+      "status": "release_identity_confirmed_subgenre_pending",
+      "source_url": "https://music.apple.com/us/album/relaxer/1209198388",
+      "reason": "Apple Music RELAXER is alt-J's third album, not standalone song",
       "exact_duplicate_ids": [
         "awen-1875"
       ],
@@ -6900,17 +6898,17 @@
       "title": "Over and Over",
       "artist": "Hot Chip",
       "genre_before": "Funk / Disco",
-      "genre_after": "Funk / Disco",
+      "genre_after": "Electronica / Experimental",
       "subgenre_before": [
         "Nu-Disco"
       ],
       "subgenre_after": [
-        "Nu-Disco"
+        "Electronica"
       ],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "confidence": "high",
+      "status": "genre_supported_by_release",
+      "source_url": "https://music.apple.com/us/album/the-warning/1250994586",
+      "reason": "Apple Music Hot Chip The Warning contains Over and Over; album genre Electronic, not primarily Funk/Disco",
       "exact_duplicate_ids": [],
       "version_sensitive": false
     },
@@ -7213,10 +7211,10 @@
       "subgenre_after": [
         "Pop Punk"
       ],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "confidence": "medium",
+      "status": "release_identity_confirmed_subgenre_pending",
+      "source_url": "https://music.apple.com/hu/artist/all-time-low/167375968",
+      "reason": "Apple Music editorial calls All Time Low pop punk, with Dirty Laundry specifically electronic pop-rock crossover; broad Metal/Punk category retained",
       "exact_duplicate_ids": [],
       "version_sensitive": false
     },
@@ -7896,10 +7894,10 @@
       "subgenre_after": [
         "Country Pop"
       ],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "confidence": "high",
+      "status": "genre_supported_by_release",
+      "source_url": "https://music.apple.com/us/song/1595703986",
+      "reason": "Apple Music Sam Hunt Body Like a Back Road; country song, pop-oriented crossover",
       "exact_duplicate_ids": [],
       "version_sensitive": false
     },
@@ -8150,10 +8148,10 @@
       "subgenre_after": [
         "Trap"
       ],
-      "confidence": "low",
-      "status": "unverified_no_exact_genre_evidence",
-      "source_url": "",
-      "reason": "Предварительный жанр сохранён, музыкальное подтверждение конкретной записи отсутствует",
+      "confidence": "medium",
+      "status": "release_identity_confirmed_subgenre_pending",
+      "source_url": "https://music.apple.com/us/album/ransom-2/1443196857",
+      "reason": "Apple Music Ransom 2 is a Mike WiLL Made-It album with trap tracks, not a song",
       "exact_duplicate_ids": [],
       "version_sensitive": false
     },
@@ -11906,12 +11904,12 @@
   ],
   "summary": {
     "total": 630,
-    "external_identity_matches": 15,
-    "high_confidence_matches": 4,
-    "genre_changed": 1,
-    "unchanged_unverified": 615,
+    "external_identity_matches": 26,
+    "high_confidence_matches": 8,
+    "genre_changed": 4,
+    "unchanged_unverified": 604,
     "duplicate_record_matches": 18,
     "invalid_taxonomy_adjustments": 0,
-    "album_records_flagged": 1
+    "album_records_flagged": 10
   }
 }
