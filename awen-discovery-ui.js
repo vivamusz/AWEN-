@@ -155,7 +155,7 @@ function act(node){
  let kind=node.dataset.adAction,id=node.dataset.id,g=node.dataset.genre;
  if(kind==='tab'||kind.startsWith('tab-')){tab=kind==='tab'?node.dataset.tab:kind.slice(4);refresh();return;}
  if(kind==='radio'){openRadio(id);return;}
- if(kind==='detail'){markOpened(id);bridge().openDetails&&bridge().openDetails(id);return;}
+ if(kind==='detail'){bridge().openDetails&&bridge().openDetails(id);return;}
  if(kind==='like'){bridge().toggleFavorite&&bridge().toggleFavorite(id);refresh();return;}
  if(kind==='dislike'){toggle('dislikes',id);return;}
  if(kind==='boost'||kind==='exclude'){let key=kind==='boost'?'boostGenres':'excludeGenres';toggle(key,g);return;}
