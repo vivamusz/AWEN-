@@ -1285,6 +1285,616 @@
           ]
         }
       ]
+    },
+    "awen-206": {
+      "genre": "Rock / Indie",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Rock / Indie",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/312479757",
+          "raw_tags": [
+            "Electro",
+            "Techno/House",
+            "Dance",
+            "Rock"
+          ]
+        }
+      ]
+    },
+    "awen-209": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/212748862",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-212": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/1014921701",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-221": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/875449732",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-225": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/57276612",
+          "raw_tags": [
+            "Alternative",
+            "Indie Pop",
+            "Indie Rock",
+            "Electro",
+            "Dance",
+            "Pop",
+            "Indie Pop/Folk",
+            "Films/Games",
+            "Film Scores",
+            "Singer & Songwriter"
+          ]
+        }
+      ]
+    },
+    "awen-261": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/73414782",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-270": {
+      "genre": "Classical / Cinematic",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Classical / Cinematic",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/182377142",
+          "raw_tags": [
+            "Classical"
+          ]
+        }
+      ]
+    },
+    "awen-273": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/122270032",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-280": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/367425007",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-291": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/175991512",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-300": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/177410002",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-308": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/434226787",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-311": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/167721082",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-326": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/14993175",
+          "raw_tags": [
+            "Rap/Hip Hop",
+            "R&B"
+          ]
+        }
+      ]
+    },
+    "awen-333": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/165274922",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-335": {
+      "genre": "Folk / Ethno / World",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Folk / Ethno / World",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/779381311",
+          "raw_tags": [
+            "Folk"
+          ]
+        }
+      ]
+    },
+    "awen-354": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/182811182",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-357": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/222319112",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-358": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/385744397",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-373": {
+      "genre": "Rock / Indie",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Rock / Indie",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/6505633",
+          "raw_tags": [
+            "Alternative",
+            "Rock"
+          ]
+        }
+      ]
+    },
+    "awen-379": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/143054642",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-381": {
+      "genre": "Jazz / Blues",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Jazz / Blues",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/476154",
+          "raw_tags": [
+            "Jazz"
+          ]
+        }
+      ]
+    },
+    "awen-386": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/160258792",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-395": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/15327537",
+          "raw_tags": [
+            "Electro",
+            "Dance",
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-403": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/1033896742",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-405": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/499337041",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-416": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/667396881",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-418": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/138105392",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-420": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/15327537",
+          "raw_tags": [
+            "Electro",
+            "Dance",
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-426": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/494456091",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-428": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/70912182",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-437": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/99931562",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-440": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/125608742",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-442": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/125128132",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-443": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/99168922",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-447": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/81337242",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-452": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/866171172",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
     }
   },
   "provider": "Deezer album genres; Last.fm track tags; MusicBrainz recording tags"

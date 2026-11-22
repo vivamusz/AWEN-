@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T13:15:34+00:00",
+  "generated_at_utc": "2026-11-22T18:02:29+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2369,
-    "needs_genre": 258,
-    "possible_import_errors": 58,
+    "needs_genre": 240,
+    "possible_import_errors": 59,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
-    "genre_conflicts": 40,
+    "genre_conflicts": 48,
     "cross_source_conflicts": 0
   },
   "items": [
@@ -810,6 +810,17 @@
       ],
       "proposed_genre": "Chill / Lo-Fi / Ambient",
       "genre_conflict": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/875449732",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1860646385?i=1860646391"
     },
     {
@@ -1037,7 +1048,20 @@
         "awen-395",
         "awen-420"
       ],
-      "proposed_genre": "Hip-Hop / Rap"
+      "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/15327537",
+          "raw_tags": [
+            "Electro",
+            "Dance",
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
     },
     {
       "id": "awen-396",
@@ -1112,6 +1136,19 @@
         "awen-420"
       ],
       "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/15327537",
+          "raw_tags": [
+            "Electro",
+            "Dance",
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1205051251?i=1205051462"
     },
     {
@@ -2606,7 +2643,30 @@
         "awen-1628",
         "awen-1667"
       ],
-      "proposed_genre": "Hip-Hop / Rap"
+      "proposed_genre": "Hip-Hop / Rap",
+      "source_url": "https://music.apple.com/kz/album/1272352116?i=1272352856"
+    },
+    {
+      "id": "awen-1629",
+      "artist": "Elvira Goldman",
+      "title": "Love Me Like You Do",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Hip-Hop / Rap",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/979975991?i=979976002"
+    },
+    {
+      "id": "awen-1631",
+      "artist": "Flipsyde",
+      "title": "Someday",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Hip-Hop / Rap",
+      "genre_conflict": "R&B / Soul",
+      "source_url": "https://music.apple.com/kz/album/1443928567?i=1443928901"
     },
     {
       "id": "awen-1639",
@@ -2678,7 +2738,8 @@
         "awen-1628",
         "awen-1667"
       ],
-      "proposed_genre": "Hip-Hop / Rap"
+      "proposed_genre": "Hip-Hop / Rap",
+      "source_url": "https://music.apple.com/kz/album/1272352116?i=1272352856"
     },
     {
       "id": "awen-1668",
@@ -2707,7 +2768,8 @@
       "title": "The Way She Moves",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1725361347?i=1725361349"
     },
     {
       "id": "awen-1683",
@@ -2741,6 +2803,17 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-1705",
+      "artist": "XXYYXX",
+      "title": "Fields",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Chill / Lo-Fi / Ambient",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/1580477036?i=1580477038"
     },
     {
       "id": "awen-1709",
@@ -2789,6 +2862,17 @@
       ]
     },
     {
+      "id": "awen-1754",
+      "artist": "Judge",
+      "title": "Soul",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Bass Music / EDM",
+      "genre_conflict": "Hip-Hop / Rap",
+      "source_url": "https://music.apple.com/kz/album/1474637413?i=1474637414"
+    },
+    {
       "id": "awen-1765",
       "artist": "Linzi Jai",
       "title": "Morose",
@@ -2815,7 +2899,8 @@
       "title": "Hustle",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1757734988?i=1757734989"
     },
     {
       "id": "awen-1784",
@@ -2839,6 +2924,17 @@
       "proposed_genre": "Bass Music / EDM"
     },
     {
+      "id": "awen-1799",
+      "artist": "Wolf Colony",
+      "title": "Holy",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Electronica / Experimental",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/1290040581?i=1290040593"
+    },
+    {
       "id": "awen-1800",
       "artist": "(25Hz) TeeFlii Feat. 2 Chainz",
       "title": "24 Hours (Screwed by Danonino)",
@@ -2860,12 +2956,34 @@
       "proposed_genre": "Rock / Indie"
     },
     {
+      "id": "awen-1806",
+      "artist": "A.CHAL",
+      "title": "Cuanto (feat. A$AP Nast)",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Hip-Hop / Rap",
+      "genre_conflict": "R&B / Soul",
+      "source_url": "https://music.apple.com/kz/album/1299276207?i=1299276644"
+    },
+    {
       "id": "awen-1807",
       "artist": "Nuages",
       "title": "Stay (Party Time Remix)",
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-1810",
+      "artist": "Kalpee",
+      "title": "No One",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Afro / Global Club",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/1881382585?i=1881382586"
     },
     {
       "id": "awen-1817",
@@ -2878,7 +2996,8 @@
         "awen-1817",
         "awen-2240"
       ],
-      "proposed_genre": "Bass Music / EDM"
+      "proposed_genre": "Bass Music / EDM",
+      "source_url": "https://music.apple.com/kz/album/1235152624?i=1235153202"
     },
     {
       "id": "awen-1821",
@@ -2887,6 +3006,17 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-1824",
+      "artist": "OZZIE",
+      "title": "Relax (feat. Joey XL)",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Chill / Lo-Fi / Ambient",
+      "genre_conflict": "R&B / Soul",
+      "source_url": "https://music.apple.com/kz/album/1244454210?i=1244454217"
     },
     {
       "id": "awen-1827",
@@ -3806,165 +3936,14 @@
       ]
     },
     {
-      "id": "awen-2352",
-      "artist": "Always Never",
-      "title": "No Good",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://shop.alwaysneverhere.com/products/always-never-digital-download"
-    },
-    {
-      "id": "awen-2353",
-      "artist": "Kopa",
-      "title": "Shoreline",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/us/song/1395664960"
-    },
-    {
-      "id": "awen-2354",
-      "artist": "Milla",
-      "title": "417",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://my.mail.ru/music/artists/Milla/top"
-    },
-    {
-      "id": "awen-2355",
-      "artist": "Jaymes Young",
-      "title": "I'll Be Good (Trøuble Natiøn Remix)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://www.toneden.io/classyton"
-    },
-    {
-      "id": "awen-2356",
-      "artist": "ODESZA",
-      "title": "Bloom",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/us/song/897564285"
-    },
-    {
-      "id": "awen-2357",
-      "artist": "CYPARISS, Kingpin Skinny Pimp",
-      "title": "EMPTY DREAMS",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://www.last.fm/music/Cypariss"
-    },
-    {
-      "id": "awen-2358",
-      "artist": "DJ Snake feat. Justin Bieber",
-      "title": "Let Me Love You",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/us/album/let-me-love-you-feat-justin-bieber/1440867448?i=1440867817"
-    },
-    {
-      "id": "awen-2359",
-      "artist": "Midi Culture",
-      "title": "Oh Mammy",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://www.fugues.com/2023/06/12/full-house-june-2023/"
-    },
-    {
-      "id": "awen-2360",
-      "artist": "LSD feat. Sia, Diplo, Labrinth",
-      "title": "Genius",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://www.qobuz.com/us-en/album/genius-lsd-feat-sia-diplo-and-labrinth/enyqygd0fs1sa"
-    },
-    {
-      "id": "awen-2361",
-      "artist": "Unlike Pluto",
-      "title": "Waiting for You (feat. Joanna Jones)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://www.beatport.com/release/waiting-for-you/1736495"
-    },
-    {
-      "id": "awen-2362",
-      "artist": "kllo",
-      "title": "bolide",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://mixmag.net/read/kllo-share-new-track-bolide-and-tour-dates-news"
-    },
-    {
-      "id": "awen-2363",
-      "artist": "B.Jigga",
-      "title": "Belgisiz Zhan [Prod. by Be Eazy]",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://my.mail.ru/music/search/B.Jigga"
-    },
-    {
-      "id": "awen-2364",
-      "artist": "Wave Wave & Blinded Hearts",
-      "title": "Repeat (feat. Richard Walters)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://weraveyou.com/2017/03/wave-wave-blinded-hearts-repeat-feat-richard-walters/"
-    },
-    {
-      "id": "awen-2365",
-      "artist": "Lana Del Rey",
-      "title": "Best American Record",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://www.lyricdown.com/lyrics/lana-del-rey-best-american-record-25164359"
-    },
-    {
-      "id": "awen-2366",
-      "artist": "Дато Хиджадзе",
-      "title": "Махинджи Вар (МА)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2367",
       "artist": "Thomas Dybdahl",
       "title": "The Great Plains",
       "issues": [
-        "genre_not_identified"
+        "possible_non_music_text"
       ],
+      "proposed_genre": "Не определён",
       "source_url": "https://www.sputnikmusic.com/review/73037/Thomas-Dybdahl-The-Great-Plains/"
-    },
-    {
-      "id": "awen-2368",
-      "artist": "Thomas Dybdahl",
-      "title": "Paradise Lost",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://propermusic.com/collections/v2/products/thomasdybdahl-thegreatplains"
-    },
-    {
-      "id": "awen-2369",
-      "artist": "Halsey",
-      "title": "Not Afraid Anymore",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/us/song/1440881087"
     }
   ]
 }
