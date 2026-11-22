@@ -72,8 +72,8 @@ async function handle(request,env){
  const path=new URL(request.url).pathname;
  if(!env.DB)return respond(request,env,{ok:false,error:'Database not configured'},503);
  if(request.method==='OPTIONS'){
-  if(request.headers.get('origin')!==env.ALLOWED_ORIGIN)return respond(request,env,'',403);
-  return respond(request,env,'',204);
+  if(request.headers.get('origin')!==env.ALLOWED_ORIGIN)return respond(request,env,{ok:false,error:'Origin not allowed'},403);
+  return new Response(null,{status:204,headers:{...cors(request,env),'cache-control':'no-store'}});
  }
  if(path==='/health'&&request.method==='GET')return respond(request,env,{ok:true,service:'awen-genre-inbox',version:1});
  if(path==='/api/genre-suggestions'&&request.method==='POST'){
