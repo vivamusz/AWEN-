@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T03:22:24+00:00",
+  "generated_at_utc": "2026-11-22T03:22:41+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 965,
+    "needs_genre": 961,
     "possible_import_errors": 16,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
@@ -954,14 +954,6 @@
       ]
     },
     {
-      "id": "awen-233",
-      "artist": "MEMBA, Ricky James",
-      "title": "Opposites Attract",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-235",
       "artist": "shiloh",
       "title": "i'll keep you safe",
@@ -992,14 +984,6 @@
       "id": "awen-247",
       "artist": "GODLESS feat. CRYPTIC MACK",
       "title": "WORST NIGHTMARE",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-251",
-      "artist": "Tails, Inverness feat. Nevve",
-      "title": "Skeleton (feat. Nevve)",
       "issues": [
         "genre_not_identified"
       ]
@@ -1455,14 +1439,6 @@
       ],
       "proposed_genre": "Classical / Cinematic",
       "source_url": "https://music.apple.com/kz/album/654221871?i=654222190"
-    },
-    {
-      "id": "awen-397",
-      "artist": "Jason Derulo, Puri, Jhorrmountain",
-      "title": "Coño",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-400",
@@ -4021,15 +3997,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-1218",
-      "artist": "syml",
-      "title": "mr. sandman",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1606586923?i=1606586924"
     },
     {
       "id": "awen-1219",
