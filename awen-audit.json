@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T07:28:39+00:00",
+  "generated_at_utc": "2026-11-22T07:32:22+00:00",
   "catalog_tracks": 2351,
   "quarantined_possible_non_songs": 58,
   "public_music_candidates": 2293,
@@ -42,7 +42,7 @@
     "Folk / Ethno / World": 43,
     "Funk / Disco": 7,
     "Hip-Hop / Rap": 545,
-    "House": 249,
+    "House": 250,
     "Jazz / Blues": 7,
     "Latin / Brazilian Club": 15,
     "Metal / Punk": 4,
@@ -51,7 +51,7 @@
     "R&B / Soul": 170,
     "Rock / Indie": 177,
     "Synth / Retro Electronic": 7,
-    "Techno / Trance": 33
+    "Techno / Trance": 32
   },
   "apple_match_progress": {
     "next_index": 1380,
