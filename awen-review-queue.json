@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T06:58:44+00:00",
+  "generated_at_utc": "2026-11-22T06:59:55+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 246,
+    "needs_genre": 245,
     "possible_import_errors": 58,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
@@ -2693,14 +2693,6 @@
       "id": "awen-1786",
       "artist": "17 Memphis",
       "title": "Honey Jack",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1797",
-      "artist": "Lazy Rich & Jaxx Da Fishworks",
-      "title": "Guilty Pleasure (Extended Mix)",
       "issues": [
         "genre_not_identified"
       ]
