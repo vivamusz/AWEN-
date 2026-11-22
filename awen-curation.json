@@ -15764,7 +15764,15 @@
       "album": "Love Ain't Over (Remixes) - EP",
       "year": 2022,
       "year_type": "album_release",
-      "duration": 213
+      "duration": 213,
+      "genre": "House",
+      "subgenres": [],
+      "curation_method": "Исследование конкретного релиза 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://mixmag.net/read/chloe-caillet-releases-remix-album-of-debut-single-love-aint-over-deep-house-news",
+      "genre_evidence": "Electronic house remix package; Carlita remix exact subgenre ambiguous",
+      "genre_source": "Проверено по источнику релиза; поджанр может быть предварительным"
     },
     "awen-198": {
       "verified_metadata": {
@@ -16356,7 +16364,17 @@
       "album": "Mourner VIP / Voynich - Single",
       "year": 2020,
       "year_type": "album_release",
-      "duration": 310
+      "duration": 310,
+      "genre": "Drum & Bass / UK Bass",
+      "subgenres": [
+        "UK Garage"
+      ],
+      "curation_method": "Исследование конкретного релиза 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://sorrowgarage.bandcamp.com/track/voynich",
+      "genre_evidence": "Artist Bandcamp direct track tags include UK garage and bass music",
+      "genre_source": "Проверено по источнику релиза; поджанр может быть предварительным"
     },
     "awen-306": {
       "verified_metadata": {
@@ -16425,7 +16443,17 @@
       "album": "Maps",
       "year": 2013,
       "year_type": "album_release",
-      "duration": 261
+      "duration": 261,
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Ambient Folk"
+      ],
+      "curation_method": "Исследование конкретного релиза 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://messagetobears.bandcamp.com/track/moonlight",
+      "genre_evidence": "Artist Bandcamp direct track tags folk and ambient; combined tag is editorial",
+      "genre_source": "Проверено по источнику релиза; поджанр может быть предварительным"
     },
     "awen-358": {
       "verified_metadata": {
@@ -17211,7 +17239,17 @@
       "album": "gb/ol h/nf / subside - Single",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 278
+      "duration": 278,
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Midwest Emo"
+      ],
+      "curation_method": "Исследование конкретного релиза 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://osoosoband.bandcamp.com/album/gb-ol-h-nf",
+      "genre_evidence": "Artist Bandcamp tags emo, indie, punk; Midwest Emo editorial subtype",
+      "genre_source": "Проверено по источнику релиза; поджанр может быть предварительным"
     },
     "awen-1073": {
       "verified_metadata": {
@@ -17321,7 +17359,17 @@
       "album": "D.I.L.Y.D. - EP",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 199
+      "duration": 199,
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Исследование конкретного релиза 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/artist/kawala/299123209",
+      "genre_evidence": "Apple Music artist biography specifically describes indie folk-influenced single",
+      "genre_source": "Проверено по источнику релиза; поджанр может быть предварительным"
     },
     "awen-1128": {
       "verified_metadata": {
@@ -17618,7 +17666,17 @@
       "album": "Take Flight",
       "year": 2017,
       "year_type": "album_release",
-      "duration": 207
+      "duration": 207,
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Исследование конкретного релиза 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/let-you-go/9603328",
+      "genre_evidence": "Exact track on Beatport; deep house inferred from broader artist catalog",
+      "genre_source": "Проверено по источнику релиза; поджанр может быть предварительным"
     },
     "awen-1316": {
       "verified_metadata": {
@@ -17655,7 +17713,17 @@
       "album": "I Remember - Single",
       "year": 2016,
       "year_type": "album_release",
-      "duration": 221
+      "duration": 221,
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "Исследование конкретного релиза 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://musicbrainz.org/artist/5751a689-8b70-4ba0-a9e6-f8a10f4f8531",
+      "genre_evidence": "Artist alternative R&B metadata and 2016 Diary of Me album R&B classification",
+      "genre_source": "Проверено по источнику релиза; поджанр может быть предварительным"
     },
     "awen-1327": {
       "verified_metadata": {
@@ -17776,7 +17844,17 @@
       "album": "Sports",
       "year": 2012,
       "year_type": "album_release",
-      "duration": 80
+      "duration": 80,
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Midwest Emo"
+      ],
+      "curation_method": "Исследование конкретного релиза 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Modern%2BBaseball/Sports/I%2BThink%2BYou%2BWere%2Bin%2BMy%2BProfile%2BPicture%2BOnce",
+      "genre_evidence": "Exact song tagging Midwest Emo and indie rock, supported by AllMusic artist bio",
+      "genre_source": "Проверено по источнику релиза; поджанр может быть предварительным"
     },
     "awen-1403": {
       "verified_metadata": {
