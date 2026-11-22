@@ -20386,7 +20386,7 @@
       "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
     },
     "awen-966": {
-      "genre": "Rock / Indie",
+      "genre": "Pop",
       "subgenres": [
         "Pop Rock"
       ],
@@ -20410,9 +20410,9 @@
       "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
     },
     "awen-1209": {
-      "genre": "Rock / Indie",
+      "genre": "Electronica / Experimental",
       "subgenres": [
-        "Indie Rock"
+        "Electronica"
       ],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
@@ -20447,9 +20447,7 @@
     },
     "awen-1266": {
       "genre": "Rock / Indie",
-      "subgenres": [
-        "Indie Folk"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -20458,9 +20456,9 @@
       "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-1295": {
-      "genre": "Rock / Indie",
+      "genre": "Synth / Retro Electronic",
       "subgenres": [
-        "Indie Rock"
+        "Synthwave"
       ],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
@@ -20507,9 +20505,7 @@
     },
     "awen-1405": {
       "genre": "Rock / Indie",
-      "subgenres": [
-        "Indie Folk"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -20543,9 +20539,7 @@
     },
     "awen-1489": {
       "genre": "Rock / Indie",
-      "subgenres": [
-        "Indie Folk"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -20698,7 +20692,7 @@
       "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-1889": {
-      "genre": "Rock / Indie",
+      "genre": "Metal / Punk",
       "subgenres": [
         "Pop Punk"
       ],
@@ -20711,9 +20705,7 @@
     },
     "awen-1892": {
       "genre": "Rock / Indie",
-      "subgenres": [
-        "Pop Rock"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -21490,7 +21482,7 @@
       "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-1693": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "R&B / Soul",
       "subgenres": [
         "Contemporary R&B"
       ],
@@ -21886,7 +21878,7 @@
       "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-1357": {
-      "genre": "R&B / Soul",
+      "genre": "Folk / Ethno / World",
       "subgenres": [
         "Folk Pop"
       ],
@@ -22210,12 +22202,12 @@
       "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-2217": {
-      "genre": "R&B / Soul",
+      "genre": "Pop",
       "subgenres": [
-        "Contemporary R&B"
+        "Synthpop"
       ],
       "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
-      "curation_confidence": "medium",
+      "curation_confidence": "low",
       "review_needed": true,
       "genre_evidence_url": "https://www.last.fm/music/The%2BWeeknd%2BFeat.%2BDaft%2BPunk/_/I%2BFeel%2BIt%2BComing",
       "genre_evidence": "Last.fm exact song, broad R&B electronic pop",
@@ -22247,9 +22239,7 @@
     },
     "awen-1018": {
       "genre": "House",
-      "subgenres": [
-        "Electro House"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -22283,9 +22273,7 @@
     },
     "awen-1087": {
       "genre": "House",
-      "subgenres": [
-        "Electro House"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -22407,7 +22395,7 @@
         "Deep House"
       ],
       "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
-      "curation_confidence": "medium",
+      "curation_confidence": "low",
       "review_needed": true,
       "genre_evidence_url": "https://www.last.fm/music/Yaeji",
       "genre_evidence": "Last.fm lists Raingurl, deep-house producer",
@@ -22439,9 +22427,7 @@
     },
     "awen-1717": {
       "genre": "House",
-      "subgenres": [
-        "Electro House"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -22498,12 +22484,12 @@
       "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-1842": {
-      "genre": "House",
+      "genre": "Funk / Disco",
       "subgenres": [
         "Nu-Disco"
       ],
       "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
-      "curation_confidence": "medium",
+      "curation_confidence": "low",
       "review_needed": true,
       "genre_evidence_url": "https://www.last.fm/music/Hot%2BChip/Over%2Band%2BOver",
       "genre_evidence": "Last.fm exact electronic dance song",
@@ -22535,9 +22521,7 @@
     },
     "awen-1919": {
       "genre": "House",
-      "subgenres": [
-        "Electro House"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -22571,9 +22555,7 @@
     },
     "awen-2022": {
       "genre": "House",
-      "subgenres": [
-        "Electro House"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -22595,9 +22577,7 @@
     },
     "awen-2036": {
       "genre": "House",
-      "subgenres": [
-        "Electro House"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -22643,9 +22623,7 @@
     },
     "awen-2089": {
       "genre": "House",
-      "subgenres": [
-        "Electro House"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
@@ -22690,9 +22668,9 @@
       "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-987": {
-      "genre": "Classical / Cinematic",
+      "genre": "Synth / Retro Electronic",
       "subgenres": [
-        "Film Score"
+        "Synthwave"
       ],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
@@ -22798,12 +22776,12 @@
       "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-2021": {
-      "genre": "Folk / Ethno / World",
+      "genre": "Country",
       "subgenres": [
         "Country Pop"
       ],
       "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
-      "curation_confidence": "medium",
+      "curation_confidence": "low",
       "review_needed": true,
       "genre_evidence_url": "https://www.last.fm/music/Sam%2BHunt/_/Body%2BLike%2Ba%2BBack%2BRoad",
       "genre_evidence": "Last.fm exact song and country performer",
@@ -22847,9 +22825,7 @@
     },
     "awen-2069": {
       "genre": "Synth / Retro Electronic",
-      "subgenres": [
-        "Synthpop"
-      ],
+      "subgenres": [],
       "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
