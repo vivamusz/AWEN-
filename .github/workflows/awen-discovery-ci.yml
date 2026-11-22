@@ -10,6 +10,9 @@ on:
       - "awen-my-playlists.css"
       - "awen-genre-contributions.js"
       - "awen-genre-contributions.css"
+      - "awen-genre-inbox-config.json"
+      - "awen-genre-admin.html"
+      - "backend/awen-genre-inbox/**"
       - "awen-ai-provenance.json"
       - "awen-playlist-*.js"
       - "awen-playlist-profiles.json"
@@ -26,6 +29,9 @@ on:
       - "awen-my-playlists.css"
       - "awen-genre-contributions.js"
       - "awen-genre-contributions.css"
+      - "awen-genre-inbox-config.json"
+      - "awen-genre-admin.html"
+      - "backend/awen-genre-inbox/**"
       - "awen-ai-provenance.json"
       - "awen-playlist-*.js"
       - "tests/**"
@@ -50,3 +56,5 @@ jobs:
         run: node tests/my-playlists.test.js
       - name: Check Other genre and community suggestions
         run: node tests/genre-suggestions.test.js
+      - name: Test anonymous genre inbox API and private TXT export
+        run: node tests/genre-inbox.test.js
