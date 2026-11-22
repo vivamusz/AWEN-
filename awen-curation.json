@@ -9103,7 +9103,7 @@
         "Classic Rock"
       ],
       "genre_evidence_url": "https://www.last.fm/music/Elvis%2BPresley/_/Heartbreak%2BHotel",
-      "genre_evidence": "Last.fm original song; classic rock mapped broadly",
+      "genre_evidence": "Last.fm original song; classic rock mapped broadly | audit: Elvis Heartbreak Hotel: early rock and roll, no rockabilly subcategory available",
       "genre_source": "Совпадение идентичности песни; стиль предварительный"
     },
     "awen-1412": {
@@ -11903,12 +11903,12 @@
       "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
-      "genre": "Afro / Global Club",
+      "genre": "Folk / Ethno / World",
       "subgenres": [
-        "Afrobeat"
+        "Worldbeat"
       ],
       "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка | audit: The Cat Empire – The Lost Song is not Afrobeat; broader worldbeat/folk fusion is only tentative",
       "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-1951": {
@@ -25895,14 +25895,12 @@
     },
     "awen-989": {
       "genre": "Pop",
-      "subgenres": [
-        "Indie Pop"
-      ],
+      "subgenres": [],
       "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
       "genre_evidence_url": "https://www.last.fm/music/Dido",
-      "genre_evidence": "Last.fm artist and known acoustic recording; Indie Pop is tentative",
+      "genre_evidence": "Last.fm artist and known acoustic recording; Indie Pop is tentative | audit: Dido acoustic cover: broader pop more appropriate; indie pop tag unsupported",
       "genre_source": "Совпадение идентичности песни; стиль предварительный"
     },
     "awen-993": {
@@ -26026,15 +26024,15 @@
       "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-1114": {
-      "genre": "Classical / Cinematic",
+      "genre": "Pop",
       "subgenres": [
-        "Film Score"
+        "Art Pop"
       ],
       "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
       "genre_evidence_url": "https://www.last.fm/music/Emily%2BBrowning",
-      "genre_evidence": "Artist track from film soundtrack; Film Score broad grouping tentative",
+      "genre_evidence": "Artist track from film soundtrack; Film Score broad grouping tentative | audit: Emily Browning Sweet Dreams is a soundtrack cover; film-score classification would misrepresent recording",
       "genre_source": "Совпадение идентичности песни; стиль предварительный"
     },
     "awen-1119": {
@@ -26286,7 +26284,7 @@
       "curation_confidence": "low",
       "review_needed": true,
       "genre_evidence_url": "https://www.last.fm/music/Elvis%2BPresley/_/Heartbreak%2BHotel",
-      "genre_evidence": "Last.fm original song; classic rock mapped broadly",
+      "genre_evidence": "Last.fm original song; classic rock mapped broadly | audit: Elvis Heartbreak Hotel: early rock and roll, no rockabilly subcategory available",
       "genre_source": "Совпадение идентичности песни; стиль предварительный"
     },
     "awen-1406": {
@@ -26826,7 +26824,7 @@
       "curation_confidence": "low",
       "review_needed": true,
       "genre_evidence_url": "https://www.last.fm/music/Gesaffelstein/Aleph/Destinations",
-      "genre_evidence": "Last.fm exact Gesaffelstein Destinations, industrial techno artist; subtype speculative",
+      "genre_evidence": "Last.fm exact Gesaffelstein Destinations, industrial techno artist; subtype speculative | audit: Gesaffelstein Destinations is industrial-electronic / techno; minimal subtype remains provisional",
       "genre_source": "Совпадение идентичности песни; стиль предварительный"
     },
     "awen-2072": {
