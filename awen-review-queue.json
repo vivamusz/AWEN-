@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T03:20:06+00:00",
+  "generated_at_utc": "2026-11-22T03:20:31+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 978,
+    "needs_genre": 974,
     "possible_import_errors": 16,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
@@ -1704,15 +1704,6 @@
       ]
     },
     {
-      "id": "awen-456",
-      "artist": "Labelle",
-      "title": "Playing at the End of the Universe",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1253501826?i=1253503252"
-    },
-    {
       "id": "awen-459",
       "artist": "Bojet",
       "title": "i need",
@@ -3179,15 +3170,6 @@
       ]
     },
     {
-      "id": "awen-943",
-      "artist": "Ruelle",
-      "title": "Deep End",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1614861489?i=1614861491"
-    },
-    {
       "id": "awen-952",
       "artist": "HYLLS",
       "title": "Feathers",
@@ -4162,15 +4144,6 @@
       ]
     },
     {
-      "id": "awen-1240",
-      "artist": "A R I Z O N A",
-      "title": "Let Me Touch Your Fire",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1073292503?i=1073292512"
-    },
-    {
       "id": "awen-1241",
       "artist": "A$AP Ferg feat. Big Sean",
       "title": "World Is Mine",
@@ -4235,15 +4208,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-1255",
-      "artist": "Dawn Golden",
-      "title": "Last Train",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1683440704?i=1683441246"
     },
     {
       "id": "awen-1256",
