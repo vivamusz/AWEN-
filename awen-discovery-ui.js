@@ -23,7 +23,8 @@ function htmlList(items,{limit=25}={}){
    '<button type="button" class="ad-mini" data-ad-action="radio" data-id="'+esc(t.id)+'" title="Радио по композиции" aria-label="Радио по композиции">♫</button>'+
    '<button type="button" class="ad-mini" data-ad-action="like" data-id="'+esc(t.id)+'" aria-pressed="'+favorite+'" title="Избранное">'+(favorite?'♥':'♡')+'</button>'+
    '<button type="button" class="ad-mini" data-ad-action="dislike" data-id="'+esc(t.id)+'" aria-pressed="'+blocked+'" title="Не рекомендовать" aria-label="Не рекомендовать">×</button>'+
-   '<button type="button" class="ad-mini" data-ad-action="mix-add" data-id="'+esc(t.id)+'" title="В мой микс" aria-label="Добавить в микс">＋</button></div></div>';
+   '<button type="button" class="ad-mini" data-ad-action="mix-add" data-id="'+esc(t.id)+'" title="В мой микс" aria-label="Добавить в микс">＋</button>'+
+   '<button type="button" class="ad-mini" data-ad-action="block-artist" data-artist="'+esc(t.artist)+'" title="Скрыть исполнителя в рекомендациях" aria-label="Скрыть исполнителя">⊘</button></div></div>';
  }).join('')+'</div>';
 }
 function listTitle(name,subtitle,items,count=25){
@@ -71,7 +72,7 @@ function tastePanel(){
  '<div class="ad-stats"><div class="ad-stat"><strong>'+likes().length+'</strong><small>Избранных</small></div><div class="ad-stat"><strong>'+arr(state.dislikes).length+'</strong><small>Не рекомендовать</small></div><div class="ad-stat"><strong>'+arr(state.boostGenres).length+'</strong><small>Любимых жанров</small></div></div>'+
  '<label class="ad-label" for="ad-novelty">Знакомое по вашим лайкам ← → Новое относительно них: <span id="ad-novelty-value">'+esc(state.novelty)+'</span>%</label>'+
  '<input class="ad-range" id="ad-novelty" data-ad-control="novelty" type="range" min="0" max="100" step="5" value="'+esc(state.novelty)+'"><p class="ad-note">Это не рейтинг популярности: AWEN не располагает достоверными счётчиками прослушиваний для всего каталога.</p>'+
- button('reset-dislikes','Очистить «Не рекомендовать»','', 'ad-btn ghost'))+'</div>'+
+ button('reset-dislikes','Очистить «Не рекомендовать»','', 'ad-btn ghost')+button('reset-artists','Разблокировать исполнителей: '+arr(state.excludedArtists).length,'','ad-btn ghost'))+'</div>'+
  section('12. Прозрачность AI-музыки',
  '<label class="ad-label"><input type="checkbox" data-ad-control="hideAI" '+(state.hideVerifiedAI?'checked':'')+'> Скрывать подтверждённую полностью ИИ-сгенерированную музыку</label>'+
  '<p>Подтверждено по источникам: <strong>'+confirmed+'</strong>. Неизвестный статус ≠ ИИ. Нельзя автоматически определять происхождение по одному жанру или звучанию.</p>')+
@@ -196,10 +197,12 @@ function act(node){
  if(kind==='detail'){bridge().openDetails&&bridge().openDetails(id);return;}
  if(kind==='like'){bridge().toggleFavorite&&bridge().toggleFavorite(id);refresh();return;}
  if(kind==='dislike'){toggle('dislikes',id);return;}
+ if(kind==='block-artist'){toggle('excludedArtists',node.dataset.artist);return;}
  if(kind==='lang-boost'){toggle('boostLanguages',node.dataset.language);return;}
  if(kind==='boost'||kind==='exclude'){let key=kind==='boost'?'boostGenres':'excludeGenres';toggle(key,g);return;}
  if(kind==='reset-tuner'){state.boostGenres=[];state.boostLanguages=[];state.excludeGenres=[];save();refresh();return;}
  if(kind==='reset-dislikes'){state.dislikes=[];save();refresh();return;}
+ if(kind==='reset-artists'){state.excludedArtists=[];save();refresh();return;}
  if(kind==='clear-history'){if(!root.confirm('Очистить локальную историю и настройки AWEN Discover? Избранное основного сайта останется.'))return;state=defaults();save();refresh();return;}
  if(kind==='smooth'){smooth=!smooth;refresh();return;}
  if(kind==='generate-prompt'){state.prompt=String(document.getElementById('ad-prompt')?.value||'').slice(0,400);lastPromptText=state.prompt;save();refresh();return;}
