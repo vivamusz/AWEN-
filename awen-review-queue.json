@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T12:11:47+00:00",
+  "generated_at_utc": "2026-11-22T13:15:34+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
-    "total": 2351,
-    "needs_genre": 240,
+    "total": 2369,
+    "needs_genre": 258,
     "possible_import_errors": 58,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
-    "genre_conflicts": 38,
+    "genre_conflicts": 40,
     "cross_source_conflicts": 0
   },
   "items": [
@@ -1171,6 +1171,17 @@
       "source_url": "https://music.apple.com/kz/album/610186727?i=610187010"
     },
     {
+      "id": "awen-492",
+      "artist": "A$AP Rocky",
+      "title": "Babushka Boi",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Chill / Lo-Fi / Ambient",
+      "genre_conflict": "Hip-Hop / Rap",
+      "source_url": "https://music.apple.com/kz/album/1477644078?i=1477644079"
+    },
+    {
       "id": "awen-515",
       "artist": "Whethan, Dua Lipa",
       "title": "High",
@@ -1764,6 +1775,17 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-1000",
+      "artist": "Adele",
+      "title": "Skyfall",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Bass Music / EDM",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/566322358?i=566322365"
     },
     {
       "id": "awen-1006",
@@ -3782,6 +3804,167 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-2352",
+      "artist": "Always Never",
+      "title": "No Good",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://shop.alwaysneverhere.com/products/always-never-digital-download"
+    },
+    {
+      "id": "awen-2353",
+      "artist": "Kopa",
+      "title": "Shoreline",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://music.apple.com/us/song/1395664960"
+    },
+    {
+      "id": "awen-2354",
+      "artist": "Milla",
+      "title": "417",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://my.mail.ru/music/artists/Milla/top"
+    },
+    {
+      "id": "awen-2355",
+      "artist": "Jaymes Young",
+      "title": "I'll Be Good (Trøuble Natiøn Remix)",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://www.toneden.io/classyton"
+    },
+    {
+      "id": "awen-2356",
+      "artist": "ODESZA",
+      "title": "Bloom",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://music.apple.com/us/song/897564285"
+    },
+    {
+      "id": "awen-2357",
+      "artist": "CYPARISS, Kingpin Skinny Pimp",
+      "title": "EMPTY DREAMS",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://www.last.fm/music/Cypariss"
+    },
+    {
+      "id": "awen-2358",
+      "artist": "DJ Snake feat. Justin Bieber",
+      "title": "Let Me Love You",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://music.apple.com/us/album/let-me-love-you-feat-justin-bieber/1440867448?i=1440867817"
+    },
+    {
+      "id": "awen-2359",
+      "artist": "Midi Culture",
+      "title": "Oh Mammy",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://www.fugues.com/2023/06/12/full-house-june-2023/"
+    },
+    {
+      "id": "awen-2360",
+      "artist": "LSD feat. Sia, Diplo, Labrinth",
+      "title": "Genius",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://www.qobuz.com/us-en/album/genius-lsd-feat-sia-diplo-and-labrinth/enyqygd0fs1sa"
+    },
+    {
+      "id": "awen-2361",
+      "artist": "Unlike Pluto",
+      "title": "Waiting for You (feat. Joanna Jones)",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://www.beatport.com/release/waiting-for-you/1736495"
+    },
+    {
+      "id": "awen-2362",
+      "artist": "kllo",
+      "title": "bolide",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://mixmag.net/read/kllo-share-new-track-bolide-and-tour-dates-news"
+    },
+    {
+      "id": "awen-2363",
+      "artist": "B.Jigga",
+      "title": "Belgisiz Zhan [Prod. by Be Eazy]",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://my.mail.ru/music/search/B.Jigga"
+    },
+    {
+      "id": "awen-2364",
+      "artist": "Wave Wave & Blinded Hearts",
+      "title": "Repeat (feat. Richard Walters)",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://weraveyou.com/2017/03/wave-wave-blinded-hearts-repeat-feat-richard-walters/"
+    },
+    {
+      "id": "awen-2365",
+      "artist": "Lana Del Rey",
+      "title": "Best American Record",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://www.lyricdown.com/lyrics/lana-del-rey-best-american-record-25164359"
+    },
+    {
+      "id": "awen-2366",
+      "artist": "Дато Хиджадзе",
+      "title": "Махинджи Вар (МА)",
+      "issues": [
+        "genre_not_identified"
+      ]
+    },
+    {
+      "id": "awen-2367",
+      "artist": "Thomas Dybdahl",
+      "title": "The Great Plains",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://www.sputnikmusic.com/review/73037/Thomas-Dybdahl-The-Great-Plains/"
+    },
+    {
+      "id": "awen-2368",
+      "artist": "Thomas Dybdahl",
+      "title": "Paradise Lost",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://propermusic.com/collections/v2/products/thomasdybdahl-thegreatplains"
+    },
+    {
+      "id": "awen-2369",
+      "artist": "Halsey",
+      "title": "Not Afraid Anymore",
+      "issues": [
+        "genre_not_identified"
+      ],
+      "source_url": "https://music.apple.com/us/song/1440881087"
     }
   ]
 }
