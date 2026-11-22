@@ -55,3 +55,37 @@
 @media(max-width:900px){.ad-grid{grid-template-columns:1fr}.ad-two-lists{grid-template-columns:1fr}.ad-section{padding:14px}.ad-hero{padding:18px}.ad-tabs{margin-top:4px}}
 @media(max-width:480px){.ad-stat{padding:10px}.ad-stat strong{font-size:19px}.ad-song{grid-template-columns:minmax(0,1fr);gap:7px}.ad-song-acts{justify-content:flex-start}.ad-tabs{gap:5px}.ad-tab{padding:9px 10px}.ad-hero h1{font-size:24px}.ad-actions .ad-btn{flex:1 1 auto}}
 
+
+/* v1.1: understandable actions. Never let a row of controls widen the mobile viewport. */
+.ad-wrap,.ad-panel,.ad-section,.ad-card-list{width:100%;max-width:100%;min-width:0;box-sizing:border-box}
+.ad-wrap{overflow-x:clip}
+.ad-section{overflow-wrap:anywhere}
+.ad-song{display:grid;grid-template-columns:minmax(0,1fr);row-gap:9px;max-width:100%;min-width:0;box-sizing:border-box;align-items:stretch}
+.ad-song-main{width:100%;min-width:0;max-width:100%;line-height:1.4}
+.ad-song-main strong{font-size:14px;white-space:normal;overflow-wrap:anywhere}
+.ad-song-main small{font-size:12px;white-space:normal;overflow-wrap:anywhere;line-height:1.4}
+.ad-song-acts{display:flex;flex-wrap:wrap;align-items:stretch;justify-content:flex-start;gap:7px;max-width:100%;min-width:0}
+.ad-track-btn{appearance:none;border:1px solid #595165;background:#2d2939;color:#ede5f7;display:inline-flex;justify-content:center;align-items:center;gap:5px;padding:8px 12px;min-height:38px;min-width:0;max-width:100%;font-size:12px;font-weight:650;line-height:1.3;border-radius:10px;cursor:pointer;text-align:center;white-space:normal;overflow-wrap:anywhere}
+.ad-track-btn:hover{background:#433550;border-color:#9a7cc4}
+.ad-track-btn:focus-visible{outline:2px solid #d1b5ff;outline-offset:2px}
+.ad-track-btn[aria-pressed="true"]{background:#4a3359;color:#ffd7ed;border-color:#9765ab}
+.ad-track-btn-primary{background:#68429b;color:#fff;border-color:#a47fdb}
+.ad-track-btn-primary:hover{background:#8059af}
+.ad-track-extra{display:flex;flex-wrap:wrap;gap:7px;border-left:2px solid #7953ad;padding:9px 0 8px 12px;min-width:0;max-width:100%;background:linear-gradient(90deg,rgba(103,71,147,.1),transparent)}
+.ad-track-extra .ad-track-btn{background:#252432}
+.ad-help{background:#252139;border:1px solid #514564;color:#cdc4da;border-radius:12px;padding:12px 15px;font-size:12px;line-height:1.65;margin-top:13px;overflow-wrap:anywhere}
+.ad-help strong{color:#f1e5ff}
+.ad-song[role],.ad-song[aria-label]{min-width:0}
+@media(max-width:600px){
+ .ad-song-acts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+ .ad-song-acts .ad-track-btn:last-child{grid-column:1/-1}
+ .ad-track-btn{width:100%;padding:9px 6px;min-height:41px}
+ .ad-track-extra{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+ .ad-track-extra .ad-track-btn{font-size:11px}
+ .ad-section{padding:13px}
+ .ad-help{padding:12px}
+}
+@media(max-width:340px){
+ .ad-track-extra{grid-template-columns:1fr}
+ .ad-song-main strong{font-size:13px}
+}
