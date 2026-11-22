@@ -2,23 +2,25 @@
   "schema_version": 1,
   "basis": "awen-catalog.json",
   "method": "conservative title/style and artist genre hints; not listening-based verification",
-  "review_notice": "Все назначения по исполнителю, названию и лейблу предварительные. Проверенные метаданные Apple Music имеют отдельную отметку verified_metadata. Нераспознанные записи оставлены для ручной проверки.",
-  "generated_at": "2026-11-21",
+  "review_notice": "Предварительные жанры из Excel назначены по исполнителю или названию и требуют проверки; подтвержденные по релизу помечены отдельно. Источники исходных музыкальных ссылок сохранены.",
+  "generated_at": "2026-11-22",
   "tracks": {
     "awen-2": {
       "genre": "Rock / Indie",
       "subgenres": [
-        "Alternative Rock"
+        "Инди-рок / инди-поп"
       ],
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-10": {
-      "genre": "House",
+      "genre": "Pop",
       "subgenres": [
-        "Deep House"
+        "Турецкий поп"
       ],
       "moods": [
         "Атмосферное"
@@ -28,14 +30,16 @@
         "dance",
         "chill"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-18": {
-      "genre": "Phonk",
+      "genre": "Classical / Cinematic",
       "subgenres": [
-        "Drift Phonk"
+        "Саундтрек"
       ],
       "moods": [
         "Агрессивное",
@@ -45,8 +49,8 @@
       "playlists": [
         "nightplus"
       ],
-      "curation_method": "исполнитель",
-      "curation_confidence": "medium",
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
       "review_needed": true,
       "verified_metadata": {
         "provider": "Apple iTunes Search API",
@@ -59,24 +63,33 @@
       "album": "Save You - Single",
       "year": 2025,
       "year_type": "album_release",
-      "duration": 134
+      "duration": 134,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-19": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "Classical / Cinematic",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Аниме-саундтрек"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-26": {
-      "genre": "Bass Music / EDM",
+      "genre": "Chill / Lo-Fi / Ambient",
       "subgenres": [
-        "Future Bass"
+        "Даунтемпо"
       ],
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-32": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -96,15 +109,27 @@
     },
     "awen-33": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Поп"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-34": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Хоровая музыка"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-35": {
       "genre": "Hip-Hop / Rap",
@@ -114,15 +139,15 @@
       "review_needed": true
     },
     "awen-37": {
-      "genre": "Bass Music / EDM",
+      "genre": "Phonk",
       "subgenres": [
-        "EDM Trap"
+        "Фонк"
       ],
       "energy": 4,
       "playlists": [
         "dance"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -137,7 +162,9 @@
       "album": "Left Is Right",
       "year": 2017,
       "year_type": "album_release",
-      "duration": 106
+      "duration": 106,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-42": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -192,17 +219,28 @@
       "review_needed": true
     },
     "awen-50": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "Bass Music / EDM",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-52": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Киномузыка"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-55": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -293,9 +331,9 @@
       "review_needed": true
     },
     "awen-68": {
-      "genre": "Funk / Disco",
+      "genre": "Classical / Cinematic",
       "subgenres": [
-        "Nu-Disco"
+        "Саундтрек"
       ],
       "playlists": [
         "dance"
@@ -304,10 +342,12 @@
         "Танцевальное"
       ],
       "energy": 4,
-      "curation_method": "стиль исполнителя",
-      "curation_confidence": "medium",
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
       "review_needed": true,
-      "language": "Без слов"
+      "language": "Без слов",
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-69": {
       "language": "Русский",
@@ -459,17 +499,19 @@
       "duration": 212
     },
     "awen-91": {
-      "genre": "House",
+      "genre": "Bass Music / EDM",
       "subgenres": [
-        "Future House"
+        "Future bass"
       ],
       "energy": 4,
       "playlists": [
         "dance"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-92": {
       "genre": "Phonk",
@@ -828,9 +870,9 @@
       "review_needed": true
     },
     "awen-196": {
-      "genre": "Chill / Lo-Fi / Ambient",
+      "genre": "Phonk",
       "subgenres": [
-        "Downtempo"
+        "Фонк"
       ],
       "moods": [
         "Расслабленное"
@@ -839,7 +881,7 @@
       "playlists": [
         "chill"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -853,7 +895,9 @@
       "album": "Fragments",
       "year": 2022,
       "year_type": "album_release",
-      "duration": 333
+      "duration": 333,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-197": {
       "genre": "House",
@@ -913,9 +957,9 @@
       "duration": 342
     },
     "awen-203": {
-      "genre": "House",
+      "genre": "Bass Music / EDM",
       "subgenres": [
-        "Deep House"
+        "Future bass"
       ],
       "moods": [
         "Атмосферное"
@@ -925,9 +969,11 @@
         "dance",
         "chill"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-206": {
       "genre": "House",
@@ -1236,9 +1282,15 @@
     },
     "awen-255": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Саундтрек"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-258": {
       "genre": "Classical / Cinematic",
@@ -1252,9 +1304,15 @@
     },
     "awen-259": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Киномузыка"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-261": {
       "genre": "Hip-Hop / Rap",
@@ -1377,14 +1435,16 @@
       "review_needed": true
     },
     "awen-288": {
-      "genre": "Classical / Cinematic",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Neo-Classical"
+        "Рэп"
       ],
       "energy": 2,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-289": {
       "genre": "Funk / Disco",
@@ -2187,11 +2247,16 @@
       "duration": 198
     },
     "awen-429": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "Bass Music / EDM",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-432": {
       "genre": "Rock / Indie",
@@ -2250,14 +2315,16 @@
       "review_needed": true
     },
     "awen-442": {
-      "genre": "Pop",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Dance Pop"
+        "Трэп"
       ],
       "energy": 4,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-445": {
       "genre": "Hip-Hop / Rap",
@@ -2288,9 +2355,9 @@
       "review_needed": true
     },
     "awen-451": {
-      "genre": "Pop",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Indie Pop"
+        "Рэп"
       ],
       "moods": [
         "Дорожное"
@@ -2299,9 +2366,11 @@
       "playlists": [
         "road"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-454": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -2356,9 +2425,14 @@
     "awen-467": {
       "genre": "Hip-Hop / Rap",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Рэп"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-468": {
       "genre": "R&B / Soul",
@@ -2507,9 +2581,9 @@
       "review_needed": true
     },
     "awen-492": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "Chill / Lo-Fi / Ambient",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -2523,7 +2597,12 @@
       "album": "Babushka Boi - Single",
       "year": 2019,
       "year_type": "album_release",
-      "duration": 187
+      "duration": 187,
+      "subgenres": [
+        "Даунтемпо"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-494": {
       "genre": "Hip-Hop / Rap",
@@ -2612,9 +2691,9 @@
       "review_needed": true
     },
     "awen-513": {
-      "genre": "Pop",
+      "genre": "Bass Music / EDM",
       "subgenres": [
-        "Pop Rock"
+        "Чилвейв"
       ],
       "moods": [
         "Дорожное"
@@ -2623,9 +2702,11 @@
       "playlists": [
         "road"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-515": {
       "genre": "Bass Music / EDM",
@@ -2671,9 +2752,9 @@
       "review_needed": true
     },
     "awen-522": {
-      "genre": "Pop",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Indie Pop"
+        "Рэп"
       ],
       "moods": [
         "Дорожное"
@@ -2682,7 +2763,7 @@
       "playlists": [
         "road"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -2696,7 +2777,9 @@
       "album": "Youth - Single",
       "year": 2017,
       "year_type": "album_release",
-      "duration": 161
+      "duration": 161,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-523": {
       "genre": "Hip-Hop / Rap",
@@ -2729,9 +2812,9 @@
       "review_needed": true
     },
     "awen-526": {
-      "genre": "Pop",
+      "genre": "Bass Music / EDM",
       "subgenres": [
-        "Indie Pop"
+        "Электронный хип-хоп"
       ],
       "moods": [
         "Дорожное"
@@ -2740,9 +2823,11 @@
       "playlists": [
         "road"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-528": {
       "language": "Русский",
@@ -2775,9 +2860,14 @@
     "awen-533": {
       "genre": "Hip-Hop / Rap",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Рэп"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-535": {
       "genre": "Pop",
@@ -2991,9 +3081,14 @@
     "awen-565": {
       "genre": "Hip-Hop / Rap",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Трэп"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-566": {
       "genre": "R&B / Soul",
@@ -3130,9 +3225,15 @@
     },
     "awen-589": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Электронный хип-хоп"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-591": {
       "genre": "R&B / Soul",
@@ -3753,14 +3854,16 @@
       "duration": 223
     },
     "awen-667": {
-      "genre": "Pop",
+      "genre": "Bass Music / EDM",
       "subgenres": [
-        "Indie Pop"
+        "Trap / bass"
       ],
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-668": {
       "genre": "R&B / Soul",
@@ -3850,9 +3953,9 @@
       "review_needed": true
     },
     "awen-684": {
-      "genre": "R&B / Soul",
+      "genre": "Bass Music / EDM",
       "subgenres": [
-        "Alternative R&B"
+        "Trap / bass"
       ],
       "moods": [
         "Меланхоличное"
@@ -3861,9 +3964,11 @@
       "playlists": [
         "chill"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-686": {
       "genre": "House",
@@ -5069,11 +5174,16 @@
       "review_needed": true
     },
     "awen-861": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "Bass Music / EDM",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Электронный хип-хоп"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-862": {
       "genre": "Pop",
@@ -5299,9 +5409,9 @@
       "review_needed": true
     },
     "awen-892": {
-      "genre": "Chill / Lo-Fi / Ambient",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Downtempo"
+        "Рэп"
       ],
       "moods": [
         "Расслабленное"
@@ -5310,9 +5420,11 @@
       "playlists": [
         "chill"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-893": {
       "genre": "Pop",
@@ -5707,17 +5819,19 @@
       "review_needed": true
     },
     "awen-936": {
-      "genre": "House",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Deep House"
+        "Рэп"
       ],
       "energy": 3,
       "playlists": [
         "dance"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-937": {
       "genre": "Bass Music / EDM",
@@ -6112,9 +6226,9 @@
       "review_needed": true
     },
     "awen-1000": {
-      "genre": "Pop",
+      "genre": "Bass Music / EDM",
       "subgenres": [
-        "Pop Rock"
+        "Trap / bass"
       ],
       "moods": [
         "Дорожное"
@@ -6123,7 +6237,7 @@
       "playlists": [
         "road"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -6137,7 +6251,9 @@
       "album": "Skyfall - Single",
       "year": 2012,
       "year_type": "album_release",
-      "duration": 286
+      "duration": 286,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1002": {
       "genre": "Hip-Hop / Rap",
@@ -6275,15 +6391,15 @@
       "duration": 215
     },
     "awen-1017": {
-      "genre": "Funk / Disco",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Nu-Disco"
+        "Рэп"
       ],
       "energy": 4,
       "playlists": [
         "dance"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -6297,7 +6413,9 @@
       "album": "West Of The West (Remixes)",
       "year": 2017,
       "year_type": "album_release",
-      "duration": 233
+      "duration": 233,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1019": {
       "genre": "Pop",
@@ -6821,12 +6939,12 @@
       "review_needed": true
     },
     "awen-1099": {
-      "genre": "Folk / Ethno / World",
+      "genre": "Pop",
       "subgenres": [
-        "Traditional Folk"
+        "Поп"
       ],
       "energy": 2,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -6841,14 +6959,21 @@
       "album": "Storks (Original Motion Picture Soundtrack)",
       "year": 2016,
       "year_type": "album_release",
-      "duration": 187
+      "duration": 187,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1100": {
       "genre": "Hip-Hop / Rap",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Рэп"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1103": {
       "genre": "Hip-Hop / Rap",
@@ -7070,14 +7195,16 @@
       "review_needed": true
     },
     "awen-1133": {
-      "genre": "Pop",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Dance Pop"
+        "Рэп"
       ],
       "energy": 4,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1134": {
       "genre": "Hip-Hop / Rap",
@@ -7894,12 +8021,12 @@
       "review_needed": true
     },
     "awen-1263": {
-      "genre": "Rock / Indie",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Alternative Rock"
+        "Трэп"
       ],
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -7913,7 +8040,9 @@
       "album": "Evolve",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 230
+      "duration": 230,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1264": {
       "genre": "Pop",
@@ -7982,9 +8111,15 @@
     },
     "awen-1275": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1277": {
       "genre": "Hip-Hop / Rap",
@@ -8069,9 +8204,9 @@
       "review_needed": true
     },
     "awen-1290": {
-      "genre": "Pop",
+      "genre": "Bass Music / EDM",
       "subgenres": [
-        "Indie Pop"
+        "Чилвейв"
       ],
       "moods": [
         "Дорожное"
@@ -8080,9 +8215,11 @@
       "playlists": [
         "road"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1291": {
       "genre": "Hip-Hop / Rap",
@@ -8538,9 +8675,9 @@
       "duration": 216
     },
     "awen-1347": {
-      "genre": "Pop",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Indie Pop"
+        "Трэп"
       ],
       "moods": [
         "Дорожное"
@@ -8549,9 +8686,11 @@
       "playlists": [
         "road"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1351": {
       "genre": "Hip-Hop / Rap",
@@ -8666,11 +8805,16 @@
       "potential_import_error": "Похоже на фрагмент текста публикации, а не музыкальную запись"
     },
     "awen-1374": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "Bass Music / EDM",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1376": {
       "genre": "Rock / Indie",
@@ -8894,11 +9038,16 @@
       "review_needed": true
     },
     "awen-1420": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "Rock / Indie",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Инди-рок / инди-поп"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1422": {
       "genre": "Hip-Hop / Rap",
@@ -9107,14 +9256,16 @@
       "review_needed": true
     },
     "awen-1464": {
-      "genre": "Pop",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Indie Pop"
+        "Трэп"
       ],
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1465": {
       "genre": "Hip-Hop / Rap",
@@ -9192,9 +9343,14 @@
     "awen-1475": {
       "genre": "Hip-Hop / Rap",
       "energy": 3,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "subgenres": [
+        "Трэп"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1477": {
       "genre": "R&B / Soul",
@@ -9284,9 +9440,9 @@
       "review_needed": true
     },
     "awen-1492": {
-      "genre": "Classical / Cinematic",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Film Score"
+        "Рэп"
       ],
       "playlists": [
         "chill"
@@ -9295,10 +9451,12 @@
         "Атмосферное"
       ],
       "energy": 2,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
-      "language": "Без слов"
+      "language": "Без слов",
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1495": {
       "genre": "Pop",
@@ -9711,9 +9869,9 @@
       "review_needed": true
     },
     "awen-1566": {
-      "genre": "Pop",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Pop Rock"
+        "Рэп"
       ],
       "moods": [
         "Дорожное"
@@ -9722,9 +9880,11 @@
       "playlists": [
         "road"
       ],
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1567": {
       "genre": "Bass Music / EDM",
@@ -11409,14 +11569,16 @@
       "review_needed": true
     },
     "awen-1902": {
-      "genre": "Pop",
+      "genre": "House",
       "subgenres": [
-        "Dance Pop"
+        "Мелодик-хаус"
       ],
       "energy": 4,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1905": {
       "genre": "Rock / Indie",
@@ -11539,9 +11701,15 @@
     },
     "awen-1938": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Саундтрек"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1943": {
       "genre": "Pop",
@@ -12152,9 +12320,15 @@
     },
     "awen-2047": {
       "language": "Қазақша",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Саундтрек"
+      ],
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-2051": {
       "language": "Русский",
@@ -12379,14 +12553,16 @@
       "review_needed": true
     },
     "awen-2107": {
-      "genre": "Pop",
+      "genre": "House",
       "subgenres": [
-        "Dance Pop"
+        "Мелодик-хаус"
       ],
       "energy": 4,
-      "curation_method": "исполнитель",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-2108": {
       "genre": "Bass Music / EDM",
@@ -12405,9 +12581,9 @@
       "review_needed": true
     },
     "awen-3": {
-      "genre": "Chill / Lo-Fi / Ambient",
+      "genre": "House",
       "subgenres": [
-        "Chillhop"
+        "Dance / House"
       ],
       "playlists": [
         "chill"
@@ -12416,9 +12592,12 @@
         "Расслабленное"
       ],
       "energy": 2,
-      "curation_method": "стиль исполнителя",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "ручная проверка по релизу",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence": "release_metadata",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx",
+      "genre_reference_url": "https://www.beatport.com/artist/jerri/479403/tracks"
     },
     "awen-4": {
       "genre": "Bass Music / EDM",
@@ -12439,19 +12618,21 @@
     "awen-5": {
       "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Boom Bap"
+        "Альтернативный хип-хоп"
       ],
       "playlists": [],
       "moods": [],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-6": {
       "genre": "Rock / Indie",
       "subgenres": [
-        "Indie Rock"
+        "Инди-рок / альтернативный рок"
       ],
       "playlists": [
         "road"
@@ -12460,14 +12641,17 @@
         "Дорожное"
       ],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "ручная проверка по релизу",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence": "release_metadata",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx",
+      "genre_reference_url": "https://swanseaskag.bandcamp.com/track/i-heard-you-bought-a-gun"
     },
     "awen-13": {
-      "genre": "R&B / Soul",
+      "genre": "Classical / Cinematic",
       "subgenres": [
-        "Alternative R&B"
+        "Фортепиано"
       ],
       "playlists": [
         "chill"
@@ -12476,14 +12660,16 @@
         "Меланхоличное"
       ],
       "energy": 2,
-      "curation_method": "стиль исполнителя",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-20": {
-      "genre": "Chill / Lo-Fi / Ambient",
+      "genre": "Bass Music / EDM",
       "subgenres": [
-        "Chillhop"
+        "Future bass"
       ],
       "playlists": [
         "chill"
@@ -12492,14 +12678,16 @@
         "Расслабленное"
       ],
       "energy": 2,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-24": {
-      "genre": "Classical / Cinematic",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Film Score"
+        "Рэп"
       ],
       "playlists": [
         "chill"
@@ -12508,7 +12696,7 @@
         "Атмосферное"
       ],
       "energy": 2,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -12522,12 +12710,14 @@
       "album": "Westworld (Main Title Theme) - Single",
       "year": 2020,
       "year_type": "album_release",
-      "duration": 103
+      "duration": 103,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-25": {
-      "genre": "Classical / Cinematic",
+      "genre": "Phonk",
       "subgenres": [
-        "Film Score"
+        "Фонк"
       ],
       "playlists": [
         "chill"
@@ -12536,9 +12726,11 @@
         "Атмосферное"
       ],
       "energy": 2,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-28": {
       "genre": "Bass Music / EDM",
@@ -12557,9 +12749,9 @@
       "review_needed": true
     },
     "awen-29": {
-      "genre": "Synth / Retro Electronic",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Darksynth"
+        "Рэп"
       ],
       "playlists": [
         "night"
@@ -12568,26 +12760,30 @@
         "Ночное"
       ],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-30": {
       "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Boom Bap"
+        "Трэп"
       ],
       "playlists": [],
       "moods": [],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-31": {
-      "genre": "Phonk",
+      "genre": "Bass Music / EDM",
       "subgenres": [
-        "Drift Phonk"
+        "Trap / bass"
       ],
       "playlists": [
         "nightplus"
@@ -12597,21 +12793,25 @@
         "Ночное"
       ],
       "energy": 5,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-36": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "Chill / Lo-Fi / Ambient",
       "subgenres": [
-        "Boom Bap"
+        "Lo-fi hip-hop"
       ],
       "playlists": [],
       "moods": [],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-38": {
       "genre": "Rock / Indie",
@@ -12644,24 +12844,26 @@
     "awen-48": {
       "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Boom Bap"
+        "Инструментальный хип-хоп"
       ],
       "playlists": [],
       "moods": [],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-54": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "Pop",
       "subgenres": [
-        "Boom Bap"
+        "Альтернативный поп"
       ],
       "playlists": [],
       "moods": [],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -12675,7 +12877,9 @@
       "album": "Clouds",
       "year": 2011,
       "year_type": "album_release",
-      "duration": 134
+      "duration": 134,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-60": {
       "genre": "Pop",
@@ -12767,16 +12971,18 @@
       "review_needed": true
     },
     "awen-85": {
-      "genre": "Hip-Hop / Rap",
+      "genre": "Phonk",
       "subgenres": [
-        "Boom Bap"
+        "Фонк"
       ],
       "playlists": [],
       "moods": [],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-95": {
       "genre": "Pop",
@@ -12807,16 +13013,18 @@
       "review_needed": true
     },
     "awen-101": {
-      "genre": "Pop",
+      "genre": "House",
       "subgenres": [
-        "Indie Pop"
+        "Мелодик-хаус"
       ],
       "playlists": [],
       "moods": [],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-106": {
       "genre": "House",
@@ -13290,9 +13498,9 @@
       "review_needed": true
     },
     "awen-156": {
-      "genre": "Synth / Retro Electronic",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Darksynth"
+        "Рэп"
       ],
       "playlists": [
         "night"
@@ -13301,7 +13509,7 @@
         "Ночное"
       ],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
       "review_needed": true,
       "verified_metadata": {
@@ -13315,7 +13523,9 @@
       "album": "Vibrant - Single",
       "year": 2023,
       "year_type": "album_release",
-      "duration": 216
+      "duration": 216,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-164": {
       "genre": "Rock / Indie",
@@ -13628,16 +13838,18 @@
       "review_needed": true
     },
     "awen-342": {
-      "genre": "Pop",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Indie Pop"
+        "Рэп"
       ],
       "playlists": [],
       "moods": [],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-363": {
       "genre": "Hip-Hop / Rap",
@@ -14082,9 +14294,9 @@
       "review_needed": true
     },
     "awen-1197": {
-      "genre": "House",
+      "genre": "Classical / Cinematic",
       "subgenres": [
-        "Future House"
+        "Саундтрек"
       ],
       "playlists": [
         "dance"
@@ -14093,9 +14305,11 @@
         "Танцевальное"
       ],
       "energy": 4,
-      "curation_method": "стиль исполнителя",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1203": {
       "genre": "R&B / Soul",
@@ -14660,16 +14874,18 @@
       "review_needed": true
     },
     "awen-1649": {
-      "genre": "Pop",
+      "genre": "Hip-Hop / Rap",
       "subgenres": [
-        "Indie Pop"
+        "Рэп"
       ],
       "playlists": [],
       "moods": [],
       "energy": 3,
-      "curation_method": "стиль исполнителя",
+      "curation_method": "excel provisional (2026-11-22)",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-1673": {
       "genre": "R&B / Soul",
@@ -15990,7 +16206,16 @@
       "album": "Corruption / 2003 - Single",
       "year": 2023,
       "year_type": "album_release",
-      "duration": 243
+      "duration": 243,
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future bass"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-250": {
       "verified_metadata": {
@@ -16046,7 +16271,16 @@
       "album": "New Colours Vol. 2",
       "year": 2020,
       "year_type": "album_release",
-      "duration": 178
+      "duration": 178,
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-278": {
       "verified_metadata": {
@@ -17457,6 +17691,645 @@
       "year": 2017,
       "year_type": "album_release",
       "duration": 173
+    },
+    "awen-8": {
+      "genre": "House",
+      "subgenres": [
+        "Мелодик-хаус"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-9": {
+      "genre": "Pop",
+      "subgenres": [
+        "Поп-баллада"
+      ],
+      "curation_method": "ручная проверка по релизу",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence": "release_metadata",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx",
+      "genre_reference_url": "https://www.universalmusic.ca/2025/01/28/sienna-spiro-announces-debut-ep-sink-now-swim-later-out-february-21st/"
+    },
+    "awen-16": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-fi hip-hop"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-22": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Glitch hop"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-23": {
+      "genre": "Synth / Retro Electronic",
+      "subgenres": [
+        "Wave"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-41": {
+      "genre": "House",
+      "subgenres": [
+        "Хаус"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-44": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Трэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-49": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Электронный хип-хоп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-53": {
+      "genre": "Phonk",
+      "subgenres": [
+        "Фонк"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-159": {
+      "genre": "House",
+      "subgenres": [
+        "Мелодик-хаус"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-183": {
+      "genre": "House",
+      "subgenres": [
+        "Мелодик-хаус"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-200": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-217": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-218": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-275": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-378": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Инструментальный хип-хоп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-413": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future bass"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-446": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Трэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-448": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-510": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future bass"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-601": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future bass"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-763": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Glitch hop"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-772": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-808": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Трэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-886": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-905": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future bass"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-906": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future bass"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-963": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1063": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Электронный хип-хоп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1241": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1339": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Саундтрек"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1391": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Киномузыка"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1425": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1438": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Саундтрек"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1448": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1543": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Киномузыка"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1577": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Трэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1596": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Электронный хип-хоп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1620": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future bass"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1621": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1624": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1629": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1632": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Электронный хип-хоп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1667": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1710": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Рэп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1761": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1841": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1851": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Glitch hop"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1904": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Саундтрек"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1910": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Саундтрек"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-1986": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-2065": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Инди-рок / инди-поп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-2154": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Чилвейв"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-2196": {
+      "genre": "House",
+      "subgenres": [
+        "Мелодик-хаус"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-2212": {
+      "genre": "House",
+      "subgenres": [
+        "Мелодик-хаус"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-2222": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Саундтрек"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-2289": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Инструментальный хип-хоп"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-2323": {
+      "genre": "Phonk",
+      "subgenres": [
+        "Фонк"
+      ],
+      "curation_method": "excel provisional (2026-11-22)",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence": "excel_artist_or_title_hint",
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     }
   }
 }
