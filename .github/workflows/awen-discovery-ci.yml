@@ -36,3 +36,5 @@ jobs:
         run: node tests/playlist-engine.test.js
       - name: Test 12 AWEN Discovery workflows
         run: node tests/discovery-core.test.js
+      - name: Smoke-test Discovery interface and PNG export
+        run: node tests/discovery-ui.test.js
