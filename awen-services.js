@@ -451,6 +451,26 @@
           }
         }
       }catch(err){console.warn('AWEN: дополнительные жанровые свидетельства недоступны',err);}
+      // Five curated AWEN playlists. Apply AFTER genre enrichment so automatic
+      // provider suggestions cannot re-add tracks removed by the curator.
+      try{
+        const playlistResponse=await fetch('./awen-playlists.json?rev=20261122-five-v1',{cache:'no-store'});
+        if(playlistResponse.ok){
+          const playlistDoc=await playlistResponse.json();
+          const pools=playlistDoc&&playlistDoc.playlists||{};
+          const membership=new Map();
+          for(const p of lists){
+            const ids=pools[p.id]&&pools[p.id].track_ids;
+            if(!Array.isArray(ids))continue;
+            for(const trackId of ids){
+              if(typeof trackId!=='string')continue;
+              if(!membership.has(trackId))membership.set(trackId,[]);
+              membership.get(trackId).push(p.id);
+            }
+          }
+          for(const t of found) t.playlists=[...new Set(membership.get(t.id)||[])];
+        }
+      }catch(err){console.warn('AWEN: обновлённые подборки временно недоступны',err);}
       // Keep questionable VK post fragments in the source JSON and curator for review,
       // but do not present them to listeners as actual music recordings.
       const quarantined=found.filter(t=>t.import_review_needed).length;
