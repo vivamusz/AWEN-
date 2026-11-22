@@ -1252,6 +1252,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-245": {
@@ -1337,6 +1343,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-258": {
@@ -1483,6 +1495,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-287": {
@@ -1762,6 +1780,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-326": {
@@ -1812,6 +1836,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-330": {
@@ -1832,6 +1862,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-331": {
@@ -1929,6 +1965,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-349": {
@@ -1996,6 +2038,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-361": {
@@ -2067,6 +2115,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-369": {
@@ -2116,6 +2170,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-379": {
@@ -2153,6 +2213,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-386": {
@@ -2287,6 +2353,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-408": {
@@ -13585,6 +13657,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-95": {
@@ -14897,7 +14975,7 @@
       "review_needed": true
     },
     "awen-1197": {
-      "genre": "Classical / Cinematic",
+      "genre": "Pop",
       "subgenres": [],
       "playlists": [
         "dance"
@@ -14906,21 +14984,22 @@
         "Танцевальное"
       ],
       "energy": 4,
-      "curation_method": "excel provisional (2026-11-22)",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence": "excel_artist_or_title_hint",
+      "genre_evidence": "Apple Music original David Guetta & Sia Flames single, dance/pop crossover; not soundtrack/classical",
       "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx",
       "genre_audit_original_subgenres": [
         "Саундтрек"
       ],
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
-      }
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
+      },
+      "genre_evidence_url": "https://music.apple.com/mz/album/flames-single/1358283970",
+      "genre_source": "Apple Music or Beatport track / release evidence"
     },
     "awen-1203": {
       "genre": "R&B / Soul",
@@ -16377,6 +16456,12 @@
         "checked_on": "2026-11-22",
         "check_type": "verified_metadata_normalization",
         "action": "none"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-192": {
@@ -16895,6 +16980,12 @@
         "checked_on": "2026-11-22",
         "check_type": "verified_metadata_normalization",
         "action": "none"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-205": {
@@ -17786,6 +17877,12 @@
         "checked_on": "2026-11-22",
         "check_type": "verified_metadata_normalization",
         "action": "none"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-416": {
@@ -19750,6 +19847,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-100": {
@@ -19769,6 +19872,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-163": {
@@ -19788,6 +19897,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-177": {
@@ -19807,6 +19922,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-201": {
@@ -19826,6 +19947,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-231": {
@@ -19845,6 +19972,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-232": {
@@ -19864,6 +19997,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-235": {
@@ -19883,6 +20022,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-247": {
@@ -19902,6 +20047,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-285": {
@@ -19939,6 +20090,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-324": {
@@ -19958,6 +20115,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-346": {
@@ -20013,6 +20176,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-355": {
@@ -20032,6 +20201,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-360": {
@@ -20051,6 +20226,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-364": {
@@ -20070,6 +20251,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-368": {
@@ -20089,6 +20276,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-372": {
@@ -20108,6 +20301,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-376": {
@@ -20127,6 +20326,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-383": {
@@ -20146,6 +20351,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-389": {
@@ -20165,6 +20376,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-391": {
@@ -20184,6 +20401,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-395": {
@@ -20235,6 +20458,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-412": {
@@ -20266,6 +20495,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-434": {
@@ -20285,6 +20520,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-435": {
@@ -20304,6 +20545,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-444": {
@@ -20323,6 +20570,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-462": {
@@ -20372,6 +20625,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-478": {
@@ -20391,6 +20650,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-482": {
@@ -20446,6 +20711,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-498": {
@@ -20465,6 +20736,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-500": {
@@ -20500,6 +20777,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-517": {
@@ -20519,6 +20802,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-520": {
@@ -20538,6 +20827,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-527": {
@@ -20557,6 +20852,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-529": {
@@ -20576,6 +20877,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-532": {
@@ -20631,6 +20938,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-547": {
@@ -20650,6 +20963,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-575": {
@@ -20681,6 +21000,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-578": {
@@ -20731,6 +21056,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-586": {
@@ -20780,6 +21111,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-614": {
@@ -20799,6 +21136,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-615": {
@@ -20830,6 +21173,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-620": {
@@ -20849,6 +21198,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-624": {
@@ -20868,6 +21223,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-631": {
@@ -20887,6 +21248,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-635": {
@@ -20906,6 +21273,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-636": {
@@ -20925,6 +21298,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-651": {
@@ -20944,6 +21323,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-655": {
@@ -20963,6 +21348,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-661": {
@@ -20994,6 +21385,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-665": {
@@ -21031,6 +21428,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-672": {
@@ -21086,6 +21489,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-692": {
@@ -21105,6 +21514,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-698": {
@@ -21124,6 +21539,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-699": {
@@ -21183,6 +21604,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-724": {
@@ -21202,6 +21629,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-726": {
@@ -21221,6 +21654,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-730": {
@@ -21268,6 +21707,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-740": {
@@ -21287,6 +21732,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-742": {
@@ -21306,6 +21757,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-747": {
@@ -21325,6 +21782,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-748": {
@@ -21344,6 +21807,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-761": {
@@ -21381,6 +21850,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-771": {
@@ -21400,6 +21875,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-780": {
@@ -21419,6 +21900,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-783": {
@@ -21767,18 +22254,17 @@
       "subgenres": [
         "Pop Rock"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/us/album/shawn-mendes-deluxe/1474313635",
+      "genre_evidence": "Apple Music album explicitly describes In My Blood as Kings of Leon-inspired pop-rock",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "genre_supported",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "none"
       }
     },
     "awen-1177": {
@@ -21817,18 +22303,17 @@
       "subgenres": [
         "Indie Rock"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/no-roots-ep/1881360795",
+      "genre_evidence": "Apple Music Alice Merton original No Roots; acoustic version in AWEN not separately verified",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1229": {
@@ -22077,18 +22562,17 @@
       "subgenres": [
         "Alternative Rock"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/megalithic-symphony/422478077",
+      "genre_evidence": "Apple Music Megalithic Symphony AWOLNATION includes Sail alternative electro-rock",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1574": {
@@ -22403,37 +22887,33 @@
       "subgenres": [
         "Dance Pop"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_method": "external_release_crosscheck_2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/bitches-feat-charli-xcx-icona-pop-elliphant-alma/1384552983",
+      "genre_evidence": "Tove Lo bitches 2018 collaborative remix is electropop; exact link/title needs recheck",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1183": {
-      "genre": "Pop",
-      "subgenres": [
-        "Dance Pop"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [],
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/us/album/freaky-friday-feat-chris-brown-single/1353490910",
+      "genre_evidence": "Apple Music Lil Dicky hip-hop single featuring Chris Brown; not Dance Pop",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "genre_supported",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "none"
       }
     },
     "awen-1273": {
@@ -22460,18 +22940,17 @@
       "subgenres": [
         "Dance Pop"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/friends-single/1830040521",
+      "genre_evidence": "Apple Music original Marshmello & Anne-Marie FRIENDS 2018, electronic pop",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1335": {
@@ -22612,18 +23091,17 @@
       "subgenres": [
         "Electropop"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/whippin-feat-felix-snow-single/1180631374",
+      "genre_evidence": "Apple Music Kiiara Whippin electronic pop release",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1585": {
@@ -22707,18 +23185,17 @@
       "subgenres": [
         "Dance Pop"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/more-than-you-know/1268636672",
+      "genre_evidence": "Axwell Λ Ingrosso More Than You Know dance pop single/EP, house crossover; no narrow subtype",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1687": {
@@ -23027,22 +23504,21 @@
     },
     "awen-977": {
       "genre": "Hip-Hop / Rap",
-      "subgenres": [
-        "Alternative Hip-Hop"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/head-in-the-clouds/1724894929",
+      "genre_evidence": "Apple Music identifies Head In The Clouds as 88rising ALBUM, not a discrete song. Hip-hop collective album with multiple styles",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
-      }
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
+      },
+      "entry_type": "album",
+      "entry_type_review_needed": true
     },
     "awen-988": {
       "genre": "Hip-Hop / Rap",
@@ -23103,21 +23579,18 @@
     },
     "awen-1057": {
       "genre": "Hip-Hop / Rap",
-      "subgenres": [
-        "Alternative Hip-Hop"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/everything-is-love/1400128127",
+      "genre_evidence": "Beyoncé/JAY-Z collaborative album under The Carters includes FRIENDS hip-hop song; album needs exact mapping",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1058": {
@@ -23144,37 +23617,33 @@
       "subgenres": [
         "Trap"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/mudboy/1438063006",
+      "genre_evidence": "Apple Music MUDBOY includes Sheck Wes Mo Bamba, hip-hop/trap",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1154": {
       "genre": "Hip-Hop / Rap",
-      "subgenres": [
-        "Alternative Hip-Hop"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/mans-not-hot-single/1299204562",
+      "genre_evidence": "Big Shaq Man's Not Hot comedy grime/UK rap; Alternative Hip-Hop subtype unverified",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1189": {
@@ -23198,21 +23667,18 @@
     },
     "awen-1224": {
       "genre": "Hip-Hop / Rap",
-      "subgenres": [
-        "Trap"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "subgenres": [],
+      "curation_method": "external_release_crosscheck_2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/stranger-things/1416489636",
+      "genre_evidence": "Joyner Lucas & Chris Brown Stranger Things hip-hop; trap subgenre not verified",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1245": {
@@ -23315,19 +23781,19 @@
       "subgenres": [
         "Trap"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/yamborghini-high-feat-juicy-j-single/1079644436",
+      "genre_evidence": "Apple Music song actually credited to A$AP Mob, not A$AP Rocky solo; trap subtype provisional",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
-      }
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
+      },
+      "artist_correction_suggested": "A$AP Mob"
     },
     "awen-1428": {
       "genre": "Hip-Hop / Rap",
@@ -24052,22 +24518,19 @@
       }
     },
     "awen-1110": {
-      "genre": "R&B / Soul",
-      "subgenres": [
-        "Contemporary R&B"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "genre": "Bass Music / EDM",
+      "subgenres": [],
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/pretender-feat-lil-yachty-ajr-single/1384058855",
+      "genre_evidence": "Apple Music exact Steve Aoki single; Dance/electronic-pop release, not R&B",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1151": {
@@ -24681,18 +25144,17 @@
     "awen-1018": {
       "genre": "House",
       "subgenres": [],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://www.beatport.com/track/hello-single-edit/1562936",
+      "genre_evidence": "Beatport original mix Martin Solveig & Dragonette Hello, dance house context",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1034": {
@@ -24715,39 +25177,35 @@
       }
     },
     "awen-1061": {
-      "genre": "House",
-      "subgenres": [
-        "Afro House"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "genre": "Afro / Global Club",
+      "subgenres": [],
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/let-me-live-feat-anne-marie-mr-eazi-single/1694795224",
+      "genre_evidence": "Apple Music Rudimental & Major Lazer Let Me Live Afro-caribbean dance pop context, not proven Afro House",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1087": {
-      "genre": "House",
+      "genre": "Bass Music / EDM",
       "subgenres": [],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/game-over-single/1371456068",
+      "genre_evidence": "Apple Music single genre Dance; electronic festival EDM broad category, not an established house subtype",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1106": {
@@ -24926,18 +25384,17 @@
       "subgenres": [
         "Deep House"
       ],
-      "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "https://www.last.fm/music/Yaeji",
-      "genre_evidence": "Last.fm lists Raingurl, deep-house producer",
-      "genre_source": "Внешний музыкальный каталог; поджанр редакторский",
+      "genre_evidence_url": "https://www.beatport.com/track/raingurl/16768424",
+      "genre_evidence": "Beatport original Yaeji Raingurl; house style (deep house subtype requires review)",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "external_url_requires_track_specific_validation",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1586": {
@@ -25369,21 +25826,18 @@
     },
     "awen-987": {
       "genre": "Synth / Retro Electronic",
-      "subgenres": [
-        "Synthwave"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/hurry-up-were-dreaming/1674216738",
+      "genre_evidence": "Apple Music M83 Wait album description says soft acoustic arrangement, Synthwave subtype unsupported",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1256": {
@@ -29175,6 +29629,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-62": {
@@ -29194,6 +29654,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-79": {
@@ -29213,6 +29679,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-143": {
@@ -29232,6 +29704,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-195": {
@@ -29251,6 +29729,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-211": {
@@ -29270,6 +29754,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-215": {
@@ -29289,6 +29779,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-229": {
@@ -29308,6 +29804,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-271": {
@@ -29327,6 +29829,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-284": {
@@ -29346,6 +29854,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-294": {
@@ -29365,6 +29879,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-325": {
@@ -29384,6 +29904,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-341": {
@@ -29403,6 +29929,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-344": {
@@ -29422,6 +29954,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-385": {
@@ -29441,6 +29979,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-414": {
@@ -29460,6 +30004,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-423": {
@@ -29479,6 +30029,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-453": {
@@ -29498,6 +30054,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-465": {
@@ -29517,6 +30079,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_version_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-479": {
@@ -29536,6 +30104,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-617": {
@@ -29555,6 +30129,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-696": {
@@ -29574,6 +30154,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-707": {
@@ -29593,6 +30179,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-709": {
@@ -29612,6 +30204,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-716": {
@@ -29631,6 +30229,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-725": {
@@ -29650,6 +30254,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-769": {
@@ -29669,6 +30279,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-778": {
@@ -29688,6 +30304,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "no_exact_recording_reference",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-792": {
@@ -30377,18 +30999,17 @@
       "subgenres": [
         "Bedroom Pop"
       ],
-      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "external_release_crosscheck_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "https://musicbrainz.org/artist/d786f59b-1836-4ddb-8393-ab753edbe984",
-      "genre_evidence": "MusicBrainz exact Clairo 4EVER listing, artist bedroom pop characterization",
-      "genre_source": "Совпадение идентичности песни; стиль предварительный",
+      "genre_evidence_url": "https://music.apple.com/us/album/diary-001-ep/1893174883",
+      "genre_evidence": "Apple Music original diary 001 includes Clairo 4EVER, indie bedroom pop style",
+      "genre_source": "Apple Music or Beatport track / release evidence",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_supported_broad_style_tentative",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "external_url_requires_track_specific_validation",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "specific_release_research",
+        "action": "narrow_genre_review"
       }
     },
     "awen-1144": {
@@ -32175,6 +32796,12 @@
         "check_type": "schema_and_evidence_audit",
         "source_type": "external_url_requires_track_specific_validation",
         "action": "verify_track_identity_and_genre"
+      },
+      "additional_research": {
+        "status": "awaiting_exact_track_genre_evidence",
+        "batch": "2026-11-22-B",
+        "priority": "exact_track_match",
+        "notes": "Previous genre is tentative, not verified; do not promote confidence from artist style alone."
       }
     },
     "awen-160": {
