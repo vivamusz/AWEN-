@@ -21,7 +21,7 @@ assert.equal(D.daypart(new Date(2026,10,22,20)).key,'evening');
 assert.equal(D.daypart(new Date(2026,10,22,1)).key,'night');
 assert.equal(D.daylist(ctx,new Date(2026,10,22,20)).items.length,25);
 assert.equal(D.discovery(ctx,new Date(2026,10,22)).items.length,10);
-assert.equal(D.radio(ctx,'awen-2').items.length,9);
+assert.equal(D.radio(ctx,'awen-2').items.length,25); // Fallback to wider catalog if same-genre pool is too small
 assert.ok(D.radio(ctx,'awen-2').items.every(x=>x.track.id!=='awen-2'));
 state.excludeGenres=['Phonk'];
 assert.ok(D.rank(tracks,ctx,{count:30}).every(x=>x.track.genre!=='Phonk'));
