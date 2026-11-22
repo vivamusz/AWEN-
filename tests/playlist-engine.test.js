@@ -51,6 +51,27 @@ assert.ok(!test.playlists.night.track_ids.includes('phonk-aggressive'),'Drift Ph
 assert.ok(test.playlists.nightplus.track_ids.includes('phonk-aggressive'),'Drift Phonk belongs in night+');
 assert.ok(!test.playlists.nightplus.track_ids.includes('phonk-calm'),'Calm Phonk excluded from night+');
 
+
+// Acoustic features must be measured from a FULL authorized recording.
+// Missing, preview-only or invalid metrics must not affect the playlist.
+const acousticSeed=row('acoustic-test','Gentle Song','Wave Artist','Pop','Indie Pop',2);
+const acousticManifest={playlists:{road:{track_ids:['acoustic-test']}}};
+const scoreFor=(feature)=> {
+  const entry={...acousticSeed,awen_quality:{...acousticSeed.awen_quality,acoustic_features:feature}};
+  return build([entry],acousticManifest,settings).playlists.road.explanations['acoustic-test'].score;
+};
+const baseline=scoreFor(undefined);
+const full={source_type:'authorized_local_file',coverage:'full_track',analyzer:'awen-acoustics-v1',
+  duration_seconds:22,features:{energy_proxy_0_1:0.24,tempo_bpm_estimate:117.5}};
+assert.equal(scoreFor({...full,coverage:'preview'}),baseline,'No scoring from streaming previews');
+assert.equal(scoreFor({...full,duration_seconds:8}),baseline,'Short audio cannot influence score');
+assert.equal(scoreFor({...full,features:{energy_proxy_0_1:NaN}}),baseline,'Invalid number cannot influence score');
+assert.equal(scoreFor({...full,source_type:'apple_preview'}),baseline,'No score from Apple previews');
+assert.equal(scoreFor(undefined),baseline,'Missing audio leaves existing ranking unchanged');
+assert.ok(scoreFor(full)>baseline,'Matching full-track acoustic proxy provides modest bonus');
+assert.ok(scoreFor({...full,features:{energy_proxy_0_1:0.98}})<baseline,
+  'Contradictory full-track acoustic proxy provides modest penalty');
+
 const catalog=JSON.parse(read('awen-catalog.json')).tracks;
 const curation=JSON.parse(read('awen-curation.json')).tracks;
 const editorial=JSON.parse(read('awen-playlists.json'));
