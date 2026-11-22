@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T03:15:03+00:00",
+  "generated_at_utc": "2026-11-22T03:20:06+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 988,
+    "needs_genre": 978,
     "possible_import_errors": 16,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
@@ -893,15 +893,6 @@
       ]
     },
     {
-      "id": "awen-202",
-      "artist": "EMBRZ",
-      "title": "lOnDn",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1609378335?i=1609378338"
-    },
-    {
       "id": "awen-204",
       "artist": "ATRIP",
       "title": "Salt",
@@ -1030,15 +1021,6 @@
       ]
     },
     {
-      "id": "awen-250",
-      "artist": "Craves",
-      "title": "By My Side",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1131201916?i=1131201931"
-    },
-    {
       "id": "awen-251",
       "artist": "Tails, Inverness feat. Nevve",
       "title": "Skeleton (feat. Nevve)",
@@ -1112,15 +1094,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-272",
-      "artist": "Burkima",
-      "title": "Kalemba (Wegue Wegue)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1477356921?i=1477356925"
     },
     {
       "id": "awen-283",
@@ -1198,15 +1171,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-312",
-      "artist": "Otnicka",
-      "title": "Where Are You",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1846205346?i=1846205347"
     },
     {
       "id": "awen-316",
@@ -1700,15 +1664,6 @@
       "source_url": "https://music.apple.com/kz/album/1504891281?i=1504891283"
     },
     {
-      "id": "awen-427",
-      "artist": "Izzamuzzic",
-      "title": "Adventure",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1668997570?i=1668997862"
-    },
-    {
       "id": "awen-434",
       "artist": "Thom Yorke, Flea",
       "title": "Daily Battles",
@@ -1861,15 +1816,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-485",
-      "artist": "pluko",
-      "title": "asleep (feat. Moonzz)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1569154839?i=1569154847"
     },
     {
       "id": "awen-488",
@@ -2745,15 +2691,6 @@
       "proposed_genre": "Bass Music / EDM"
     },
     {
-      "id": "awen-768",
-      "artist": "Dynoro",
-      "title": "Hangover",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1846180345?i=1846180707"
-    },
-    {
       "id": "awen-769",
       "artist": "UNNHOLY",
       "title": "away",
@@ -2816,15 +2753,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-790",
-      "artist": "Audio Dope",
-      "title": "Pai Mei",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1339006997?i=1339007400"
     },
     {
       "id": "awen-792",
@@ -4579,15 +4507,6 @@
       ]
     },
     {
-      "id": "awen-1350",
-      "artist": "NBSPLV",
-      "title": "Invisible",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1622737120?i=1622737346"
-    },
-    {
       "id": "awen-1353",
       "artist": "Ivan B x Marie Elizabeth",
       "title": "Our Time Together",
@@ -4672,15 +4591,6 @@
       "proposed_genre": "Drum & Bass / UK Bass",
       "genre_conflict": "Chill / Lo-Fi / Ambient",
       "source_url": "https://music.apple.com/kz/album/1335311669?i=1335311678"
-    },
-    {
-      "id": "awen-1370",
-      "artist": "Dimatis",
-      "title": "Emotional Tourism",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1176140746?i=1176140851"
     },
     {
       "id": "awen-1371",
