@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "analyzer": "awen-acoustics-v1",
+  "generated_at": null,
+  "analyzed_tracks": 0,
+  "note": "No authorized audio files present in AWEN catalog. No fabricated tempo or energy scores. Local CLI creates measured entries.",
+  "tracks": {}
+}
