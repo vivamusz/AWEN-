@@ -27,7 +27,7 @@ function sanitize(src){
  }
  return out;
 }
-let state=empty(),activeId=null,pickerTrack=null,pendingShare=null,notice='',returnFocus=null;
+let state=empty(),activeId=null,pickerTrack=null,pendingShare=null,notice='',returnFocus=null,creating=false;
 try{const raw=localStorage.getItem(KEY);if(raw)state=sanitize(JSON.parse(raw));}
 catch(error){console.warn('AWEN: локальные плейлисты повреждены или недоступны',error);notice='Не удалось прочитать сохранённые плейлисты; старые данные не перезаписаны.';}
 const bridge=()=>root.AWENBridge||{},tracks=()=>typeof bridge().getTracks==='function'?bridge().getTracks():[],byId=id=>tracks().find(t=>t.id===id);
@@ -87,7 +87,10 @@ const btn=(action,label,props='',extra='')=>'<button type="button" class="mpl-bt
 function renderLibrary(){
  const list=state.lists.find(x=>x.id===activeId),received=pendingShare,known=new Map(tracks().map(t=>[t.id,t]));
  const banner=received?'<div class="mpl-import-banner"><h2>Получена подборка: '+esc(received.name)+'</h2><p>'+received.ids.length+' треков. Вы можете сохранить копию на своём устройстве; исходный плейлист другого человека не изменится.</p><div class="mpl-actions">'+btn('save-shared','Сохранить в «Мои плейлисты»','','primary')+btn('dismiss-shared','Не сохранять')+'</div></div>':'';
- const controls='<div class="mpl-actions">'+btn('create-open','＋ Новый плейлист','','primary')+btn('backup-export','Скачать резервную копию JSON')+btn('backup-import','Восстановить из JSON')+'</div>';
+ const controls='<div class="mpl-actions">'+btn('create-open','＋ Новый плейлист','','primary')+btn('backup-export','Скачать резервную копию JSON')+btn('backup-import','Восстановить из JSON')+'</div>'+
+ (creating?'<form class="mpl-create-form" id="mpl-create-form"><label for="mpl-create-name">Название нового плейлиста</label>'+
+ '<div class="mpl-create-fields"><input id="mpl-create-name" name="name" maxlength="70" required placeholder="Например, Вечерняя дорога" autocomplete="off">'+
+ '<button class="mpl-btn primary" type="submit">Создать</button>'+btn('create-cancel','Отмена')+'</div></form>':'');
  let body='';
  if(!list){
   const cards=state.lists.map(p=>{
@@ -187,7 +190,8 @@ function handleAction(btnNode){
  if(action==='add'){openPicker(track,btnNode);return;}
  if(action==='pick-list'){if(pickerTrack&&add(id,pickerTrack)){closePicker();refresh();}return;}
  if(action==='close-picker'){closePicker();return;}
- if(action==='create-open'){const name=root.prompt('Название нового плейлиста:','Мой плейлист');if(name!==null){const created=create(name);if(created){activeId=created;refresh();}}return;}
+ if(action==='create-open'){creating=true;refresh();document.getElementById('mpl-create-name')?.focus();return;}
+ if(action==='create-cancel'){creating=false;refresh();return;}
  if(action==='open'){activeId=id;refresh();return;}
  if(action==='back'){activeId=null;refresh();return;}
  if(action==='details'){bridge().openDetails&&bridge().openDetails(track);return;}
@@ -212,6 +216,11 @@ function init(){
   handleAction(node);
  });
  document.addEventListener('submit',e=>{
+  if(e.target.id==='mpl-create-form'){
+    e.preventDefault();const name=e.target.querySelector('[name="name"]')?.value,fresh=create(name);
+    if(fresh){creating=false;activeId=fresh;refresh();notify('Личный плейлист создан');}
+    return;
+  }
   if(e.target.id!=='mpl-picker-create')return;
   e.preventDefault();const name=e.target.querySelector('[name="name"]')?.value,trackId=pickerTrack;
   const fresh=create(name,trackId?[trackId]:[]);
