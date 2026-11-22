@@ -30,6 +30,7 @@ function htmlList(items,{limit=25}={}){
    '<button type="button" class="ad-track-btn" data-ad-action="dislike" data-id="'+trackId+'" aria-pressed="'+blocked+'" title="Скрыть только из рекомендаций, не удаляя из каталога">'+(blocked?'↶ Вернуть в рекомендации':'× Не рекомендовать')+'</button>'+
    '<button type="button" class="ad-track-btn" data-ad-action="mix-add" data-id="'+trackId+'">＋ В общий микс</button>'+
    '<button type="button" class="ad-track-btn" data-ad-action="block-artist" data-artist="'+artist+'" title="Не предлагать песни этого исполнителя">⊘ Скрыть исполнителя</button>'+
+   '<button type="button" class="ad-track-btn" data-awg-action="open" data-track-id="'+trackId+'">🏷 Предложить жанр</button>'+
    '</div>':'';
   return '<article class="ad-song">'+
    '<button type="button" class="ad-song-main" data-ad-action="detail" data-id="'+trackId+'" title="'+esc(reason||'Открыть информацию о песне')+'"><strong>'+(i+1)+'. '+esc(t.title)+'</strong><small>'+artist+' · '+esc(t.genre)+(t.curation_review_needed?' · жанр предварительный':'')+'</small></button>'+
