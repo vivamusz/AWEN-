@@ -37,7 +37,7 @@
       "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
     },
     "awen-18": {
-      "genre": "Classical / Cinematic",
+      "genre": "Electronica / Experimental",
       "subgenres": [],
       "moods": [
         "Агрессивное",
@@ -47,9 +47,9 @@
       "playlists": [
         "nightplus"
       ],
-      "curation_method": "excel provisional (2026-11-22)",
-      "curation_confidence": "low",
-      "review_needed": true,
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
       "verified_metadata": {
         "provider": "Apple iTunes Search API",
         "url": "https://music.apple.com/kz/album/1800225189?i=1800225196",
@@ -62,18 +62,19 @@
       "year": 2025,
       "year_type": "album_release",
       "duration": 134,
-      "genre_evidence": "excel_artist_or_title_hint",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Save You\" by DXRTYTYPE, broad genre \"Electronic\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
       "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx",
       "genre_audit_original_subgenres": [
         "Саундтрек"
       ],
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
-      }
+        "check_type": "verified_metadata_normalization",
+        "action": "none"
+      },
+      "genre_evidence_url": "https://music.apple.com/kz/album/1800225189?i=1800225196",
+      "genre_source": "Apple iTunes Search API verified track metadata"
     },
     "awen-19": {
       "genre": "Classical / Cinematic",
@@ -16361,22 +16362,19 @@
       "year": 2021,
       "year_type": "album_release",
       "duration": 139,
-      "genre": "House",
-      "subgenres": [
-        "Deep House"
-      ],
-      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
-      "genre_source": "Не подтверждённый стилевой ориентир",
+      "genre": "Electronica / Experimental",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/kz/album/1760605909?i=1760605910",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Wut Wut\" by UpsideDown, broad genre \"Electronic\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "none"
       }
     },
     "awen-192": {
@@ -16540,21 +16538,18 @@
       "year_type": "album_release",
       "duration": 200,
       "genre": "Electronica / Experimental",
-      "subgenres": [
-        "Electronica"
-      ],
-      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
-      "genre_source": "Не подтверждённый стилевой ориентир",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/kz/album/1894490693?i=1894490700",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Opal\" by Mathbonus, broad genre \"Electronic\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "none"
       }
     },
     "awen-485": {
@@ -16776,22 +16771,19 @@
       "year": 2018,
       "year_type": "album_release",
       "duration": 189,
-      "genre": "Pop",
-      "subgenres": [
-        "Indie Pop"
-      ],
-      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
-      "curation_confidence": "low",
+      "genre": "Bass Music / EDM",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
-      "genre_source": "Не подтверждённый стилевой ориентир",
+      "genre_evidence_url": "https://music.apple.com/kz/album/1447480556?i=1447480557",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Coldest Night\" by idenline, broad genre \"Bass\". AWEN category \"Bass Music / EDM\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "review_exact_style"
       }
     },
     "awen-656": {
@@ -16859,21 +16851,18 @@
       "year_type": "album_release",
       "duration": 175,
       "genre": "House",
-      "subgenres": [
-        "Deep House"
-      ],
-      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
-      "genre_source": "Не подтверждённый стилевой ориентир",
+      "genre_evidence_url": "https://music.apple.com/kz/album/1754528409?i=1754528410",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Caught Up (feat. Cirillo)\" by Carda, broad genre \"Dance\". AWEN category \"House\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "review_exact_style"
       }
     },
     "awen-204": {
@@ -16889,22 +16878,19 @@
       "year": 2023,
       "year_type": "album_release",
       "duration": 233,
-      "genre": "House",
-      "subgenres": [
-        "Deep House"
-      ],
-      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
-      "genre_source": "Не подтверждённый стилевой ориентир",
+      "genre": "Electronica / Experimental",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/kz/album/1849877637?i=1849878130",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Salt\" by ATRIP, broad genre \"Electronic\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "none"
       }
     },
     "awen-205": {
@@ -16955,21 +16941,18 @@
       "year_type": "album_release",
       "duration": 215,
       "genre": "Electronica / Experimental",
-      "subgenres": [
-        "Experimental Electronic"
-      ],
-      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
-      "genre_source": "Не подтверждённый стилевой ориентир",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/kz/album/1618045685?i=1618045956",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Ophanim Sight\" by Epiphagi, broad genre \"Electronic\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "none"
       }
     },
     "awen-219": {
@@ -17032,22 +17015,19 @@
       "year": 2018,
       "year_type": "album_release",
       "duration": 276,
-      "genre": "Hip-Hop / Rap",
-      "subgenres": [
-        "Trap"
-      ],
-      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
-      "genre_source": "Не подтверждённый стилевой ориентир",
+      "genre": "Electronica / Experimental",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/kz/album/1420109834?i=1420110224",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Bella\" by Podval Capella, broad genre \"Electronic\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "none"
       }
     },
     "awen-272": {
@@ -17304,21 +17284,18 @@
       "year_type": "album_release",
       "duration": 242,
       "genre": "Folk / Ethno / World",
-      "subgenres": [
-        "Indie Folk"
-      ],
-      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
-      "genre_source": "Не подтверждённый стилевой ориентир",
+      "genre_evidence_url": "https://music.apple.com/kz/album/466845254?i=466845475",
+      "genre_evidence": "Apple iTunes metadata: matched track \"The Thread of the Thing\" by Fay Wolf, broad genre \"Singer/Songwriter\". AWEN category \"Folk / Ethno / World\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "review_exact_style"
       }
     },
     "awen-685": {
@@ -17790,22 +17767,19 @@
       "year": 2020,
       "year_type": "album_release",
       "duration": 194,
-      "genre": "Bass Music / EDM",
-      "subgenres": [
-        "Future Bass"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre": "Electronica / Experimental",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/kz/album/1617246216?i=1617247242",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Ice Bucket (Kill Paris Remix)\" by Tora, broad genre \"Electronica\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "none"
       }
     },
     "awen-416": {
@@ -17872,22 +17846,19 @@
       "year": 2020,
       "year_type": "album_release",
       "duration": 165,
-      "genre": "Hip-Hop / Rap",
-      "subgenres": [
-        "Trap"
-      ],
-      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
-      "genre_source": "Не подтверждённый стилевой ориентир",
+      "genre": "Electronica / Experimental",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/kz/album/1504891281?i=1504891283",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Trying to Be Nice\" by Cursed King, broad genre \"Electronica\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "none"
       }
     },
     "awen-427": {
@@ -18232,22 +18203,19 @@
       "year": 2014,
       "year_type": "album_release",
       "duration": 194,
-      "genre": "Pop",
-      "subgenres": [
-        "Indie Pop"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
-      "curation_confidence": "low",
+      "genre": "Rock / Indie",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/kz/album/1440628510?i=1440628796",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Compass\" by Zella Day, broad genre \"Alternative\". AWEN category \"Rock / Indie\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "review_exact_style"
       }
     },
     "awen-1127": {
@@ -18305,21 +18273,18 @@
       "year_type": "album_release",
       "duration": 204,
       "genre": "House",
-      "subgenres": [
-        "Deep House"
-      ],
-      "curation_method": "external_catalog_track_review_2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
       "genre_evidence_url": "https://music.apple.com/kz/album/1684360379?i=1684360388",
-      "genre_evidence": "Apple track metadata exact Homeless by Khat classified Dance; Deep House not externally established",
-      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Homeless\" by Khat, broad genre \"Dance\". AWEN category \"House\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "external_url_requires_track_specific_validation",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "review_exact_style"
       }
     },
     "awen-1162": {
@@ -18802,21 +18767,18 @@
       "year_type": "album_release",
       "duration": 219,
       "genre": "Bass Music / EDM",
-      "subgenres": [
-        "Future Bass"
-      ],
-      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "apple_verified_genre_alignment_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
-      "genre_source": "Не подтверждённый стилевой ориентир",
+      "genre_evidence_url": "https://music.apple.com/kz/album/1829937578?i=1829937708",
+      "genre_evidence": "Apple iTunes metadata: matched track \"What You Do To Me (feat. Oly)\" by Not Your Dope, broad genre \"Dance\". AWEN category \"Bass Music / EDM\" is normalized, NOT verified narrow subtype.",
+      "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "apple_broad_genre_reconciled",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "verified_metadata_normalization",
+        "action": "review_exact_style"
       }
     },
     "awen-1401": {
