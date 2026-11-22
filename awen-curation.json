@@ -42075,6 +42075,317 @@
       "year": 2017,
       "year_type": "album_release",
       "duration": 193
+    },
+    "awen-2352": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_confidence": "medium",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Artist official album lists the song No Good; broad alternative R&B is editorial",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://shop.alwaysneverhere.com/products/always-never-digital-download",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "road"
+      ],
+      "energy": 2
+    },
+    "awen-2353": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_confidence": "medium",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Apple Music exact song Kopa – Shoreline; broad electronic subgenre editorial",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://music.apple.com/us/song/1395664960",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "chill"
+      ],
+      "energy": 2
+    },
+    "awen-2354": {
+      "genre": "Не определён",
+      "subgenres": [],
+      "curation_confidence": "none",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Artist/track appears in listing, specific genre unverified",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://my.mail.ru/music/artists/Milla/top",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [],
+      "energy": 3
+    },
+    "awen-2355": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_confidence": "low",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Remix mentioned by DJ page; electronic remix presumed, exact subgenre unverified",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://www.toneden.io/classyton",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "chill"
+      ],
+      "energy": 2
+    },
+    "awen-2356": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_confidence": "medium",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Apple Music exact ODESZA Bloom; electronic",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://music.apple.com/us/song/897564285",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "chill"
+      ],
+      "energy": 2
+    },
+    "awen-2357": {
+      "genre": "Phonk",
+      "subgenres": [
+        "Drift Phonk"
+      ],
+      "curation_confidence": "medium",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Last.fm describes Empty Dreams as drift phonk; Apple Music confirms song identity",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://www.last.fm/music/Cypariss",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "nightplus"
+      ],
+      "energy": 5
+    },
+    "awen-2358": {
+      "genre": "House",
+      "subgenres": [
+        "Tropical House"
+      ],
+      "curation_confidence": "medium",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Apple Music exact song; dance/tropical house is editorial",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://music.apple.com/us/album/let-me-love-you-feat-justin-bieber/1440867448?i=1440867817",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "dance"
+      ],
+      "energy": 4
+    },
+    "awen-2359": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_confidence": "high",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": false,
+      "genre_evidence": "Music review identifies Midi Culture version as deep house",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://www.fugues.com/2023/06/12/full-house-june-2023/",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "dance"
+      ],
+      "energy": 4
+    },
+    "awen-2360": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_confidence": "high",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": false,
+      "genre_evidence": "Qobuz exact single explicitly Pop; dance-pop supported by AllMusic artist profile",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://www.qobuz.com/us-en/album/genius-lsd-feat-sia-diplo-and-labrinth/enyqygd0fs1sa",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "dance"
+      ],
+      "energy": 4
+    },
+    "awen-2361": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_confidence": "medium",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Beatport exact Monstercat release; review describes prominent trap percussion",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://www.beatport.com/release/waiting-for-you/1736495",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "dance"
+      ],
+      "energy": 4
+    },
+    "awen-2362": {
+      "genre": "Drum & Bass / UK Bass",
+      "subgenres": [
+        "UK Garage"
+      ],
+      "curation_confidence": "medium",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Mixmag review notes UK garage influence; Kllo track exact",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://mixmag.net/read/kllo-share-new-track-bolide-and-tour-dates-news",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "chill"
+      ],
+      "energy": 2
+    },
+    "awen-2363": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [],
+      "curation_confidence": "low",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Exact song appears in artist discography; hip-hop hypothesis only",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://my.mail.ru/music/search/B.Jigga",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [],
+      "energy": 3
+    },
+    "awen-2364": {
+      "genre": "House",
+      "subgenres": [
+        "Tropical House"
+      ],
+      "curation_confidence": "medium",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Music review on Wave Wave & Blinded Hearts exact song; subtype tentative",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://weraveyou.com/2017/03/wave-wave-blinded-hearts-repeat-feat-richard-walters/",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "dance"
+      ],
+      "energy": 4
+    },
+    "awen-2365": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_confidence": "low",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Possibly unreleased Best American Record / Architecture rather than officially released The Next Best American Record; identity uncertain",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://www.lyricdown.com/lyrics/lana-del-rey-best-american-record-25164359",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "road"
+      ],
+      "energy": 2
+    },
+    "awen-2366": {
+      "genre": "Не определён",
+      "subgenres": [],
+      "curation_confidence": "none",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Exact recording, artist transliteration and genre unverified",
+      "genre_source": "Unverified supplied Excel",
+      "genre_evidence_url": "",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [],
+      "energy": 3
+    },
+    "awen-2367": {
+      "genre": "Не определён",
+      "subgenres": [],
+      "curation_confidence": "none",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Appears to be album heading, not confirmed standalone track",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://www.sputnikmusic.com/review/73037/Thomas-Dybdahl-The-Great-Plains/",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [],
+      "energy": 3,
+      "potential_import_error": true,
+      "entry_type": "album",
+      "import_issue": "album_heading_not_track"
+    },
+    "awen-2368": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_confidence": "medium",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Paradise Lost listed in album tracklisting; Indie Pop narrower genre editorial",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://propermusic.com/collections/v2/products/thomasdybdahl-thegreatplains",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "road"
+      ],
+      "energy": 2
+    },
+    "awen-2369": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_confidence": "medium",
+      "curation_method": "new_xlsx4_2026-11-22",
+      "review_needed": true,
+      "genre_evidence": "Apple Music exact song on Fifty Shades Darker soundtrack, Pop narrow subtype provisional",
+      "genre_source": "External exact release identity + editorial style",
+      "genre_evidence_url": "https://music.apple.com/us/song/1440881087",
+      "original_spreadsheet": "AWEN_Tracks (4).xlsx",
+      "imported_at": "2026-11-22",
+      "playlists": [
+        "road"
+      ],
+      "energy": 2
     }
   }
 }
