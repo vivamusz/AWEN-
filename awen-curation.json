@@ -2,7 +2,7 @@
   "schema_version": 1,
   "basis": "awen-catalog.json",
   "method": "conservative title/style and artist genre hints; not listening-based verification",
-  "review_notice": "Предварительные назначения (low) не подтверждены по конкретному треку и должны быть перепроверены; источники Last.fm/Beatport имеют отдельные URL; не путать с подтверждённой классификацией.",
+  "review_notice": "Немузыкальные строки сохранены в исходном JSON, но исключены из музыкальной витрины через potential_import_error. ID в DJ-сетах не удаляются и не получают выдуманных жанров; прочие неопределённые помечены как unverified.",
   "generated_at": "2026-11-22",
   "tracks": {
     "awen-2": {
@@ -214,9 +214,11 @@
     },
     "awen-45": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-50": {
       "genre": "Bass Music / EDM",
@@ -276,9 +278,13 @@
     },
     "awen-57": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-58": {
       "genre": "Classical / Cinematic",
@@ -574,9 +580,13 @@
     },
     "awen-102": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-109": {
       "genre": "House",
@@ -1672,15 +1682,23 @@
     },
     "awen-318": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-319": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-320": {
       "language": "Русский",
@@ -2908,9 +2926,11 @@
     },
     "awen-528": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-530": {
       "genre": "R&B / Soul",
@@ -3289,9 +3309,13 @@
     },
     "awen-587": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-588": {
       "language": "Русский",
@@ -4273,9 +4297,13 @@
     },
     "awen-711": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-713": {
       "genre": "Bass Music / EDM",
@@ -4972,9 +5000,13 @@
     },
     "awen-813": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-815": {
       "genre": "Latin / Brazilian Club",
@@ -5946,9 +5978,11 @@
     },
     "awen-942": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-944": {
       "genre": "Hip-Hop / Rap",
@@ -6557,27 +6591,43 @@
     },
     "awen-1024": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1025": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1026": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1027": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1028": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -7532,9 +7582,13 @@
     },
     "awen-1176": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1178": {
       "genre": "Pop",
@@ -7571,9 +7625,13 @@
     },
     "awen-1184": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1186": {
       "genre": "Pop",
@@ -7852,9 +7910,13 @@
     },
     "awen-1217": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1220": {
       "genre": "Hip-Hop / Rap",
@@ -9124,9 +9186,13 @@
     },
     "awen-1413": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1419": {
       "genre": "Hip-Hop / Rap",
@@ -9156,9 +9222,13 @@
     },
     "awen-1423": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1426": {
       "genre": "Pop",
@@ -10353,9 +10423,13 @@
     },
     "awen-1639": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1641": {
       "genre": "Pop",
@@ -10428,9 +10502,13 @@
     },
     "awen-1654": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1656": {
       "genre": "Rock / Indie",
@@ -10484,9 +10562,13 @@
     },
     "awen-1664": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1668": {
       "genre": "Hip-Hop / Rap",
@@ -10580,9 +10662,13 @@
     },
     "awen-1685": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1686": {
       "genre": "Pop",
@@ -11213,9 +11299,11 @@
     },
     "awen-1821": {
       "language": "Қазақша",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-1822": {
       "genre": "R&B / Soul",
@@ -11350,9 +11438,13 @@
     },
     "awen-1844": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1845": {
       "genre": "R&B / Soul",
@@ -11581,9 +11673,11 @@
     },
     "awen-1884": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-1886": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -11653,15 +11747,23 @@
     },
     "awen-1898": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1899": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1900": {
       "genre": "Bass Music / EDM",
@@ -11710,15 +11812,19 @@
     },
     "awen-1911": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-1915": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-1916": {
       "genre": "Hip-Hop / Rap",
@@ -11736,9 +11842,11 @@
     },
     "awen-1920": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-1923": {
       "genre": "Pop",
@@ -11797,9 +11905,13 @@
     },
     "awen-1932": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "potential_import_error": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
     },
     "awen-1933": {
       "genre": "Bass Music / EDM",
@@ -11857,9 +11969,11 @@
     },
     "awen-1945": {
       "language": "Қазақша",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-1947": {
       "genre": "Hip-Hop / Rap",
@@ -12116,9 +12230,11 @@
     },
     "awen-1976": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-1978": {
       "language": "Қазақша",
@@ -12313,9 +12429,11 @@
     },
     "awen-2018": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-2028": {
       "genre": "Pop",
@@ -12377,9 +12495,11 @@
     },
     "awen-2033": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-2037": {
       "genre": "House",
@@ -12582,9 +12702,11 @@
     },
     "awen-2080": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-2082": {
       "genre": "R&B / Soul",
@@ -12690,9 +12812,11 @@
     },
     "awen-2104": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     },
     "awen-2105": {
       "language": "Русский",
@@ -17651,7 +17775,17 @@
       "album": "Healing Unaloon - EP",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 127
+      "duration": 127,
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.qobuz.com/us-en/album/healing-unaloon-unaloon-lil-bo-weep/o3mk9qckepo9a",
+      "genre_evidence": "Qobuz exact song im not one to cry, Electronic genre",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
     },
     "awen-1096": {
       "verified_metadata": {
@@ -17781,7 +17915,17 @@
       "album": "Top15 World Radio Hits",
       "year": 2023,
       "year_type": "album_release",
-      "duration": 204
+      "duration": 204,
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/kz/album/1684360379?i=1684360388",
+      "genre_evidence": "Apple track metadata exact Homeless by Khat classified Dance; Deep House not externally established",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
     },
     "awen-1162": {
       "verified_metadata": {
@@ -27114,6 +27258,1480 @@
       "genre_evidence_url": "",
       "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
       "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-11": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Ambient"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.qobuz.com/us-en/album/childhood-danielmp3/m7m7lwacld81w",
+      "genre_evidence": "Qobuz: childhood (instrumental version) by daniel.mp3 & Zamaro, Ambient",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
+    },
+    "awen-922": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.allmusic.com/album/talking-dreams-mw0002573318",
+      "genre_evidence": "AllMusic Talking Dreams lists Surround You, artist Echosmith indie-pop / dance-rock",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
+    },
+    "awen-1267": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dream Pop"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://pitchfork.com/thepitch/ar-kane-interview-2023",
+      "genre_evidence": "Pitchfork describes A.R. Kane and A Love from Outer Space as dream pop with house influence",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
+    },
+    "awen-1446": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://thewealthywest.bandcamp.com/track/the-highest-tide",
+      "genre_evidence": "Artist Bandcamp The Highest Tide: folk / indie / americana tags",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
+    },
+    "awen-1799": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://earmilk.com/2015/08/12/jordan-james-and-night-trevors-remix-holy-by-wolf-colony-premiere/",
+      "genre_evidence": "EARMILK review identifies electronic track Holy by Wolf Colony",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
+    },
+    "awen-1891": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.abc.net.au/triplejunearthed/artist/vanessa-elisha",
+      "genre_evidence": "Triple J Unearthed exact artist track Dark & Lonely; reviews identify R&B production",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
+    },
+    "awen-1873": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/dua-lipa/1227781643",
+      "genre_evidence": "Apple Music album Dua Lipa (not a single song), Pop 2017; this source row is album metadata",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки",
+      "entry_type": "album",
+      "entry_type_review_needed": true
+    },
+    "awen-2314": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Classic Rock"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/song/281266462",
+      "genre_evidence": "Apple Music attributes Eye Of The Tiger to Survivor, NOT AC/DC; artist mismatch requires correction",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки",
+      "artist_mismatch_warning": "Eye of the Tiger original by Survivor, importer artist AC/DC incorrect"
+    },
+    "awen-1212": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/artist/slkt4/1274672699",
+      "genre_evidence": "Apple Music SLKT4 discography includes Sick Cream; hip-hop subgenre not established",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
+    },
+    "awen-1690": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.wefunkradio.com/show/919",
+      "genre_evidence": "WEFUNK radio show 919 lists Lotso & Odie Señorita; broad R&B uncertain",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
+    },
+    "awen-648": {
+      "genre": "Pop",
+      "subgenres": [],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.allmusic.com/artist/timi-yuro-mn0000604209",
+      "genre_evidence": "Timi Yuro classic pop/soul singer; cover identity Duffy As Timi Yuro uncertain",
+      "genre_source": "Внешний каталог/радиотреклист; поджанры ниже high требуют проверки"
+    },
+    "awen-160": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-356": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-585": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2152": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2153": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2213": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2320": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2321": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2322": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2336": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2337": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2338": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2339": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2340": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2341": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2343": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2344": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-2345": {
+      "potential_import_error": true,
+      "review_needed": true,
+      "import_issue": "non_track_text_or_media_metadata",
+      "curation_method": "source_cleanup_review_2026-11-22",
+      "curation_confidence": "high",
+      "genre_evidence": "Строка публикации, цитата, служебная надпись или размер GIF; не музыкальная запись",
+      "source_spreadsheet": "AWEN original imported data retained; excluded only from storefront"
+    },
+    "awen-107": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-110": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-111": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-113": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-122": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-128": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-136": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-142": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-144": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-148": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-153": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2111": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2120": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2126": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2134": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2140": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2142": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2146": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2151": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2158": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2159": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2161": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2165": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2166": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2170": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2171": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2172": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2173": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2175": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2186": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2188": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2189": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2190": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2193": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2197": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2199": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2208": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2209": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2210": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-2211": {
+      "review_needed": true,
+      "identity_status": "unidentified_track",
+      "curation_method": "dj_set_unknown_id_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "DJ-сет обозначает трек ID; без имени/записи невозможно определить жанр",
+      "source_review_needed": true
+    },
+    "awen-12": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-17": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-21": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-27": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-46": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-75": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-76": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-77": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-93": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-97": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-103": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-176": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-194": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-210": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-230": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-257": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-303": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-339": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-343": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-352": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-370": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-406": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-422": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-436": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-459": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-480": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-581": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-584": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-630": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-643": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-701": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-702": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-721": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-781": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-841": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-852": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-864": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-881": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-882": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-909": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-941": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-957": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-990": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-997": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-998": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1048": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1056": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1069": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1080": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1088": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1089": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1090": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1094": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1104": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1131": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1142": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1147": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1158": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1159": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1164": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1181": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1214": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1243": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1258": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1260": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1312": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1388": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1397": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1410": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1421": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1439": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1480": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1494": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1506": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1536": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1541": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1572": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1582": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1600": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1602": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1607": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1613": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1647": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1648": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1651": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1661": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1672": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1681": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1683": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1689": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1699": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1709": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1725": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1734": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1765": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1767": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1771": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1786": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1800": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1807": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1859": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1896": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1928": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1929": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1930": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1937": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1941": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1958": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1989": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1991": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1993": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1995": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2025": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2026": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2027": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2044": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2052": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2063": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2067": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2090": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2100": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2347": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-2348": {
+      "review_needed": true,
+      "identity_status": "track_identity_or_genre_unverified",
+      "curation_method": "unresolved_catalog_audit_2026-11-22",
+      "curation_confidence": "none",
+      "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
     }
   }
 }
