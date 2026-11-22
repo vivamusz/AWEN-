@@ -461,6 +461,26 @@
           }
         }
       }catch(err){console.warn('AWEN: дополнительные жанровые свидетельства недоступны',err);}
+
+      // Optional measured features from user-authorized local full-track audio.
+      // Empty or unavailable file must leave the five playlists unchanged.
+      try{
+        const audioResponse=await fetch('./awen-audio-features.json?rev=20261122-audio-v1',{cache:'no-store'});
+        if(audioResponse.ok){
+          const audioDocument=await audioResponse.json();
+          if(audioDocument&&audioDocument.schema_version===1&&audioDocument.tracks&&typeof audioDocument.tracks==='object'){
+            for(const t of found){
+              const a=audioDocument.tracks[t.id];
+              if(!a||a.source_type!=='authorized_local_file'||a.coverage!=='full_track'||a.analyzer!=='awen-acoustics-v1'||Number(a.duration_seconds)<20)continue;
+              const energy=Number(a.features?.energy_proxy_0_1);
+              if(!Number.isFinite(energy)||energy<0||energy>1)continue;
+              if(!t.awen_quality)t.awen_quality={genre_confidence:'none',genre_review_needed:true,editorial_energy:null};
+              t.awen_quality.acoustic_features=a;
+              t.awen_audio_features=a.features;
+            }
+          }
+        }
+      }catch(error){console.warn('AWEN: измеренные признаки аудио пока недоступны',error);}
       // AWEN Algotorial v2: curated seeds + strict playlist-specific evidence scoring.
       // The saved manifest remains authoritative editorial input. Invalid tags cannot
       // add tracks behind the curator's back.
