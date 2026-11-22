@@ -454,6 +454,7 @@
       // Keep questionable VK post fragments in the source JSON and curator for review,
       // but do not present them to listeners as actual music recordings.
       const quarantined=found.filter(t=>t.import_review_needed).length;
+      catalogQuarantined=quarantined;
       tracks=found.filter(t=>!t.import_review_needed);
       demo=false;applyAuthorizedStreams();render();
       if(quarantined)console.info('AWEN: '+quarantined+' текстовых фрагментов скрыты из музыкального списка; исходные записи сохранены');
