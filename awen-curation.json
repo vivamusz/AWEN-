@@ -15887,7 +15887,17 @@
       "album": "univers-île",
       "year": 2017,
       "year_type": "album_release",
-      "duration": 265
+      "duration": 265,
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Ambient"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.qobuz.com/ca-en/album/univers-ile-labelle/3663729036841",
+      "genre_evidence": "Qobuz exact univers-île album contains song and tags album Ambient",
+      "genre_source": "Релиз Qobuz или жанровые данные Last.fm/AllMusic"
     },
     "awen-472": {
       "verified_metadata": {
@@ -17150,7 +17160,15 @@
       "album": "Deep End - Single",
       "year": 2015,
       "year_type": "album_release",
-      "duration": 301
+      "duration": 301,
+      "genre": "Rock / Indie",
+      "subgenres": [],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.qobuz.com/us-en/album/deep-end-ruelle/heow33iox27ga",
+      "genre_evidence": "Qobuz exact Deep End single: Alternative & Indie",
+      "genre_source": "Релиз Qobuz или жанровые данные Last.fm/AllMusic"
     },
     "awen-955": {
       "verified_metadata": {
@@ -17614,7 +17632,17 @@
       "album": "Let Me Touch Your Fire - Single",
       "year": 2015,
       "year_type": "album_release",
-      "duration": 219
+      "duration": 219,
+      "genre": "Pop",
+      "subgenres": [
+        "Electropop"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/A%2BR%2BI%2BZ%2BO%2BN%2BA/_/Let%2BMe%2BTouch%2BYour%2BFire",
+      "genre_evidence": "Last.fm exact recording and artist electropop bio; genre lower confidence than track tags",
+      "genre_source": "Релиз Qobuz или жанровые данные Last.fm/AllMusic"
     },
     "awen-1247": {
       "verified_metadata": {
@@ -17682,7 +17710,17 @@
       "album": "Still Life",
       "year": 2014,
       "year_type": "album_release",
-      "duration": 223
+      "duration": 223,
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.allmusic.com/artist/dawn-golden-mn0002666394",
+      "genre_evidence": "AllMusic mentions distorted electronics and Last Train",
+      "genre_source": "Релиз Qobuz или жанровые данные Last.fm/AllMusic"
     },
     "awen-1268": {
       "verified_metadata": {
