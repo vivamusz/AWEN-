@@ -31,6 +31,23 @@ vm.runInNewContext(read('awen-discovery-ui.js'),{window,document,localStorage:st
 assert.ok(window.AWENDiscoveryUI);
 const press=(action,data={})=>listeners.click[0]({target:{closest:()=>({dataset:{adAction:action,...data}})},preventDefault(){}});
 assert.match(window.AWENDiscoveryUI.render(),/10 открытий дня/);
+const listHTML=window.AWENDiscoveryUI.render();
+assert.match(listHTML,/Как пользоваться\?/,'Help text visible for first-time visitors');
+assert.match(listHTML,/♡ Нравится/,'Favorite action has text, not icon-only');
+assert.match(listHTML,/＋ В плейлист/,'Personal playlist action has label');
+assert.match(listHTML,/⋯ Ещё/,'Secondary actions are collapsed');
+const candidate=listHTML.match(/data-ad-action="toggle-actions" data-id="(awen-\d+)"/);
+assert.ok(candidate,'Recommendation has expandable actions');
+assert.ok(!listHTML.includes('♫ Похожие песни'),'Advanced actions hidden by default');
+press('toggle-actions',{id:candidate[1]});
+let expandedHTML=window.AWENDiscoveryUI.render();
+assert.match(expandedHTML,/♫ Похожие песни/,'Related tracks explicitly labeled');
+assert.match(expandedHTML,/Не рекомендовать/,'Negative feedback explicitly labeled');
+assert.match(expandedHTML,/В общий микс/,'Mix action explicitly labeled');
+assert.match(expandedHTML,/Скрыть исполнителя/,'Artist action explicitly labeled');
+press('toggle-actions',{id:candidate[1]});
+assert.ok(!window.AWENDiscoveryUI.render().includes('♫ Похожие песни'),'More menu collapses again');
+
 for(const tab of ['start','radio','taste','prompt','mix','stats']){
  press('tab',{tab});
  assert.ok(window.AWENDiscoveryUI.render().length>100,'Tab renders '+tab);
