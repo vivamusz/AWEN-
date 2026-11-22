@@ -2,7 +2,7 @@
   "schema_version": 1,
   "basis": "awen-catalog.json",
   "method": "conservative title/style and artist genre hints; not listening-based verification",
-  "review_notice": "Новые назначения с low — редакторские гипотезы, не считать проверенными. Сведения без точного релиза требуют дальнейшей сверки и не должны становиться источником достоверных жанровых утверждений.",
+  "review_notice": "Предварительные назначения (low) не подтверждены по конкретному треку и должны быть перепроверены; источники Last.fm/Beatport имеют отдельные URL; не путать с подтверждённой классификацией.",
   "generated_at": "2026-11-22",
   "tracks": {
     "awen-2": {
@@ -9041,9 +9041,16 @@
     },
     "awen-1396": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-1400": {
       "genre": "Rock / Indie",
@@ -10735,9 +10742,16 @@
     },
     "awen-1718": {
       "language": "Қазақша",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-1719": {
       "genre": "Hip-Hop / Rap",
@@ -11655,9 +11669,16 @@
     },
     "awen-1909": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Folk Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-1911": {
       "language": "Русский",
@@ -12563,9 +12584,16 @@
     },
     "awen-2095": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-2098": {
       "genre": "Pop",
@@ -17514,7 +17542,17 @@
       "album": "Kicker",
       "year": 2014,
       "year_type": "album_release",
-      "duration": 194
+      "duration": 194,
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
     },
     "awen-1127": {
       "verified_metadata": {
@@ -20334,6 +20372,3318 @@
       "genre_evidence_url": "",
       "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
       "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-932": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Keane/_/Somewhere%2BOnly%2BWe%2BKnow",
+      "genre_evidence": "Last.fm exact song and alternative rock band",
+      "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
+    },
+    "awen-966": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Pop Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1177": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Arctic%2BMonkeys/Why%27d%2BYou%2BOnly%2BCall%2BMe%2BWhen%2BYou%27re%2BHigh%3F",
+      "genre_evidence": "Last.fm exact Arctic Monkeys track / alternative rock",
+      "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
+    },
+    "awen-1209": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1219": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1229": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1266": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1295": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1315": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1356": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1358": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1405": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1415": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1449": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1489": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1499": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1507": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1555": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1564": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1574": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1576": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1665": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Linkin%2BPark/The%2BHunting%2BParty/Final%2BMasquerade",
+      "genre_evidence": "Last.fm exact song and alternative rock artist",
+      "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
+    },
+    "awen-1677": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1720": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1798": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1804": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1830": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1889": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Pop Punk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1892": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Pop Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1893": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1977": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1990": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/James%2BBay/_/Hold%2BBack%2Bthe%2BRiver",
+      "genre_evidence": "Last.fm exact single / indie rock performer",
+      "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
+    },
+    "awen-2094": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Classic Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-954": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-958": {
+      "genre": "Pop",
+      "subgenres": [
+        "Art Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-980": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1085": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1183": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1273": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1297": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1335": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1340": {
+      "genre": "Pop",
+      "subgenres": [
+        "Electropop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1366": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1377": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1418": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1450": {
+      "genre": "Pop",
+      "subgenres": [
+        "Pop Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1516": {
+      "genre": "Pop",
+      "subgenres": [
+        "Pop Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1553": {
+      "genre": "Pop",
+      "subgenres": [
+        "Electropop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1585": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1591": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1618": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1627": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1653": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1687": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1694": {
+      "genre": "Pop",
+      "subgenres": [
+        "Pop Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1731": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1733": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1775": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1834": {
+      "genre": "Pop",
+      "subgenres": [
+        "Electropop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1853": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1914": {
+      "genre": "Pop",
+      "subgenres": [
+        "Pop Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1936": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1973": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1979": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1982": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2046": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2096": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2219": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-959": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-977": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-988": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1008": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1055": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1057": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1058": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1077": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1154": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1189": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1224": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1245": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1283": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1325": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1343": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1399": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1404": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1428": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1430": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1467": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1483": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1509": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1517": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1628": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1645": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1693": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1700": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1735": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1749": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1751": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Cloud Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1752": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1756": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1764": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1779": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1792": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1793": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1818": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1831": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1843": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1856": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1866": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1907": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2011": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2020": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2058": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2059": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2086": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2091": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2216": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2260": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-929": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-933": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-961": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1040": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Soul"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1054": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1110": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1151": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1317": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1357": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Folk Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1367": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1378": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1408": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Soul"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1453": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1512": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1514": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1523": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1547": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1565": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1584": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1595": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1603": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1640": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1707": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1736": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1790": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1791": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1840": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1846": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1869": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1888": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1908": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1967": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1999": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2013": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Soul"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2014": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2217": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/The%2BWeeknd%2BFeat.%2BDaft%2BPunk/_/I%2BFeel%2BIt%2BComing",
+      "genre_evidence": "Last.fm exact song, broad R&B electronic pop",
+      "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
+    },
+    "awen-2265": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1001": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1018": {
+      "genre": "House",
+      "subgenres": [
+        "Electro House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1034": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1061": {
+      "genre": "House",
+      "subgenres": [
+        "Afro House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1087": {
+      "genre": "House",
+      "subgenres": [
+        "Electro House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1106": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1157": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1194": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1248": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1253": {
+      "genre": "House",
+      "subgenres": [
+        "Tropical House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1303": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1363": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1436": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1472": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1561": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Yaeji",
+      "genre_evidence": "Last.fm lists Raingurl, deep-house producer",
+      "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
+    },
+    "awen-1586": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1652": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1717": {
+      "genre": "House",
+      "subgenres": [
+        "Electro House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1768": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1781": {
+      "genre": "House",
+      "subgenres": [
+        "Tech House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1801": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1815": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1842": {
+      "genre": "House",
+      "subgenres": [
+        "Nu-Disco"
+      ],
+      "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Hot%2BChip/Over%2Band%2BOver",
+      "genre_evidence": "Last.fm exact electronic dance song",
+      "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
+    },
+    "awen-1901": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1912": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1919": {
+      "genre": "House",
+      "subgenres": [
+        "Electro House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1939": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1985": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2022": {
+      "genre": "House",
+      "subgenres": [
+        "Electro House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2024": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2036": {
+      "genre": "House",
+      "subgenres": [
+        "Electro House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2041": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2049": {
+      "genre": "House",
+      "subgenres": [
+        "Tech House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2064": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2089": {
+      "genre": "House",
+      "subgenres": [
+        "Electro House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2092": {
+      "genre": "House",
+      "subgenres": [
+        "Future House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2214": {
+      "genre": "House",
+      "subgenres": [
+        "Slap House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2226": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-987": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1256": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Neo-Classical"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1545": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Piano Solo"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1098": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Sufjan%2BStevens/_/Mystery%2Bof%2BLove",
+      "genre_evidence": "Last.fm exact song and folk-oriented style",
+      "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
+    },
+    "awen-1265": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1284": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Traditional Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1424": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1559": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1560": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2021": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Country Pop"
+      ],
+      "curation_method": "Last.fm/Beatport reviewed reference 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Sam%2BHunt/_/Body%2BLike%2Ba%2BBack%2BRoad",
+      "genre_evidence": "Last.fm exact song and country performer",
+      "genre_source": "Внешний музыкальный каталог; поджанр редакторский"
+    },
+    "awen-2029": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2221": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Folk Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1666": {
+      "genre": "Synth / Retro Electronic",
+      "subgenres": [
+        "Darksynth"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2069": {
+      "genre": "Synth / Retro Electronic",
+      "subgenres": [
+        "Synthpop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1684": {
+      "genre": "Latin / Brazilian Club",
+      "subgenres": [
+        "Moombahton"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1885": {
+      "genre": "Latin / Brazilian Club",
+      "subgenres": [
+        "Reggaeton"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2257": {
+      "genre": "Latin / Brazilian Club",
+      "subgenres": [
+        "Moombahton"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1606": {
+      "genre": "Drum & Bass / UK Bass",
+      "subgenres": [
+        "Breakbeat"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1041": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-Fi Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1306": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillout"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1705": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1724": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillout"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1847": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillout"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2076": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-Fi Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2218": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2224": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-Fi Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1013": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1042": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1348": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1361": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1398": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1441": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1459": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Dubstep"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1508": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1525": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1528": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1550": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1657": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1676": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1702": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1747": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1757": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1785": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1832": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1868": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-1980": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2034": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2035": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2225": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2227": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2228": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2229": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2231": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2232": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2233": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Dubstep"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2235": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Dubstep"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2236": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2237": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2238": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2239": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2240": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2241": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2242": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2243": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2244": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2245": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2246": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2247": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2248": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Electro House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2249": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2250": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2251": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Dubstep"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2252": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2253": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2254": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2255": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Dubstep"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2256": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2258": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2259": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2261": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2262": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Dubstep"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2263": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Dubstep"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2264": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю и стилю релиза 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
+      "genre_source": "Редакторская гипотеза без подтверждения"
     }
   }
 }
