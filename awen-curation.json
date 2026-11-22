@@ -15810,7 +15810,17 @@
       "album": "Don't Look Back",
       "year": 2022,
       "year_type": "album_release",
-      "duration": 232
+      "duration": 232,
+      "genre": "House",
+      "subgenres": [
+        "Melodic House & Techno"
+      ],
+      "curation_method": "Внешние музыкальные каталоги 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.beatport.com/track/londn/16249034",
+      "genre_evidence": "Beatport exact recording: Melodic House & Techno",
+      "genre_source": "Внешний каталог: жанр композиции или предварительно исполнителя"
     },
     "awen-439": {
       "verified_metadata": {
@@ -15905,7 +15915,17 @@
       "album": "sixteen",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 206
+      "duration": 206,
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Внешние музыкальные каталоги 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://pluko.bandcamp.com/track/asleep-feat-moonzz",
+      "genre_evidence": "Artist Bandcamp track: electronic; subtype Electronica broad mapping",
+      "genre_source": "Внешний каталог: жанр композиции или предварительно исполнителя"
     },
     "awen-508": {
       "verified_metadata": {
@@ -16265,7 +16285,17 @@
       "album": "By My Side - Single",
       "year": 2016,
       "year_type": "album_release",
-      "duration": 216
+      "duration": 216,
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Внешние музыкальные каталоги 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/by-my-side-single/1131201916",
+      "genre_evidence": "Apple Music exact single: Electronic; Electronica grouping tentative",
+      "genre_source": "Внешний каталог: жанр композиции или предварительно исполнителя"
     },
     "awen-256": {
       "verified_metadata": {
@@ -16293,7 +16323,15 @@
       "album": "Kalemba (Wegue Wegue) - Single",
       "year": 2019,
       "year_type": "album_release",
-      "duration": 185
+      "duration": 185,
+      "genre": "House",
+      "subgenres": [],
+      "curation_method": "Внешние музыкальные каталоги 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/kalemba-wegue-wegue-extended-mix/12470078",
+      "genre_evidence": "Beatport same recording in extended mix: House; original edit needs check",
+      "genre_source": "Внешний каталог: жанр композиции или предварительно исполнителя"
     },
     "awen-274": {
       "verified_metadata": {
@@ -16412,7 +16450,17 @@
       "album": "Where Are You - Single",
       "year": 2020,
       "year_type": "album_release",
-      "duration": 193
+      "duration": 193,
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Внешние музыкальные каталоги 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/artist/otnicka/410447",
+      "genre_evidence": "Beatport artist profile: electronic and deep house, track present; exact subgenre preliminary",
+      "genre_source": "Внешний каталог: жанр композиции или предварительно исполнителя"
     },
     "awen-335": {
       "verified_metadata": {
@@ -16671,7 +16719,17 @@
       "album": "Hangover - Single",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 144
+      "duration": 144,
+      "genre": "House",
+      "subgenres": [
+        "Slap House"
+      ],
+      "curation_method": "Внешние музыкальные каталоги 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.allmusic.com/artist/dynoro-mn0003748829",
+      "genre_evidence": "AllMusic biography mentions Hangover and pop-friendly slap-house sound; track style preliminary",
+      "genre_source": "Внешний каталог: жанр композиции или предварительно исполнителя"
     },
     "awen-770": {
       "verified_metadata": {
@@ -16719,7 +16777,17 @@
       "album": "Audio Dope",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 162
+      "duration": 162,
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "curation_method": "Внешние музыкальные каталоги 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://spinnradio.com/artist/audio-dope",
+      "genre_evidence": "Spinn Radio artist biography: downtempo, trip-hop with song Pai Mei listed",
+      "genre_source": "Внешний каталог: жанр композиции или предварительно исполнителя"
     },
     "awen-796": {
       "verified_metadata": {
@@ -17044,7 +17112,17 @@
       "album": "Adventure - Single",
       "year": 2016,
       "year_type": "album_release",
-      "duration": 319
+      "duration": 319,
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lounge"
+      ],
+      "curation_method": "Внешние музыкальные каталоги 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.qobuz.com/us-en/album/adventure-izzamuzzic/rhqaao5hmzkmb",
+      "genre_evidence": "Qobuz exact single: Lounge / Electronic",
+      "genre_source": "Внешний каталог: жанр композиции или предварительно исполнителя"
     },
     "awen-431": {
       "verified_metadata": {
@@ -17802,7 +17880,17 @@
       "album": "Black Tape",
       "year": 2017,
       "year_type": "album_release",
-      "duration": 185
+      "duration": 185,
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Внешние музыкальные каталоги 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.qobuz.com/au-en/album/black-tape-nbsplv/min7vh4exogpb",
+      "genre_evidence": "Qobuz album contains Invisible and is classified Electronic; subtype broad",
+      "genre_source": "Внешний каталог: жанр композиции или предварительно исполнителя"
     },
     "awen-1370": {
       "verified_metadata": {
@@ -17816,7 +17904,17 @@
       "album": "Emotional Tourism - Single",
       "year": 2016,
       "year_type": "album_release",
-      "duration": 234
+      "duration": 234,
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillstep"
+      ],
+      "curation_method": "Внешние музыкальные каталоги 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://dimatis.fandom.com/wiki/Category:Songs",
+      "genre_evidence": "Dimatis song list explicitly calls Emotional Tourism Chill; Chillstep based on artist catalogue, tentative",
+      "genre_source": "Внешний каталог: жанр композиции или предварительно исполнителя"
     },
     "awen-1386": {
       "verified_metadata": {
