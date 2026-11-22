@@ -2,7 +2,7 @@
   "schema_version": 1,
   "basis": "awen-catalog.json",
   "method": "conservative title/style and artist genre hints; not listening-based verification",
-  "review_notice": "Full 630-record audit: high means source supports genre; medium means identity/release found but precise subgenre preliminary; low means unverified. Metadata-only review must not count as independent genre confirmation.",
+  "review_notice": "630 provisional genre assignments audited and recorded. Not all are verified: source-supported ones tagged high/medium; absent evidence remains low; album-like entries marked for repair.",
   "generated_at": "2026-11-22",
   "tracks": {
     "awen-2": {
@@ -22475,21 +22475,22 @@
       }
     },
     "awen-1266": {
-      "genre": "Rock / Indie",
-      "subgenres": [],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/us/album/our-endless-numbered-days/5644896",
+      "genre_evidence": "Apple Music editorial identifies Sodom, South Georgia and explicitly describes Iron & Wine as indie folk",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "genre_supported_by_release",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "none"
       }
     },
     "awen-1295": {
@@ -22515,19 +22516,18 @@
       "subgenres": [
         "Indie Rock"
       ],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/us/album/high-violet-bonus-track-version/368054407",
+      "genre_evidence": "Apple Music The National High Violet categorized Alternative and lists Runaway",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "genre_supported_by_release",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "none"
       }
     },
     "awen-1356": {
@@ -22629,21 +22629,22 @@
       }
     },
     "awen-1489": {
-      "genre": "Rock / Indie",
-      "subgenres": [],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/barton-hollow/1582343496",
+      "genre_evidence": "Apple Music The Civil Wars album lists Poison & Wine and describes Americana/roots music, aligning folk more than Rock/Indie",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "release_identity_confirmed_subgenre_pending",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "needs_exact_track_subgenre"
       }
     },
     "awen-1499": {
@@ -22691,19 +22692,18 @@
       "subgenres": [
         "Indie Rock"
       ],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/encyclopedia/901754252",
+      "genre_evidence": "Apple Music The Drums editorial describes indie pop, however Days from another release; subtype still needs exact release confirmation",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "release_identity_confirmed_subgenre_pending",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "needs_exact_track_subgenre"
       }
     },
     "awen-1564": {
@@ -22727,18 +22727,17 @@
     "awen-1574": {
       "genre": "Rock / Indie",
       "subgenres": [],
-      "curation_method": "large_batch_track_research_2026-11-22",
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
       "curation_confidence": "high",
       "review_needed": false,
       "genre_evidence_url": "https://music.apple.com/us/album/short-change-hero-single/1754187798",
-      "genre_evidence": "Apple Music The Heavy Short Change Hero single categorized Rock; alternative-rock subtype uncertain",
-      "genre_source": "Apple Music / Beatport / Bandcamp external track or release evidence 2026-11-22",
+      "genre_evidence": "Apple Music exact The Heavy Short Change Hero single classified Rock; narrower alternative-rock style unverified",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
         "status": "genre_supported_by_release",
         "checked_on": "2026-11-22",
         "check_type": "external_catalog_match",
-        "version_sensitive": false,
-        "source_level": "track_or_release",
+        "source_level": "track_or_album",
         "action": "none"
       }
     },
@@ -22836,68 +22835,67 @@
     },
     "awen-1804": {
       "genre": "Rock / Indie",
-      "subgenres": [
-        "Indie Rock"
-      ],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/truth-is-a-beautiful-thing-deluxe/1217577315",
+      "genre_evidence": "Apple Music Truth Is a Beautiful Thing (Deluxe) is album by London Grammar, not standalone track",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "release_identity_confirmed_subgenre_pending",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "exclude_album_from_track_only_view_pending_review"
       },
       "genre_audit_duplicate_ids": [
         "awen-1849"
-      ]
+      ],
+      "entry_type": "album",
+      "entry_type_review_needed": true,
+      "potential_release_as_track": true
     },
     "awen-1830": {
       "genre": "Rock / Indie",
-      "subgenres": [
-        "Indie Rock"
-      ],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/relaxer/1209198388",
+      "genre_evidence": "Apple Music RELAXER is alt-J's third album, not standalone song",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "release_identity_confirmed_subgenre_pending",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "exclude_album_from_track_only_view_pending_review"
       },
       "genre_audit_duplicate_ids": [
         "awen-1875"
-      ]
+      ],
+      "entry_type": "album",
+      "entry_type_review_needed": true,
+      "potential_release_as_track": true
     },
     "awen-1889": {
       "genre": "Metal / Punk",
       "subgenres": [
         "Pop Punk"
       ],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/hu/artist/all-time-low/167375968",
+      "genre_evidence": "Apple Music editorial calls All Time Low pop punk, with Dirty Laundry specifically electronic pop-rock crossover; broad Metal/Punk category retained",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "release_identity_confirmed_subgenre_pending",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "needs_exact_track_subgenre"
       }
     },
     "awen-1892": {
@@ -24551,20 +24549,22 @@
       "subgenres": [
         "Trap"
       ],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/ransom-2/1443196857",
+      "genre_evidence": "Apple Music Ransom 2 is a Mike WiLL Made-It album with trap tracks, not a song",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "release_identity_confirmed_subgenre_pending",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
-      }
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "exclude_album_from_track_only_view_pending_review"
+      },
+      "entry_type": "album",
+      "entry_type_review_needed": true,
+      "potential_release_as_track": true
     },
     "awen-2059": {
       "genre": "Hip-Hop / Rap",
@@ -25407,22 +25407,19 @@
     },
     "awen-1001": {
       "genre": "House",
-      "subgenres": [
-        "Deep House"
-      ],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
-      "genre_source": "Редакторская гипотеза без подтверждения",
+      "genre_evidence_url": "https://music.apple.com/us/album/infinity/678759166",
+      "genre_evidence": "Apple Music Infinity Ink Infinity release identity established; deep house subtype not independently supported",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "release_identity_confirmed_subgenre_pending",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "needs_exact_track_subgenre"
       }
     },
     "awen-1018": {
@@ -25830,23 +25827,22 @@
       }
     },
     "awen-1842": {
-      "genre": "Funk / Disco",
+      "genre": "Electronica / Experimental",
       "subgenres": [
-        "Nu-Disco"
+        "Electronica"
       ],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "https://www.last.fm/music/Hot%2BChip/Over%2Band%2BOver",
-      "genre_evidence": "Last.fm exact electronic dance song",
-      "genre_source": "Внешний музыкальный каталог; поджанр редакторский",
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/us/album/the-warning/1250994586",
+      "genre_evidence": "Apple Music Hot Chip The Warning contains Over and Over; album genre Electronic, not primarily Funk/Disco",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "genre_supported_by_release",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "none"
       }
     },
     "awen-1901": {
@@ -26314,19 +26310,18 @@
       "subgenres": [
         "Country Pop"
       ],
-      "curation_method": "large_batch_unverified_hypothesis_review_2026-11-22",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "https://www.last.fm/music/Sam%2BHunt/_/Body%2BLike%2Ba%2BBack%2BRoad",
-      "genre_evidence": "Last.fm exact song and country performer",
-      "genre_source": "Внешний музыкальный каталог; поджанр редакторский",
+      "curation_method": "large_batch_exact_release_followup_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://music.apple.com/us/song/1595703986",
+      "genre_evidence": "Apple Music Sam Hunt Body Like a Back Road; country song, pop-oriented crossover",
+      "genre_source": "Apple Music original single or album with editorial genre evidence",
       "genre_audit": {
-        "status": "unverified_no_exact_genre_evidence",
+        "status": "genre_supported_by_release",
         "checked_on": "2026-11-22",
-        "check_type": "metadata_integrity_and_evidence_check",
-        "version_sensitive": false,
-        "source_level": "none",
-        "action": "needs_exact_genre_or_audio_confirmation"
+        "check_type": "external_catalog_match",
+        "source_level": "track_or_album",
+        "action": "none"
       }
     },
     "awen-2029": {
