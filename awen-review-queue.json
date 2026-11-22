@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T06:59:55+00:00",
+  "generated_at_utc": "2026-11-22T07:22:48+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
@@ -89,7 +89,7 @@
         "awen-9",
         "awen-13"
       ],
-      "proposed_genre": "Classical / Cinematic",
+      "proposed_genre": "Pop",
       "external_genre_evidence": [
         {
           "genre": "Pop",
