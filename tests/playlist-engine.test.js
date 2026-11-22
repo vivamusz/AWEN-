@@ -9,7 +9,7 @@ vm.runInNewContext(read('awen-playlist-engine.js'),{window});
 const build=window.AWENPlaylistEngine.build;
 const settings=JSON.parse(read('awen-playlist-profiles.json'));
 const row=(id,title,artist,genre,style,energy,quality={})=>({
-  id,title,artist,genre,subgenres:style?[style]:[],moods:[],
+  id,title,artist,genre,subgenres:style?[style]:[],moods:['Спокойное'],
   awen_quality:{genre_confidence:'medium',editorial_energy:energy,...quality}
 });
 const fixtures=[
