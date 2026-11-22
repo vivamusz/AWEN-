@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T03:08:12+00:00",
+  "generated_at_utc": "2026-11-22T03:13:30+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 1004,
+    "needs_genre": 995,
     "possible_import_errors": 16,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
@@ -238,15 +238,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-47",
-      "artist": "PLÜM",
-      "title": "Stay",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1647621069?i=1647621286"
     },
     {
       "id": "awen-51",
@@ -2279,15 +2270,6 @@
       ]
     },
     {
-      "id": "awen-623",
-      "artist": "Sub Urban",
-      "title": "Cradles",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1869738882?i=1869738885"
-    },
-    {
       "id": "awen-624",
       "artist": "Soner Karaca",
       "title": "Bad",
@@ -2748,15 +2730,6 @@
       ]
     },
     {
-      "id": "awen-749",
-      "artist": "Nambyar",
-      "title": "Warm In The Winter",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1192651612?i=1192651853"
-    },
-    {
       "id": "awen-758",
       "artist": "MØ, Diplo",
       "title": "Sun In Our Eyes",
@@ -2901,15 +2874,6 @@
       ],
       "proposed_genre": "Bass Music / EDM",
       "source_url": "https://music.apple.com/kz/album/445708663?i=445708719"
-    },
-    {
-      "id": "awen-796",
-      "artist": "Kailee Morgue",
-      "title": "Siren",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1429790670?i=1429791180"
     },
     {
       "id": "awen-798",
@@ -3107,15 +3071,6 @@
       ]
     },
     {
-      "id": "awen-856",
-      "artist": "Rhye",
-      "title": "Hymn",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1436209727?i=1436209737"
-    },
-    {
       "id": "awen-857",
       "artist": "ZHU x Tame Impala",
       "title": "My Life",
@@ -3151,15 +3106,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-878",
-      "artist": "Sigala, Ella Eyre & Meghan Trainor",
-      "title": "Just Got Paid (feat. French Montana)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1397962305?i=1397962315"
     },
     {
       "id": "awen-879",
@@ -4163,15 +4109,6 @@
       ]
     },
     {
-      "id": "awen-1185",
-      "artist": "Merk & Kremont",
-      "title": "Hands Up (feat. DNCE)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1364954519?i=1364954750"
-    },
-    {
       "id": "awen-1188",
       "artist": "Big Shaq",
       "title": "Man's Not Hot",
@@ -4385,15 +4322,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-1250",
-      "artist": "Feder",
-      "title": "Breathe",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1309218590?i=1309219029"
     },
     {
       "id": "awen-1252",
@@ -4617,15 +4545,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-1316",
-      "artist": "Lund",
-      "title": "Broken",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1502651347?i=1502651710"
     },
     {
       "id": "awen-1317",
