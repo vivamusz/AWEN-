@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_at": "2026-11-22",
-  "description": "Пять тематических подборок AWEN — ограниченные редакторские списки, назначенные по актуальным жанрам, стилям и энергетике. Назначение в подборку само по себе не подтверждает жанр или доступность аудио.",
+  "description": "Пять подборок AWEN с дополнениями из AWEN_Tracks (4).xlsx. Поджанры, не подтверждённые внешними сервисами, остаются предварительными.",
   "playlists": {
     "road": {
       "track_ids": [
@@ -179,9 +179,13 @@
         "awen-277",
         "awen-296",
         "awen-297",
-        "awen-300"
+        "awen-300",
+        "awen-2352",
+        "awen-2365",
+        "awen-2368",
+        "awen-2369"
       ],
-      "count": 175
+      "count": 179
     },
     "night": {
       "track_ids": [
@@ -207,9 +211,10 @@
         "awen-229",
         "awen-2323",
         "awen-709",
-        "awen-85"
+        "awen-85",
+        "awen-2357"
       ],
-      "count": 10
+      "count": 11
     },
     "dance": {
       "track_ids": [
@@ -532,9 +537,14 @@
         "awen-590",
         "awen-596",
         "awen-601",
-        "awen-604"
+        "awen-604",
+        "awen-2358",
+        "awen-2359",
+        "awen-2360",
+        "awen-2361",
+        "awen-2364"
       ],
-      "count": 320
+      "count": 325
     },
     "chill": {
       "track_ids": [
@@ -742,13 +752,23 @@
         "awen-191",
         "awen-193",
         "awen-1955",
-        "awen-2000"
+        "awen-2000",
+        "awen-2353",
+        "awen-2355",
+        "awen-2356",
+        "awen-2362"
       ],
-      "count": 205
+      "count": 209
     }
   },
   "quality": {
     "note": "Треки без достоверного жанра не подбираются автоматически; возможны предварительные жанры с пометкой в curation.",
     "selection": "Score existing editorial membership + genre, style, energy and confidence; exact artist-title duplicates removed; text fragments/album headers excluded."
+  },
+  "import_batch": {
+    "file": "AWEN_Tracks (4).xlsx",
+    "added": 18,
+    "playlist_added": 14,
+    "album_review": 1
   }
 }
