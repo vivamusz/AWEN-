@@ -1,0 +1,39 @@
+/* AWEN Android-inspired responsive home. Desktop layout remains unchanged. */
+@media (max-width:720px){
+:root{--bg:#090d18;--side:#101626;--card:#161c2e;--card2:#202840;--line:#303650;--purple:#b15cff;--pink:#ef67b5;--player:114px}
+body{background:var(--bg);color:#f8f7ff}
+.shell{padding-bottom:calc(var(--player) + 78px)}
+.top{height:76px;top:0;background:#090d18f5;border-bottom:0;padding:12px 16px 10px;align-items:flex-end}
+.top:before{content:'♫ AWEN';position:absolute;top:8px;left:17px;color:#f7f4ff;font-size:18px;font-weight:900;letter-spacing:1.5px;text-shadow:0 0 20px #a34cff66}
+.search{width:100%;max-width:none}
+.search input{height:38px;border-radius:25px;background:#252b46;border:1px solid #41466b;padding-left:42px;font-size:12px}
+.mobile-nav{position:fixed;top:auto;bottom:0;left:0;right:0;height:65px;padding:7px 8px max(7px,env(safe-area-inset-bottom));background:#0b1020f7;border-top:1px solid #333b57;border-bottom:0;z-index:12;justify-content:space-around;overflow:visible}
+.mobile-nav .nav-button{flex:1;min-width:0;max-width:100px;display:flex;flex-direction:column;justify-content:center;gap:3px;align-items:center;text-align:center;font-size:10px;padding:4px 1px;border-radius:10px;white-space:normal;line-height:1.15}
+.mobile-nav .nav-button .icon{width:22px;height:22px}
+.mobile-nav .nav-button.active{background:#362049;color:#d894ff;box-shadow:none}
+.mobile-nav .nav-button:nth-child(n+6){display:none}
+.main{padding:18px 16px 28px}
+.hero{min-height:196px;padding:23px;border-radius:22px;background:radial-gradient(circle at 85% 18%,#b345d2aa,transparent 55%),linear-gradient(120deg,#252269,#6a2d7e 70%,#c05291)}
+.hero h1{font-size:30px;line-height:1.1}
+.hero p{font-size:12px}
+.hero .btn.primary{border-radius:25px;min-height:42px}
+.hero-vinyl{width:190px;height:190px;right:-95px;top:10px;opacity:.35}
+.section-head{margin:25px 0 13px}.section-head h2{font-size:20px}
+.rail{grid-auto-columns:148px;gap:12px}
+.tile,.playlist-card{border-radius:16px;background:#161c2e;border:1px solid #ffffff12}
+.cover{border-radius:12px}
+.genre-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.genre-card{min-height:110px;border-radius:17px;padding:15px}
+.genre-card strong{font-size:15px}
+.player{bottom:65px;min-height:0;height:67px;border:1px solid #505079;border-radius:16px;background:#222640f5;left:9px;right:9px;padding:7px 10px;display:flex;justify-content:space-between;gap:8px;box-shadow:0 8px 25px #0006}
+.player .now{flex:1;min-width:0}.player .now-title{font-size:12px}.player .now-artist{font-size:10px}
+.player .cover.square-small{width:47px;height:47px}
+.player-middle{display:flex;flex:none}.player .controls{gap:5px}
+.player .controls #prev{display:none}
+.player .seekline{position:absolute;bottom:0;left:12px;right:12px;width:auto;height:3px;overflow:hidden}
+.player .seekline span{display:none}.player .seekline input{height:3px}
+.player .play-control{background:#b35aff;color:white;width:35px;height:35px}
+.player .round-btn{width:32px;height:32px}
+.toast{bottom:148px}
+}
+@media(max-width:370px){.mobile-nav .nav-button{font-size:9px}.hero h1{font-size:27px}.main{padding-left:12px;padding-right:12px}}
