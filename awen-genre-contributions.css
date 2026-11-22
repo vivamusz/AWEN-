@@ -74,3 +74,9 @@
  .mobile-nav .nav-button[data-nav="playlists"] span:after{font-size:9px}
  .awg-genre-help{padding:11px}
 }
+
+/* Anonymous genre inbox form: input explanation and verified delivery state. */
+.awg-dialog textarea{width:100%;min-height:75px;resize:vertical;display:block;border:1px solid #806a96;background:#171420;color:#fff;border-radius:9px;padding:10px 12px;font-size:14px;line-height:1.5}
+.awg-dialog textarea:focus-visible{outline:2px solid #dab8ff;outline-offset:2px}
+.awg-receipt{color:#a8e9bd;background:#20382e;border:1px solid #4c7861;border-radius:8px;font-size:12px;padding:9px 11px;line-height:1.5}
+.awg-review .awg-btn[disabled]{opacity:.45;cursor:not-allowed}
