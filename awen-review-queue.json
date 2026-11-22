@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T03:13:30+00:00",
+  "generated_at_utc": "2026-11-22T03:15:03+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 995,
+    "needs_genre": 988,
     "possible_import_errors": 16,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
@@ -869,15 +869,6 @@
       ]
     },
     {
-      "id": "awen-192",
-      "artist": "Chloé Caillet",
-      "title": "Love Ain't Over (Carlita Remix)",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1607601342?i=1607601343"
-    },
-    {
       "id": "awen-194",
       "artist": "James Harcourt & ID",
       "title": "India / ID",
@@ -1201,15 +1192,6 @@
       "source_url": "https://music.apple.com/kz/album/1532274650?i=1532274656"
     },
     {
-      "id": "awen-299",
-      "artist": "Sorrow",
-      "title": "Voynich",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1535494229?i=1535494597"
-    },
-    {
       "id": "awen-303",
       "artist": "elliqa",
       "title": "unwind",
@@ -1405,15 +1387,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-353",
-      "artist": "Message To Bears",
-      "title": "Moonlight",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1692817095?i=1692817458"
     },
     {
       "id": "awen-355",
@@ -3724,15 +3697,6 @@
       ]
     },
     {
-      "id": "awen-1060",
-      "artist": "Oso Oso",
-      "title": "gb/ol h/nf",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1392750811?i=1392750812"
-    },
-    {
       "id": "awen-1061",
       "artist": "Rudimental & Major Lazer",
       "title": "Let Me Live (feat. Anne-Marie & Mr Eazi)",
@@ -4447,15 +4411,6 @@
       ]
     },
     {
-      "id": "awen-1288",
-      "artist": "Maya Jane Coles",
-      "title": "Let You Go",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1439814082?i=1439814094"
-    },
-    {
       "id": "awen-1295",
       "artist": "Desire",
       "title": "Under Your Spell",
@@ -4553,15 +4508,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-1321",
-      "artist": "Mahalia",
-      "title": "I Remember",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1166318775?i=1166318789"
     },
     {
       "id": "awen-1324",
@@ -4827,15 +4773,6 @@
         "awen-1399",
         "awen-1437"
       ]
-    },
-    {
-      "id": "awen-1401",
-      "artist": "Modern Baseball",
-      "title": "I Think You Were In My Profile Picture Once",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1635240393?i=1635240400"
     },
     {
       "id": "awen-1404",
