@@ -23660,6 +23660,1466 @@
       "genre_evidence_url": "",
       "genre_evidence": "Не подтверждено по точной записи. Стиль предварительный: нужно проверить по релизу/аудио.",
       "genre_source": "Редакторская гипотеза без подтверждения"
+    },
+    "awen-2112": {
+      "genre": "House",
+      "subgenres": [
+        "Organic House"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/eteri/17426122",
+      "genre_evidence": "Beatport: exact Tim Green – Eteri",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2113": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2114": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2115": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2116": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/universal-language-feat-roland-clark/17330441",
+      "genre_evidence": "Beatport: exact Simon Doty feat. Roland Clark, House classification tentative",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2117": {
+      "genre": "House",
+      "subgenres": [
+        "Tech House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2118": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2119": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2121": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2122": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2123": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/the-answer/18001462",
+      "genre_evidence": "Beatport: exact Anyma – The Answer, Afterlife",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2124": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2125": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2127": {
+      "genre": "House",
+      "subgenres": [
+        "Organic House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2128": {
+      "genre": "House",
+      "subgenres": [
+        "Afro House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2129": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2130": {
+      "genre": "Funk / Disco",
+      "subgenres": [
+        "Nu-Disco"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2131": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2132": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2133": {
+      "genre": "House",
+      "subgenres": [
+        "Melodic House & Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2135": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2136": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2137": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2138": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Trance"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2139": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2141": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2143": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2144": {
+      "genre": "House",
+      "subgenres": [
+        "Organic House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2145": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2147": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2148": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2149": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Hard Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2150": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2155": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2156": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2157": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2160": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/sister/14430408",
+      "genre_evidence": "Beatport: exact TSHA – Sister",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2162": {
+      "genre": "House",
+      "subgenres": [
+        "Organic House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2163": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2164": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2167": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/zeit-raum/14046948",
+      "genre_evidence": "Beatport: exact Ben Böhmer – Zeit & Raum",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2168": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2169": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Progressive Trance"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2174": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2176": {
+      "genre": "House",
+      "subgenres": [
+        "Afro House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2177": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2178": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2179": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2180": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2181": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2182": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2183": {
+      "genre": "House",
+      "subgenres": [
+        "Organic House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2184": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2185": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.mixgraph.io/tracks/tinlicker-like-extended",
+      "genre_evidence": "Mixgraph: Like, Tinlicker and Helsloot, 123 BPM, dance",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2187": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2191": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2192": {
+      "genre": "House",
+      "subgenres": [
+        "Organic House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2194": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2195": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2198": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2200": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2201": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2202": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2203": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/feel-a-vibe/14112613",
+      "genre_evidence": "Beatport: Layton Giordani – Feel A Vibe",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2204": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2205": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2206": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2207": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2266": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2267": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2268": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Folk Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2269": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2270": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2271": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2272": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2273": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2274": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2275": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2276": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2277": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2279": {
+      "genre": "Pop",
+      "subgenres": [
+        "Electropop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2280": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2281": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2282": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2283": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2284": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2285": {
+      "genre": "House",
+      "subgenres": [
+        "Tropical House"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/artist/kygo/62820413",
+      "genre_evidence": "Apple Music: Kygo artist tropical house, exact remix not yet verified",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2286": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2287": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2288": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2290": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2291": {
+      "genre": "Pop",
+      "subgenres": [],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/25/1544494115",
+      "genre_evidence": "Apple Music: Adele – 25 is an album, Pop",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2292": {
+      "genre": "Pop",
+      "subgenres": [],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2293": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2294": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2295": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2296": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/skin/1885929732",
+      "genre_evidence": "Apple Music: Flume – Skin is album, electronic",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2297": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2298": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2299": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Soul"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2300": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2301": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/lemonade/1460473526",
+      "genre_evidence": "Apple Music: Beyoncé – Lemonade album, R&B",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2302": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2303": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2304": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/coloring-book/1113239004",
+      "genre_evidence": "Apple Music: Chance – Coloring Book album, hip hop",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2305": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2306": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Classic Rock"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2307": {
+      "genre": "Jazz / Blues",
+      "subgenres": [
+        "Jazz Fusion"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2308": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2310": {
+      "genre": "Pop",
+      "subgenres": [
+        "Art Pop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2315": {
+      "genre": "House",
+      "subgenres": [
+        "Tropical House"
+      ],
+      "curation_method": "Сопоставление конкретного релиза с внешним каталогом, 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/this-girl-kungs-vs-cookin-on-3-burners/15738062",
+      "genre_evidence": "Beatport: exact Kungs – This Girl dance release",
+      "genre_source": "Найдена страница релиза; жанр требует проверки"
+    },
+    "awen-2317": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2318": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2319": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2325": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Piano Solo"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2326": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2329": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Piano Solo"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2330": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2331": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Classic Rock"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2333": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2335": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Ambient"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-2342": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Предварительная редакторская классификация по исполнителю/контексту DJ-треклиста 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
+      "genre_source": "Неподтверждённая гипотеза"
     }
   }
 }
