@@ -1,0 +1,313 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-11-22",
+  "model": "AWEN Algotorial V2",
+  "notes": "Редакторские seed-треки + жанровые признаки + уверенность метаданных + редакторская энергия/настроение + разнообразие. Не используются измеренный BPM, ML-модель и поведенческие данные.",
+  "parameters": {
+    "editorialBonus": 26,
+    "coreGenre": 35,
+    "secondaryGenre": 22,
+    "preferredStyle": 13,
+    "confidenceHigh": 13,
+    "confidenceMedium": 8,
+    "energyBonus": 8,
+    "energyPenalty": 18,
+    "positiveMoodBonus": 6,
+    "negativeMoodPenalty": 6
+  },
+  "playlists": {
+    "road": {
+      "name": "Спокойная дорога",
+      "targetSize": 195,
+      "maxAutoAdds": 20,
+      "maxPerArtist": 5,
+      "minSeedScore": 52,
+      "minAutoScore": 66,
+      "mainGenres": [
+        "Pop",
+        "Rock / Indie",
+        "R&B / Soul",
+        "Folk / Ethno / World",
+        "Country",
+        "Chill / Lo-Fi / Ambient"
+      ],
+      "secondaryGenres": [
+        "Jazz / Blues",
+        "Classical / Cinematic"
+      ],
+      "conditionalGenres": {},
+      "preferredStyles": [
+        "Indie Pop",
+        "Pop Rock",
+        "Soft Rock",
+        "Indie Rock",
+        "Indie Folk",
+        "Folk Pop",
+        "Neo Soul",
+        "Alternative R&B",
+        "Soul",
+        "Ambient",
+        "Downtempo",
+        "Chillout"
+      ],
+      "blockedStyles": [
+        "Hard Rock",
+        "Punk Rock",
+        "Hard Techno",
+        "EDM Trap",
+        "Dubstep",
+        "Drift Phonk",
+        "Metalcore"
+      ],
+      "energy": [
+        1,
+        3
+      ],
+      "goodMoods": [
+        "Дорожное",
+        "Спокойное",
+        "Меланхоличное",
+        "Романтичное",
+        "Атмосферное",
+        "Мечтательное"
+      ],
+      "badMoods": [
+        "Агрессивное",
+        "Танцевальное"
+      ]
+    },
+    "night": {
+      "name": "Ночной вайб",
+      "targetSize": 24,
+      "maxAutoAdds": 8,
+      "maxPerArtist": 3,
+      "minSeedScore": 49,
+      "minAutoScore": 67,
+      "mainGenres": [
+        "Phonk"
+      ],
+      "secondaryGenres": [],
+      "conditionalGenres": {},
+      "preferredStyles": [
+        "Atmospheric Phonk",
+        "Chill Phonk",
+        "Wave Phonk",
+        "House Phonk"
+      ],
+      "blockedStyles": [
+        "Drift Phonk",
+        "Memphis Phonk",
+        "Brazilian Phonk"
+      ],
+      "energy": [
+        1,
+        3
+      ],
+      "goodMoods": [
+        "Ночное",
+        "Спокойное",
+        "Атмосферное",
+        "Меланхоличное"
+      ],
+      "badMoods": [
+        "Агрессивное",
+        "Танцевальное"
+      ]
+    },
+    "nightplus": {
+      "name": "Ночной вайб +",
+      "targetSize": 24,
+      "maxAutoAdds": 8,
+      "maxPerArtist": 3,
+      "minSeedScore": 49,
+      "minAutoScore": 66,
+      "mainGenres": [
+        "Phonk"
+      ],
+      "secondaryGenres": [],
+      "conditionalGenres": {},
+      "preferredStyles": [
+        "Drift Phonk",
+        "Memphis Phonk",
+        "Brazilian Phonk"
+      ],
+      "blockedStyles": [
+        "Chill Phonk",
+        "Atmospheric Phonk",
+        "Wave Phonk"
+      ],
+      "energy": [
+        4,
+        5
+      ],
+      "goodMoods": [
+        "Агрессивное",
+        "Энергичное",
+        "Ночное"
+      ],
+      "badMoods": [
+        "Спокойное",
+        "Расслабленное"
+      ]
+    },
+    "dance": {
+      "name": "Танцуем",
+      "targetSize": 345,
+      "maxAutoAdds": 24,
+      "maxPerArtist": 5,
+      "minSeedScore": 50,
+      "minAutoScore": 71,
+      "mainGenres": [
+        "House",
+        "Techno / Trance",
+        "Bass Music / EDM",
+        "Latin / Brazilian Club",
+        "Afro / Global Club",
+        "Funk / Disco",
+        "Drum & Bass / UK Bass"
+      ],
+      "secondaryGenres": [],
+      "conditionalGenres": {
+        "Pop": [
+          "Dance Pop",
+          "Electropop",
+          "Synthpop"
+        ],
+        "Synth / Retro Electronic": [
+          "Future Funk",
+          "Synthwave"
+        ]
+      },
+      "preferredStyles": [
+        "Deep House",
+        "Tech House",
+        "Future House",
+        "Progressive House",
+        "Tropical House",
+        "Slap House",
+        "Bass House",
+        "Afro House",
+        "Melodic House & Techno",
+        "Electro House",
+        "EDM Trap",
+        "Dubstep",
+        "Big Room",
+        "Baile Funk",
+        "Reggaeton",
+        "Moombahton",
+        "Dance Pop"
+      ],
+      "blockedStyles": [
+        "Ambient",
+        "Downtempo",
+        "Lo-Fi Hip-Hop",
+        "Chillwave",
+        "Piano Solo",
+        "Neo-Classical",
+        "Chillout"
+      ],
+      "energy": [
+        3,
+        5
+      ],
+      "goodMoods": [
+        "Танцевальное",
+        "Энергичное"
+      ],
+      "badMoods": [
+        "Спокойное",
+        "Расслабленное"
+      ]
+    },
+    "chill": {
+      "name": "Чилл",
+      "targetSize": 225,
+      "maxAutoAdds": 25,
+      "maxPerArtist": 5,
+      "minSeedScore": 50,
+      "minAutoScore": 70,
+      "mainGenres": [
+        "Chill / Lo-Fi / Ambient"
+      ],
+      "secondaryGenres": [
+        "Classical / Cinematic",
+        "Jazz / Blues"
+      ],
+      "conditionalGenres": {
+        "R&B / Soul": [
+          "Alternative R&B",
+          "Neo Soul",
+          "Soul",
+          "Contemporary R&B"
+        ],
+        "House": [
+          "Deep House",
+          "Organic House",
+          "Tropical House"
+        ],
+        "Folk / Ethno / World": [
+          "Indie Folk",
+          "Ambient Folk",
+          "Folk Pop"
+        ],
+        "Pop": [
+          "Dream Pop",
+          "Bedroom Pop",
+          "Indie Pop"
+        ],
+        "Electronica / Experimental": [
+          "Electronica",
+          "Folktronica"
+        ],
+        "Bass Music / EDM": [
+          "Chillstep",
+          "Melodic Bass"
+        ]
+      },
+      "preferredStyles": [
+        "Ambient",
+        "Dark Ambient",
+        "Lo-Fi Hip-Hop",
+        "Chillhop",
+        "Chillout",
+        "Downtempo",
+        "Trip-Hop",
+        "Lounge",
+        "Jazzhop",
+        "Chillstep",
+        "Neo Soul",
+        "Deep House",
+        "Organic House",
+        "Dream Pop",
+        "Ambient Folk",
+        "Piano Solo"
+      ],
+      "blockedStyles": [
+        "EDM Trap",
+        "Dubstep",
+        "Big Room",
+        "Hard Techno",
+        "Drift Phonk",
+        "Hard Rock",
+        "Metalcore",
+        "Electro House",
+        "Brostep"
+      ],
+      "energy": [
+        1,
+        3
+      ],
+      "goodMoods": [
+        "Расслабленное",
+        "Спокойное",
+        "Уютное",
+        "Атмосферное",
+        "Мечтательное"
+      ],
+      "badMoods": [
+        "Агрессивное",
+        "Танцевальное"
+      ]
+    }
+  }
+}
