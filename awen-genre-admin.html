@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<title>AWEN · Очередь предложений жанров</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}
+body{font-family:system-ui,"Segoe UI",Arial,sans-serif;background:#111119;color:#f6f1ff;margin:0;padding:25px 15px}
+main{max-width:620px;margin:auto}
+h1{font-size:clamp(23px,5vw,32px);margin:20px 0 9px}
+p{color:#c8c0d4;line-height:1.6}
+.card{border:1px solid #524663;border-radius:16px;padding:20px;background:#201c2b;margin:17px 0}
+label{display:block;font-weight:650;margin:14px 0 7px;font-size:13px}
+input{background:#11101b;border:1px solid #72618b;border-radius:9px;width:100%;padding:12px;color:#fff;font-size:14px}
+button{background:#7550b4;color:#fff;border:1px solid #a989e3;border-radius:10px;padding:11px 14px;cursor:pointer;font-size:14px;font-weight:650;margin:7px 7px 0 0}
+button:disabled{opacity:.4;cursor:not-allowed}
+button.secondary{background:#30283f}
+small{color:#b4a9c4}
+.status{padding:12px;border-radius:9px;background:#342d43;font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+.stats{display:flex;gap:14px;margin:10px 0}.stat{background:#322945;border-radius:10px;flex:1;padding:15px}
+.stat strong{font-size:25px;color:#deb5ff}.stat span{display:block;color:#c5b9d3;font-size:12px}
+a{color:#c89cff}
+</style>
+</head>
+<body>
+<main>
+<a href="./">← Вернуться в AWEN</a>
+<h1>Очередь жанров AWEN</h1>
+<p>Панель редактора. Здесь можно увидеть число поступивших предложений и скачать их одним текстовым файлом. Для посетителей GitHub не нужен.</p>
+<section class="card">
+  <label for="token">Секретный ключ администратора (AWEN_ADMIN_KEY)</label>
+  <input type="password" id="token" minlength="24" autocomplete="off" placeholder="Введите ключ, заданный при запуске приёмника">
+  <p><small>Ключ не сохраняется в браузере, не отправляется на GitHub Pages и не добавляется к ссылке. Он передаётся только вашему приёмнику через защищённое соединение.</small></p>
+  <div>
+    <button id="summary" type="button">Проверить очередь</button>
+    <button id="download" type="button" class="secondary">Скачать все предложения TXT</button>
+  </div>
+  <p id="status" class="status" role="status">Проверяем, настроен ли приём предложений…</p>
+  <div class="stats" id="numbers" hidden>
+    <div class="stat"><strong id="total">0</strong><span>Всего поступило</span></div>
+    <div class="stat"><strong id="pending">0</strong><span>Ожидают проверки</span></div>
+  </div>
+</section>
+<p><small>Готовые предложения не меняют общий жанр автоматически. Сначала проверьте исполнителя и композицию по надёжному источнику, затем обновите редакторские данные AWEN.</small></p>
+</main>
+<script>
+'use strict';
+let endpoint='';
+const $=id=>document.getElementById(id);
+const status=message=>{$('status').textContent=message;};
+(async()=>{
+ try{
+  const r=await fetch('./awen-genre-inbox-config.json?rev=20261123-inbox-v1',{cache:'no-store'});
+  if(!r.ok)throw Error('Конфигурация недоступна');
+  const c=await r.json(),u=new URL(c.api_base_url);
+  if(c.schema_version!==1||u.protocol!=='https:')throw Error('Адрес приёмника ещё не указан');
+  endpoint=u.origin+u.pathname.replace(/\/+$/,'');
+  status('Приёмник указан. Введите секретный ключ, чтобы просмотреть очередь или скачать TXT.');
+ }catch{status('Приёмник пока не подключён. Администратору нужно развернуть Worker и указать его адрес в awen-genre-inbox-config.json.');}
+})();
+async function get(path){
+ const token=$('token').value.trim();
+ if(!endpoint)throw Error('Приёмник ещё не подключён');
+ if(token.length<24)throw Error('Введите секретный ключ администратора');
+ const response=await fetch(endpoint+path,{
+  method:'GET',mode:'cors',credentials:'omit',cache:'no-store',
+  headers:{'Authorization':'Bearer '+token}
+ });
+ if(response.status===401)throw Error('Неверный ключ администратора');
+ if(!response.ok)throw Error('Сервер вернул ошибку HTTP '+response.status);
+ return response;
+}
+async function act(kind){
+ const button=$(kind);button.disabled=true;status('Связываемся с приёмником…');
+ try{
+  if(kind==='summary'){
+   const result=await (await get('/admin/summary')).json();
+   if(result.ok!==true)throw Error('Некорректный ответ приёмника');
+   $('total').textContent=result.total;$('pending').textContent=result.pending;
+   $('numbers').hidden=false;
+   status('Очередь доступна. Данные получены из приватной базы.');
+  }else{
+   const content=await (await get('/admin/export.txt')).text();
+   if(!content.startsWith('AWEN — предложения'))throw Error('Неверный формат TXT');
+   const href=URL.createObjectURL(new Blob(['\ufeff'+content],{type:'text/plain;charset=utf-8'}));
+   const link=document.createElement('a');link.href=href;link.download='AWEN_Genre_Suggestions.txt';
+   document.body.appendChild(link);link.click();link.remove();
+   setTimeout(()=>URL.revokeObjectURL(href),2000);
+   status('TXT с общей очередью скачан. Он содержит поступившие на сервер предложения, а не данные только этого устройства.');
+  }
+ }catch(e){status('Не удалось выполнить действие: '+e.message);}
+ finally{button.disabled=false;}
+}
+$('summary').addEventListener('click',()=>act('summary'));
+$('download').addEventListener('click',()=>act('download'));
+</script>
+</body>
+</html>
