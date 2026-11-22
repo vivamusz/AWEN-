@@ -3,7 +3,7 @@
 const Core=root.AWENDiscoveryCore,KEY='awen-discovery-local-v1';
 if(!Core){console.warn('AWEN Discovery: core module missing');return;}
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'{}')||{};}catch{return {};}};
-const defaults=()=>({boostGenres:[],excludeGenres:[],excludedArtists:[],dislikes:[],seen:[],plays:[],opens:[],novelty:60,hideVerifiedAI:false,draft:{name:'Мой AWEN микс',ids:[]},prompt:'25 спокойных песен для вечерней дороги без рэпа, 2010-х'});
+const defaults=()=>({boostGenres:[],boostLanguages:[],excludeGenres:[],excludedArtists:[],dislikes:[],seen:[],plays:[],opens:[],novelty:60,hideVerifiedAI:false,draft:{name:'Мой AWEN микс',ids:[]},prompt:'25 спокойных песен для вечерней дороги без рэпа, 2010-х'});
 let state=Object.assign(defaults(),read()),tab='start',radioId='',smooth=false,radioQuery='',mixQuery='',selectedYear=new Date().getFullYear(),provenance={tracks:{}},importMessage='';
 if(!state.draft||typeof state.draft!=='object')state.draft={name:'Мой AWEN микс',ids:[]};
 const arr=x=>Array.isArray(x)?x:[],esc=x=>String(x===null||x===undefined?'':x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -65,7 +65,7 @@ function tastePanel(){
  section('3. Настройка жанров — Flow Tuner',
  '<label class="ad-label">Любимые жанры (получают повышенный приоритет)</label>'+chips('boostGenres','boost')+
  '<label class="ad-label">Исключить жанры из рекомендаций</label>'+chips('excludeGenres','exclude')+
- '<div class="ad-actions">'+button('reset-tuner','Сбросить жанровые настройки')+'</div>')+
+ '<label class="ad-label">Предпочитаемые языки (приоритет, не исключение)</label><div class="ad-chip-list">'+['Қазақша','Русский','English','Без слов'].map(l=>'<button class="ad-chip" data-ad-action="lang-boost" data-language="'+esc(l)+'" aria-pressed="'+arr(state.boostLanguages).includes(l)+'">'+esc(l)+'</button>').join('')+'</div>'+'<div class="ad-actions">'+button('reset-tuner','Сбросить жанровые настройки')+'</div>')+
  section('5. Реакции и 9. Разнообразие',
  '<p>♥ сохраняет в существующее избранное AWEN. × скрывает песню только из рекомендаций. Эти действия не удаляют её из каталога.</p>'+
  '<div class="ad-stats"><div class="ad-stat"><strong>'+likes().length+'</strong><small>Избранных</small></div><div class="ad-stat"><strong>'+arr(state.dislikes).length+'</strong><small>Не рекомендовать</small></div><div class="ad-stat"><strong>'+arr(state.boostGenres).length+'</strong><small>Любимых жанров</small></div></div>'+
@@ -196,8 +196,9 @@ function act(node){
  if(kind==='detail'){bridge().openDetails&&bridge().openDetails(id);return;}
  if(kind==='like'){bridge().toggleFavorite&&bridge().toggleFavorite(id);refresh();return;}
  if(kind==='dislike'){toggle('dislikes',id);return;}
+ if(kind==='lang-boost'){toggle('boostLanguages',node.dataset.language);return;}
  if(kind==='boost'||kind==='exclude'){let key=kind==='boost'?'boostGenres':'excludeGenres';toggle(key,g);return;}
- if(kind==='reset-tuner'){state.boostGenres=[];state.excludeGenres=[];save();refresh();return;}
+ if(kind==='reset-tuner'){state.boostGenres=[];state.boostLanguages=[];state.excludeGenres=[];save();refresh();return;}
  if(kind==='reset-dislikes'){state.dislikes=[];save();refresh();return;}
  if(kind==='clear-history'){if(!root.confirm('Очистить локальную историю и настройки AWEN Discover? Избранное основного сайта останется.'))return;state=defaults();save();refresh();return;}
  if(kind==='smooth'){smooth=!smooth;refresh();return;}
