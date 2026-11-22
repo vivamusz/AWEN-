@@ -1,13 +1,65 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22",
-  "catalog_tracks": 2369,
-  "curation_rows": 2303,
-  "disclaimer": "Static QA evaluation using current curation metadata. Published website can differ after external Apple/MusicBrainz genre enrichment or browser cache. Energy inputs are editor-assigned tags, not acoustic analysis. No user listening history is modeled.",
-  "profiles_file": "awen-playlist-profiles.json",
-  "algorithm_file": "awen-playlist-engine.js",
-  "editorial_seed_file": "awen-playlists.json",
   "method": "AWEN Algotorial V2",
+  "generated_at": "2026-11-22",
+  "audit_date": "2026-11-22",
+  "catalog_tracks": 2369,
+  "visible_music_records": 2310,
+  "curation_rows": 2303,
+  "disclaimer": "Static QA using current GitHub data. Browser deployment and external Apple/MusicBrainz enrichment not independently verified. Exact Apple match proves identity of a song, not its genre or acoustic features.",
+  "qa": {
+    "passed": true,
+    "issues": [],
+    "metrics": {
+      "road": {
+        "count": 168,
+        "editorial": 161,
+        "auto": 7,
+        "maxArtist": 5,
+        "sourceSeeds": 179
+      },
+      "night": {
+        "count": 8,
+        "editorial": 8,
+        "auto": 0,
+        "maxArtist": 2,
+        "sourceSeeds": 8
+      },
+      "nightplus": {
+        "count": 11,
+        "editorial": 11,
+        "auto": 0,
+        "maxArtist": 1,
+        "sourceSeeds": 11
+      },
+      "dance": {
+        "count": 317,
+        "editorial": 317,
+        "auto": 0,
+        "maxArtist": 5,
+        "sourceSeeds": 325
+      },
+      "chill": {
+        "count": 183,
+        "editorial": 183,
+        "auto": 0,
+        "maxArtist": 5,
+        "sourceSeeds": 209
+      }
+    },
+    "auto_exact_song_required": true,
+    "case_checks": [
+      "duplicate_artist_title",
+      "unknown_genre_rejected",
+      "nontrack_import_flags",
+      "genre_and_blocked_style",
+      "artist_diversity",
+      "track_specific_auto_evidence",
+      "explanation_integrity",
+      "editorial_seed_precedence"
+    ],
+    "engine_version": "2.0.0"
+  },
   "playlists": {
     "road": {
       "track_ids": [
@@ -172,30 +224,17 @@
         "awen-1267",
         "awen-1370",
         "awen-16",
-        "awen-1075",
-        "awen-1139",
-        "awen-1149",
-        "awen-1156",
-        "awen-1203",
         "awen-1210",
         "awen-1230",
         "awen-1293",
-        "awen-1313",
         "awen-1323",
-        "awen-1359",
         "awen-1488",
-        "awen-1493",
-        "awen-1673",
-        "awen-1675",
-        "awen-1703",
-        "awen-1711",
-        "awen-1774",
-        "awen-1839",
-        "awen-1860"
+        "awen-794",
+        "awen-806"
       ],
-      "count": 181,
+      "count": 168,
       "editorial_count": 161,
-      "auto_count": 20,
+      "auto_count": 7,
       "explanations": {
         "awen-1044": {
           "score": 93,
@@ -1867,63 +1906,14 @@
           ],
           "source": "editorial"
         },
-        "awen-1075": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1139": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1149": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1156": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1203": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
         "awen-1210": {
           "score": 67,
           "reasons": [
             "Основной жанр",
             "Поджанр соответствует",
             "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
+            "Метка настроения соответствует",
+            "Точная идентификация релиза Apple Music"
           ],
           "source": "auto"
         },
@@ -1933,7 +1923,8 @@
             "Основной жанр",
             "Поджанр соответствует",
             "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
+            "Метка настроения соответствует",
+            "Точная идентификация релиза Apple Music"
           ],
           "source": "auto"
         },
@@ -1943,17 +1934,8 @@
             "Основной жанр",
             "Поджанр соответствует",
             "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1313": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
+            "Метка настроения соответствует",
+            "Точная идентификация релиза Apple Music"
           ],
           "source": "auto"
         },
@@ -1963,17 +1945,8 @@
             "Основной жанр",
             "Поджанр соответствует",
             "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1359": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
+            "Метка настроения соответствует",
+            "Точная идентификация релиза Apple Music"
           ],
           "source": "auto"
         },
@@ -1983,87 +1956,30 @@
             "Основной жанр",
             "Поджанр соответствует",
             "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
+            "Метка настроения соответствует",
+            "Точная идентификация релиза Apple Music"
           ],
           "source": "auto"
         },
-        "awen-1493": {
+        "awen-794": {
           "score": 67,
           "reasons": [
             "Основной жанр",
             "Поджанр соответствует",
             "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
+            "Метка настроения соответствует",
+            "Точная идентификация релиза Apple Music"
           ],
           "source": "auto"
         },
-        "awen-1673": {
+        "awen-806": {
           "score": 67,
           "reasons": [
             "Основной жанр",
             "Поджанр соответствует",
             "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1675": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1703": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1711": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1774": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1839": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
-          ],
-          "source": "auto"
-        },
-        "awen-1860": {
-          "score": 67,
-          "reasons": [
-            "Основной жанр",
-            "Поджанр соответствует",
-            "Редакторская оценка энергии подходит",
-            "Метка настроения соответствует"
+            "Метка настроения соответствует",
+            "Точная идентификация релиза Apple Music"
           ],
           "source": "auto"
         }
@@ -7718,21 +7634,22 @@
   },
   "diagnostics": {
     "road": {
-      "candidates": 232,
-      "accepted": 181,
+      "candidates": 186,
+      "accepted": 168,
       "sourceSeeds": 179,
-      "autoAdded": 20,
+      "autoAdded": 7,
       "rejected": {
-        "auto_low_confidence": 300,
-        "auto_score_low": 277,
+        "auto_low_confidence": 62,
+        "auto_missing_exact_track_evidence": 593,
         "outside_playlist_theme": 1019,
-        "auto_no_style_or_mood": 56,
         "unknown_genre": 221,
         "blocked_style": 100,
+        "auto_score_low": 58,
         "non_track": 66,
-        "auto_energy_mismatch": 57,
         "unidentified": 41,
-        "artist_cap": 21
+        "auto_energy_mismatch": 8,
+        "auto_no_style_or_mood": 15,
+        "artist_cap": 18
       }
     },
     "night": {
@@ -7743,11 +7660,12 @@
       "rejected": {
         "outside_playlist_theme": 2019,
         "unknown_genre": 221,
-        "auto_score_low": 2,
+        "auto_missing_exact_track_evidence": 1,
         "auto_energy_mismatch": 1,
         "blocked_style": 11,
         "non_track": 66,
-        "unidentified": 41
+        "unidentified": 41,
+        "auto_score_low": 1
       }
     },
     "nightplus": {
@@ -7760,7 +7678,7 @@
         "unknown_genre": 221,
         "low_energy_for_aggressive": 2,
         "auto_score_low": 1,
-        "auto_no_style_or_mood": 1,
+        "auto_missing_exact_track_evidence": 1,
         "non_track": 66,
         "blocked_style": 7,
         "unidentified": 41
@@ -7773,15 +7691,15 @@
       "autoAdded": 0,
       "rejected": {
         "outside_playlist_theme": 1271,
-        "auto_no_style_or_mood": 9,
+        "auto_missing_exact_track_evidence": 291,
         "blocked_style": 126,
         "unknown_genre": 221,
         "editorial_seed_mismatch": 7,
         "non_track": 66,
-        "auto_score_low": 39,
         "unidentified": 41,
-        "auto_energy_mismatch": 5,
-        "auto_low_confidence": 266,
+        "auto_low_confidence": 18,
+        "auto_score_low": 8,
+        "auto_no_style_or_mood": 2,
         "artist_cap": 1
       }
     },
@@ -7793,13 +7711,13 @@
       "rejected": {
         "outside_playlist_theme": 1231,
         "unknown_genre": 221,
-        "auto_low_confidence": 247,
-        "auto_score_low": 218,
-        "auto_no_style_or_mood": 33,
+        "auto_low_confidence": 21,
+        "auto_missing_exact_track_evidence": 409,
         "blocked_style": 99,
         "non_track": 66,
-        "auto_energy_mismatch": 6,
         "unidentified": 41,
+        "auto_score_low": 64,
+        "auto_no_style_or_mood": 10,
         "artist_cap": 24
       }
     }
