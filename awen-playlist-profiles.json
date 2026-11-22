@@ -13,7 +13,9 @@
     "energyBonus": 8,
     "energyPenalty": 18,
     "positiveMoodBonus": 6,
-    "negativeMoodPenalty": 6
+    "negativeMoodPenalty": 6,
+    "acousticMatchBonus": 5,
+    "acousticMismatchPenalty": 5
   },
   "playlists": {
     "road": {
