@@ -537,6 +537,9 @@
       const quarantined=found.filter(t=>t.import_review_needed).length;
       catalogQuarantined=quarantined;
       tracks=found.filter(t=>!t.import_review_needed);
+      // Apply user-proposed genres only after global curator and playlist ranking.
+      // Does not change awen-catalog.json, public editorial playlists or GitHub data.
+      if(window.AWENGenreContributions)window.AWENGenreContributions.apply(tracks);
       demo=false;applyAuthorizedStreams();render();
       if(quarantined)console.info('AWEN: '+quarantined+' текстовых фрагментов скрыты из музыкального списка; исходные записи сохранены');
     }catch(err){
@@ -551,7 +554,7 @@
   const mode=localStorage.getItem('awen-catalog-mode')||'shared';
   if(mode==='local'){
     dbRead().then(local=>{
-      if(Array.isArray(local)&&local.length){tracks=parseCatalog(local);demo=false;render();}
+      if(Array.isArray(local)&&local.length){tracks=parseCatalog(local);if(window.AWENGenreContributions)window.AWENGenreContributions.apply(tracks);demo=false;render();}
       else loadShared();
     }).catch(()=>loadShared());
   }else if(mode!=='demo'){
