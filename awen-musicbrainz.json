@@ -726,6 +726,20 @@
     },
     "wqw": {
       "status": "not_found"
+    },
+    "jordan stephens": {
+      "status": "unclassified",
+      "artist_mbid": "3672ba34-02e1-4fc9-9f9b-de0af7d852b2",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/3672ba34-02e1-4fc9-9f9b-de0af7d852b2"
+    },
+    "akif sarıkaya": {
+      "status": "unclassified",
+      "artist_mbid": "e709ba81-1524-4431-b073-82e550f9eba8",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/e709ba81-1524-4431-b073-82e550f9eba8"
     }
   },
   "tracks": {
