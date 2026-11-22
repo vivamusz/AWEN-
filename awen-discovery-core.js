@@ -12,7 +12,7 @@ function daypart(d=new Date()){let h=d.getHours();return h>=5&&h<11?{key:'mornin
 function tasteProfile(ctx){const index=new Map(ctx.tracks.map(t=>[t.id,t])),artists=new Map(),genres=new Map(),sMap=new Map();for(const id of uniq([...arr(ctx.likes),...arr(ctx.state&&ctx.state.plays).map(x=>x.id)]).slice(-150)){const t=index.get(id);if(!t)continue;artists.set(t.artist,(artists.get(t.artist)||0)+8);genres.set(t.genre,(genres.get(t.genre)||0)+3);for(const s of styles(t))sMap.set(s,(sMap.get(s)||0)+3);}return {artists,genres,styles:sMap};}
 function familiar(t,profile){let n=(profile.artists.get(t.artist)||0)+(profile.genres.get(t.genre)||0);for(const s of styles(t))n+=profile.styles.get(s)||0;return Math.min(30,n);}
 function rank(tracks,ctx,opt={}){let st=ctx.state||{},nov=Number.isFinite(Number(st.novelty))?Number(st.novelty):60,seen=new Set(arr(st.seen)),profile=tasteProfile(ctx),pool=arr(tracks).filter(t=>eligible(t,ctx)&&!(opt.exclude&&opt.exclude.has(t.id))).map(t=>{let score=25,why=[],en=energy(t);
- if(arr(st.boostGenres).includes(t.genre)){score+=17;why.push('Ваш любимый жанр');}
+ if(arr(st.boostGenres).includes(t.genre)){score+=17;why.push('Ваш любимый жанр');}if(arr(st.boostLanguages).includes(t.language)){score+=14;why.push('Предпочитаемый язык');}
  if(arr(opt.genres).includes(t.genre)){score+=22;why.push('Подходящий жанр');}
  if(styles(t).some(x=>arr(opt.styles).map(norm).includes(x))){score+=17;why.push('Подходящий поджанр');}
  if(moods(t).some(x=>arr(opt.moods).map(norm).includes(x))){score+=12;why.push('Настроение соответствует');}
