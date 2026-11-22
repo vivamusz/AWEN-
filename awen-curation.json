@@ -2,7 +2,7 @@
   "schema_version": 1,
   "basis": "awen-catalog.json",
   "method": "conservative title/style and artist genre hints; not listening-based verification",
-  "review_notice": "Предварительные жанры из Excel назначены по исполнителю или названию и требуют проверки; подтвержденные по релизу помечены отдельно. Источники исходных музыкальных ссылок сохранены.",
+  "review_notice": "Подтверждения музыкальных каталогов сохраняются со ссылками; широкие жанры релизов и неоднозначные мелодик-хаус/техно поджанры требуют редакторской проверки.",
   "generated_at": "2026-11-22",
   "tracks": {
     "awen-2": {
@@ -15769,7 +15769,17 @@
       "album": "In Another Lifetime",
       "year": 2022,
       "year_type": "album_release",
-      "duration": 228
+      "duration": 228,
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "проверка релиза 2026-11-22 · beatport_progressive_house",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.beatstats.com/track/light-beam/16210866",
+      "genre_evidence": "track_or_release_metadata",
+      "genre_source": "Поиск конкретной записи и жанровых метаданных"
     },
     "awen-202": {
       "verified_metadata": {
@@ -16342,7 +16352,17 @@
       "album": "Distance",
       "year": 2023,
       "year_type": "album_release",
-      "duration": 309
+      "duration": 309,
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "проверка релиза 2026-11-22 · artist_bandcamp_track_tags",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://itskaasi.bandcamp.com/track/caroline-street",
+      "genre_evidence": "track_or_release_metadata",
+      "genre_source": "Поиск конкретной записи и жанровых метаданных"
     },
     "awen-312": {
       "verified_metadata": {
@@ -18330,6 +18350,78 @@
       "review_needed": true,
       "genre_evidence": "excel_artist_or_title_hint",
       "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+    },
+    "awen-7": {
+      "genre": "Pop",
+      "subgenres": [
+        "Art Pop"
+      ],
+      "curation_method": "проверка релиза 2026-11-22 · release_pop",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.qobuz.com/us-en/album/secrets-omido-rick-jansen-ordell/fspe39fiunbwa",
+      "genre_evidence": "track_or_release_metadata",
+      "genre_source": "Поиск конкретной записи и жанровых метаданных"
+    },
+    "awen-67": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "проверка релиза 2026-11-22 · artist_and_song",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.allmusic.com/artist/klingande-mn0003162785/biography",
+      "genre_evidence": "track_or_release_metadata",
+      "genre_source": "Поиск конкретной записи и жанровых метаданных"
+    },
+    "awen-104": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "проверка релиза 2026-11-22 · song_style",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://magneticmag.com/2023/05/luttrell-joins-this-never-happened-with-warm-uplifting-single-darling-waves/",
+      "genre_evidence": "track_or_release_metadata",
+      "genre_source": "Поиск конкретной записи и жанровых метаданных"
+    },
+    "awen-145": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "проверка релиза 2026-11-22 · beatport_melodic_house_techno",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/sizo/17660877",
+      "genre_evidence": "track_or_release_metadata",
+      "genre_source": "Поиск конкретной записи и жанровых метаданных"
+    },
+    "awen-152": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "проверка релиза 2026-11-22 · beatport_melodic_house_techno",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatstats.com/track/the-muze-feat-leo-wood/17592900?genre=0&period=2",
+      "genre_evidence": "track_or_release_metadata",
+      "genre_source": "Поиск конкретной записи и жанровых метаданных"
+    },
+    "awen-264": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "проверка релиза 2026-11-22 · qobuz_kpop_broad",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.qobuz.com/ie-en/album/the-baddest-k-da-i-dle-wolftyla-feat-bea-miller-league-of-legends/jy3yc6ny9bx7b",
+      "genre_evidence": "track_or_release_metadata",
+      "genre_source": "Поиск конкретной записи и жанровых метаданных"
     }
   }
 }
