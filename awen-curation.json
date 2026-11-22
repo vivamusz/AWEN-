@@ -17601,7 +17601,17 @@
       "album": "Mr. Sandman - Single",
       "year": 2017,
       "year_type": "album_release",
-      "duration": 206
+      "duration": 206,
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Сверка музыкальных релизов 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://atwoodmagazine.com/mr-sandman-syml-premiere/",
+      "genre_evidence": "SYML cover-specific review supports haunting indie-pop interpretation; not original traditional-pop recording",
+      "genre_source": "Обзор конкретного сингла, Bandcamp исполнителя или официальный клип"
     },
     "awen-1238": {
       "verified_metadata": {
@@ -18825,6 +18835,42 @@
       "genre_evidence_url": "https://einmusika.bandcamp.com/track/d-formation-masella-ahura-mazda-original-mix",
       "genre_evidence": "Artist label Bandcamp exact title Ahura Mazda, source title shortened Mazda; subgenre inferred from label, verify",
       "genre_source": "Sony Music / AllMusic / Qobuz / Last.fm / Beatport / Bandcamp / label"
+    },
+    "awen-251": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "Сверка музыкальных релизов 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.youtube.com/watch?v=bZnR9QwbbxI",
+      "genre_evidence": "Official song video labels Trap, Qobuz exact song broader Dance",
+      "genre_source": "Обзор конкретного сингла, Bandcamp исполнителя или официальный клип"
+    },
+    "awen-397": {
+      "genre": "Latin / Brazilian Club",
+      "subgenres": [
+        "Moombahton"
+      ],
+      "curation_method": "Сверка музыкальных релизов 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://maxazine.com/2020/07/09/jason-derulo-dials-up-the-heat-with-his-revival-of-puri-x-jhorrmountains-cono/",
+      "genre_evidence": "Review of exact Jason Derulo version; club dancehall/moombahton crossover",
+      "genre_source": "Обзор конкретного сингла, Bandcamp исполнителя или официальный клип"
+    },
+    "awen-233": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Сверка музыкальных релизов 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://membamusic.bandcamp.com/album/phase-ii",
+      "genre_evidence": "Exact song on MEMBA artist Bandcamp EP; broad future-bass style tentative",
+      "genre_source": "Обзор конкретного сингла, Bandcamp исполнителя или официальный клип"
     }
   }
 }
