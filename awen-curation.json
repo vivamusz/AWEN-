@@ -9408,7 +9408,19 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1084457096?i=1084457591",
+        "title": "Midnight Sky",
+        "artist": "Petit Biscuit",
+        "genre_name": "Electronic",
+        "release_date": "2015-06-15T12:00:00Z"
+      },
+      "album": "Midnight Sky - Single",
+      "year": 2015,
+      "year_type": "album_release",
+      "duration": 278
     },
     "awen-1413": {
       "language": "Русский",
@@ -9549,7 +9561,19 @@
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1328534950?i=1328535994",
+        "title": "Blame",
+        "artist": "Ekali & ZHU",
+        "genre_name": "Electronic",
+        "release_date": "2018-01-05T12:00:00Z"
+      },
+      "album": "Blame - Single",
+      "year": 2018,
+      "year_type": "album_release",
+      "duration": 177
     },
     "awen-1455": {
       "genre": "Pop",
@@ -9565,7 +9589,19 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1440818584?i=1440818674",
+        "title": "Glory and Gore",
+        "artist": "Lorde",
+        "genre_name": "Alternative",
+        "release_date": "2013-09-27T07:00:00Z"
+      },
+      "album": "Pure Heroine",
+      "year": 2013,
+      "year_type": "album_release",
+      "duration": 211
     },
     "awen-1456": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -9581,14 +9617,38 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1430451268?i=1430451276",
+        "title": "Ukiyo",
+        "artist": "Idealism",
+        "genre_name": "Electronic",
+        "release_date": "2017-02-02T12:00:00Z"
+      },
+      "album": "Hiraeth",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 135
     },
     "awen-1457": {
       "genre": "Hip-Hop / Rap",
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1445048621?i=1445048624",
+        "title": "Holy Ghost",
+        "artist": "Desiigner",
+        "genre_name": "Hip-Hop/Rap",
+        "release_date": "2017-03-24T12:00:00Z"
+      },
+      "album": "Holy Ghost - Single",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 233
     },
     "awen-1458": {
       "genre": "Rock / Indie",
@@ -9614,7 +9674,20 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1170697676?i=1170698158",
+        "title": "Love Me Now",
+        "artist": "John Legend",
+        "genre_name": "R&B/Soul",
+        "release_date": "2016-10-07T07:00:00Z"
+      },
+      "genre_review_candidate": "R&B / Soul",
+      "album": "Darkness and Light",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 210
     },
     "awen-1461": {
       "genre": "Pop",
@@ -9666,7 +9739,19 @@
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1440845435?i=1440846133",
+        "title": "Wish You Wouldn't",
+        "artist": "NF",
+        "genre_name": "Hip-Hop/Rap",
+        "release_date": "2016-04-22T12:00:00Z"
+      },
+      "album": "Therapy Session",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 286
     },
     "awen-1466": {
       "genre": "Pop",
@@ -9718,7 +9803,19 @@
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1325000401?i=1325000886",
+        "title": "unevercallmebutidontmindbecauseimintheclub​ (Jadu VIP)",
+        "artist": "Jadu Heart & Mura Masa",
+        "genre_name": "Electronic",
+        "release_date": "2017-12-20T12:00:00Z"
+      },
+      "album": "unevercallmebutidontmindbecauseimintheclub​ (Jadu VIP) - Single",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 279
     },
     "awen-1473": {
       "genre": "Hip-Hop / Rap",
@@ -9754,7 +9851,19 @@
       "energy": 2,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1443075686?i=1443075855",
+        "title": "Ex Calling",
+        "artist": "6LACK",
+        "genre_name": "R&B/Soul",
+        "release_date": "2016-07-25T12:00:00Z"
+      },
+      "album": "FREE 6LACK (Bonus Track Version)",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 211
     },
     "awen-1478": {
       "genre": "Pop",
@@ -9815,7 +9924,19 @@
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1440842514?i=1440843397",
+        "title": "Swang",
+        "artist": "Rae Sremmurd",
+        "genre_name": "Hip-Hop/Rap",
+        "release_date": "2016-08-12T12:00:00Z"
+      },
+      "album": "SremmLife 2 (Deluxe)",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 208
     },
     "awen-1488": {
       "genre": "R&B / Soul",
@@ -9831,7 +9952,19 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1714908584?i=1714909424",
+        "title": "Echoes Of Silence",
+        "artist": "The Weeknd",
+        "genre_name": "R&B/Soul",
+        "release_date": "2011-12-21T12:00:00Z"
+      },
+      "album": "Trilogy",
+      "year": 2011,
+      "year_type": "album_release",
+      "duration": 240
     },
     "awen-1492": {
       "genre": "Hip-Hop / Rap",
@@ -9866,7 +9999,19 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1440887032?i=1440887232",
+        "title": "Adore",
+        "artist": "Dean Lewis",
+        "genre_name": "Singer/Songwriter",
+        "release_date": "2017-04-28T12:00:00Z"
+      },
+      "album": "Same Kind of Different - EP",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 179
     },
     "awen-1496": {
       "genre": "Pop",
@@ -9876,7 +10021,19 @@
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1087172327?i=1087172342",
+        "title": "TiO",
+        "artist": "ZAYN",
+        "genre_name": "Pop",
+        "release_date": "2016-03-25T07:00:00Z"
+      },
+      "album": "Mind Of Mine (Deluxe Edition)",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 179
     },
     "awen-1497": {
       "genre": "Hip-Hop / Rap",
@@ -9910,7 +10067,20 @@
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1308316758?i=1308317601",
+        "title": "Broken People",
+        "artist": "Logic & Rag'n'Bone Man",
+        "genre_name": "Hip-Hop/Rap",
+        "release_date": "2017-11-30T08:00:00Z"
+      },
+      "genre_review_candidate": "Hip-Hop / Rap",
+      "album": "Bright: The Album",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 212
     },
     "awen-1502": {
       "genre": "Hip-Hop / Rap",
@@ -9927,7 +10097,19 @@
       "energy": 2,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1200868601?i=1200868877",
+        "title": "Saved",
+        "artist": "Khalid",
+        "genre_name": "R&B/Soul",
+        "release_date": "2017-02-03T08:00:00Z"
+      },
+      "album": "American Teen",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 207
     },
     "awen-1510": {
       "genre": "R&B / Soul",
@@ -9937,7 +10119,19 @@
       "energy": 2,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1200868601?i=1200868886",
+        "title": "Winter",
+        "artist": "Khalid",
+        "genre_name": "Christmas: R&B",
+        "release_date": "2017-03-03T12:00:00Z"
+      },
+      "album": "American Teen",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 242
     },
     "awen-1511": {
       "genre": "Pop",
@@ -10146,7 +10340,19 @@
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1440888125?i=1440889133",
+        "title": "Hit This Hard",
+        "artist": "Post Malone",
+        "genre_name": "Hip-Hop/Rap",
+        "release_date": "2016-12-09T12:00:00Z"
+      },
+      "album": "Stoney (Deluxe)",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 249
     },
     "awen-1544": {
       "genre": "Pop",
@@ -10172,7 +10378,19 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1440827260?i=1440828144",
+        "title": "Religion",
+        "artist": "Lana Del Rey",
+        "genre_name": "Alternative",
+        "release_date": "2015-09-18T12:00:00Z"
+      },
+      "album": "Honeymoon",
+      "year": 2015,
+      "year_type": "album_release",
+      "duration": 323
     },
     "awen-1548": {
       "genre": "Pop",
@@ -10240,7 +10458,19 @@
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1226034336?i=1226034791",
+        "title": "Two Ghosts",
+        "artist": "Harry Styles",
+        "genre_name": "Pop",
+        "release_date": "2017-05-12T12:00:00Z"
+      },
+      "album": "Harry Styles",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 230
     },
     "awen-1558": {
       "genre": "Hip-Hop / Rap",
@@ -10260,7 +10490,19 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1034227383?i=1034227472",
+        "title": "Here for You (feat. Ella Henderson)",
+        "artist": "Kygo",
+        "genre_name": "Dance",
+        "release_date": "2015-09-04T07:00:00Z"
+      },
+      "album": "Here for You (feat. Ella Henderson) - Single",
+      "year": 2015,
+      "year_type": "album_release",
+      "duration": 245
     },
     "awen-1566": {
       "genre": "Hip-Hop / Rap",
@@ -10330,7 +10572,19 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1428764777?i=1428769170",
+        "title": "Perfect Places",
+        "artist": "Lorde",
+        "genre_name": "Alternative",
+        "release_date": "2017-06-02T12:00:00Z"
+      },
+      "album": "Melodrama",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 222
     },
     "awen-1578": {
       "genre": "House",
@@ -10343,7 +10597,19 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1271864088?i=1271864319",
+        "title": "Exhale",
+        "artist": "ZHU",
+        "genre_name": "Electronic",
+        "release_date": "2017-08-18T12:00:00Z"
+      },
+      "album": "stardustexhalemarrakechdreams - EP",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 210
     },
     "awen-1579": {
       "genre": "Rock / Indie",
@@ -10353,7 +10619,19 @@
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/135977804?i=135977919",
+        "title": "No Buses",
+        "artist": "Arctic Monkeys",
+        "genre_name": "Rock",
+        "release_date": "2006-04-24T12:00:00Z"
+      },
+      "album": "Who the F*** Are Arctic Monkeys? - EP",
+      "year": 2006,
+      "year_type": "album_release",
+      "duration": 199
     },
     "awen-1581": {
       "genre": "Classical / Cinematic",
@@ -10383,7 +10661,19 @@
       "energy": 3,
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1440848910?i=1440849354",
+        "title": "Dreams",
+        "artist": "NF",
+        "genre_name": "Hip-Hop/Rap",
+        "release_date": "2017-10-06T12:00:00Z"
+      },
+      "album": "Perception",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 222
     },
     "awen-1590": {
       "genre": "House",
@@ -10529,7 +10819,19 @@
       ],
       "curation_method": "исполнитель",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1747957359?i=1747957566",
+        "title": "All of the Stars",
+        "artist": "Ed Sheeran",
+        "genre_name": "Pop",
+        "release_date": "2014-05-19T12:00:00Z"
+      },
+      "album": "x (10th Anniversary Edition)",
+      "year": 2014,
+      "year_type": "album_release",
+      "duration": 235
     },
     "awen-1617": {
       "genre": "R&B / Soul",
@@ -15366,7 +15668,19 @@
       "energy": 4,
       "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/569284187?i=569284263",
+        "title": "Lazy Bones",
+        "artist": "Green Day",
+        "genre_name": "Alternative",
+        "release_date": "2012-11-09T12:00:00Z"
+      },
+      "album": "¡Dos!",
+      "year": 2012,
+      "year_type": "album_release",
+      "duration": 214
     },
     "awen-1417": {
       "genre": "Rock / Indie",
@@ -15382,7 +15696,19 @@
       "energy": 3,
       "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1269234483?i=1269236129",
+        "title": "Good Morning",
+        "artist": "GROUPLOVE",
+        "genre_name": "Alternative",
+        "release_date": "2016-09-09T12:00:00Z"
+      },
+      "album": "Big Mess",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 220
     },
     "awen-1476": {
       "genre": "Classical / Cinematic",
@@ -15414,7 +15740,19 @@
       "energy": 2,
       "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1496355743?i=1496355744",
+        "title": "Lost in Space",
+        "artist": "Emmit Fenn",
+        "genre_name": "Electronic",
+        "release_date": "2017-12-12T12:00:00Z"
+      },
+      "album": "Lost in Space - Single",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 223
     },
     "awen-1490": {
       "genre": "Folk / Ethno / World",
@@ -15430,7 +15768,19 @@
       "energy": 2,
       "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/549692888?i=549692915",
+        "title": "Be the Song",
+        "artist": "Foy Vance",
+        "genre_name": "Singer/Songwriter",
+        "release_date": "2012-08-26T12:00:00Z"
+      },
+      "album": "Melrose - EP",
+      "year": 2012,
+      "year_type": "album_release",
+      "duration": 391
     },
     "awen-1493": {
       "genre": "R&B / Soul",
@@ -15570,7 +15920,19 @@
       "energy": 2,
       "curation_method": "стиль исполнителя",
       "curation_confidence": "medium",
-      "review_needed": true
+      "review_needed": true,
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1213160230?i=1213160346",
+        "title": "New World",
+        "artist": "Koda",
+        "genre_name": "Alternative",
+        "release_date": "2017-03-24T12:00:00Z"
+      },
+      "album": "New World - EP",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 233
     },
     "awen-1619": {
       "genre": "Rock / Indie",
@@ -22481,7 +22843,7 @@
       ],
       "curation_method": "large_batch_exact_release_followup_2026-11-22",
       "curation_confidence": "high",
-      "review_needed": false,
+      "review_needed": true,
       "genre_evidence_url": "https://music.apple.com/us/album/our-endless-numbered-days/5644896",
       "genre_evidence": "Apple Music editorial identifies Sodom, South Georgia and explicitly describes Iron & Wine as indie folk",
       "genre_source": "Apple Music original single or album with editorial genre evidence",
@@ -22491,7 +22853,8 @@
         "check_type": "external_catalog_match",
         "source_level": "track_or_album",
         "action": "none"
-      }
+      },
+      "genre_review_candidate": "Rock / Indie"
     },
     "awen-1295": {
       "genre": "Synth / Retro Electronic",
@@ -22626,7 +22989,19 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1485063770?i=1485063783",
+        "title": "Under the Spell",
+        "artist": "Springtime Carnivore",
+        "genre_name": "Alternative",
+        "release_date": "2016-10-07T12:00:00Z"
+      },
+      "album": "Midnight Room",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 266
     },
     "awen-1489": {
       "genre": "Folk / Ethno / World",
@@ -22645,7 +23020,8 @@
         "check_type": "external_catalog_match",
         "source_level": "track_or_album",
         "action": "needs_exact_track_subgenre"
-      }
+      },
+      "genre_review_candidate": "Rock / Indie"
     },
     "awen-1499": {
       "genre": "Rock / Indie",
@@ -23216,7 +23592,19 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/936955050?i=936955052",
+        "title": "Smile",
+        "artist": "Mikky Ekko",
+        "genre_name": "Alternative",
+        "release_date": "2014-08-15T12:00:00Z"
+      },
+      "album": "Time",
+      "year": 2014,
+      "year_type": "album_release",
+      "duration": 207
     },
     "awen-1450": {
       "genre": "Pop",
@@ -23236,7 +23624,20 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/573424905?i=573424912",
+        "title": "Happy New Year",
+        "artist": "Kid Rock",
+        "genre_name": "Hard Rock",
+        "release_date": "2012-11-19T12:00:00Z"
+      },
+      "genre_review_candidate": "Rock / Indie",
+      "album": "Rebel Soul",
+      "year": 2012,
+      "year_type": "album_release",
+      "duration": 214
     },
     "awen-1516": {
       "genre": "Pop",
@@ -24900,7 +25301,20 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/183506814?i=183507370",
+        "title": "Dear Life",
+        "artist": "Anthony Hamilton",
+        "genre_name": "Soundtrack",
+        "release_date": "2006-08-06T12:00:00Z"
+      },
+      "genre_review_candidate": "Classical / Cinematic",
+      "album": "Step Up (Original Soundtrack)",
+      "year": 2006,
+      "year_type": "album_release",
+      "duration": 254
     },
     "awen-1453": {
       "genre": "R&B / Soul",
@@ -24940,7 +25354,19 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1077443404?i=1077443793",
+        "title": "Love + War",
+        "artist": "Kwabs",
+        "genre_name": "Alternative",
+        "release_date": "2015-09-11T07:00:00Z"
+      },
+      "album": "Love + War",
+      "year": 2015,
+      "year_type": "album_release",
+      "duration": 254
     },
     "awen-1514": {
       "genre": "R&B / Soul",
@@ -25040,7 +25466,20 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1199639601?i=1199641872",
+        "title": "Back It Up",
+        "artist": "THEY.",
+        "genre_name": "Hip-Hop/Rap",
+        "release_date": "2017-02-24T08:00:00Z"
+      },
+      "genre_review_candidate": "Hip-Hop / Rap",
+      "album": "Nü Religion: Hyena",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 226
     },
     "awen-1595": {
       "genre": "R&B / Soul",
@@ -25060,7 +25499,20 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1233476084?i=1233476099",
+        "title": "Keep Me Watching",
+        "artist": "Jason Walker",
+        "genre_name": "Pop",
+        "release_date": "2013-05-28T12:00:00Z"
+      },
+      "genre_review_candidate": "Pop",
+      "album": "Keep Me Watching",
+      "year": 2013,
+      "year_type": "album_release",
+      "duration": 215
     },
     "awen-1603": {
       "genre": "R&B / Soul",
@@ -25706,7 +26158,20 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/691961375?i=691961385",
+        "title": "Until We Bleed (feat. Lykke Li)",
+        "artist": "Kleerup",
+        "genre_name": "Pop",
+        "release_date": "2008-05-19T07:00:00Z"
+      },
+      "genre_review_candidate": "Pop",
+      "album": "Kleerup",
+      "year": 2008,
+      "year_type": "album_release",
+      "duration": 264
     },
     "awen-1652": {
       "genre": "House",
@@ -25833,7 +26298,7 @@
       ],
       "curation_method": "large_batch_exact_release_followup_2026-11-22",
       "curation_confidence": "high",
-      "review_needed": false,
+      "review_needed": true,
       "genre_evidence_url": "https://music.apple.com/us/album/the-warning/1250994586",
       "genre_evidence": "Apple Music Hot Chip The Warning contains Over and Over; album genre Electronic, not primarily Funk/Disco",
       "genre_source": "Apple Music original single or album with editorial genre evidence",
@@ -25843,7 +26308,8 @@
         "check_type": "external_catalog_match",
         "source_level": "track_or_album",
         "action": "none"
-      }
+      },
+      "genre_review_candidate": "Funk / Disco"
     },
     "awen-1901": {
       "genre": "House",
@@ -26263,7 +26729,20 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1463400556?i=1463400759",
+        "title": "Empty Note",
+        "artist": "Ghostly Kisses",
+        "genre_name": "Pop",
+        "release_date": "2017-03-24T12:00:00Z"
+      },
+      "genre_review_candidate": "Pop",
+      "album": "What You See - EP",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 228
     },
     "awen-1559": {
       "genre": "Folk / Ethno / World",
@@ -26283,7 +26762,20 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1250655119?i=1250655124",
+        "title": "Do You Rise",
+        "artist": "Ian Randall Thornton",
+        "genre_name": "Indie Rock",
+        "release_date": "2017-08-25T12:00:00Z"
+      },
+      "genre_review_candidate": "Rock / Indie",
+      "album": "Lineage",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 232
     },
     "awen-1560": {
       "genre": "Folk / Ethno / World",
@@ -26800,7 +27292,19 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1125132613?i=1125132871",
+        "title": "4Never",
+        "artist": "Cray",
+        "genre_name": "Electronic",
+        "release_date": "2016-06-13T12:00:00Z"
+      },
+      "album": "4Never - Single",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 195
     },
     "awen-1525": {
       "genre": "Bass Music / EDM",
@@ -26860,7 +27364,19 @@
         "version_sensitive": true,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1631899362?i=1631899363",
+        "title": "Honest To Gød (feat. Charity)",
+        "artist": "AWAY",
+        "genre_name": "Dance",
+        "release_date": "2017-10-31T12:00:00Z"
+      },
+      "album": "Honest To Gød (feat. Charity) - Single",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 220
     },
     "awen-1657": {
       "genre": "Bass Music / EDM",
@@ -31969,7 +32485,19 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1445880357?i=1445880729",
+        "title": "Don't Shy From the Light",
+        "artist": "Neulore",
+        "genre_name": "Alternative",
+        "release_date": "2014-09-09T12:00:00Z"
+      },
+      "album": "Animal Evolve",
+      "year": 2014,
+      "year_type": "album_release",
+      "duration": 270
     },
     "awen-1414": {
       "genre": "House",
@@ -32029,7 +32557,19 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1830068712?i=1830068942",
+        "title": "When Does It Get Easier",
+        "artist": "Dave Thomas Junior",
+        "genre_name": "Singer/Songwriter",
+        "release_date": "2017-09-18T12:00:00Z"
+      },
+      "album": "Echo",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 228
     },
     "awen-1454": {
       "genre": "R&B / Soul",
@@ -32049,7 +32589,19 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1320327953?i=1320327969",
+        "title": "Over U",
+        "artist": "Stwo",
+        "genre_name": "Dance",
+        "release_date": "2017-12-08T12:00:00Z"
+      },
+      "album": "Over U - Single",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 230
     },
     "awen-1470": {
       "genre": "Pop",
@@ -32149,7 +32701,19 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1601268227?i=1601268228",
+        "title": "Mazes In the Sky",
+        "artist": "Galapaghost",
+        "genre_name": "Folk",
+        "release_date": "2016-01-09T12:00:00Z"
+      },
+      "album": "I Never Arrived",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 205
     },
     "awen-1569": {
       "genre": "R&B / Soul",
@@ -32169,7 +32733,20 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1147252993?i=1147253007",
+        "title": "Another Man Done Gone",
+        "artist": "SOULS",
+        "genre_name": "Rock",
+        "release_date": "2016-10-14T12:00:00Z"
+      },
+      "genre_review_candidate": "Rock / Indie",
+      "album": "Release",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 164
     },
     "awen-1570": {
       "genre": "Folk / Ethno / World",
@@ -32229,7 +32806,19 @@
         "version_sensitive": false,
         "source_level": "none",
         "action": "needs_exact_genre_or_audio_confirmation"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1168361237?i=1168361241",
+        "title": "Echo",
+        "artist": "Jason Walker",
+        "genre_name": "Pop",
+        "release_date": "2011-02-21T12:00:00Z"
+      },
+      "album": "Midnight Starlight",
+      "year": 2011,
+      "year_type": "album_release",
+      "duration": 213
     },
     "awen-1610": {
       "genre": "Pop",
@@ -35128,7 +35717,19 @@
         "checked_on": "2026-11-22",
         "check_type": "metadata_completeness_audit",
         "action": "locate_exact_release_or_audio"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1715830274?i=1715830431",
+        "title": "Nothing",
+        "artist": "Alivvve",
+        "genre_name": "Electronic",
+        "release_date": "2017-12-16T12:00:00Z"
+      },
+      "album": "Nothing - Single",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 213
     },
     "awen-1494": {
       "review_needed": true,
@@ -35206,7 +35807,20 @@
         "checked_on": "2026-11-22",
         "check_type": "metadata_completeness_audit",
         "action": "locate_exact_release_or_audio"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1731612701?i=1731612703",
+        "title": "Made It Fly",
+        "artist": "Cookhouse",
+        "genre_name": "Pop",
+        "release_date": "2017-06-17T12:00:00Z"
+      },
+      "genre": "Pop",
+      "album": "Love / Lust - EP",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 190
     },
     "awen-1600": {
       "review_needed": true,
@@ -35245,7 +35859,19 @@
         "checked_on": "2026-11-22",
         "check_type": "metadata_completeness_audit",
         "action": "locate_exact_release_or_audio"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1299849301?i=1299849612",
+        "title": "Night Walking (feat. Sound Casino)",
+        "artist": "Skinny Dipp",
+        "genre_name": "Dance",
+        "release_date": "2017-10-24T12:00:00Z"
+      },
+      "album": "Night Walking (feat. Sound Casino) - Single",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 211
     },
     "awen-1613": {
       "review_needed": true,
@@ -35932,6 +36558,40 @@
         "check_type": "metadata_completeness_audit",
         "action": "locate_exact_release_or_audio"
       }
+    },
+    "awen-1440": {
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1861429577?i=1861429579",
+        "title": "Call me",
+        "artist": "90sFlav",
+        "genre_name": "Hip-Hop/Rap",
+        "release_date": "2018-02-09T12:00:00Z"
+      },
+      "genre": "Hip-Hop / Rap",
+      "genre_evidence": "itunes_exact",
+      "curation_confidence": "verified_broad_genre",
+      "album": "Collection",
+      "year": 2018,
+      "year_type": "album_release",
+      "duration": 126
+    },
+    "awen-1447": {
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1442987756?i=1442987949",
+        "title": "Wish You Well",
+        "artist": "Amir Obe",
+        "genre_name": "Hip-Hop/Rap",
+        "release_date": "2017-03-09T12:00:00Z"
+      },
+      "genre": "Hip-Hop / Rap",
+      "genre_evidence": "itunes_exact",
+      "curation_confidence": "verified_broad_genre",
+      "album": "None of the Clocks Work",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 193
     }
   }
 }
