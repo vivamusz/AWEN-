@@ -18719,6 +18719,112 @@
       "genre_evidence_url": "https://www.qobuz.com/ie-en/album/the-baddest-k-da-i-dle-wolftyla-feat-bea-miller-league-of-legends/jy3yc6ny9bx7b",
       "genre_evidence": "track_or_release_metadata",
       "genre_source": "Поиск конкретной записи и жанровых метаданных"
+    },
+    "awen-252": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.qobuz.com/se-en/album/joli-bebe-naza-niska/x249ytpmnppgc",
+      "genre_evidence": "Qobuz exact Naza & Niska single: Hip-Hop/Rap",
+      "genre_source": "Sony Music / AllMusic / Qobuz / Last.fm / Beatport / Bandcamp / label"
+    },
+    "awen-265": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Neo-Classical"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "genre_evidence_url": "https://boomkat.com/products/some-kind-of-peace",
+      "genre_evidence": "Boomkat album Modern Classical/Ambient; Apple Music Classical Crossover. This row is album, not individual song",
+      "genre_source": "Sony Music / AllMusic / Qobuz / Last.fm / Beatport / Bandcamp / label"
+    },
+    "awen-316": {
+      "genre": "Latin / Brazilian Club",
+      "subgenres": [
+        "Baile Funk"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "genre_evidence_url": "https://shorefire.com/releases/entry/sango-da-rocinha-4-soulection-records",
+      "genre_evidence": "Record label press release: album centered on Rio Funk Carioca / Baile Funk, row denotes album",
+      "genre_source": "Sony Music / AllMusic / Qobuz / Last.fm / Beatport / Bandcamp / label"
+    },
+    "awen-338": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Drill"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.sonymusic.co.uk/headie-one-joins-forces-with-aj-tracey-stormzy-for-aint-it-different/",
+      "genre_evidence": "Sony Music official single release identifies UK drill artist and specific song; RA review supports drill",
+      "genre_source": "Sony Music / AllMusic / Qobuz / Last.fm / Beatport / Bandcamp / label"
+    },
+    "awen-362": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Drill"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.hotnewhiphop.com/233046-pop-smoke-and-a-boogie-wit-da-hoodie-drop-off-foreigner-new-song",
+      "genre_evidence": "Exact song review describes a drill beat; corroborated on Pop Smoke Meet the Woo 2",
+      "genre_source": "Sony Music / AllMusic / Qobuz / Last.fm / Beatport / Bandcamp / label"
+    },
+    "awen-135": {
+      "genre": "House",
+      "subgenres": [
+        "Melodic House & Techno"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://elektrobeats.org/114304",
+      "genre_evidence": "Fever EP explicitly lists Aera Future Holds with Melodic House & Techno; Beatport confirms exact release",
+      "genre_source": "Sony Music / AllMusic / Qobuz / Last.fm / Beatport / Bandcamp / label"
+    },
+    "awen-151": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Hard Techno"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/artist/calvin-logue/287797/tracks",
+      "genre_evidence": "Beatport Calvin Logue because of you listed under Techno Peak Time/Driving; AWEN Hard Techno is approximate",
+      "genre_source": "Sony Music / AllMusic / Qobuz / Last.fm / Beatport / Bandcamp / label"
+    },
+    "awen-263": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.allmusic.com/album/r681098",
+      "genre_evidence": "AllMusic album Confessions contemporary R&B; source row may refer to album or title song",
+      "genre_source": "Sony Music / AllMusic / Qobuz / Last.fm / Beatport / Bandcamp / label"
+    },
+    "awen-186": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Межкаталожная проверка 2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://einmusika.bandcamp.com/track/d-formation-masella-ahura-mazda-original-mix",
+      "genre_evidence": "Artist label Bandcamp exact title Ahura Mazda, source title shortened Mazda; subgenre inferred from label, verify",
+      "genre_source": "Sony Music / AllMusic / Qobuz / Last.fm / Beatport / Bandcamp / label"
     }
   }
 }
