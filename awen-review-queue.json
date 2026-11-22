@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T23:22:57+00:00",
+  "generated_at_utc": "2026-11-22T02:14:10+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2075,
-    "needs_genre": 833,
+    "needs_genre": 799,
     "possible_import_errors": 16,
     "duplicate_groups": 10,
     "tracks_in_duplicate_groups": 30,
-    "genre_conflicts": 19,
+    "genre_conflicts": 23,
     "cross_source_conflicts": 0
   },
   "items": [
@@ -3677,15 +3677,6 @@
       ]
     },
     {
-      "id": "awen-1127",
-      "artist": "KAWALA",
-      "title": "Do It Like You Do",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1657741031?i=1657741033"
-    },
-    {
       "id": "awen-1131",
       "artist": "Bradley, Sanchez, Parker",
       "title": "Tell me",
@@ -3743,14 +3734,6 @@
       ]
     },
     {
-      "id": "awen-1152",
-      "artist": "Reo Cragun",
-      "title": "In Too Deep",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1155",
       "artist": "Kasper Bjorke",
       "title": "Heaven (Nickolas Jaar remix)",
@@ -3791,14 +3774,6 @@
       ]
     },
     {
-      "id": "awen-1167",
-      "artist": "Joey Bada$$",
-      "title": "Devastated",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1170",
       "artist": "Laguna",
       "title": "You (ft.Maye)",
@@ -3807,25 +3782,9 @@
       ]
     },
     {
-      "id": "awen-1174",
-      "artist": "5 Seconds Of Summer",
-      "title": "YOUNGBLOOD",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1176",
       "artist": "AUEN",
       "title": "хорошая музыка на любой вкус и время года, обитающее в вашей душе.",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1179",
-      "artist": "Limp Bizkit",
-      "title": "Rollin' (Air Raid Vehicle)",
       "issues": [
         "genre_not_identified"
       ]
@@ -3860,15 +3819,8 @@
       "title": "Hands Up (feat. DNCE)",
       "issues": [
         "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1188",
-      "artist": "Big Shaq",
-      "title": "Man's Not Hot",
-      "issues": [
-        "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1364954519?i=1364954750"
     },
     {
       "id": "awen-1189",
@@ -3887,25 +3839,9 @@
       ]
     },
     {
-      "id": "awen-1192",
-      "artist": "Ace Hood",
-      "title": "3 Bless",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1194",
       "artist": "Jassle",
       "title": "MiniMum (FSR)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1201",
-      "artist": "Famous Dex",
-      "title": "Japan",
       "issues": [
         "genre_not_identified"
       ]
@@ -3956,7 +3892,8 @@
       "title": "mr. sandman",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1606586923?i=1606586924"
     },
     {
       "id": "awen-1219",
@@ -3983,14 +3920,6 @@
       ]
     },
     {
-      "id": "awen-1228",
-      "artist": "Nightcall",
-      "title": "Let You Go",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1229",
       "artist": "30 Seconds to Mars",
       "title": "One Track Mind (feat. A$AP Rocky)",
@@ -4007,25 +3936,9 @@
       ]
     },
     {
-      "id": "awen-1236",
-      "artist": "Ryan Caraveo",
-      "title": "Yellow Lines",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1237",
       "artist": "Snø",
       "title": "M.I.A.",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1238",
-      "artist": "Josh Pan",
-      "title": "Imperfect (feat. Misogi)",
       "issues": [
         "genre_not_identified"
       ]
@@ -4036,7 +3949,8 @@
       "title": "Let Me Touch Your Fire",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1073292503?i=1073292512"
     },
     {
       "id": "awen-1243",
@@ -4063,14 +3977,6 @@
       ]
     },
     {
-      "id": "awen-1247",
-      "artist": "GASHI",
-      "title": "24 Hours",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1248",
       "artist": "Deeperise feat. Jabbar",
       "title": "Move On",
@@ -4084,7 +3990,8 @@
       "title": "Breathe",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1309218590?i=1309219029"
     },
     {
       "id": "awen-1252",
@@ -4103,20 +4010,13 @@
       ]
     },
     {
-      "id": "awen-1254",
-      "artist": "Beatrich",
-      "title": "About",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1255",
       "artist": "Dawn Golden",
       "title": "Last Train",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1683440704?i=1683441246"
     },
     {
       "id": "awen-1256",
@@ -4167,14 +4067,6 @@
       ]
     },
     {
-      "id": "awen-1268",
-      "artist": "Tom Rosenthal",
-      "title": "Go solo",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1273",
       "artist": "RAYE, Mabel, Stefflon Don",
       "title": "Cigarette",
@@ -4191,25 +4083,9 @@
       ]
     },
     {
-      "id": "awen-1276",
-      "artist": "Wyatt",
-      "title": "Attention",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1281",
       "artist": "ViLLΛGE",
       "title": "Wanna Tell You (Henry Krinkle Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1282",
-      "artist": "Oklou",
-      "title": "They Can't Hear Me",
       "issues": [
         "genre_not_identified"
       ]
@@ -4231,20 +4107,13 @@
       ]
     },
     {
-      "id": "awen-1286",
-      "artist": "Rita Ora",
-      "title": "Anywhere",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1288",
       "artist": "Maya Jane Coles",
       "title": "Let You Go",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1439814082?i=1439814094"
     },
     {
       "id": "awen-1295",
@@ -4253,6 +4122,17 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-1296",
+      "artist": "Lifehouse",
+      "title": "Everything",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Rock / Indie",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/1440895067?i=1440895081"
     },
     {
       "id": "awen-1297",
@@ -4266,14 +4146,6 @@
       "id": "awen-1298",
       "artist": "uknwun",
       "title": "memory",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1301",
-      "artist": "Nick Hakim",
-      "title": "I Don't Know",
       "issues": [
         "genre_not_identified"
       ]
@@ -4307,13 +4179,16 @@
       "artist": "Whethan & Dua Lipa",
       "title": "High",
       "issues": [
-        "possible_duplicate"
+        "possible_duplicate",
+        "genre_metadata_conflict"
       ],
       "duplicate_ids": [
         "awen-515",
         "awen-1308"
       ],
-      "proposed_genre": "Bass Music / EDM"
+      "proposed_genre": "Bass Music / EDM",
+      "genre_conflict": "Classical / Cinematic",
+      "source_url": "https://music.apple.com/kz/album/1356298963?i=1356299126"
     },
     {
       "id": "awen-1312",
@@ -4337,7 +4212,8 @@
       "title": "Broken",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1502651347?i=1502651710"
     },
     {
       "id": "awen-1317",
@@ -4353,7 +4229,8 @@
       "title": "I Remember",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1166318775?i=1166318789"
     },
     {
       "id": "awen-1324",
@@ -4372,33 +4249,9 @@
       ]
     },
     {
-      "id": "awen-1327",
-      "artist": "Tom Francis",
-      "title": "Rise",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1328",
-      "artist": "Mazzy Star",
-      "title": "Five String Serenade",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1335",
       "artist": "MARUV, Boosin",
       "title": "Drunk Groove",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1337",
-      "artist": "Ricky Nelson",
-      "title": "Lonesome Town",
       "issues": [
         "genre_not_identified"
       ]
@@ -4436,25 +4289,9 @@
       ]
     },
     {
-      "id": "awen-1345",
-      "artist": "Mario Joy",
-      "title": "I Miss You",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1348",
       "artist": "graves",
       "title": "Blame (feat. LocateEmilio)(Original Mix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1349",
-      "artist": "sobhhï",
-      "title": "the distance",
       "issues": [
         "genre_not_identified"
       ]
@@ -4465,7 +4302,8 @@
       "title": "Invisible",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1622737120?i=1622737346"
     },
     {
       "id": "awen-1353",
@@ -4532,12 +4370,35 @@
       ]
     },
     {
+      "id": "awen-1368",
+      "artist": "Vacant",
+      "title": "Origins",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Drum & Bass / UK Bass",
+      "genre_conflict": "Chill / Lo-Fi / Ambient",
+      "source_url": "https://music.apple.com/kz/album/1335311669?i=1335311674"
+    },
+    {
+      "id": "awen-1369",
+      "artist": "Vacant",
+      "title": "Amberlight",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Drum & Bass / UK Bass",
+      "genre_conflict": "Chill / Lo-Fi / Ambient",
+      "source_url": "https://music.apple.com/kz/album/1335311669?i=1335311678"
+    },
+    {
       "id": "awen-1370",
       "artist": "Dimatis",
       "title": "Emotional Tourism",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1176140746?i=1176140851"
     },
     {
       "id": "awen-1372",
@@ -4546,14 +4407,6 @@
       "issues": [
         "genre_not_identified",
         "possible_non_music_text"
-      ]
-    },
-    {
-      "id": "awen-1375",
-      "artist": "Juicy J",
-      "title": "Too Many (Feat. Wiz Khalifa & Denzel Curry)",
-      "issues": [
-        "genre_not_identified"
       ]
     },
     {
@@ -4573,41 +4426,18 @@
       ]
     },
     {
-      "id": "awen-1380",
-      "artist": "Graves",
-      "title": "See The Whole World",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1386",
       "artist": "Not Your Dope",
       "title": "What You Do to Me (feat. Oly)",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1829937578?i=1829937708"
     },
     {
       "id": "awen-1388",
       "artist": "EP",
       "title": "TO IMAGINE",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1391",
-      "artist": "Nickelback",
-      "title": "Savin' Me",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1392",
-      "artist": "Kareem Kalokoh",
-      "title": "Whip Game",
       "issues": [
         "genre_not_identified"
       ]
@@ -4642,15 +4472,8 @@
       "title": "I Think You Were In My Profile Picture Once",
       "issues": [
         "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1403",
-      "artist": "Tove Styrke",
-      "title": "liability (demo)",
-      "issues": [
-        "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1635240393?i=1635240400"
     },
     {
       "id": "awen-1404",
@@ -4672,14 +4495,6 @@
       "id": "awen-1406",
       "artist": "Izzamuzzik",
       "title": "adventure",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1407",
-      "artist": "All The Luck In The World",
-      "title": "Golden October",
       "issues": [
         "genre_not_identified"
       ]
@@ -4773,14 +4588,6 @@
       ]
     },
     {
-      "id": "awen-1425",
-      "artist": "Jarryd James",
-      "title": "Do You Remember",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1427",
       "artist": "Nyanners",
       "title": "[COVER] Gucci Gang",
@@ -4837,14 +4644,6 @@
       ]
     },
     {
-      "id": "awen-1440",
-      "artist": "90sFlav",
-      "title": "Ｃａｌｌ ｍｅ",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1441",
       "artist": "Chiefs x Nick Acquroff",
       "title": "Inside Out (Stélouse & Louis The Child Remix)",
@@ -4853,33 +4652,9 @@
       ]
     },
     {
-      "id": "awen-1442",
-      "artist": "Frank Sinatra",
-      "title": "Let It Snow",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1443",
-      "artist": "TYSM",
-      "title": "10",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1446",
       "artist": "=7.13= The Wealthy West feat. Valen",
       "title": "The Highest Tide",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1447",
-      "artist": "Amir Obé",
-      "title": "WISH YOU WELL",
       "issues": [
         "genre_not_identified"
       ]
