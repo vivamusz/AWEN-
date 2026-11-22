@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T03:20:31+00:00",
+  "generated_at_utc": "2026-11-22T03:22:24+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 974,
+    "needs_genre": 965,
     "possible_import_errors": 16,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
@@ -601,14 +601,6 @@
       ]
     },
     {
-      "id": "awen-135",
-      "artist": "Aera",
-      "title": "Future Holds [EXIT STRATEGY]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-136",
       "artist": "ID",
       "title": "ID",
@@ -706,14 +698,6 @@
         "awen-148",
         "awen-153",
         "awen-183"
-      ]
-    },
-    {
-      "id": "awen-151",
-      "artist": "Calvin Logue",
-      "title": "Because Of You [STRESS]",
-      "issues": [
-        "genre_not_identified"
       ]
     },
     {
@@ -859,14 +843,6 @@
       "proposed_genre": "Techno / Trance",
       "genre_conflict": "House",
       "source_url": "https://music.apple.com/kz/album/1608435834?i=1608435999"
-    },
-    {
-      "id": "awen-186",
-      "artist": "D-Formation & Masella Ahura",
-      "title": "Mazda",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-194",
@@ -1029,14 +1005,6 @@
       ]
     },
     {
-      "id": "awen-252",
-      "artist": "Naza, Niska",
-      "title": "Joli bébé",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-256",
       "artist": "podval capella",
       "title": "Bella",
@@ -1049,14 +1017,6 @@
       "id": "awen-257",
       "artist": "Rud Wolf",
       "title": "Extra #1",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-263",
-      "artist": "Usher",
-      "title": "Confessions",
       "issues": [
         "genre_not_identified"
       ]
@@ -1079,13 +1039,13 @@
       "artist": "Ólafur Arnalds",
       "title": "some kind of peace (2020) [LP]",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-265",
         "awen-287"
-      ]
+      ],
+      "proposed_genre": "Classical / Cinematic"
     },
     {
       "id": "awen-271",
@@ -1173,14 +1133,6 @@
       ]
     },
     {
-      "id": "awen-316",
-      "artist": "Sango",
-      "title": "Da Rocinha 4",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-317",
       "artist": "— Что ты здесь делаешь?",
       "title": "спросил Медвежoнок.",
@@ -1263,14 +1215,6 @@
       "id": "awen-330",
       "artist": "V $ X V PRiNCE x AZEER",
       "title": "Очередная (Prod. by Chingson)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-338",
-      "artist": "Headie One feat. AJ Tracey, Stormzy",
-      "title": "Ain't It Different",
       "issues": [
         "genre_not_identified"
       ]
@@ -1380,14 +1324,6 @@
       "id": "awen-360",
       "artist": "BiBi",
       "title": "Sola",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-362",
-      "artist": "Pop Smoke feat. A Boogie wit da Hoodie",
-      "title": "Foreigner",
       "issues": [
         "genre_not_identified"
       ]
