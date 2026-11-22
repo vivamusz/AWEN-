@@ -340,6 +340,7 @@
             t.awen_quality={
               genre_confidence: typeof patch.curation_confidence==='string'?patch.curation_confidence:'none',
               genre_review_needed: Boolean(patch.review_needed),
+              auto_evidence_validated: patch.auto_evidence_validated===true,
               editorial_energy: patch.energy!==undefined&&patch.energy!==null&&Number.isFinite(Number(patch.energy))
                 ? Math.max(1,Math.min(5,Number(patch.energy))) : null
             };
@@ -503,11 +504,13 @@
           }
           console.info('AWEN: подборки',ranked?'Algotorial v2':'редакторский резерв',Object.fromEntries(lists.map(p=>[p.id,(pool[p.id]?.track_ids||[]).length])));
         }else{
-          for(const t of found)t.playlists=[];
+          // Network failure: keep curator assignments already loaded above,
+          // never fall back to the old broad genre heuristics.
+          console.warn('AWEN: файл подборок недоступен, использованы редакторские метки каталога');
         }
       }catch(err){
-        for(const t of found)t.playlists=[];
-        console.warn('AWEN: подборки временно недоступны',err);
+        // Preserve curator memberships if the external playlist manifest fails.
+        console.warn('AWEN: подборки временно недоступны; редакторские назначения сохранены',err);
       }
       // Keep questionable VK post fragments in the source JSON and curator for review,
       // but do not present them to listeners as actual music recordings.
