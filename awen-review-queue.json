@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T07:33:36+00:00",
+  "generated_at_utc": "2026-11-22T10:16:44+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 245,
+    "needs_genre": 240,
     "possible_import_errors": 58,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
-    "genre_conflicts": 25,
+    "genre_conflicts": 38,
     "cross_source_conflicts": 0
   },
   "items": [
@@ -717,6 +717,17 @@
       ],
       "proposed_genre": "Phonk",
       "genre_conflict": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/301394087",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1613508655?i=1613508819"
     },
     {
@@ -2141,6 +2152,16 @@
       ]
     },
     {
+      "id": "awen-1266",
+      "artist": "Iron & Wine",
+      "title": "Sodom, South Georgia",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Folk / Ethno / World",
+      "genre_conflict": "Rock / Indie"
+    },
+    {
       "id": "awen-1277",
       "artist": "A$AP Ferg feat. Big Sean",
       "title": "World Is Mine",
@@ -2275,6 +2296,17 @@
       "proposed_genre": "Hip-Hop / Rap"
     },
     {
+      "id": "awen-1408",
+      "artist": "Anthony Hamilton",
+      "title": "Dear Life",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "R&B / Soul",
+      "genre_conflict": "Classical / Cinematic",
+      "source_url": "https://music.apple.com/kz/album/183506814?i=183507370"
+    },
+    {
       "id": "awen-1409",
       "artist": "Elvis Presley",
       "title": "Heartbreak Hotel (из м/ф Лило и Стич )))",
@@ -2322,6 +2354,17 @@
       ]
     },
     {
+      "id": "awen-1424",
+      "artist": "Ghostly Kisses",
+      "title": "Empty Note",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Folk / Ethno / World",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/1463400556?i=1463400759"
+    },
+    {
       "id": "awen-1437",
       "artist": "XXXtentacion",
       "title": "Jocelyn Flores",
@@ -2343,12 +2386,45 @@
       ]
     },
     {
+      "id": "awen-1450",
+      "artist": "Kid Rock",
+      "title": "Happy New Year",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Rock / Indie",
+      "source_url": "https://music.apple.com/kz/album/573424905?i=573424912"
+    },
+    {
+      "id": "awen-1460",
+      "artist": "John Legend",
+      "title": "Love Me Now",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "R&B / Soul",
+      "source_url": "https://music.apple.com/kz/album/1170697676?i=1170698158"
+    },
+    {
       "id": "awen-1480",
       "artist": "Alivvve",
       "title": "Nothing",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1715830274?i=1715830431"
+    },
+    {
+      "id": "awen-1489",
+      "artist": "The Civil Wars",
+      "title": "Poison & Wine",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Folk / Ethno / World",
+      "genre_conflict": "Rock / Indie"
     },
     {
       "id": "awen-1494",
@@ -2357,6 +2433,17 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-1501",
+      "artist": "Logic & Rag'n'Bone Man",
+      "title": "Broken People",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Hip-Hop / Rap",
+      "source_url": "https://music.apple.com/kz/album/1308316758?i=1308317601"
     },
     {
       "id": "awen-1506",
@@ -2383,6 +2470,28 @@
       ]
     },
     {
+      "id": "awen-1559",
+      "artist": "Ian Randall Thornton",
+      "title": "Do You Rise",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Folk / Ethno / World",
+      "genre_conflict": "Rock / Indie",
+      "source_url": "https://music.apple.com/kz/album/1250655119?i=1250655124"
+    },
+    {
+      "id": "awen-1569",
+      "artist": "SOULS",
+      "title": "Another Man Done Gone",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "R&B / Soul",
+      "genre_conflict": "Rock / Indie",
+      "source_url": "https://music.apple.com/kz/album/1147252993?i=1147253007"
+    },
+    {
       "id": "awen-1572",
       "artist": "Ethansroom",
       "title": "Sadie",
@@ -2391,12 +2500,26 @@
       ]
     },
     {
-      "id": "awen-1582",
-      "artist": "Cookhouse",
-      "title": "Made It Fly",
+      "id": "awen-1584",
+      "artist": "THEY",
+      "title": "Back It Up",
       "issues": [
-        "genre_not_identified"
-      ]
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "R&B / Soul",
+      "genre_conflict": "Hip-Hop / Rap",
+      "source_url": "https://music.apple.com/kz/album/1199639601?i=1199641872"
+    },
+    {
+      "id": "awen-1586",
+      "artist": "Kleerup",
+      "title": "Until We Bleed (feat Lykke Li)",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "House",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/691961375?i=691961385"
     },
     {
       "id": "awen-1587",
@@ -2405,6 +2528,17 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-1595",
+      "artist": "Jason Walker",
+      "title": "Keep Me Watching",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "R&B / Soul",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/1233476084?i=1233476099"
     },
     {
       "id": "awen-1599",
@@ -2436,15 +2570,8 @@
       "title": "Night Walking (feat. Sound Casino)",
       "issues": [
         "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1613",
-      "artist": "Jvzel",
-      "title": "Tired Af",
-      "issues": [
-        "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1299849301?i=1299849612"
     },
     {
       "id": "awen-1628",
@@ -2690,14 +2817,6 @@
       "proposed_genre": "Bass Music / EDM"
     },
     {
-      "id": "awen-1786",
-      "artist": "17 Memphis",
-      "title": "Honey Jack",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1800",
       "artist": "(25Hz) TeeFlii Feat. 2 Chainz",
       "title": "24 Hours (Screwed by Danonino)",
@@ -2802,6 +2921,16 @@
       "issues": [
         "genre_not_identified"
       ]
+    },
+    {
+      "id": "awen-1842",
+      "artist": "Hot Chip",
+      "title": "Over and Over",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Electronica / Experimental",
+      "genre_conflict": "Funk / Disco"
     },
     {
       "id": "awen-1844",
@@ -3050,14 +3179,6 @@
       "proposed_genre": "Pop"
     },
     {
-      "id": "awen-1958",
-      "artist": "Scavenger Hunt",
-      "title": "Wildfire (Bee's Knees Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1976",
       "artist": "Рысбек Аташ",
       "title": "Умыт барин",
@@ -3090,14 +3211,6 @@
       "id": "awen-1991",
       "artist": "EA7",
       "title": "Kanye West x The Weeknd - FML (oversame edit)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1993",
-      "artist": "podval capella",
-      "title": "whales",
       "issues": [
         "genre_not_identified"
       ]

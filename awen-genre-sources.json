@@ -1125,6 +1125,166 @@
           ]
         }
       ]
+    },
+    "awen-1613": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/756355751",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-1786": {
+      "genre": "Country",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Country",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/43609431",
+          "raw_tags": [
+            "Country"
+          ]
+        }
+      ]
+    },
+    "awen-1958": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/10480946",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-1993": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/71577302",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-89": {
+      "genre": "Pop",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/468380155",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ]
+    },
+    "awen-90": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/469682765",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-155": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/459343975",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-166": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/161087882",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-171": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/374808747",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
+    },
+    "awen-173": {
+      "genre": "Hip-Hop / Rap",
+      "status": "album_hint",
+      "review_needed": true,
+      "evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/301394087",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
     }
   },
   "provider": "Deezer album genres; Last.fm track tags; MusicBrainz recording tags"
