@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T19:45:37+00:00",
+  "generated_at_utc": "2026-11-22T23:35:20+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2369,
@@ -8,7 +8,7 @@
     "possible_import_errors": 59,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
-    "genre_conflicts": 48,
+    "genre_conflicts": 51,
     "cross_source_conflicts": 0
   },
   "items": [
@@ -1216,6 +1216,17 @@
       ],
       "proposed_genre": "Chill / Lo-Fi / Ambient",
       "genre_conflict": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/108622112",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1477644078?i=1477644079"
     },
     {
@@ -1242,7 +1253,18 @@
         "awen-517",
         "awen-543"
       ],
-      "proposed_genre": "Hip-Hop / Rap"
+      "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/88631082",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
     },
     {
       "id": "awen-528",
@@ -1411,6 +1433,17 @@
       ],
       "proposed_genre": "Hip-Hop / Rap",
       "genre_conflict": "R&B / Soul",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/13833514",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1443125785?i=1443126796"
     },
     {
@@ -3143,7 +3176,8 @@
         "awen-396",
         "awen-1867"
       ],
-      "proposed_genre": "Classical / Cinematic"
+      "proposed_genre": "Classical / Cinematic",
+      "source_url": "https://music.apple.com/kz/album/654221871?i=654222190"
     },
     {
       "id": "awen-1875",
@@ -3191,6 +3225,17 @@
         "awen-1891"
       ],
       "proposed_genre": "R&B / Soul"
+    },
+    {
+      "id": "awen-1894",
+      "artist": "Sia",
+      "title": "To Be Human (feat. Labrinth)",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Classical / Cinematic",
+      "source_url": "https://music.apple.com/kz/album/1454371624?i=1454371956"
     },
     {
       "id": "awen-1896",
@@ -3376,6 +3421,17 @@
       ]
     },
     {
+      "id": "awen-2000",
+      "artist": "Kygo & Ellie Goulding",
+      "title": "First Time",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "House",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/1229622686?i=1229622695"
+    },
+    {
       "id": "awen-2018",
       "artist": "vintage.beat",
       "title": "становимся дальше",
@@ -3405,7 +3461,8 @@
       "title": "Requiem",
       "issues": [
         "genre_not_identified"
-      ]
+      ],
+      "source_url": "https://music.apple.com/kz/album/1222919156?i=1222919292"
     },
     {
       "id": "awen-2033",
@@ -3476,6 +3533,17 @@
         "genre_not_identified",
         "possible_non_music_text"
       ]
+    },
+    {
+      "id": "awen-2076",
+      "artist": "j^p^n",
+      "title": "bloom. []",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Chill / Lo-Fi / Ambient",
+      "genre_conflict": "Hip-Hop / Rap",
+      "source_url": "https://music.apple.com/kz/album/1569339505?i=1569340411"
     },
     {
       "id": "awen-2077",
