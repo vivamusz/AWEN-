@@ -2,7 +2,7 @@
   "schema_version": 1,
   "basis": "awen-catalog.json",
   "method": "conservative title/style and artist genre hints; not listening-based verification",
-  "review_notice": "Подтверждения музыкальных каталогов сохраняются со ссылками; широкие жанры релизов и неоднозначные мелодик-хаус/техно поджанры требуют редакторской проверки.",
+  "review_notice": "Новые назначения с low — редакторские гипотезы, не считать проверенными. Сведения без точного релиза требуют дальнейшей сверки и не должны становиться источником достоверных жанровых утверждений.",
   "generated_at": "2026-11-22",
   "tracks": {
     "awen-2": {
@@ -1211,9 +1211,16 @@
     },
     "awen-243": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Art Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     },
     "awen-245": {
       "genre": "R&B / Soul",
@@ -1420,9 +1427,16 @@
     },
     "awen-283": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     },
     "awen-287": {
       "genre": "Classical / Cinematic",
@@ -1713,15 +1727,29 @@
     },
     "awen-329": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     },
     "awen-330": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     },
     "awen-331": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -1802,9 +1830,16 @@
     },
     "awen-347": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     },
     "awen-349": {
       "genre": "Hip-Hop / Rap",
@@ -1912,9 +1947,16 @@
     },
     "awen-367": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     },
     "awen-369": {
       "genre": "House",
@@ -1947,9 +1989,16 @@
     },
     "awen-375": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     },
     "awen-379": {
       "genre": "Hip-Hop / Rap",
@@ -1970,9 +2019,16 @@
     },
     "awen-384": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     },
     "awen-386": {
       "genre": "Pop",
@@ -2090,9 +2146,16 @@
     },
     "awen-407": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     },
     "awen-408": {
       "genre": "Pop",
@@ -17043,7 +17106,17 @@
       "album": "Can't Buy the Mood (Deluxe Edition)",
       "year": 2020,
       "year_type": "album_release",
-      "duration": 194
+      "duration": 194,
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     },
     "awen-416": {
       "verified_metadata": {
@@ -18871,6 +18944,1396 @@
       "genre_evidence_url": "https://membamusic.bandcamp.com/album/phase-ii",
       "genre_evidence": "Exact song on MEMBA artist Bandcamp EP; broad future-bass style tentative",
       "genre_source": "Обзор конкретного сингла, Bandcamp исполнителя или официальный клип"
+    },
+    "awen-83": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-100": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Traditional Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-163": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-177": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-201": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-231": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Traditional Folk"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-232": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-235": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-Fi Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-247": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-285": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-321": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-324": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-346": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-348": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-350": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-355": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Jazz Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-360": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-364": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-368": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-372": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-376": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillhop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-383": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-389": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-391": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-395": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-402": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-404": {
+      "genre": "House",
+      "subgenres": [
+        "Bass House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-412": {
+      "genre": "Synth / Retro Electronic",
+      "subgenres": [
+        "Darkwave"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Mareux",
+      "genre_evidence": "last.fm artist genre: darkwave / coldwave",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-417": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-434": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-435": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-444": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-462": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Soul"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/ru/music/Black%20Pumas/_/Colors",
+      "genre_evidence": "Last.fm exact Colors: soul",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-463": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-464": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-478": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Piano Solo"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-482": {
+      "genre": "Afro / Global Club",
+      "subgenres": [
+        "Dancehall"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-488": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/A%2BBoogie%2Bwit%2Bda%2BHoodie/_/Swervin%2B%28feat.%2B6ix9ine%29",
+      "genre_evidence": "Last.fm exact Swervin hip hop tag",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-491": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Classic Rock"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/AC%2FDC/_/Highway%2Bto%2BHell",
+      "genre_evidence": "Last.fm exact Highway to Hell: hard rock",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-497": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-498": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-500": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-514": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-517": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-520": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-527": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-529": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-532": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Avi%2BKaplan/_/Change%2Bon%2Bthe%2BRise",
+      "genre_evidence": "Last.fm exact song & folk/americana collections",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-538": {
+      "genre": "Jazz / Blues",
+      "subgenres": [
+        "Jazz Fusion"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Masego/_/Tadow",
+      "genre_evidence": "Last.fm exact Tadow: jazz and trap-house-jazz",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-542": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Classic Rock"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Queen%2B%26%2BDavid%2BBowie/Hot%2BSpace/Under%2BPressure",
+      "genre_evidence": "Last.fm exact Under Pressure: classic rock",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-545": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-Fi Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-547": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-575": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Jeremih",
+      "genre_evidence": "Last.fm Jeremih artist R&B and song Down On Me",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-577": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-578": {
+      "genre": "House",
+      "subgenres": [
+        "Progressive House"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Avicii/Bravo%2BThe%2BHits%2B2019/SOS",
+      "genre_evidence": "Last.fm SOS: dance",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-579": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-583": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-586": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Lauv",
+      "genre_evidence": "Last.fm artist listing includes i'm so tired...",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-590": {
+      "genre": "Latin / Brazilian Club",
+      "subgenres": [
+        "Latin Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-611": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-614": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-615": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Aaron%2BSmith",
+      "genre_evidence": "Last.fm Aaron Smith house and Dancin Krono remix",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-618": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-620": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-624": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-631": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-635": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-636": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-651": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-655": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-661": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Half%2BMoon%2BRun",
+      "genre_evidence": "Last.fm exact artist & song need it; subtype preliminary",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-663": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-665": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-669": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-672": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-Fi Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-676": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-677": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-679": {
+      "genre": "Pop",
+      "subgenres": [
+        "Electropop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-692": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-698": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-699": {
+      "genre": "Jazz / Blues",
+      "subgenres": [],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-706": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.allmusic.com/newreleases/all/20190726",
+      "genre_evidence": "AllMusic NF The Search: rap",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-712": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Kanye%2BWest%2Bfeat.%2BTy%2BDolla%2B%24ign/The%2BLife%2Bof%2BPablo/Real%2BFriends",
+      "genre_evidence": "Last.fm exact Real Friends hip-hop",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-714": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-724": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-726": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Contemporary R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-730": {
+      "genre": "House",
+      "subgenres": [
+        "Slap House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-737": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-738": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillout"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-740": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-742": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-747": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-748": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-761": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-762": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-771": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-780": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-783": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-787": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Moderat/III%2B%28Deluxe%2BEdition%29",
+      "genre_evidence": "Last.fm III album and Reminder tagged electronic",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-788": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-798": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-799": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-804": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-812": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-814": {
+      "genre": "House",
+      "subgenres": [
+        "Slap House"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Dynoro/In%2BMy%2BMind",
+      "genre_evidence": "Last.fm In My Mind slap house",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-817": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Folk Pop"
+      ],
+      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Zaz",
+      "genre_evidence": "Last.fm Zaz and Qué vendrá; chanson style; folk mapping provisional",
+      "genre_source": "Найденный источник жанра или артиста"
+    },
+    "awen-818": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-819": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-820": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-821": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-822": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-824": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-825": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-826": {
+      "genre": "Pop",
+      "subgenres": [
+        "Pop Rock"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-828": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
+    },
+    "awen-833": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Old School Hip-Hop"
+      ],
+      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
+      "genre_source": "Гипотеза редактора — не проверенный жанр"
     }
   }
 }
