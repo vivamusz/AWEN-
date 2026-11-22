@@ -1,50 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T02:43:36+00:00",
+  "generated_at_utc": "2026-11-22T03:08:12+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 1075,
+    "needs_genre": 1004,
     "possible_import_errors": 16,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
-    "genre_conflicts": 23,
+    "genre_conflicts": 25,
     "cross_source_conflicts": 0
   },
   "items": [
-    {
-      "id": "awen-7",
-      "artist": "Omido, Rick Jansen, Ordell",
-      "title": "Secrets",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
     {
       "id": "awen-8",
       "artist": "Lane 8",
       "title": "Fall 2017 Mixtape",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-8",
         "awen-10"
-      ]
+      ],
+      "proposed_genre": "House"
     },
     {
       "id": "awen-9",
       "artist": "SIENNA SPIRO",
       "title": "BUTTERFLY EFFECT",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-9",
         "awen-13"
-      ]
+      ],
+      "proposed_genre": "Pop"
     },
     {
       "id": "awen-10",
@@ -57,7 +49,7 @@
         "awen-8",
         "awen-10"
       ],
-      "proposed_genre": "House",
+      "proposed_genre": "Pop",
       "source_url": "https://soundcloud.com/lane8music/lane-8-fall-2017-mixtape"
     },
     {
@@ -97,7 +89,7 @@
         "awen-9",
         "awen-13"
       ],
-      "proposed_genre": "R&B / Soul",
+      "proposed_genre": "Classical / Cinematic",
       "external_genre_evidence": [
         {
           "genre": "Pop",
@@ -130,13 +122,13 @@
       "artist": "Moldex",
       "title": "eu tava aqui pensando",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-12",
         "awen-16"
-      ]
+      ],
+      "proposed_genre": "Chill / Lo-Fi / Ambient"
     },
     {
       "id": "awen-17",
@@ -160,25 +152,28 @@
       ]
     },
     {
-      "id": "awen-22",
-      "artist": "Joseph Angel",
-      "title": "American Funeral",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-23",
       "artist": "skeler",
       "title": "For You Pt. 1 & 2",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-23",
         "awen-29"
-      ]
+      ],
+      "proposed_genre": "Synth / Retro Electronic"
+    },
+    {
+      "id": "awen-24",
+      "artist": "Baltic House Orchestra",
+      "title": "Westworld (Main Title Theme)",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Hip-Hop / Rap",
+      "genre_conflict": "Classical / Cinematic",
+      "source_url": "https://music.apple.com/kz/album/1498656892?i=1498656893"
     },
     {
       "id": "awen-27",
@@ -204,23 +199,7 @@
         "awen-23",
         "awen-29"
       ],
-      "proposed_genre": "Synth / Retro Electronic"
-    },
-    {
-      "id": "awen-33",
-      "artist": "Настроение",
-      "title": "осень.",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-34",
-      "artist": "Neфть (Vintage.beat)",
-      "title": "Ты знаешь",
-      "issues": [
-        "genre_not_identified"
-      ]
+      "proposed_genre": "Hip-Hop / Rap"
     },
     {
       "id": "awen-37",
@@ -229,7 +208,7 @@
       "issues": [
         "genre_metadata_conflict"
       ],
-      "proposed_genre": "Bass Music / EDM",
+      "proposed_genre": "Phonk",
       "genre_conflict": "Hip-Hop / Rap",
       "external_genre_evidence": [
         {
@@ -243,22 +222,6 @@
         }
       ],
       "source_url": "https://music.apple.com/kz/album/1274517945?i=1274518661"
-    },
-    {
-      "id": "awen-41",
-      "artist": "Fortxna",
-      "title": "Txxi",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-44",
-      "artist": "Yoshumidzu, DEVTHWXSH, .xadisha",
-      "title": "Madmen",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-45",
@@ -286,14 +249,6 @@
       "source_url": "https://music.apple.com/kz/album/1647621069?i=1647621286"
     },
     {
-      "id": "awen-49",
-      "artist": "Daniel Trevor",
-      "title": "Falling",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-51",
       "artist": "DYGO, MC BN",
       "title": "CRAZY BRAZIL",
@@ -302,20 +257,26 @@
       ]
     },
     {
-      "id": "awen-52",
-      "artist": "Fea Fea",
-      "title": "Karabah [BassBoost by Парадный стиль prod.]",
+      "id": "awen-54",
+      "artist": "Apollo Brown",
+      "title": "Never in a Million Years",
       "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-53",
-      "artist": "pasteldrip",
-      "title": "pistolwhip (prod. ERLAX)",
-      "issues": [
-        "genre_not_identified"
-      ]
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/1033896742",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
+      "source_url": "https://music.apple.com/kz/album/6792935264?i=6792935270"
     },
     {
       "id": "awen-57",
@@ -338,13 +299,13 @@
       "artist": "Klingande",
       "title": "Jubel",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-67",
         "awen-74"
-      ]
+      ],
+      "proposed_genre": "House"
     },
     {
       "id": "awen-69",
@@ -489,13 +450,13 @@
       "artist": "Luttrell",
       "title": "Darling [THIS NEVER HAPPENED]",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-104",
         "awen-115"
-      ]
+      ],
+      "proposed_genre": "House"
     },
     {
       "id": "awen-107",
@@ -734,14 +695,6 @@
       ]
     },
     {
-      "id": "awen-145",
-      "artist": "OLING",
-      "title": "Sizo [VIVRANT]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-148",
       "artist": "ID",
       "title": "ID",
@@ -768,14 +721,6 @@
       "id": "awen-151",
       "artist": "Calvin Logue",
       "title": "Because Of You [STRESS]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-152",
-      "artist": "Fabrication ft. Leo Wood",
-      "title": "The Muze",
       "issues": [
         "genre_not_identified"
       ]
@@ -817,13 +762,13 @@
       "artist": "Lane 8",
       "title": "Spring 2022 Mixtape",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-159",
         "awen-178"
-      ]
+      ],
+      "proposed_genre": "House"
     },
     {
       "id": "awen-160",
@@ -895,7 +840,6 @@
       "artist": "ID",
       "title": "ID",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
@@ -911,7 +855,8 @@
         "awen-148",
         "awen-153",
         "awen-183"
-      ]
+      ],
+      "proposed_genre": "House"
     },
     {
       "id": "awen-185",
@@ -956,15 +901,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-198",
-      "artist": "Tinlicker",
-      "title": "Light Beam",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1593849289?i=1593849304"
     },
     {
       "id": "awen-201",
@@ -1024,31 +960,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-217",
-      "artist": "matonges",
-      "title": "bluebird.",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-218",
-      "artist": "OmarCameUp",
-      "title": "バルログ [Vega]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-219",
-      "artist": "Xav",
-      "title": "Rinse 2003",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1695706961?i=1695706963"
     },
     {
       "id": "awen-221",
@@ -1162,14 +1073,6 @@
       ]
     },
     {
-      "id": "awen-255",
-      "artist": "Самое лучшее в жизни",
-      "title": "бесплатно. Лучшее – очень дорого.",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-256",
       "artist": "podval capella",
       "title": "Bella",
@@ -1199,13 +1102,13 @@
       "artist": "K/DA, i-dle, Wolftyla, Bea Miller, League of Legends",
       "title": "THE BADDEST",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-264",
         "awen-286"
-      ]
+      ],
+      "proposed_genre": "Pop"
     },
     {
       "id": "awen-265",
@@ -1236,15 +1139,6 @@
         "genre_not_identified"
       ],
       "source_url": "https://music.apple.com/kz/album/1477356921?i=1477356925"
-    },
-    {
-      "id": "awen-274",
-      "artist": "Dronez",
-      "title": "Quest",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1541406539?i=1541406758"
     },
     {
       "id": "awen-283",
@@ -1331,15 +1225,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-306",
-      "artist": "KAASI",
-      "title": "Caroline Street",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1677441182?i=1677441184"
     },
     {
       "id": "awen-312",
@@ -1636,14 +1521,6 @@
       ]
     },
     {
-      "id": "awen-378",
-      "artist": "Kota the Friend feat. Joey Bada$$, Bas",
-      "title": "B.Q.E (#BLM)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-383",
       "artist": "Black Atlass",
       "title": "Blonde (J-Louis Remix)",
@@ -1790,14 +1667,6 @@
       ]
     },
     {
-      "id": "awen-413",
-      "artist": "Emrod",
-      "title": "Lumière",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-414",
       "artist": "MythSyzer",
       "title": "Bonbon a la menthe (Stwo Remix)",
@@ -1903,14 +1772,6 @@
       "id": "awen-444",
       "artist": "Robinson",
       "title": "Medicine",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-448",
-      "artist": "Biltmore feat. Whissell",
-      "title": "Feel Something Good",
       "issues": [
         "genre_not_identified"
       ]
@@ -2082,14 +1943,6 @@
       "id": "awen-500",
       "artist": "Outlandish",
       "title": "Aicha",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-510",
-      "artist": "Fakear feat. Pouvoir Magique",
-      "title": "Kobra",
       "issues": [
         "genre_not_identified"
       ]
@@ -2335,14 +2188,6 @@
       ]
     },
     {
-      "id": "awen-589",
-      "artist": "Подкаст · Подкаст \"Find your B",
-      "title": "Найди в себе Батыра!",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-590",
       "artist": "Sofia Reyes feat. Rita Ora, Anitta",
       "title": "R.I.P. (feat. Rita Ora & Anitta)",
@@ -2360,14 +2205,6 @@
       "proposed_genre": "Pop",
       "genre_conflict": "Rock / Indie",
       "source_url": "https://music.apple.com/kz/album/1450695723?i=1450695742"
-    },
-    {
-      "id": "awen-601",
-      "artist": "Kid Cudi",
-      "title": "Day 'N' Nite (Nightmare)",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-607",
@@ -2953,13 +2790,13 @@
       "artist": "The Glitch Mob",
       "title": "Warrior Concerto",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-763",
         "awen-793"
-      ]
+      ],
+      "proposed_genre": "Bass Music / EDM"
     },
     {
       "id": "awen-768",
@@ -2982,14 +2819,6 @@
       "id": "awen-771",
       "artist": "Lonely in the Rain feat. Ricky Kirby",
       "title": "Collide",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-772",
-      "artist": "AURORA",
-      "title": "Lucky",
       "issues": [
         "genre_not_identified"
       ]
@@ -3116,14 +2945,6 @@
       "proposed_genre": "R&B / Soul",
       "genre_conflict": "Pop",
       "source_url": "https://music.apple.com/kz/album/865263074?i=865263090"
-    },
-    {
-      "id": "awen-808",
-      "artist": "shyboy",
-      "title": "hold me down",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-812",
@@ -3373,14 +3194,6 @@
       ]
     },
     {
-      "id": "awen-886",
-      "artist": "30 Seconds To Mars",
-      "title": "From Yesterday",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-887",
       "artist": "Kleerup feat. Lykke Li",
       "title": "Until We Bleed",
@@ -3413,22 +3226,6 @@
       "id": "awen-899",
       "artist": "Busta Rhymes",
       "title": "Touch It (Deep Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-905",
-      "artist": "Staind",
-      "title": "Tangled Up In You",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-906",
-      "artist": "Steve Aoki",
-      "title": "Lie To Me (feat. Ina Wroldsen)",
       "issues": [
         "genre_not_identified"
       ]
@@ -3616,14 +3413,6 @@
       "id": "awen-962",
       "artist": "mooryc",
       "title": "communication breakdown",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-963",
-      "artist": "Peachy",
-      "title": "Falling for you",
       "issues": [
         "genre_not_identified"
       ]
@@ -4006,14 +3795,6 @@
       ]
     },
     {
-      "id": "awen-1063",
-      "artist": "SLANDER & Bret James",
-      "title": "Slow Motion",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1069",
       "artist": "dinazir",
       "title": "Qustar a'ni (AUEN)",
@@ -4141,7 +3922,7 @@
       "issues": [
         "genre_metadata_conflict"
       ],
-      "proposed_genre": "Folk / Ethno / World",
+      "proposed_genre": "Pop",
       "genre_conflict": "Classical / Cinematic",
       "source_url": "https://music.apple.com/kz/album/1455908015?i=1455908243"
     },
@@ -4565,13 +4346,13 @@
       "artist": "A$AP Ferg feat. Big Sean",
       "title": "World Is Mine",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-1241",
         "awen-1277"
-      ]
+      ],
+      "proposed_genre": "Hip-Hop / Rap"
     },
     {
       "id": "awen-1243",
@@ -4696,14 +4477,6 @@
       "id": "awen-1273",
       "artist": "RAYE, Mabel, Stefflon Don",
       "title": "Cigarette",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1275",
-      "artist": "Artur & RaiM",
-      "title": "Королева (AUEN)",
       "issues": [
         "genre_not_identified"
       ]
@@ -4904,14 +4677,6 @@
       "id": "awen-1335",
       "artist": "MARUV, Boosin",
       "title": "Drunk Groove",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1339",
-      "artist": "Teeza",
-      "title": "Berlin",
       "issues": [
         "genre_not_identified"
       ]
@@ -5324,14 +5089,6 @@
       "proposed_genre": "Hip-Hop / Rap"
     },
     {
-      "id": "awen-1438",
-      "artist": "SoMo",
-      "title": "Wake up Call",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1439",
       "artist": "Yuko",
       "title": "I dont know what I want but I do know it wont come from you",
@@ -5351,14 +5108,6 @@
       "id": "awen-1446",
       "artist": "=7.13= The Wealthy West feat. Valen",
       "title": "The Highest Tide",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1448",
-      "artist": "AVAY",
-      "title": "Fall ft. The Hotel",
       "issues": [
         "genre_not_identified"
       ]
@@ -5604,14 +5353,6 @@
       ]
     },
     {
-      "id": "awen-1543",
-      "artist": "Madein TYO",
-      "title": "Skateboard P.",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1545",
       "artist": "Carly Comando",
       "title": "Everyday",
@@ -5732,14 +5473,6 @@
       ]
     },
     {
-      "id": "awen-1577",
-      "artist": "Local Natives",
-      "title": "Mt. Washington",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1582",
       "artist": "Cookhouse",
       "title": "Made It Fly",
@@ -5799,14 +5532,6 @@
       "id": "awen-1595",
       "artist": "Jason Walker",
       "title": "Keep Me Watching",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1596",
-      "artist": "Ambyion",
-      "title": "Sound Of Ligeia",
       "issues": [
         "genre_not_identified"
       ]
@@ -5892,30 +5617,6 @@
       ]
     },
     {
-      "id": "awen-1620",
-      "artist": "Brother Dreamers",
-      "title": "Colorado (Original Mix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1621",
-      "artist": "Phoenix",
-      "title": "Fences (A. Rassevich Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1624",
-      "artist": "Alicia Keys",
-      "title": "Girl On Fire",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1627",
       "artist": "Astrid S",
       "title": "2AM (Matoma Remix)",
@@ -5937,25 +5638,9 @@
       ]
     },
     {
-      "id": "awen-1629",
-      "artist": "Elvira Goldman",
-      "title": "Love Me Like You Do",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1631",
       "artist": "Flipsyde",
       "title": "Someday",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1632",
-      "artist": "D.R.A.M",
-      "title": "Ill Nana (Feat. Trippie Redd)",
       "issues": [
         "genre_not_identified"
       ]
@@ -6093,13 +5778,13 @@
       "artist": "Macklemore",
       "title": "Marmalade (feat. Lil Yachty)",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-1628",
         "awen-1667"
-      ]
+      ],
+      "proposed_genre": "Hip-Hop / Rap"
     },
     {
       "id": "awen-1668",
@@ -6283,14 +5968,6 @@
       ]
     },
     {
-      "id": "awen-1710",
-      "artist": "Lil Pump",
-      "title": "Gucci Gang (prod. bighead & gnealz)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1712",
       "artist": "Pensees x Menual x Smokefishe",
       "title": "She",
@@ -6452,14 +6129,6 @@
       "id": "awen-1757",
       "artist": "Trifonic",
       "title": "Transgenic (Jan Amit Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1761",
-      "artist": "Louis Tomlinson",
-      "title": "Back to You (feat. Bebe Rexha & Digital Farm Animals)",
       "issues": [
         "genre_not_identified"
       ]
@@ -6813,14 +6482,6 @@
       ]
     },
     {
-      "id": "awen-1841",
-      "artist": "cl",
-      "title": "surrender",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1842",
       "artist": "Hot Chip",
       "title": "Over and Over",
@@ -6890,14 +6551,6 @@
         "awen-1849"
       ],
       "proposed_genre": "Pop"
-    },
-    {
-      "id": "awen-1851",
-      "artist": "Lykke Li",
-      "title": "Tonight (Monkeyneck Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
     },
     {
       "id": "awen-1852",
@@ -7125,14 +6778,6 @@
       ]
     },
     {
-      "id": "awen-1904",
-      "artist": "Arman Cekin feat. Paul Rey",
-      "title": "California Dreaming (feat. Paul Rey)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1906",
       "artist": "Nsolo",
       "title": "Hush",
@@ -7160,14 +6805,6 @@
       "id": "awen-1909",
       "artist": "Олег Майами",
       "title": "Ты ветер, я вода",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1910",
-      "artist": "Marshmello",
-      "title": "Alone (MRVLZ Remix)",
       "issues": [
         "genre_not_identified"
       ]
@@ -7288,14 +6925,6 @@
       "id": "awen-1937",
       "artist": "Asammuell",
       "title": "civilian",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1938",
-      "artist": "ALIYOUNG",
-      "title": "ЯIWIOW (prod. by MTB + ALIYOUNG)",
       "issues": [
         "genre_not_identified"
       ]
@@ -7455,14 +7084,6 @@
       "id": "awen-1985",
       "artist": "Paris & Simo",
       "title": "Keep Me Close (feat. Sara Diamond)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1986",
-      "artist": "Kill Paris",
-      "title": "where r u",
       "issues": [
         "genre_not_identified"
       ]
@@ -7708,14 +7329,6 @@
       ]
     },
     {
-      "id": "awen-2047",
-      "artist": ".ALIYOUNG",
-      "title": "Ұnight (prod. by Drug Dilla)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2048",
       "artist": "Stephen",
       "title": "Crossfire",
@@ -7788,14 +7401,6 @@
       "id": "awen-2064",
       "artist": "Gidge",
       "title": "I Fell In Love",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2065",
-      "artist": "Trella",
-      "title": "Crash",
       "issues": [
         "genre_not_identified"
       ]
@@ -8363,14 +7968,6 @@
       ]
     },
     {
-      "id": "awen-2154",
-      "artist": "Petit Biscuit",
-      "title": "Hang On",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2155",
       "artist": "[0:01] Falden",
       "title": "Don't Wanna Know",
@@ -8699,14 +8296,6 @@
       ]
     },
     {
-      "id": "awen-2196",
-      "artist": "[2:32:13] Lane 8 ft. Kauf",
-      "title": "How Often (Just Her Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2197",
       "artist": "[2:38:06] ID",
       "title": "ID",
@@ -8827,14 +8416,6 @@
       ]
     },
     {
-      "id": "awen-2212",
-      "artist": "[3:33:54] Lane 8 ft. POLIÇA",
-      "title": "The Rope (GEOTHEORY Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2213",
       "artist": "— Еще бы!",
       "title": "вздохнул Ежик. — Ты всю зиму говорил, что ты — снежинка. Я так боялся, что ты растаешь к весне...",
@@ -8902,14 +8483,6 @@
       "id": "awen-2221",
       "artist": "Jason Mraz",
       "title": "I am Yours",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2222",
-      "artist": "Lil Wayne ft. Future x Drake",
-      "title": "Bitches Love Me (OST Skam 2x03)",
       "issues": [
         "genre_not_identified"
       ]
@@ -9453,14 +9026,6 @@
       ]
     },
     {
-      "id": "awen-2289",
-      "artist": "Apollo Brown & O.C",
-      "title": "16. Fantastic (Instrumental)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2290",
       "artist": "Maroon 5",
       "title": "Cold (feat. Future)",
@@ -9720,14 +9285,6 @@
       "id": "awen-2322",
       "artist": "Завтра",
       "title": "эта загадка.",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2323",
-      "artist": "DJ WhatsApp & MVDNES & Dahako",
-      "title": "Deja Phonk (SPEED UP)",
       "issues": [
         "genre_not_identified"
       ]
