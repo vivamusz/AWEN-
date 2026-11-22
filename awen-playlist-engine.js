@@ -42,6 +42,20 @@ function build(tracks,editorial,settings){
       score-=Math.min(2,bad)*w.negativeMoodPenalty;
       if(good)reasons.push('Метка настроения соответствует');
       if(q.genre_review_needed||conf==='low')score-=3;
+      // Optional measurements from a locally authorized FULL track only.
+      // The score is a heuristic energy proxy, not perceived emotion or Spotify energy.
+      const audio=q.acoustic_features;
+      if(audio&&audio.source_type==='authorized_local_file'&&audio.coverage==='full_track'&&
+         audio.analyzer==='awen-acoustics-v1'&&Number(audio.duration_seconds)>=20){
+        const e=Number(audio.features?.energy_proxy_0_1);
+        if(Number.isFinite(e)&&e>=0&&e<=1){
+          const target=(cfg.energy[0]+cfg.energy[1]-2)/8;
+          const distance=Math.abs(e-target);
+          if(distance<=0.25){score+=5;reasons.push('Измеренные акустические признаки подходят (эвристика)');}
+          else if(distance>=0.60){score-=5;reasons.push('Акустические признаки отличаются (эвристика)');}
+        }
+      }
+
       if(!seed&&!pin){
         // An auto-added track must have track-level identity evidence, never
         // only an artist-level genre guess. Apple confirms song identity, not
