@@ -283,13 +283,13 @@
   });
   async function loadShared(){
     try{
-      const r=await fetch('./awen-catalog.json',{cache:'no-cache'});
+      const r=await fetch('./awen-catalog.json?rev=20261122-2351',{cache:'no-store'});
       if(!r.ok)throw Error('HTTP '+r.status);
       const found=parseCatalog(await r.json());
       if(!found.length)throw Error('Нет треков в файле');
       // Дополнительный справочник, независимый от оригинального каталога и автопоиска ссылок.
       try{
-        const cur=await fetch('./awen-curation.json',{cache:'no-cache'});
+        const cur=await fetch('./awen-curation.json?rev=20261122-2351',{cache:'no-store'});
         if(cur.ok){
           const payload=await cur.json();
           const extra=payload&&payload.tracks&&typeof payload.tracks==='object'?payload.tracks:{};
