@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T10:16:44+00:00",
+  "generated_at_utc": "2026-11-22T12:11:47+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
@@ -2360,7 +2360,7 @@
       "issues": [
         "genre_metadata_conflict"
       ],
-      "proposed_genre": "Folk / Ethno / World",
+      "proposed_genre": "Pop",
       "genre_conflict": "Pop",
       "source_url": "https://music.apple.com/kz/album/1463400556?i=1463400759"
     },
@@ -2392,7 +2392,7 @@
       "issues": [
         "genre_metadata_conflict"
       ],
-      "proposed_genre": "Pop",
+      "proposed_genre": "Rock / Indie",
       "genre_conflict": "Rock / Indie",
       "source_url": "https://music.apple.com/kz/album/573424905?i=573424912"
     },
@@ -2476,7 +2476,7 @@
       "issues": [
         "genre_metadata_conflict"
       ],
-      "proposed_genre": "Folk / Ethno / World",
+      "proposed_genre": "Rock / Indie",
       "genre_conflict": "Rock / Indie",
       "source_url": "https://music.apple.com/kz/album/1250655119?i=1250655124"
     },
@@ -2506,7 +2506,7 @@
       "issues": [
         "genre_metadata_conflict"
       ],
-      "proposed_genre": "R&B / Soul",
+      "proposed_genre": "Hip-Hop / Rap",
       "genre_conflict": "Hip-Hop / Rap",
       "source_url": "https://music.apple.com/kz/album/1199639601?i=1199641872"
     },
@@ -2517,7 +2517,7 @@
       "issues": [
         "genre_metadata_conflict"
       ],
-      "proposed_genre": "House",
+      "proposed_genre": "Pop",
       "genre_conflict": "Pop",
       "source_url": "https://music.apple.com/kz/album/691961375?i=691961385"
     },
