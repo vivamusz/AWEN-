@@ -32,8 +32,9 @@ assert.deepEqual(Array.from(tracks[0].subgenres),['Deep House']);
 assert.equal(tracks[0].genre_source,'Выбрано вами — только на этом устройстве');
 assert.equal(tracks[0].awen_local_original.genre,'Не определён','original global genre kept');
 assert.equal(m.getCount(),1);
-assert.match(m.issueURL('awen-1'),/github\.com\/vivamusz\/AWEN-\/issues\/new/);
-assert.match(m.issueURL('awen-1'),/awen-1/);
+assert.equal(m.inboxConfigured(),false,'No public inbox exists before owner deploys it');
+assert.equal(m.getSuggestion('awen-1').delivery_status,'local');
+assert.match(m.suggestionText('awen-1'),/awen-1/);
 assert.match(m.suggestionText('awen-1'),/требует проверки редактором/i);
 const fresh=JSON.parse(JSON.stringify(original));
 m.apply(fresh);
@@ -58,4 +59,4 @@ assert.match(read('awen-services.js'),/AWENGenreContributions\.apply\(tracks\)/)
 const mobile=read('awen-genre-contributions.css');
 assert.match(mobile,/\.genre-grid\{display:grid;grid-template-columns:repeat\(2,minmax\(0,1fr\)\)/);
 assert.match(mobile,/data-nav="genres"/);
-console.log('PASS: Other genre, local overrides, taxonomy validation, restore, moderator link, modal XSS, mobile layout');
+console.log('PASS: Other genre, local overrides, taxonomy validation, restore, anonymous inbox state, modal XSS, mobile layout');
