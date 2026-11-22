@@ -16362,16 +16362,18 @@
       "year": 2021,
       "year_type": "album_release",
       "duration": 139,
-      "genre": "Electronica / Experimental",
-      "subgenres": [],
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
       "curation_method": "apple_verified_genre_alignment_2026-11-22",
-      "curation_confidence": "high",
-      "review_needed": false,
+      "curation_confidence": "low",
+      "review_needed": true,
       "genre_evidence_url": "https://music.apple.com/kz/album/1760605909?i=1760605910",
-      "genre_evidence": "Apple iTunes metadata: matched track \"Wut Wut\" by UpsideDown, broad genre \"Electronic\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Wut Wut\" by UpsideDown, broad genre \"Electronic\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype. Apple broad genre does not exclude earlier narrower hypothesis, which remains unverified.",
       "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "apple_broad_genre_reconciled",
+        "status": "broad_metadata_only_subgenre_unverified",
         "checked_on": "2026-11-22",
         "check_type": "verified_metadata_normalization",
         "action": "none"
@@ -16878,16 +16880,18 @@
       "year": 2023,
       "year_type": "album_release",
       "duration": 233,
-      "genre": "Electronica / Experimental",
-      "subgenres": [],
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
       "curation_method": "apple_verified_genre_alignment_2026-11-22",
-      "curation_confidence": "high",
-      "review_needed": false,
+      "curation_confidence": "low",
+      "review_needed": true,
       "genre_evidence_url": "https://music.apple.com/kz/album/1849877637?i=1849878130",
-      "genre_evidence": "Apple iTunes metadata: matched track \"Salt\" by ATRIP, broad genre \"Electronic\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Salt\" by ATRIP, broad genre \"Electronic\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype. Apple broad genre does not exclude earlier narrower hypothesis, which remains unverified.",
       "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "apple_broad_genre_reconciled",
+        "status": "broad_metadata_only_subgenre_unverified",
         "checked_on": "2026-11-22",
         "check_type": "verified_metadata_normalization",
         "action": "none"
@@ -17767,16 +17771,18 @@
       "year": 2020,
       "year_type": "album_release",
       "duration": 194,
-      "genre": "Electronica / Experimental",
-      "subgenres": [],
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
       "curation_method": "apple_verified_genre_alignment_2026-11-22",
-      "curation_confidence": "high",
-      "review_needed": false,
+      "curation_confidence": "low",
+      "review_needed": true,
       "genre_evidence_url": "https://music.apple.com/kz/album/1617246216?i=1617247242",
-      "genre_evidence": "Apple iTunes metadata: matched track \"Ice Bucket (Kill Paris Remix)\" by Tora, broad genre \"Electronica\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype.",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Ice Bucket (Kill Paris Remix)\" by Tora, broad genre \"Electronica\". AWEN category \"Electronica / Experimental\" is normalized, NOT verified narrow subtype. Apple broad genre does not exclude earlier narrower hypothesis, which remains unverified.",
       "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "apple_broad_genre_reconciled",
+        "status": "broad_metadata_only_subgenre_unverified",
         "checked_on": "2026-11-22",
         "check_type": "verified_metadata_normalization",
         "action": "none"
@@ -18203,16 +18209,18 @@
       "year": 2014,
       "year_type": "album_release",
       "duration": 194,
-      "genre": "Rock / Indie",
-      "subgenres": [],
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
       "curation_method": "apple_verified_genre_alignment_2026-11-22",
-      "curation_confidence": "medium",
+      "curation_confidence": "low",
       "review_needed": true,
       "genre_evidence_url": "https://music.apple.com/kz/album/1440628510?i=1440628796",
-      "genre_evidence": "Apple iTunes metadata: matched track \"Compass\" by Zella Day, broad genre \"Alternative\". AWEN category \"Rock / Indie\" is normalized, NOT verified narrow subtype.",
+      "genre_evidence": "Apple iTunes metadata: matched track \"Compass\" by Zella Day, broad genre \"Alternative\". AWEN category \"Rock / Indie\" is normalized, NOT verified narrow subtype. Apple broad genre does not exclude earlier narrower hypothesis, which remains unverified.",
       "genre_source": "Apple iTunes Search API verified track metadata",
       "genre_audit": {
-        "status": "apple_broad_genre_reconciled",
+        "status": "broad_metadata_only_subgenre_unverified",
         "checked_on": "2026-11-22",
         "check_type": "verified_metadata_normalization",
         "action": "review_exact_style"
