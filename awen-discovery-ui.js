@@ -4,7 +4,7 @@ const Core=root.AWENDiscoveryCore,KEY='awen-discovery-local-v1';
 if(!Core){console.warn('AWEN Discovery: core module missing');return;}
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'{}')||{};}catch{return {};}};
 const defaults=()=>({boostGenres:[],boostLanguages:[],excludeGenres:[],excludedArtists:[],dislikes:[],seen:[],plays:[],opens:[],novelty:60,hideVerifiedAI:false,draft:{name:'Мой AWEN микс',ids:[]},prompt:'25 спокойных песен для вечерней дороги без рэпа, 2010-х'});
-let state=Object.assign(defaults(),read()),tab='start',radioId='',smooth=false,radioQuery='',mixQuery='',selectedYear=new Date().getFullYear(),provenance={tracks:{}},importMessage='';
+let state=Object.assign(defaults(),read()),tab='start',radioId='',expandedTrackId='',smooth=false,radioQuery='',mixQuery='',selectedYear=new Date().getFullYear(),provenance={tracks:{}},importMessage='';
 if(!state.draft||typeof state.draft!=='object')state.draft={name:'Мой AWEN микс',ids:[]};
 const arr=x=>Array.isArray(x)?x:[],esc=x=>String(x===null||x===undefined?'':x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const bridge=()=>root.AWENBridge||{},tracks=()=>arr(bridge().getTracks&&bridge().getTracks()),likes=()=>arr(bridge().getFavorites&&bridge().getFavorites());
@@ -17,15 +17,24 @@ function htmlList(items,{limit=25}={}){
  let list=arr(items).slice(0,limit);
  if(!list.length)return '<div class="ad-empty">Пока нет подходящих записей. Попробуйте изменить жанры или исключения.</div>';
  if(smooth)list=Core.smartOrder(list);
+ const favorites=new Set(likes()),dislikes=new Set(arr(state.dislikes));
  return '<div class="ad-card-list">'+list.map((it,i)=>{
-  let t=it.track||it,reason=arr(it.reasons).join(' · '),favorite=likes().includes(t.id),blocked=arr(state.dislikes).includes(t.id);
-  return '<div class="ad-song"><button type="button" class="ad-song-main" data-ad-action="detail" data-id="'+esc(t.id)+'" title="'+esc(reason)+'"><strong>'+(i+1)+'. '+esc(t.title)+'</strong><small>'+esc(t.artist)+' · '+esc(t.genre)+(t.curation_review_needed?' · предварительный жанр':'')+'</small></button><div class="ad-song-acts">'+
-   '<button type="button" class="ad-mini" data-ad-action="radio" data-id="'+esc(t.id)+'" title="Радио по композиции" aria-label="Радио по композиции">♫</button>'+
-   '<button type="button" class="ad-mini" data-ad-action="like" data-id="'+esc(t.id)+'" aria-pressed="'+favorite+'" title="Избранное">'+(favorite?'♥':'♡')+'</button>'+
-   '<button type="button" class="ad-mini" data-ad-action="dislike" data-id="'+esc(t.id)+'" aria-pressed="'+blocked+'" title="Не рекомендовать" aria-label="Не рекомендовать">×</button>'+
-   '<button type="button" class="ad-mini" data-ad-action="mix-add" data-id="'+esc(t.id)+'" title="В мой микс" aria-label="Добавить в микс">＋</button>'+
-   '<button type="button" class="ad-mini" data-mypl-action="add" data-track-id="'+esc(t.id)+'" title="В мои плейлисты" aria-label="В мои плейлисты">☷</button>'+
-   '<button type="button" class="ad-mini" data-ad-action="block-artist" data-artist="'+esc(t.artist)+'" title="Скрыть исполнителя в рекомендациях" aria-label="Скрыть исполнителя">⊘</button></div></div>';
+  const t=it.track||it,reason=arr(it.reasons).join(' · '),favorite=favorites.has(t.id),blocked=dislikes.has(t.id),
+   expanded=expandedTrackId===t.id,trackId=esc(t.id),artist=esc(t.artist);
+  const basic=
+   '<button type="button" class="ad-track-btn" data-ad-action="like" data-id="'+trackId+'" aria-pressed="'+favorite+'" title="Добавить в Избранное или убрать из него">'+(favorite?'♥ В избранном':'♡ Нравится')+'</button>'+
+   '<button type="button" class="ad-track-btn ad-track-btn-primary" data-mypl-action="add" data-track-id="'+trackId+'" title="Добавить эту песню в личный плейлист">＋ В плейлист</button>'+
+   '<button type="button" class="ad-track-btn" data-ad-action="toggle-actions" data-id="'+trackId+'" aria-expanded="'+expanded+'" aria-controls="ad-extra-'+trackId+'">'+(expanded?'Скрыть':'⋯ Ещё')+'</button>';
+  const more=expanded?'<div class="ad-track-extra" id="ad-extra-'+trackId+'">'+
+   '<button type="button" class="ad-track-btn" data-ad-action="radio" data-id="'+trackId+'">♫ Похожие песни</button>'+
+   '<button type="button" class="ad-track-btn" data-ad-action="dislike" data-id="'+trackId+'" aria-pressed="'+blocked+'" title="Скрыть только из рекомендаций, не удаляя из каталога">'+(blocked?'↶ Вернуть в рекомендации':'× Не рекомендовать')+'</button>'+
+   '<button type="button" class="ad-track-btn" data-ad-action="mix-add" data-id="'+trackId+'">＋ В общий микс</button>'+
+   '<button type="button" class="ad-track-btn" data-ad-action="block-artist" data-artist="'+artist+'" title="Не предлагать песни этого исполнителя">⊘ Скрыть исполнителя</button>'+
+   '</div>':'';
+  return '<article class="ad-song">'+
+   '<button type="button" class="ad-song-main" data-ad-action="detail" data-id="'+trackId+'" title="'+esc(reason||'Открыть информацию о песне')+'"><strong>'+(i+1)+'. '+esc(t.title)+'</strong><small>'+artist+' · '+esc(t.genre)+(t.curation_review_needed?' · жанр предварительный':'')+'</small></button>'+
+   '<div class="ad-song-acts" role="group" aria-label="Действия с песней '+esc(t.title)+'">'+basic+'</div>'+more+
+   '</article>';
  }).join('')+'</div>';
 }
 function listTitle(name,subtitle,items,count=25){
@@ -54,7 +63,7 @@ function radioPanel(){
   '<div class="ad-search-list" id="ad-radio-found">'+radioSearch()+'</div>'+
   (favorites.length?'<p>Из избранного:</p><div class="ad-actions">'+favorites.map(t=>button('radio',t.title,'data-id="'+esc(t.id)+'"')).join('')+'</div>':'')+'</div>';
  if(song){const results=Core.radio(ctx(),song.id);body+=listTitle('Похожее на '+song.title,'Начальная композиция: '+song.artist+'.',results.items,25);}
- else body+=section('Выберите песню','<div class="ad-empty">Найдите любую композицию через поиск выше или нажмите ♫ возле песни в каталоге.</div>');
+ else body+=section('Выберите песню','<div class="ad-empty">Найдите композицию через поиск выше или откройте у песни меню «⋯ Ещё» → «♫ Похожие песни».</div>');
  return '<div class="ad-panel">'+body+'</div>';
 }
 const allGenres=['Pop','Hip-Hop / Rap','R&B / Soul','Phonk','Funk / Disco','Chill / Lo-Fi / Ambient','House','Techno / Trance','Bass Music / EDM','Drum & Bass / UK Bass','Latin / Brazilian Club','Afro / Global Club','Synth / Retro Electronic','Rock / Indie','Metal / Punk','Jazz / Blues','Folk / Ethno / World','Classical / Cinematic','Country','Electronica / Experimental'];
@@ -130,7 +139,7 @@ function render(){
  const tabs='<div class="ad-tabs" role="tablist" aria-label="Музыкальные открытия">'+names.map(([k,v])=>'<button class="ad-tab" role="tab" aria-selected="'+(tab===k)+'" data-ad-action="tab" data-tab="'+k+'">'+v+'</button>').join('')+'</div>';
  const content=tab==='start'?startPanel():tab==='radio'?radioPanel():tab==='taste'?tastePanel():tab==='prompt'?promptPanel():tab==='mix'?mixPanel():statsPanel();
  return '<div class="ad-wrap"><div class="ad-hero"><h1>AWEN · Музыкальные открытия</h1><p>Радио по песне, музыка под настроение, новые открытия, настройка рекомендаций и совместные миксы. Всё на основе каталога AWEN.</p></div>'+tabs+content+
- '<div class="ad-privacy">Личные реакции, рекомендации и статистика сохраняются только на устройстве. Поддержка воспроизведения зависит от разрешённых аудиоисточников. Без истории нельзя достоверно показать любимые композиции за год.</div></div>';
+ '<div class="ad-help"><strong>Как пользоваться?</strong> Нажмите на название песни, чтобы посмотреть подробности. <strong>«♡ Нравится»</strong> сохранит в Избранное, <strong>«＋ В плейлист»</strong> предложит ваш личный список. В <strong>«⋯ Ещё»</strong> — похожие песни, общий микс и скрытие рекомендаций. Ничего не удаляется из каталога.</div>'+'<div class="ad-privacy">Личные реакции, рекомендации и статистика сохраняются только на устройстве. Поддержка воспроизведения зависит от разрешённых аудиоисточников. Без истории нельзя достоверно показать любимые композиции за год.</div></div>';
 }
 function toggle(key,value){let items=arr(state[key]),i=items.indexOf(value);if(i===-1)items.push(value);else items.splice(i,1);state[key]=items;save();refresh();}
 function openRadio(id){radioId=id;radioQuery='';tab='radio';if(bridge().openDiscover)bridge().openDiscover();else refresh();}
@@ -194,6 +203,7 @@ function shareText(stats){
 function act(node){
  let kind=node.dataset.adAction,id=node.dataset.id,g=node.dataset.genre;
  if(kind==='tab'||kind.startsWith('tab-')){tab=kind==='tab'?node.dataset.tab:kind.slice(4);refresh();return;}
+ if(kind==='toggle-actions'){expandedTrackId=expandedTrackId===id?'':id;refresh();return;}
  if(kind==='radio'){openRadio(id);return;}
  if(kind==='detail'){bridge().openDetails&&bridge().openDetails(id);return;}
  if(kind==='like'){bridge().toggleFavorite&&bridge().toggleFavorite(id);refresh();return;}
