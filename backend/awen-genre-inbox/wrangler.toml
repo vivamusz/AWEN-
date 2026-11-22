@@ -1,0 +1,11 @@
+name = "awen-genre-inbox"
+main = "src/worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://vivamusz.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "awen-genre-inbox"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
