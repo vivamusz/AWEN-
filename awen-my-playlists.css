@@ -56,3 +56,9 @@
 @media(min-width:1051px){.table-header,.song{grid-template-columns:34px minmax(210px,2.5fr) minmax(110px,1fr) minmax(120px,1.1fr) 60px 77px}}
 @media(max-width:370px){.mpl-grid{grid-template-columns:1fr 1fr}.mpl-card-cover{font-size:32px}.mpl-btn{font-size:12px;padding:8px}.mpl-open-head h2{font-size:21px}}
 
+
+.mpl-create-form{padding:16px;background:#282333;border:1px solid #6d5389;border-radius:12px;margin:9px 0 16px;max-width:720px}
+.mpl-create-form label{display:block;font-size:13px;color:#e4d6f4;font-weight:650;margin-bottom:8px}
+.mpl-create-fields{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+.mpl-create-fields input{flex:1 1 200px;min-width:0;background:#14121c;border:1px solid #7d6693;border-radius:9px;color:#fff;font-size:14px;padding:10px 12px}
+.mpl-create-fields input:focus-visible{outline:2px solid #cdb6e9;outline-offset:2px}
