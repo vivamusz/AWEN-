@@ -15708,7 +15708,16 @@
       "album": "Stay - Single",
       "year": 2022,
       "year_type": "album_release",
-      "duration": 174
+      "duration": 174,
+      "genre": "House",
+      "subgenres": [],
+      "curation_method": "Apple Music: конкретный релиз / широкая категория",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/stay-single/1647621069",
+      "genre_evidence": "Apple Music release: Dance",
+      "genre_source": "Apple Music genre mapped to AWEN taxonomy",
+      "genre_review_candidate": null
     },
     "awen-168": {
       "verified_metadata": {
@@ -16061,7 +16070,16 @@
       "album": "Best of No Copyright Sounds (Ncs)",
       "year": 2019,
       "year_type": "album_release",
-      "duration": 210
+      "duration": 210,
+      "genre": "Rock / Indie",
+      "subgenres": [],
+      "curation_method": "Apple Music: конкретный релиз / широкая категория",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/cradles-single/1869065785",
+      "genre_evidence": "Apple Music release: Alternative",
+      "genre_source": "Apple Music genre mapped to AWEN taxonomy",
+      "genre_review_candidate": null
     },
     "awen-644": {
       "verified_metadata": {
@@ -16551,7 +16569,16 @@
       "album": "Warm In the Winter - Single",
       "year": 2016,
       "year_type": "album_release",
-      "duration": 244
+      "duration": 244,
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [],
+      "curation_method": "Apple Music: конкретный релиз / широкая категория",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/warm-in-the-winter-single/1192651612",
+      "genre_evidence": "Apple Music release: Electronic",
+      "genre_source": "Apple Music genre mapped to AWEN taxonomy",
+      "genre_review_candidate": null
     },
     "awen-756": {
       "verified_metadata": {
@@ -16678,7 +16705,16 @@
       "album": "Siren - Single",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 200
+      "duration": 200,
+      "genre": "Rock / Indie",
+      "subgenres": [],
+      "curation_method": "Apple Music: конкретный релиз / широкая категория",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/siren-single/1429790670",
+      "genre_evidence": "Apple Music release: Alternative",
+      "genre_source": "Apple Music genre mapped to AWEN taxonomy",
+      "genre_review_candidate": null
     },
     "awen-811": {
       "verified_metadata": {
@@ -16743,7 +16779,16 @@
       "album": "Hymn - Single",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 223
+      "duration": 223,
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [],
+      "curation_method": "Apple Music: конкретный релиз / широкая категория",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/hymn-single/1436209727",
+      "genre_evidence": "Apple Music release: Electronic",
+      "genre_source": "Apple Music genre mapped to AWEN taxonomy",
+      "genre_review_candidate": null
     },
     "awen-878": {
       "verified_metadata": {
@@ -16757,7 +16802,18 @@
       "album": "Brighter Days",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 218
+      "duration": 218,
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Apple Music: конкретный релиз / широкая категория",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/brighter-days/1397962305",
+      "genre_evidence": "Apple Music release: Dance",
+      "genre_source": "Apple Music genre mapped to AWEN taxonomy",
+      "genre_review_candidate": null
     },
     "awen-912": {
       "verified_metadata": {
@@ -17344,7 +17400,16 @@
       "album": "Hands Up (feat. DNCE) - Single",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 166
+      "duration": 166,
+      "genre": "Bass Music / EDM",
+      "subgenres": [],
+      "curation_method": "Apple Music: конкретный релиз / широкая категория",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/hands-up-feat-dnce-single/1364954519",
+      "genre_evidence": "Apple Music release: Electronic",
+      "genre_source": "Apple Music genre mapped to AWEN taxonomy",
+      "genre_review_candidate": null
     },
     "awen-1188": {
       "verified_metadata": {
@@ -17454,7 +17519,16 @@
       "album": "Breathe - EP",
       "year": 2017,
       "year_type": "album_release",
-      "duration": 184
+      "duration": 184,
+      "genre": "House",
+      "subgenres": [],
+      "curation_method": "Apple Music: конкретный релиз / широкая категория",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/breathe-ep/1309218590",
+      "genre_evidence": "Apple Music release: Dance",
+      "genre_source": "Apple Music genre mapped to AWEN taxonomy",
+      "genre_review_candidate": null
     },
     "awen-1254": {
       "verified_metadata": {
@@ -17558,7 +17632,16 @@
       "album": "Broken - Single",
       "year": 2020,
       "year_type": "album_release",
-      "duration": 201
+      "duration": 201,
+      "genre": "Rock / Indie",
+      "subgenres": [],
+      "curation_method": "Apple Music: конкретный релиз / широкая категория",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/album/broken-single/1502651347",
+      "genre_evidence": "Apple Music release: Alternative",
+      "genre_source": "Apple Music genre mapped to AWEN taxonomy",
+      "genre_review_candidate": null
     },
     "awen-1321": {
       "verified_metadata": {
