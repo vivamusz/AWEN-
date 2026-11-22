@@ -19382,12 +19382,12 @@
       "subgenres": [
         "Dancehall"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "Last.fm individual recording or artist evidence 2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр"
+      "genre_evidence_url": "https://www.last.fm/music/Sean%2BPaul%2C%2BMajor%2BLazer",
+      "genre_evidence": "Last.fm artist combination and Tip Pon It track listed; dancehall genre inference",
+      "genre_source": "Last.fm genre context, detailed subgenre still preliminary"
     },
     "awen-488": {
       "genre": "Hip-Hop / Rap",
@@ -19538,12 +19538,12 @@
       "subgenres": [
         "Classic Rock"
       ],
-      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_method": "Last.fm individual recording or artist evidence 2026-11-22",
       "curation_confidence": "medium",
       "review_needed": true,
       "genre_evidence_url": "https://www.last.fm/music/Queen%2B%26%2BDavid%2BBowie/Hot%2BSpace/Under%2BPressure",
-      "genre_evidence": "Last.fm exact Under Pressure: classic rock",
-      "genre_source": "Найденный источник жанра или артиста"
+      "genre_evidence": "Last.fm exact Queen Bowie song: classic rock",
+      "genre_source": "Last.fm genre context, detailed subgenre still preliminary"
     },
     "awen-545": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -19838,36 +19838,36 @@
       "subgenres": [
         "Lo-Fi Hip-Hop"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "Last.fm individual recording or artist evidence 2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр"
+      "genre_evidence_url": "https://www.last.fm/music/Kina/_/Get%2BYou%2BThe%2BMoon%2B%28feat.%2BSn%C3%B8w%29",
+      "genre_evidence": "Last.fm exact track; artist lo-fi / cloud rap music noted",
+      "genre_source": "Last.fm genre context, detailed subgenre still preliminary"
     },
     "awen-676": {
       "genre": "Pop",
       "subgenres": [
         "Dance Pop"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "Last.fm individual recording or artist evidence 2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр"
+      "genre_evidence_url": "https://www.last.fm/music/Ikon/LOVE%2BSCENARIO",
+      "genre_evidence": "Last.fm exact iKON track; K-pop style inference",
+      "genre_source": "Last.fm genre context, detailed subgenre still preliminary"
     },
     "awen-677": {
       "genre": "Classical / Cinematic",
       "subgenres": [
         "Film Score"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "Last.fm individual recording or artist evidence 2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр"
+      "genre_evidence_url": "https://www.last.fm/music/Zac%2BEfron%2B%26%2BZendaya/Rewrite%2BThe%2BStars",
+      "genre_evidence": "Last.fm exact film soundtrack track and film metadata",
+      "genre_source": "Last.fm genre context, detailed subgenre still preliminary"
     },
     "awen-679": {
       "genre": "Pop",
@@ -19992,12 +19992,12 @@
       "subgenres": [
         "Dance Pop"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "Last.fm individual recording or artist evidence 2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр"
+      "genre_evidence_url": "https://www.last.fm/music/Mark%2BRonson/_/Nothing%2BBreaks%2BLike%2Ba%2BHeart%2B%28feat.%2BMiley%2BCyrus%29",
+      "genre_evidence": "Last.fm exact single; pop crossover inferred",
+      "genre_source": "Last.fm genre context, detailed subgenre still preliminary"
     },
     "awen-738": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -20196,12 +20196,12 @@
       "subgenres": [
         "Slap House"
       ],
-      "curation_method": "Last.fm/AllMusic genre tags; broad catalogue mapping",
+      "curation_method": "Last.fm individual recording or artist evidence 2026-11-22",
       "curation_confidence": "medium",
       "review_needed": true,
       "genre_evidence_url": "https://www.last.fm/music/Dynoro/In%2BMy%2BMind",
-      "genre_evidence": "Last.fm In My Mind slap house",
-      "genre_source": "Найденный источник жанра или артиста"
+      "genre_evidence": "Last.fm same track: slap house tag",
+      "genre_source": "Last.fm genre context, detailed subgenre still preliminary"
     },
     "awen-817": {
       "genre": "Folk / Ethno / World",
@@ -20220,12 +20220,12 @@
       "subgenres": [
         "Trap"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "Last.fm individual recording or artist evidence 2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр"
+      "genre_evidence_url": "https://www.last.fm/music/Kodak%2BBlack",
+      "genre_evidence": "Last.fm Kodak Black hip-hop tags and ZEZE listed",
+      "genre_source": "Last.fm genre context, detailed subgenre still preliminary"
     },
     "awen-819": {
       "genre": "Chill / Lo-Fi / Ambient",
