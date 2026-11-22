@@ -1691,9 +1691,16 @@
     },
     "awen-323": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-326": {
       "genre": "Hip-Hop / Rap",
@@ -1890,9 +1897,16 @@
     },
     "awen-359": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-361": {
       "genre": "Rock / Indie",
@@ -8012,9 +8026,16 @@
     },
     "awen-1252": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-1257": {
       "genre": "Rock / Indie",
@@ -9074,9 +9095,16 @@
     },
     "awen-1409": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Classic Rock"
+      ],
+      "genre_evidence_url": "https://www.last.fm/music/Elvis%2BPresley/_/Heartbreak%2BHotel",
+      "genre_evidence": "Last.fm original song; classic rock mapped broadly",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
     },
     "awen-1412": {
       "genre": "Chill / Lo-Fi / Ambient",
@@ -11872,9 +11900,16 @@
     },
     "awen-1950": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Afro / Global Club",
+      "subgenres": [
+        "Afrobeat"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-1951": {
       "genre": "Hip-Hop / Rap",
@@ -12087,9 +12122,16 @@
     },
     "awen-1978": {
       "language": "Қазақша",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-1981": {
       "genre": "Bass Music / EDM",
@@ -12371,9 +12413,16 @@
     },
     "awen-2042": {
       "language": "Қазақша",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-2043": {
       "genre": "Rock / Indie",
@@ -12416,9 +12465,16 @@
     },
     "awen-2051": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-2054": {
       "genre": "Phonk",
@@ -12513,9 +12569,16 @@
     },
     "awen-2079": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-2080": {
       "language": "Русский",
@@ -12633,15 +12696,29 @@
     },
     "awen-2105": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-2106": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-2107": {
       "genre": "House",
@@ -12667,9 +12744,16 @@
     },
     "awen-2109": {
       "language": "Русский",
-      "curation_method": "метаданные названия",
-      "curation_confidence": "medium",
-      "review_needed": true
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-3": {
       "genre": "House",
@@ -15841,7 +15925,17 @@
       "album": "Wut Wut - Single",
       "year": 2021,
       "year_type": "album_release",
-      "duration": 139
+      "duration": 139,
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-192": {
       "verified_metadata": {
@@ -16002,7 +16096,17 @@
       "album": "Evening Machine",
       "year": 2019,
       "year_type": "album_release",
-      "duration": 200
+      "duration": 200,
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-485": {
       "verified_metadata": {
@@ -16222,7 +16326,17 @@
       "album": "Coldest Night - Single",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 189
+      "duration": 189,
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-656": {
       "verified_metadata": {
@@ -16287,7 +16401,17 @@
       "album": "Caught Up (feat. Cirillo) - Single",
       "year": 2019,
       "year_type": "album_release",
-      "duration": 175
+      "duration": 175,
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-204": {
       "verified_metadata": {
@@ -16301,7 +16425,17 @@
       "album": "TANZPARTEI (Mixtape)",
       "year": 2023,
       "year_type": "album_release",
-      "duration": 233
+      "duration": 233,
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-205": {
       "verified_metadata": {
@@ -16349,7 +16483,17 @@
       "album": "Catalyst",
       "year": 2021,
       "year_type": "album_release",
-      "duration": 215
+      "duration": 215,
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Experimental Electronic"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-219": {
       "verified_metadata": {
@@ -16410,7 +16554,17 @@
       "album": "Classic",
       "year": 2018,
       "year_type": "album_release",
-      "duration": 276
+      "duration": 276,
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-272": {
       "verified_metadata": {
@@ -16664,7 +16818,17 @@
       "album": "Spiders",
       "year": 2011,
       "year_type": "album_release",
-      "duration": 242
+      "duration": 242,
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-685": {
       "verified_metadata": {
@@ -17209,7 +17373,17 @@
       "album": "Trying to Be Nice - Single",
       "year": 2020,
       "year_type": "album_release",
-      "duration": 165
+      "duration": 165,
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-427": {
       "verified_metadata": {
@@ -18087,7 +18261,17 @@
       "album": "What You Do To Me (feat. Oly) - Single",
       "year": 2017,
       "year_type": "album_release",
-      "duration": 219
+      "duration": 219,
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     },
     "awen-1401": {
       "verified_metadata": {
@@ -25120,6 +25304,1818 @@
       "genre_evidence_url": "",
       "genre_evidence": "Нет отдельного подтверждения жанра данной версии песни; проверить по Beatport/Last.fm/аудио",
       "genre_source": "Неподтверждённая гипотеза"
+    },
+    "awen-51": {
+      "genre": "Latin / Brazilian Club",
+      "subgenres": [
+        "Baile Funk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-62": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-79": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-143": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Melodic Techno"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-195": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-211": {
+      "genre": "House",
+      "subgenres": [
+        "Organic House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-215": {
+      "genre": "Phonk",
+      "subgenres": [
+        "Drift Phonk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-229": {
+      "genre": "Phonk",
+      "subgenres": [
+        "Drift Phonk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-271": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-284": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-294": {
+      "genre": "Pop",
+      "subgenres": [
+        "Electropop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-325": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-341": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-344": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-385": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-414": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-423": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-453": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-465": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-479": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-617": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-696": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-707": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-709": {
+      "genre": "Phonk",
+      "subgenres": [
+        "Drift Phonk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-716": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-Fi Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-725": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-769": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-778": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-792": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-839": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-847": {
+      "genre": "House",
+      "subgenres": [
+        "Tropical House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-849": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-855": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-857": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/track/my-life/10343642",
+      "genre_evidence": "Beatport exact ZHU & Tame Impala original track; House subtype tentative",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
+    },
+    "awen-863": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-865": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-879": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-883": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-887": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://music.apple.com/us/song/691390089",
+      "genre_evidence": "Apple Music exact Kleerup feat Lykke Li song; Electronica mapping tentative",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
+    },
+    "awen-890": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-899": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-910": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-915": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-928": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-Fi Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-931": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-952": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-953": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-962": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-973": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-989": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Dido",
+      "genre_evidence": "Last.fm artist and known acoustic recording; Indie Pop is tentative",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
+    },
+    "awen-993": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-994": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1016": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1023": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1043": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1052": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1071": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1081": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1093": {
+      "genre": "House",
+      "subgenres": [
+        "Future House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1109": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1114": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Emily%2BBrowning",
+      "genre_evidence": "Artist track from film soundtrack; Film Score broad grouping tentative",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
+    },
+    "awen-1119": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Cat%2BPower",
+      "genre_evidence": "Last.fm Cat Power track Sea of Love listed, folk genre inference",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
+    },
+    "awen-1122": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1126": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Indie Rock"
+      ],
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Amber%2BRun/Teen%2BWolf%2B%28Original%2BTelevision%2BSoundtrack%29/I%2BFound",
+      "genre_evidence": "Last.fm Amber Run I Found exact song, indie rock band",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
+    },
+    "awen-1143": {
+      "genre": "Pop",
+      "subgenres": [
+        "Bedroom Pop"
+      ],
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://musicbrainz.org/artist/d786f59b-1836-4ddb-8393-ab753edbe984",
+      "genre_evidence": "MusicBrainz exact Clairo 4EVER listing, artist bedroom pop characterization",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
+    },
+    "awen-1144": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1155": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1170": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1191": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1205": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Game Score"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1216": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1226": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Ambient"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1231": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1237": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1246": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillout"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1281": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1298": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-Fi Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1307": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Emo Rap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1324": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1344": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1353": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1371": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Classic Rock"
+      ],
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Elvis%2BPresley/_/Heartbreak%2BHotel",
+      "genre_evidence": "Last.fm original song; classic rock mapped broadly",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
+    },
+    "awen-1406": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lounge"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1411": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1414": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1427": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1432": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1454": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1470": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1485": {
+      "genre": "Pop",
+      "subgenres": [
+        "Electropop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1491": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1526": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1533": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1569": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Soul"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1570": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Indie Folk"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1593": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1609": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1610": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1631": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1655": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1658": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1674": {
+      "genre": "Pop",
+      "subgenres": [
+        "Pop Rock"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1695": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1708": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1712": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1754": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "Future Bass"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1766": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1787": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1810": {
+      "genre": "Afro / Global Club",
+      "subgenres": [
+        "Afrobeats"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1811": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1820": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1848": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1852": {
+      "genre": "House",
+      "subgenres": [
+        "Future House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1880": {
+      "genre": "Electronica / Experimental",
+      "subgenres": [
+        "Electronica"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1881": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dream Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1882": {
+      "genre": "Afro / Global Club",
+      "subgenres": [
+        "Dancehall"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1906": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1918": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1924": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1925": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillout"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1956": {
+      "genre": "Classical / Cinematic",
+      "subgenres": [
+        "Film Score"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1992": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-1994": {
+      "genre": "Latin / Brazilian Club",
+      "subgenres": [
+        "Latin Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2019": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2023": {
+      "genre": "Pop",
+      "subgenres": [
+        "Electropop"
+      ],
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Kiiara/Whippin%2B%28feat.%2BFelix%2BSnow%29",
+      "genre_evidence": "Last.fm Kiiara Whippin exact track; Electropop mapping tentative",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
+    },
+    "awen-2068": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2071": {
+      "genre": "Techno / Trance",
+      "subgenres": [
+        "Minimal Techno"
+      ],
+      "curation_method": "Сверка Last.fm / Beatport / MusicBrainz 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.last.fm/music/Gesaffelstein/Aleph/Destinations",
+      "genre_evidence": "Last.fm exact Gesaffelstein Destinations, industrial techno artist; subtype speculative",
+      "genre_source": "Совпадение идентичности песни; стиль предварительный"
+    },
+    "awen-2072": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2081": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2097": {
+      "genre": "Afro / Global Club",
+      "subgenres": [
+        "Dancehall"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2102": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2110": {
+      "genre": "House",
+      "subgenres": [
+        "Deep House"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2215": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2220": {
+      "genre": "Folk / Ethno / World",
+      "subgenres": [
+        "Ethno-Electronic"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2223": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Lo-Fi Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2234": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2278": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2309": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2311": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2312": {
+      "genre": "Bass Music / EDM",
+      "subgenres": [
+        "EDM Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2313": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Alternative Hip-Hop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2316": {
+      "genre": "Pop",
+      "subgenres": [
+        "Dance Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2324": {
+      "genre": "Latin / Brazilian Club",
+      "subgenres": [
+        "Latin Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2327": {
+      "genre": "Rock / Indie",
+      "subgenres": [
+        "Alternative Rock"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2328": {
+      "genre": "Hip-Hop / Rap",
+      "subgenres": [
+        "Trap"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2332": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Downtempo"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2334": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Ambient"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2346": {
+      "genre": "R&B / Soul",
+      "subgenres": [
+        "Alternative R&B"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2349": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2350": {
+      "genre": "Chill / Lo-Fi / Ambient",
+      "subgenres": [
+        "Chillout"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
+    },
+    "awen-2351": {
+      "genre": "Pop",
+      "subgenres": [
+        "Indie Pop"
+      ],
+      "curation_method": "Редакторская гипотеза по исполнителю/стилю 2026-11-22",
+      "curation_confidence": "low",
+      "review_needed": true,
+      "genre_evidence_url": "",
+      "genre_evidence": "Нет независимого подтверждения жанра конкретной записи; требуется проверка",
+      "genre_source": "Не подтверждённый стилевой ориентир"
     }
   }
 }
