@@ -51,8 +51,8 @@ function build(tracks,editorial,settings){
         if(Number.isFinite(e)&&e>=0&&e<=1){
           const target=(cfg.energy[0]+cfg.energy[1]-2)/8;
           const distance=Math.abs(e-target);
-          if(distance<=0.25){score+=5;reasons.push('Измеренные акустические признаки подходят (эвристика)');}
-          else if(distance>=0.60){score-=5;reasons.push('Акустические признаки отличаются (эвристика)');}
+          if(distance<=0.25){score+=(Number(w.acousticMatchBonus)||5);reasons.push('Измеренные акустические признаки подходят (эвристика)');}
+          else if(distance>=0.60){score-=(Number(w.acousticMismatchPenalty)||5);reasons.push('Акустические признаки отличаются (эвристика)');}
         }
       }
 
