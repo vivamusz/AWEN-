@@ -24,6 +24,7 @@ function htmlList(items,{limit=25}={}){
    '<button type="button" class="ad-mini" data-ad-action="like" data-id="'+esc(t.id)+'" aria-pressed="'+favorite+'" title="Избранное">'+(favorite?'♥':'♡')+'</button>'+
    '<button type="button" class="ad-mini" data-ad-action="dislike" data-id="'+esc(t.id)+'" aria-pressed="'+blocked+'" title="Не рекомендовать" aria-label="Не рекомендовать">×</button>'+
    '<button type="button" class="ad-mini" data-ad-action="mix-add" data-id="'+esc(t.id)+'" title="В мой микс" aria-label="Добавить в микс">＋</button>'+
+   '<button type="button" class="ad-mini" data-mypl-action="add" data-track-id="'+esc(t.id)+'" title="В мои плейлисты" aria-label="В мои плейлисты">☷</button>'+
    '<button type="button" class="ad-mini" data-ad-action="block-artist" data-artist="'+esc(t.artist)+'" title="Скрыть исполнителя в рекомендациях" aria-label="Скрыть исполнителя">⊘</button></div></div>';
  }).join('')+'</div>';
 }
@@ -101,7 +102,7 @@ function mixPanel(){
  '<label class="ad-label" for="ad-mix-name">Название</label><input id="ad-mix-name" class="ad-input" maxlength="60" value="'+esc(draft.name||'Мой AWEN микс')+'">'+
  '<label class="ad-label" for="ad-mix-search">Добавить композицию</label><input id="ad-mix-search" class="ad-input" type="search" maxlength="100" placeholder="Название, исполнитель" value="'+esc(mixQuery)+'">'+
  '<div id="ad-mix-found" class="ad-search-list">'+mixSearchHTML()+'</div>'+
- '<div class="ad-actions">'+button('mix-share','Скопировать ссылку на микс','','ad-btn primary')+button('mix-clear','Очистить микс')+'</div>'+
+ '<div class="ad-actions">'+button('mix-share','Скопировать ссылку на микс','','ad-btn primary')+button('save-mix-my','Сохранить в «Мои плейлисты»')+button('mix-clear','Очистить микс')+'</div>'+
  '<div class="ad-warning">Совместная работа здесь означает передачу версии по ссылке: получатель может добавить песни и отправить новую ссылку. Это НЕ одновременное редактирование и не облачная синхронизация.</div>')+
  section('8. Умный порядок',
  '<p>Перестановка по доступным измеренным BPM; если их нет, по редакторской энергии и близости жанров. Автоматического сведения и кроссфейда нет.</p>'+
@@ -212,6 +213,9 @@ function act(node){
  if(kind==='mix-clear'){if(!root.confirm('Очистить текущий микс?'))return;state.draft.ids=[];save();refresh();return;}
  if(kind==='mix-sort'){let list=arr(state.draft.ids).map(id=>tracks().find(t=>t.id===id)).filter(Boolean);state.draft.ids=Core.smartOrder(list).map(x=>x.track.id);save();refresh();return;}
  if(kind==='mix-share'){let input=document.getElementById('ad-mix-name');if(input)state.draft.name=input.value.slice(0,60);save();copyText(mixLink());return;}
+ if(kind==='save-mix-my'){let input=document.getElementById('ad-mix-name');if(input)state.draft.name=input.value.slice(0,60);
+  if(window.AWENMyPlaylists){window.AWENMyPlaylists.createFromMix(state.draft.name,arr(state.draft.ids));save();}
+  else notify('Раздел личных плейлистов пока не загружен');return;}
  if(kind==='download-recap'){downloadRecap();return;}
  if(kind==='share-recap'){const summary=shareText(Core.stats(ctx(),selectedYear));if(navigator.share){navigator.share({title:'AWEN · Мой музыкальный год',text:summary}).catch(()=>copyText(summary));}else copyText(summary);return;}
 }
