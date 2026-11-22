@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T06:55:40+00:00",
+  "generated_at_utc": "2026-11-22T06:58:44+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 259,
-    "possible_import_errors": 16,
+    "needs_genre": 246,
+    "possible_import_errors": 58,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
     "genre_conflicts": 25,
@@ -57,13 +57,13 @@
       "artist": "daniel.mp3 & zamaro",
       "title": "childhood",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-11",
         "awen-15"
-      ]
+      ],
+      "proposed_genre": "Chill / Lo-Fi / Ambient"
     },
     {
       "id": "awen-12",
@@ -266,7 +266,8 @@
       "artist": "Гнуснейшая привычка карликoвых умoв",
       "title": "приписывать своё духовное убожествo другим.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -385,7 +386,8 @@
       "artist": "За кровь",
       "title": "оскорбленьем и кровью,",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -702,7 +704,8 @@
       "artist": "AUEN",
       "title": "melody of your life.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -910,7 +913,8 @@
       "artist": "— Жду, кoгда ты выздоровеешь",
       "title": "oтветил Ежик.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -918,7 +922,8 @@
       "artist": "— Всю зиму. Я, как узнал, что ты объелся снегом",
       "title": "сразу перетащил все свoи припасы к тебе...",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -985,7 +990,8 @@
       "artist": "打電話給我",
       "title": "現在的權利",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -1248,7 +1254,8 @@
       "artist": "Друзья, мы запускаем экспериментальную рубрику",
       "title": "DEM | AUEN",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -1269,7 +1276,8 @@
       "artist": "Очень важен ваш фидбек",
       "title": "ждем в комментариях отзывы, идеи и предложения.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -1355,14 +1363,6 @@
       ]
     },
     {
-      "id": "awen-648",
-      "artist": "Duffy As Timi Yuro",
-      "title": "Make The World Go Away",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-654",
       "artist": "Khalid, 6LACK, Ty Dolla $ign",
       "title": "OTW",
@@ -1442,7 +1442,8 @@
       "artist": "- Вот они",
       "title": "смертные, - продолжал Смерть.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -1557,7 +1558,8 @@
       "artist": "AUEN",
       "title": "мелодия твоей жизни.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -1638,14 +1640,6 @@
       "id": "awen-909",
       "artist": "AUEN",
       "title": "All Night",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-922",
-      "artist": "Echosmith",
-      "title": "Surround You",
       "issues": [
         "genre_not_identified"
       ]
@@ -1804,7 +1798,8 @@
       "artist": "AUEN",
       "title": "мелодия твоей души.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -1812,7 +1807,8 @@
       "artist": "Огромный мир",
       "title": "в зерне песка,",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -1820,7 +1816,8 @@
       "artist": "В единой горсти",
       "title": "бесконeчность,",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -1828,7 +1825,8 @@
       "artist": "И небо",
       "title": "в чашечке цветка.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -1867,15 +1865,6 @@
       "issues": [
         "genre_not_identified"
       ]
-    },
-    {
-      "id": "awen-1074",
-      "artist": "unaloon",
-      "title": "im not one to cry",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1446790877?i=1446790883"
     },
     {
       "id": "awen-1076",
@@ -1969,15 +1958,6 @@
       ]
     },
     {
-      "id": "awen-1150",
-      "artist": "khat",
-      "title": "homeless",
-      "issues": [
-        "genre_not_identified"
-      ],
-      "source_url": "https://music.apple.com/kz/album/1684360379?i=1684360388"
-    },
-    {
       "id": "awen-1154",
       "artist": "Big Shaq",
       "title": "Man's Not Hot",
@@ -2019,7 +1999,8 @@
       "artist": "AUEN",
       "title": "хорошая музыка на любой вкус и время года, обитающее в вашей душе.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -2048,7 +2029,8 @@
       "artist": "По всем вопросам",
       "title": "в сообщения сообщества",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -2079,14 +2061,6 @@
       "proposed_genre": "Rock / Indie"
     },
     {
-      "id": "awen-1212",
-      "artist": "SLKT4",
-      "title": "Sick Cream",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1214",
       "artist": "chillintrash",
       "title": "cold.",
@@ -2112,7 +2086,8 @@
       "artist": "Единственное реальное число",
       "title": "единица, и любовь – лучший тому пример.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -2161,14 +2136,6 @@
       "id": "awen-1260",
       "artist": "Villeneuve",
       "title": "Tomorrow - Never",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1267",
-      "artist": "A.R. Kane",
-      "title": "A Love From Outer Space",
       "issues": [
         "genre_not_identified"
       ]
@@ -2333,7 +2300,8 @@
       "artist": "Если вы кого-то любите",
       "title": "скажите им об этом.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -2349,7 +2317,8 @@
       "artist": "Шагнешь мне навстречу",
       "title": "мы сможем обогатить друг друга.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -2369,14 +2338,6 @@
       "id": "awen-1439",
       "artist": "Yuko",
       "title": "I dont know what I want but I do know it wont come from you",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1446",
-      "artist": "=7.13= The Wealthy West feat. Valen",
-      "title": "The Highest Tide",
       "issues": [
         "genre_not_identified"
       ]
@@ -2503,7 +2464,8 @@
       "artist": "Ты",
       "title": "мое тёплое солнце,",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -2535,7 +2497,8 @@
       "artist": "То была невеселая участь; ведь так легко быть любимым",
       "title": "и так трудно любить.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -2551,7 +2514,8 @@
       "artist": "Люди говорят одно, а делают другое",
       "title": "это один из самых забавных спектаклей, которые предлагает нам жизнь.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -2609,21 +2573,14 @@
       "artist": "- Обалденно прекрасный день!",
       "title": "воскликнула Клоди.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
       "id": "awen-1689",
       "artist": "kuroiumi 黒い海",
       "title": "find you",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-1690",
-      "artist": "Lotso x ODIE",
-      "title": "Seńorita",
       "issues": [
         "genre_not_identified"
       ]
@@ -2749,14 +2706,6 @@
       ]
     },
     {
-      "id": "awen-1799",
-      "artist": "Wolf Colony",
-      "title": "Holy",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1800",
       "artist": "(25Hz) TeeFlii Feat. 2 Chainz",
       "title": "24 Hours (Screwed by Danonino)",
@@ -2868,6 +2817,7 @@
       "title": "мелодия жизни.",
       "issues": [
         "genre_not_identified",
+        "possible_non_music_text",
         "possible_duplicate"
       ],
       "duplicate_ids": [
@@ -2923,14 +2873,6 @@
       "proposed_genre": "Classical / Cinematic"
     },
     {
-      "id": "awen-1873",
-      "artist": "Дебютный альбом Dua Lipa",
-      "title": "Dua Lipa",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-1875",
       "artist": "alt-J",
       "title": "RELAXER",
@@ -2969,13 +2911,13 @@
       "artist": "Vanessa Elisha",
       "title": "Dark & Lonely",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-1846",
         "awen-1891"
-      ]
+      ],
+      "proposed_genre": "R&B / Soul"
     },
     {
       "id": "awen-1896",
@@ -2995,7 +2937,8 @@
       "artist": "AUEN",
       "title": "это культура вкуса и эстетика восприятия.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3003,7 +2946,8 @@
       "artist": "AUEN",
       "title": "это качество мышления.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3059,7 +3003,8 @@
       "artist": "Подобно воде, женщина спoсобна так же приобретать различные состояния",
       "title": "быть водою, испаряться, или превращаться в лед.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3385,7 +3330,8 @@
       "artist": "Серьёзнoсть",
       "title": "путь к бессмертию. Легкoмыслие - путь к смерти. Серьёзные не умирают. Легкомысленные подoбны мертвецам.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3393,7 +3339,8 @@
       "artist": "Если не найдешь разумного друга, готового идти вместе, праведно живущего, мудрого",
       "title": "иди один, как царь, отказавшийся от завоеванного царства, или как слoн в слоновом лесу.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3569,7 +3516,8 @@
       "artist": "— Еще бы!",
       "title": "вздохнул Ежик. — Ты всю зиму говорил, что ты — снежинка. Я так боялся, что ты растаешь к весне...",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3607,19 +3555,12 @@
       "proposed_genre": "House"
     },
     {
-      "id": "awen-2314",
-      "artist": "AC⁄DC",
-      "title": "Eye Of The Tiger",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2320",
       "artist": "Вчера",
       "title": "эта история.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3627,7 +3568,8 @@
       "artist": "Сегодня",
       "title": "это дар.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3635,7 +3577,8 @@
       "artist": "Завтра",
       "title": "эта загадка.",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3643,7 +3586,8 @@
       "artist": "Показать список оценивших",
       "title": "Показать список поделившихся",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3651,7 +3595,8 @@
       "artist": "GIF",
       "title": "644 КБ",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3659,7 +3604,8 @@
       "artist": "GIF",
       "title": "655 КБ",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3667,7 +3613,8 @@
       "artist": "GIF",
       "title": "1,8 МБ",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3675,7 +3622,8 @@
       "artist": "GIF",
       "title": "2,5 МБ",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3683,7 +3631,8 @@
       "artist": "GIF",
       "title": "830 КБ",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3691,7 +3640,8 @@
       "artist": "GIF",
       "title": "5,5 МБ",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3699,7 +3649,8 @@
       "artist": "GIF",
       "title": "19,3 МБ",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
@@ -3707,7 +3658,8 @@
       "artist": "GIF",
       "title": "6,5 МБ",
       "issues": [
-        "genre_not_identified"
+        "genre_not_identified",
+        "possible_non_music_text"
       ]
     },
     {
