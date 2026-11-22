@@ -336,6 +336,15 @@
             }
             if(patch.review_needed)t.curation_review_needed=true;
             if(patch.potential_import_error)t.import_review_needed=true;
+            // Source quality and editorial energy, not measured acoustic features.
+            t.awen_quality={
+              genre_confidence: typeof patch.curation_confidence==='string'?patch.curation_confidence:'none',
+              genre_review_needed: Boolean(patch.review_needed),
+              editorial_energy: patch.energy!==undefined&&patch.energy!==null&&Number.isFinite(Number(patch.energy))
+                ? Math.max(1,Math.min(5,Number(patch.energy))) : null
+            };
+            if(patch.entry_type)t.entry_type=patch.entry_type;
+            if(patch.entry_type_review_needed)t.entry_type_review_needed=true;
             if(manual){
               t.genre_source='Ручная правка каталога';
               t.playlist_manual=true;
@@ -451,26 +460,55 @@
           }
         }
       }catch(err){console.warn('AWEN: дополнительные жанровые свидетельства недоступны',err);}
-      // Five curated AWEN playlists. Apply AFTER genre enrichment so automatic
-      // provider suggestions cannot re-add tracks removed by the curator.
+      // AWEN Algotorial v2: curated seeds + strict playlist-specific evidence scoring.
+      // The saved manifest remains authoritative editorial input. Invalid tags cannot
+      // add tracks behind the curator's back.
       try{
         const playlistResponse=await fetch('./awen-playlists.json?rev=20261122-tracks4',{cache:'no-store'});
         if(playlistResponse.ok){
-          const playlistDoc=await playlistResponse.json();
-          const pools=playlistDoc&&playlistDoc.playlists||{};
+          const manifest=await playlistResponse.json();
+          let ranked=null;
+          try{
+            const configResponse=await fetch('./awen-playlist-profiles.json?rev=20261122-algotorial-v2',{cache:'no-store'});
+            if(configResponse.ok&&window.AWENPlaylistEngine&&typeof window.AWENPlaylistEngine.build==='function'){
+              const profiles=await configResponse.json();
+              ranked=window.AWENPlaylistEngine.build(found,manifest,profiles);
+              window.AWENPlaylistDiagnostics=ranked.diagnostics;
+            }
+          }catch(error){console.warn('AWEN: модель подборок недоступна, используем редакторский список',error);}
+          const pool=ranked?ranked.playlists:manifest.playlists;
           const membership=new Map();
+          const reasons=new Map();
+          const ranks=new Map();
           for(const p of lists){
-            const ids=pools[p.id]&&pools[p.id].track_ids;
+            const entry=pool[p.id];
+            const ids=entry&&entry.track_ids;
             if(!Array.isArray(ids))continue;
-            for(const trackId of ids){
-              if(typeof trackId!=='string')continue;
+            ids.forEach((trackId,idx)=>{
+              if(typeof trackId!=='string')return;
               if(!membership.has(trackId))membership.set(trackId,[]);
               membership.get(trackId).push(p.id);
-            }
+              if(!ranks.has(trackId))ranks.set(trackId,{});
+              ranks.get(trackId)[p.id]=idx;
+              if(ranked){
+                if(!reasons.has(trackId))reasons.set(trackId,{});
+                reasons.get(trackId)[p.id]=entry.explanations?.[trackId]||null;
+              }
+            });
           }
-          for(const t of found) t.playlists=[...new Set(membership.get(t.id)||[])];
+          for(const t of found){
+            t.playlists=[...new Set(membership.get(t.id)||[])];
+            t.awen_playlist_rank=ranks.get(t.id)||{};
+            t.awen_playlist_reasons=reasons.get(t.id)||{};
+          }
+          console.info('AWEN: подборки',ranked?'Algotorial v2':'редакторский резерв',Object.fromEntries(lists.map(p=>[p.id,(pool[p.id]?.track_ids||[]).length])));
+        }else{
+          for(const t of found)t.playlists=[];
         }
-      }catch(err){console.warn('AWEN: обновлённые подборки временно недоступны',err);}
+      }catch(err){
+        for(const t of found)t.playlists=[];
+        console.warn('AWEN: подборки временно недоступны',err);
+      }
       // Keep questionable VK post fragments in the source JSON and curator for review,
       // but do not present them to listeners as actual music recordings.
       const quarantined=found.filter(t=>t.import_review_needed).length;
