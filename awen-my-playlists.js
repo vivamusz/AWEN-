@@ -85,13 +85,13 @@ function deletePlaylist(id){const p=state.lists.find(x=>x.id===id);if(!p)return 
 }
 const btn=(action,label,props='',extra='')=>'<button type="button" class="mpl-btn '+extra+'" data-mypl-action="'+action+'" '+props+'>'+esc(label)+'</button>';
 function renderLibrary(){
- const list=state.lists.find(x=>x.id===activeId),received=pendingShare;
+ const list=state.lists.find(x=>x.id===activeId),received=pendingShare,known=new Map(tracks().map(t=>[t.id,t]));
  const banner=received?'<div class="mpl-import-banner"><h2>Получена подборка: '+esc(received.name)+'</h2><p>'+received.ids.length+' треков. Вы можете сохранить копию на своём устройстве; исходный плейлист другого человека не изменится.</p><div class="mpl-actions">'+btn('save-shared','Сохранить в «Мои плейлисты»','','primary')+btn('dismiss-shared','Не сохранять')+'</div></div>':'';
  const controls='<div class="mpl-actions">'+btn('create-open','＋ Новый плейлист','','primary')+btn('backup-export','Скачать резервную копию JSON')+btn('backup-import','Восстановить из JSON')+'</div>';
  let body='';
  if(!list){
   const cards=state.lists.map(p=>{
-   const missing=p.track_ids.filter(id=>!byId(id)).length;
+   const missing=p.track_ids.filter(id=>!known.has(id)).length;
    return '<button class="mpl-card" type="button" data-mypl-action="open" data-list-id="'+esc(p.id)+'">'+
     '<span class="mpl-card-cover" aria-hidden="true">♫</span><strong>'+esc(p.name)+'</strong>'+
     '<small>'+p.track_ids.length+' треков'+(missing?' · '+missing+' нет в каталоге':'')+'</small>'+
@@ -100,7 +100,7 @@ function renderLibrary(){
   body=state.lists.length?'<div class="mpl-grid">'+cards+'</div>':'<div class="mpl-empty"><strong>Ваших плейлистов пока нет</strong><p>Создайте первый список и добавляйте понравившиеся песни кнопкой ＋ в каталоге, карточках и рекомендациях.</p>'+btn('create-open','Создать первый плейлист','','primary')+'</div>';
  }else{
   const rows=list.track_ids.map((id,i)=>{
-   const t=byId(id),missing=!t;
+   const t=known.get(id),missing=!t;
    const detail=t?'<button type="button" class="mpl-song-link" data-mypl-action="details" data-track-id="'+esc(id)+'"><strong>'+esc(t.title)+'</strong><small>'+esc(t.artist)+' · '+esc(t.genre)+'</small></button>':'<div class="mpl-song-link"><strong>Трек недоступен в этом каталоге</strong><small>'+esc(id)+' · ID сохранён в плейлисте</small></div>';
    return '<div class="mpl-song"><span class="mpl-number">'+(i+1)+'.</span>'+detail+
    '<div class="mpl-song-controls">'+btn('up','↑','data-track-id="'+esc(id)+'" '+(i===0?'disabled':''),'compact')+
@@ -152,6 +152,7 @@ function sharePlaylist(id){
  const shareable=p.track_ids.filter(x=>/^awen-\d+$/.test(x));
  if(!shareable.length){notify('Для ссылки нужны треки с ID AWEN');return;}
  if(p.track_ids.length>50){notify('В ссылке максимум 50 песен. Для полного списка скачайте резервную копию JSON.');return;}
+ if(shareable.length!==p.track_ids.length){notify('В плейлисте есть локальные ID без AWEN — экспортируйте полный список в JSON.');return;}
  let url=new URL(root.location.href);
  url.searchParams.delete('awen_mix');url.searchParams.set('awen_pl',core.encodeMix(p.name,shareable));
  const value=url.toString();
