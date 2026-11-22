@@ -28732,6 +28732,86 @@
       "curation_method": "unresolved_catalog_audit_2026-11-22",
       "curation_confidence": "none",
       "genre_evidence": "Сопоставление по конкретному релизу не подтверждено. Не назначать жанр без дополнительной проверки."
+    },
+    "awen-1797": {
+      "genre": "House",
+      "subgenres": [],
+      "curation_method": "external_catalog_track_review_2026-11-22",
+      "curation_confidence": "medium",
+      "review_needed": true,
+      "genre_evidence_url": "https://www.beatport.com/artist/lazy-rich/38934/tracks",
+      "genre_evidence": "Beatport confirms Lazy Rich & JAXX DA FISHWORKS — Guilty Pleasure, but genre of exact Extended Mix not verified",
+      "genre_source": "Beatport track identity, broad house classification provisional"
+    },
+    "awen-908": {
+      "identity_status": "unverified_set_or_release_marker",
+      "curation_method": "catalog_identifier_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "genre_evidence": "Номер радиовыпуска/микса либо скрытое ID; без конкретной аудиозаписи жанр не назначен"
+    },
+    "awen-1006": {
+      "identity_status": "unverified_set_or_release_marker",
+      "curation_method": "catalog_identifier_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "genre_evidence": "Номер радиовыпуска/микса либо скрытое ID; без конкретной аудиозаписи жанр не назначен"
+    },
+    "awen-1076": {
+      "identity_status": "unverified_set_or_release_marker",
+      "curation_method": "catalog_identifier_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "genre_evidence": "Номер радиовыпуска/микса либо скрытое ID; без конкретной аудиозаписи жанр не назначен"
+    },
+    "awen-1587": {
+      "identity_status": "unverified_set_or_release_marker",
+      "curation_method": "catalog_identifier_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "genre_evidence": "Номер радиовыпуска/микса либо скрытое ID; без конкретной аудиозаписи жанр не назначен"
+    },
+    "awen-1599": {
+      "identity_status": "unverified_set_or_release_marker",
+      "curation_method": "catalog_identifier_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "genre_evidence": "Номер радиовыпуска/микса либо скрытое ID; без конкретной аудиозаписи жанр не назначен"
+    },
+    "awen-1748": {
+      "identity_status": "unverified_set_or_release_marker",
+      "curation_method": "catalog_identifier_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "genre_evidence": "Номер радиовыпуска/микса либо скрытое ID; без конкретной аудиозаписи жанр не назначен"
+    },
+    "awen-1784": {
+      "identity_status": "unverified_set_or_release_marker",
+      "curation_method": "catalog_identifier_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "genre_evidence": "Номер радиовыпуска/микса либо скрытое ID; без конкретной аудиозаписи жанр не назначен"
+    },
+    "awen-1837": {
+      "identity_status": "unverified_set_or_release_marker",
+      "curation_method": "catalog_identifier_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "genre_evidence": "Номер радиовыпуска/микса либо скрытое ID; без конкретной аудиозаписи жанр не назначен"
+    },
+    "awen-2062": {
+      "identity_status": "unverified_set_or_release_marker",
+      "curation_method": "catalog_identifier_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "genre_evidence": "Номер радиовыпуска/микса либо скрытое ID; без конкретной аудиозаписи жанр не назначен"
+    },
+    "awen-2230": {
+      "identity_status": "unverified_set_or_release_marker",
+      "curation_method": "catalog_identifier_audit_2026-11-22",
+      "curation_confidence": "none",
+      "review_needed": true,
+      "genre_evidence": "Номер радиовыпуска/микса либо скрытое ID; без конкретной аудиозаписи жанр не назначен"
     }
   }
 }
