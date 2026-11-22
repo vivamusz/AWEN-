@@ -283,13 +283,13 @@
   });
   async function loadShared(){
     try{
-      const r=await fetch('./awen-catalog.json?rev=20261122-2351',{cache:'no-store'});
+      const r=await fetch('./awen-catalog.json?rev=20261122-2369',{cache:'no-store'});
       if(!r.ok)throw Error('HTTP '+r.status);
       const found=parseCatalog(await r.json());
       if(!found.length)throw Error('Нет треков в файле');
       // Дополнительный справочник, независимый от оригинального каталога и автопоиска ссылок.
       try{
-        const cur=await fetch('./awen-curation.json?rev=20261122-2351',{cache:'no-store'});
+        const cur=await fetch('./awen-curation.json?rev=20261122-new-tracks4',{cache:'no-store'});
         if(cur.ok){
           const payload=await cur.json();
           const extra=payload&&payload.tracks&&typeof payload.tracks==='object'?payload.tracks:{};
@@ -454,7 +454,7 @@
       // Five curated AWEN playlists. Apply AFTER genre enrichment so automatic
       // provider suggestions cannot re-add tracks removed by the curator.
       try{
-        const playlistResponse=await fetch('./awen-playlists.json?rev=20261122-five-v1',{cache:'no-store'});
+        const playlistResponse=await fetch('./awen-playlists.json?rev=20261122-tracks4',{cache:'no-store'});
         if(playlistResponse.ok){
           const playlistDoc=await playlistResponse.json();
           const pools=playlistDoc&&playlistDoc.playlists||{};
