@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T04:31:57+00:00",
+  "generated_at_utc": "2026-11-22T05:56:45+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2351,
-    "needs_genre": 554,
+    "needs_genre": 432,
     "possible_import_errors": 16,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
@@ -4503,113 +4503,9 @@
       ]
     },
     {
-      "id": "awen-2112",
-      "artist": "[23:19] Tim Green",
-      "title": "Eteri [BALANCE]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2113",
-      "artist": "[24:54] Luttrell",
-      "title": "Darling [THIS NEVER HAPPENED]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2114",
-      "artist": "[29:00] LE YORA",
-      "title": "Lucid [ASCENSION REC.]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2115",
-      "artist": "[32:35] Stil & Bense",
-      "title": "Endorphine",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2116",
-      "artist": "[35:24] Simon Doty ft. Roland Clark",
-      "title": "Universal Language [ANJUNADEEP]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2117",
-      "artist": "[37:41] SIDEPIECE ft. ZOI",
-      "title": "I NEED U [BIG BEAT]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2118",
-      "artist": "[38:42] Baril",
-      "title": "Stay",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2119",
-      "artist": "[41:42] Mr. Sosa",
-      "title": "In Your Eyes [ETON MESSY]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2120",
       "artist": "[43:57] ID",
       "title": "ID",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2121",
-      "artist": "[48:35] Kölsch ft. Troels Abrahamsen",
-      "title": "All That Matters (ARTBAT Remix) [KOMPAKT]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2122",
-      "artist": "[51:00] Joseph Ray",
-      "title": "Cos Of You [ANJUNADEEP]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2123",
-      "artist": "[55:34] Anyma",
-      "title": "The Answer [AFTERLIFE]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2124",
-      "artist": "[58:16] Josh Wink",
-      "title": "Higher State Of Consciousness (Max Cooper Remix) [STRICTLY RHYTHM]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2125",
-      "artist": "[1:01:34] Trilucid",
-      "title": "Take Me Higher [ADESSO]",
       "issues": [
         "genre_not_identified"
       ]
@@ -4623,105 +4519,9 @@
       ]
     },
     {
-      "id": "awen-2127",
-      "artist": "[1:10:21] Sam Shure",
-      "title": "Connate Voices [CLASH LION]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2128",
-      "artist": "[1:13:28] Samm (BE)",
-      "title": "Does It Matter (AJNA Remix) [MAGNIFIK MUSIC]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2129",
-      "artist": "[1:18:33] Sam Gellaitry",
-      "title": "Assumptions (KAYTRANADA Remix) [WARNER MUSIC]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2130",
-      "artist": "[1:19:52] Henrik Schwarz & Richard Judge",
-      "title": "Put All Your Faith In Me (Tensnake Remix) [ARMADA ELECTRONIC ELEMENTS]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2131",
-      "artist": "[1:24:16] Underworld",
-      "title": "2 Months Off (Tim Green Remix) [BALANCE]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2132",
-      "artist": "[1:30:29] Guy J",
-      "title": "State Of Trance [LOST & FOUND]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2133",
-      "artist": "[1:34:57] Aera",
-      "title": "Future Holds [EXIT STRATEGY]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2134",
       "artist": "[1:38:36] ID",
       "title": "ID",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2135",
-      "artist": "[1:43:16] Rezident",
-      "title": "Vortex [REZIDENT]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2136",
-      "artist": "[1:47:25] Estiva & Jess Ball",
-      "title": "Carnal Emotion (Instrumental Mix) [COLORIZE]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2137",
-      "artist": "[1:50:29] Joseph Ray",
-      "title": "Blue Nights [ANJUNADEEP]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2138",
-      "artist": "[1:54:11] HUMS vs. DJ Heartstring",
-      "title": "Dance With Me vs. Infinite Teenage Dream",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2139",
-      "artist": "[1:59:44] salute vs. Simon Doty",
-      "title": "Feels Like My Hands Are On Fire vs.Sloane + Sibs",
       "issues": [
         "genre_not_identified"
       ]
@@ -4735,14 +4535,6 @@
       ]
     },
     {
-      "id": "awen-2141",
-      "artist": "[2:06:00] Innēr Sense",
-      "title": "Ettaneva (Grigoré Remix) [INNĒR SENSE]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2142",
       "artist": "[2:08:47] ID",
       "title": "ID",
@@ -4751,65 +4543,9 @@
       ]
     },
     {
-      "id": "awen-2143",
-      "artist": "[2:15:13] OLING",
-      "title": "Sizo [VIVRANT]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2144",
-      "artist": "[2:19:26] Cubicolor",
-      "title": "Summer & Smoke (Trikk Selva Furia Remix) [ANJUNADEEP]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2145",
-      "artist": "[2:24:34] Carlita & Andhim",
-      "title": "Life",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2146",
       "artist": "[2:28:56] ID",
       "title": "ID",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2147",
-      "artist": "[2:32:48] Loco & Jam",
-      "title": "We Touched The Sky [THERE IS A LIGHT]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2148",
-      "artist": "[2:35:32] Township Rebellion",
-      "title": "Placebo [FILTH ON ACID]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2149",
-      "artist": "[2:38:33] Calvin Logue",
-      "title": "Because Of You [STRESS]",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2150",
-      "artist": "[2:42:29] Fabrication ft. Leo Wood",
-      "title": "The Muze",
       "issues": [
         "genre_not_identified"
       ]
@@ -4839,30 +4575,6 @@
       ]
     },
     {
-      "id": "awen-2155",
-      "artist": "[0:01] Falden",
-      "title": "Don't Wanna Know",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2156",
-      "artist": "[2:59] Gui Boratto",
-      "title": "Wake Up",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2157",
-      "artist": "[5:56] Ryan Davis",
-      "title": "Hold On",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2158",
       "artist": "[9:24] OCULA",
       "title": "ID",
@@ -4879,41 +4591,9 @@
       ]
     },
     {
-      "id": "awen-2160",
-      "artist": "[16:03] TSHA",
-      "title": "Sister",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2161",
       "artist": "[20:48] ID",
       "title": "ID",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2162",
-      "artist": "[22:06] Ivory",
-      "title": "Epic",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2163",
-      "artist": "[24:44] Rosalia",
-      "title": "Dio$ No$ Libre Del Dinero (Henry Saiz Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2164",
-      "artist": "[29:32] AVIRA",
-      "title": "Love Me (Yotto Remix)",
       "issues": [
         "genre_not_identified"
       ]
@@ -4930,30 +4610,6 @@
       "id": "awen-2166",
       "artist": "[38:42] ID",
       "title": "ID",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2167",
-      "artist": "[43:24] Ben Böhmer",
-      "title": "Zeit & Raum",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2168",
-      "artist": "[47:12] Kevin de Vries & Innellea",
-      "title": "Das Licht",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2169",
-      "artist": "[49:39] VER:WEST",
-      "title": "5 Seconds Before Sunrise",
       "issues": [
         "genre_not_identified"
       ]
@@ -4991,14 +4647,6 @@
       ]
     },
     {
-      "id": "awen-2174",
-      "artist": "[1:08:48] Jon Gurd",
-      "title": "Together (Tom Demac Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2175",
       "artist": "[1:12:42] ID",
       "title": "ID",
@@ -5007,97 +4655,9 @@
       ]
     },
     {
-      "id": "awen-2176",
-      "artist": "[1:16:22] H O W L I N G",
-      "title": "Bind (Rampa Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2177",
-      "artist": "[1:21:49] Duke Dumont & RY X",
-      "title": "Let Me Go (Jonas Rathsman Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2178",
-      "artist": "[1:25:27] Jiminy Hop",
-      "title": "Adam (Kamilo Sanclemente Remix) w/ Dua Lipa - Don't Start Now (Acappella)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2179",
-      "artist": "[1:28:35] Thomas Schwartz & Fausto Fanizza",
-      "title": "Empress",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2180",
-      "artist": "[1:30:59] Bob Moses & ZHU",
-      "title": "Desire",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2181",
-      "artist": "[1:36:04] Kaios",
-      "title": "Vanguard",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2182",
-      "artist": "[1:40:47] Made In Paris",
-      "title": "Retrocede",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2183",
-      "artist": "[1:43:26] Soma Soul ft. Ed Begley",
-      "title": "Missing (Marcus Worgull Remix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2184",
-      "artist": "[1:47:08] Black Space",
-      "title": "Moon",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2185",
-      "artist": "[1:51:17] Tinlicker & Helsloot",
-      "title": "Like",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2186",
       "artist": "[1:55:01] ID",
       "title": "ID",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2187",
-      "artist": "[1:58:06] Kölsch",
-      "title": "Now Here No Where",
       "issues": [
         "genre_not_identified"
       ]
@@ -5127,41 +4687,9 @@
       ]
     },
     {
-      "id": "awen-2191",
-      "artist": "[2:14:30] Moonwalk",
-      "title": "Pink Clouds",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2192",
-      "artist": "[2:16:08] Bandes",
-      "title": "Sightglass",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2193",
       "artist": "[2:18:39] ID",
       "title": "ID",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2194",
-      "artist": "[2:22:45] Jordin Post",
-      "title": "Mirage",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2195",
-      "artist": "[2:26:57] Mattia Pompeo",
-      "title": "Laguna",
       "issues": [
         "genre_not_identified"
       ]
@@ -5175,81 +4703,9 @@
       ]
     },
     {
-      "id": "awen-2198",
-      "artist": "[2:41:09] Indian Wells",
-      "title": "Cascades",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2199",
       "artist": "[2:44:12] ID",
       "title": "ID",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2200",
-      "artist": "[2:48:39] Bandes",
-      "title": "Sunshine Skyway",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2201",
-      "artist": "[2:52:26] Dahu",
-      "title": "Watch Your Burn",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2202",
-      "artist": "[2:55:28] Peer Kusiv ft. Lenny",
-      "title": "Oblivion",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2203",
-      "artist": "[2:59:30] Layton Giordani",
-      "title": "Feel A Vibe",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2204",
-      "artist": "[3:02:06] Le Youth",
-      "title": "Balance",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2205",
-      "artist": "[3:05:12] ARTBAT & Sailor & I",
-      "title": "Best Of Me",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2206",
-      "artist": "[3:09:19] Lexer",
-      "title": "Signs Of A Swarm",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2207",
-      "artist": "[3:13:44] London Grammar",
-      "title": "Baby It's You (Kölsch Version)",
       "issues": [
         "genre_not_identified"
       ]
@@ -5348,153 +4804,9 @@
       "proposed_genre": "Bass Music / EDM"
     },
     {
-      "id": "awen-2266",
-      "artist": "B.Jigga & Jaman T",
-      "title": "Ary Beri [Prod. by Be Eazy] (AUEN)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2267",
-      "artist": "Stefan Biniak",
-      "title": "The Read All About It (Bootleg)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2268",
-      "artist": "The Kitchen Songs",
-      "title": "Сырласу",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2269",
-      "artist": "JP Cooper",
-      "title": "Birthday",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2270",
-      "artist": "Lena",
-      "title": "Wild And Free",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2271",
-      "artist": "Ben Kendrick",
-      "title": "All I Can Do",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2272",
-      "artist": "CYN X JERMS",
-      "title": "The Only Lo Lo Lo",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2273",
-      "artist": "Мачете",
-      "title": "Не раставайтесь",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2274",
-      "artist": "Mr. Probz",
-      "title": "Till You're Loved",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2275",
-      "artist": "HU₵₵I x DOM SEBASTIAN",
-      "title": "Vision",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2276",
-      "artist": "Broods",
-      "title": "Coattails",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2277",
-      "artist": "Black coast",
-      "title": "TRNDSTTR (Lucian remix) | nightcore",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2278",
       "artist": "紫に桜の花",
       "title": "Red Lips",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2279",
-      "artist": "Jon Bellion",
-      "title": "All Time Low (feat. Travis Mendes)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2280",
-      "artist": "Sofia Reyes",
-      "title": "Your Voice",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2281",
-      "artist": "Kedam",
-      "title": "Shy Girl",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2282",
-      "artist": "Tyga",
-      "title": "Rack City Bitch",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2283",
-      "artist": "Porchy x Ameriqa",
-      "title": "100",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2284",
-      "artist": "Maitre Gims",
-      "title": "Habibi (Pilule Bleue)",
       "issues": [
         "genre_not_identified"
       ]
@@ -5504,202 +4816,18 @@
       "artist": "Kygo & Selena Gomez",
       "title": "It Ain't Me",
       "issues": [
-        "genre_not_identified",
         "possible_duplicate"
       ],
       "duplicate_ids": [
         "awen-1329",
         "awen-2285"
-      ]
-    },
-    {
-      "id": "awen-2286",
-      "artist": "K.A.R.D",
-      "title": "Don`t Recall M/V",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2287",
-      "artist": "Kuma",
-      "title": "Falling For Somebody New",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2288",
-      "artist": "NAV",
-      "title": "Some Way (feat. The Weeknd)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2290",
-      "artist": "Maroon 5",
-      "title": "Cold (feat. Future)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2291",
-      "artist": "Adele",
-      "title": "25",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2292",
-      "artist": "Adele",
-      "title": "Hello",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2293",
-      "artist": "Twenty One Pilots",
-      "title": "Stressed Out",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2294",
-      "artist": "Justin Timberlake",
-      "title": "Can't Stop The Feeling!",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2295",
-      "artist": "The Chainsmokers",
-      "title": "Don't Let Me Down» (feat. Daya)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2296",
-      "artist": "Flume",
-      "title": "Skin",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2297",
-      "artist": "David Bowie",
-      "title": "Blackstar",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2298",
-      "artist": "Cage The Elephant",
-      "title": "Tell Me I'm Pretty",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2299",
-      "artist": "Lalah Hathaway",
-      "title": "Lalah Hathaway Live",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2300",
-      "artist": "Solange",
-      "title": "Cranes In The Sky",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2301",
-      "artist": "Beyoncé",
-      "title": "Lemonade",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2302",
-      "artist": "Drake",
-      "title": "Hotline Bling",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2303",
-      "artist": "Chance The Rapper",
-      "title": "No Problem» (feat. Lil Wayme & 2 Chainz)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2304",
-      "artist": "Chance The Rapper",
-      "title": "Coloring Book",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2305",
-      "artist": "Beyoncé",
-      "title": "Formation",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2306",
-      "artist": "The Beatles",
-      "title": "Eight Days A Week The Touring Years",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2307",
-      "artist": "Miles Davis & Various Artists",
-      "title": "Miles Ahead",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2308",
-      "artist": "Run The Jewels",
-      "title": "Rubble Kings Theme",
-      "issues": [
-        "genre_not_identified"
-      ]
+      ],
+      "proposed_genre": "House"
     },
     {
       "id": "awen-2309",
       "artist": "zemfira",
       "title": "blues (invert bootleg mix)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2310",
-      "artist": "Melanie Martines",
-      "title": "Carousel",
       "issues": [
         "genre_not_identified"
       ]
@@ -5737,41 +4865,9 @@
       ]
     },
     {
-      "id": "awen-2315",
-      "artist": "Kungs vs Cookin’ on 3 Burners",
-      "title": "This Girl",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2316",
       "artist": "W-inds",
       "title": "We Don't Need To Talk Anymore",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2317",
-      "artist": "Novo Amor",
-      "title": "From Gold",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2318",
-      "artist": "Of Monsters And Man",
-      "title": "Love Love Love",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2319",
-      "artist": "Of Monsters And Men",
-      "title": "Mountain Sound",
       "issues": [
         "genre_not_identified"
       ]
@@ -5809,22 +4905,6 @@
       ]
     },
     {
-      "id": "awen-2325",
-      "artist": "Gibran Alcocer",
-      "title": "Idea 10",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2326",
-      "artist": "Gorillaz, De La Soul",
-      "title": "Feel Good Inc.",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2327",
       "artist": "𝙃𝘼𝙅𝙔",
       "title": "Radiohead - Everything in it's right place (slowed to perfection + best bit) 《Instrumental》",
@@ -5841,30 +4921,6 @@
       ]
     },
     {
-      "id": "awen-2329",
-      "artist": "Gibran Alcocer",
-      "title": "Idea 10 (Slowed & Reverb)",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2330",
-      "artist": "Tkay Maidza",
-      "title": "High Beams",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2331",
-      "artist": "Aerosmith",
-      "title": "Dream On",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2332",
       "artist": "11am in Tokyo",
       "title": "Romance in Tokyo",
@@ -5873,25 +4929,9 @@
       ]
     },
     {
-      "id": "awen-2333",
-      "artist": "Clozee",
-      "title": "Koto",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
       "id": "awen-2334",
       "artist": "In Time",
       "title": "Moonlight",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2335",
-      "artist": "Moby",
-      "title": "Everloving (Reprise)",
       "issues": [
         "genre_not_identified"
       ]
@@ -5940,14 +4980,6 @@
       "id": "awen-2341",
       "artist": "GIF",
       "title": "830 КБ",
-      "issues": [
-        "genre_not_identified"
-      ]
-    },
-    {
-      "id": "awen-2342",
-      "artist": "Flume",
-      "title": "Dreamtime",
       "issues": [
         "genre_not_identified"
       ]
