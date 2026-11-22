@@ -120,7 +120,7 @@ function statsPanel(){
  section('11. Мой музыкальный год — '+selectedYear,
  '<div class="ad-recap"><h2>AWEN · '+selectedYear+'</h2><div class="ad-value">'+st.plays+' прослушиваний</div><p>'+st.unique+' разных композиций · '+st.favorites+' песен в текущем избранном</p>'+
  '<p>Любимый жанр: '+esc(st.topGenres.length?st.topGenres[0][0]:'Пока нет данных')+'</p></div>'+
- '<div class="ad-actions">'+button('share-recap','Поделиться итогами','','ad-btn primary')+'</div>'+
+ '<div class="ad-actions">'+button('share-recap','Поделиться итогами','','ad-btn primary')+button('download-recap','Скачать карточку PNG 9:16')+'</div>'+
  '<p class="ad-note">Статистика строится из действий на этом устройстве; это не Spotify Wrapped и не импортированная история сервисов.</p>')+'</div>';
 }
 function render(){
@@ -148,6 +148,44 @@ async function copyText(value){
  root.prompt('Скопируйте текст:',value);
 }
 function mixLink(){let url=new URL(root.location.href);url.searchParams.set('awen_mix',Core.encodeMix(state.draft.name,state.draft.ids));return url.toString();}
+function downloadRecap(){
+ const stats=Core.stats(ctx(),selectedYear);
+ const canvas=document.createElement('canvas');
+ canvas.width=1080;canvas.height=1920;
+ const g=canvas.getContext('2d');
+ if(!g){notify('Браузер не поддерживает экспорт изображения');return;}
+ const bg=g.createLinearGradient(0,0,1080,1920);
+ bg.addColorStop(0,'#191b35');bg.addColorStop(.50,'#492969');bg.addColorStop(1,'#101d35');
+ g.fillStyle=bg;g.fillRect(0,0,1080,1920);
+ g.fillStyle='rgba(186,135,248,.11)';
+ for(let i=0;i<10;i++){g.beginPath();g.arc(850,200+i*175,150+(i%3)*40,0,Math.PI*2);g.fill();}
+ g.lineWidth=2;g.strokeStyle='rgba(223,194,255,.26)';
+ for(let j=0;j<12;j++){g.beginPath();g.moveTo(-100,1160+j*51);g.bezierCurveTo(310,920+j*20,770,1400-j*20,1220,1000+j*75);g.stroke();}
+ const label=(v,x,y,size=32,color='#ffffff',weight='600')=>{g.fillStyle=color;g.font=weight+' '+size+'px Inter,Arial,sans-serif';g.fillText(String(v||''),x,y);};
+ const clip=(v,max=31)=>{v=String(v||'');return v.length>max?v.slice(0,max-1)+'…':v;};
+ label('AWEN',80,146,66,'#ffffff','800');
+ label('MUSIC · МОЯ СТАТИСТИКА',80,192,29,'#d5c2f6','600');
+ label(String(stats.year),74,410,174,'#d6aeff','800');
+ label('МОЙ МУЗЫКАЛЬНЫЙ ГОД',82,482,40,'#ffffff','700');
+ g.fillStyle='rgba(255,255,255,.10)';g.fillRect(75,555,930,300);
+ label('ПОДТВЕРЖДЁННЫХ ПРОСЛУШИВАНИЙ',110,626,28,'#e1d3f7','650');
+ label(String(stats.plays),106,769,132,'#ffffff','800');
+ g.fillStyle='rgba(255,255,255,.10)';g.fillRect(75,900,450,235);g.fillRect(553,900,452,235);
+ label('РАЗНЫХ ПЕСЕН',106,970,27,'#e8d8fa','600');
+ label(String(stats.unique),104,1071,91,'#ffffff','800');
+ label('В ИЗБРАННОМ СЕЙЧАС',579,970,25,'#e8d8fa','600');
+ label(String(stats.favorites),575,1071,91,'#ffffff','800');
+ label('ЛЮБИМЫЙ ЖАНР',88,1245,27,'#ccb8f4','650');
+ label(clip(stats.topGenres[0]?stats.topGenres[0][0]:'Пока нет данных',30),84,1332,46,'#ffffff','700');
+ label('ЛЮБИМЫЙ ИСПОЛНИТЕЛЬ',88,1450,27,'#ccb8f4','650');
+ label(clip(stats.topArtists[0]?stats.topArtists[0][0]:'Пока нет данных',28),84,1537,46,'#ffffff','700');
+ g.fillStyle='#bb8cf1';g.fillRect(84,1612,170,7);
+ label('Только реальные прослушивания этого устройства.',84,1716,28,'#e6d6f0','500');
+ label('Без импорта статистики из других сервисов.',84,1759,27,'#e6d6f0','500');
+ label('AWEN · әуен',84,1858,28,'#b4adcc','600');
+ const a=document.createElement('a');a.download='AWEN_My_Music_Year_'+stats.year+'.png';a.href=canvas.toDataURL('image/png');a.click();
+ notify('Карточка PNG создана на устройстве');
+}
 function shareText(stats){
  return 'Мой музыкальный '+stats.year+' с AWEN: '+stats.plays+' подтверждённых прослушиваний, '+stats.unique+' разных композиций. Любимый жанр: '+(stats.topGenres[0]?stats.topGenres[0][0]:'нет данных')+'.';
 }
@@ -170,6 +208,7 @@ function act(node){
  if(kind==='mix-clear'){if(!root.confirm('Очистить текущий микс?'))return;state.draft.ids=[];save();refresh();return;}
  if(kind==='mix-sort'){let list=arr(state.draft.ids).map(id=>tracks().find(t=>t.id===id)).filter(Boolean);state.draft.ids=Core.smartOrder(list).map(x=>x.track.id);save();refresh();return;}
  if(kind==='mix-share'){let input=document.getElementById('ad-mix-name');if(input)state.draft.name=input.value.slice(0,60);save();copyText(mixLink());return;}
+ if(kind==='download-recap'){downloadRecap();return;}
  if(kind==='share-recap'){const summary=shareText(Core.stats(ctx(),selectedYear));if(navigator.share){navigator.share({title:'AWEN · Мой музыкальный год',text:summary}).catch(()=>copyText(summary));}else copyText(summary);return;}
 }
 document.addEventListener('click',e=>{const node=e.target.closest('[data-ad-action]');if(!node)return;e.preventDefault();act(node);});
