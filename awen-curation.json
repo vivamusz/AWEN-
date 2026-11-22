@@ -19936,22 +19936,21 @@
     },
     "awen-285": {
       "genre": "Pop",
-      "subgenres": [
-        "Dance Pop"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "high",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://musicbrainz.org/release-group/8afd8470-3727-432b-8f66-2326864d0ac7",
+      "genre_evidence": "K/DA ALL OUT is an EP, not a standalone title track; MusicBrainz release group",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_verified",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
-      }
+        "check_type": "external_catalog_match",
+        "action": "verify_album_handling"
+      },
+      "entry_type": "EP",
+      "entry_type_review_needed": true
     },
     "awen-321": {
       "genre": "Bass Music / EDM",
@@ -19996,18 +19995,17 @@
       "subgenres": [
         "Alternative R&B"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://www.allmusic.com/artist/sampha-mn0002987230",
+      "genre_evidence": "Sampha alternative R&B artist, Plastic 100°C appears on Process; track-specific genre tentative",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-348": {
@@ -20015,18 +20013,17 @@
       "subgenres": [
         "Contemporary R&B"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://www.albumoftheyear.org/album/274478-beyonce-brown-skin-girl.php",
+      "genre_evidence": "Exact Brown Skin Girl Beyonce; Contemporary R&B/Afrobeat crossover, truncated title in AWEN",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-350": {
@@ -20221,40 +20218,34 @@
     },
     "awen-395": {
       "genre": "Hip-Hop / Rap",
-      "subgenres": [
-        "Trap"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://music.apple.com/us/album/take-it-single/1205051251",
+      "genre_evidence": "Apple Music exact The Seige Take It single; genre remains provisional",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-402": {
       "genre": "House",
-      "subgenres": [
-        "Deep House"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://www.beatport.com/artist/filv/778183",
+      "genre_evidence": "Beatport FILV profile mentions BALENCIAGA; Deep House genre tentative",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-404": {
@@ -20381,18 +20372,17 @@
       "subgenres": [
         "Deep House"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://music.apple.com/us/album/clandestina-feat-emma-peters-single/1491421564",
+      "genre_evidence": "Apple Music exact FILV Edmofo Emma Peters Clandestina single; Deep House subtype editorial",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-464": {
@@ -20509,21 +20499,18 @@
     },
     "awen-500": {
       "genre": "Hip-Hop / Rap",
-      "subgenres": [
-        "Alternative Hip-Hop"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://music.apple.com/us/album/aicha-single/300866961",
+      "genre_evidence": "Apple Music Outlandish Aicha exact single, urban/hip-hop fusion; subtype requires review",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-514": {
@@ -20743,19 +20730,19 @@
       "subgenres": [
         "Alternative Rock"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.allmusic.com/song/hallelujah-mt0005727369",
+      "genre_evidence": "AllMusic identifies Jeff Buckley Hallelujah as alternative/indie rock; import misspells title and artist",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_verified",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
-      }
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
+      },
+      "title_correction_suggested": "Hallelujah"
     },
     "awen-583": {
       "genre": "Rock / Indie",
@@ -20793,18 +20780,17 @@
       "subgenres": [
         "Latin Pop"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://music.apple.com/us/album/r-i-p-feat-rita-ora-anitta-single/1454323188",
+      "genre_evidence": "Apple Music exact Sofía Reyes Rita Ora Anitta R.I.P. single, Latin pop act",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-611": {
@@ -21045,18 +21031,17 @@
       "subgenres": [
         "Dance Pop"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://music.apple.com/us/album/sugar-brownies-single/1711659754",
+      "genre_evidence": "Apple Music exact Dharia Sugar & Brownies single; Dance Pop subtype tentative",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-669": {
@@ -21172,20 +21157,19 @@
       }
     },
     "awen-699": {
-      "genre": "Jazz / Blues",
+      "genre": "Pop",
       "subgenres": [],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://www.allmusic.com/artist/dean-martin-mn0000237073",
+      "genre_evidence": "Dean Martin traditional pop singer, Let It Snow standard; existing jazz choice imprecise",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-706": {
@@ -21271,21 +21255,18 @@
     },
     "awen-730": {
       "genre": "House",
-      "subgenres": [
-        "Slap House"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://www.beatport.com/artist/ilkay-sencan/403300/releases?page=2&per_page=25",
+      "genre_evidence": "Beatport Ilkay Sencan catalog includes No Sweat; exact Slap House genre unconfirmed",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-737": {
@@ -21400,18 +21381,17 @@
       "subgenres": [
         "Trap"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://music.apple.com/us/album/not-all-heroes-wear-capes/1441675623",
+      "genre_evidence": "Metro Boomin album Not All Heroes Wear Capes with No More featuring Travis Scott Kodak Black and 21 Savage; trap style tentative",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-762": {
@@ -21583,19 +21563,19 @@
       "subgenres": [
         "Indie Rock"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
-      "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "high",
+      "review_needed": false,
+      "genre_evidence_url": "https://www.allmusic.com/song/take-me-out-mt0005272377",
+      "genre_evidence": "AllMusic exact Franz Ferdinand Take Me Out; source title imported as Take Me; title needs correction",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "release_identity_verified",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
-      }
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
+      },
+      "title_correction_suggested": "Take Me Out"
     },
     "awen-814": {
       "genre": "House",
@@ -21676,18 +21656,17 @@
       "subgenres": [
         "Dance Pop"
       ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
       "curation_confidence": "low",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://www.allmusic.com/artist/paloma-faith-mn0000991906",
+      "genre_evidence": "Paloma Faith pop/soul artist, Loyalty song genre needs exact-match confirmation",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-822": {
@@ -21787,21 +21766,18 @@
     },
     "awen-833": {
       "genre": "Hip-Hop / Rap",
-      "subgenres": [
-        "Old School Hip-Hop"
-      ],
-      "curation_method": "редакторская предварительная классификация по исполнителю/названию; не подтверждена треком",
-      "curation_confidence": "low",
+      "subgenres": [],
+      "curation_method": "track_or_release_identity_rechecked_2026-11-22",
+      "curation_confidence": "medium",
       "review_needed": true,
-      "genre_evidence_url": "",
-      "genre_evidence": "Без независимого подтверждения конкретного трека; требует сверки Last.fm, Discogs, Beatport или прослушивания",
-      "genre_source": "Гипотеза редактора — не проверенный жанр",
+      "genre_evidence_url": "https://www.allmusic.com/artist/cypress-hill-mn0000147315",
+      "genre_evidence": "AllMusic Cypress Hill and exact Band of Gypsies single; hip-hop genre, old-school subtype not verified",
+      "genre_source": "External source checked, 2026-11-22",
       "genre_audit": {
-        "status": "provisional_not_verified",
+        "status": "identity_found_genre_partly_provisional",
         "checked_on": "2026-11-22",
-        "check_type": "schema_and_evidence_audit",
-        "source_type": "no_exact_recording_reference",
-        "action": "verify_track_identity_and_genre"
+        "check_type": "external_catalog_match",
+        "action": "validate_subgenre_against_recording"
       }
     },
     "awen-932": {
