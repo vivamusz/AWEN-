@@ -43,6 +43,15 @@ function build(tracks,editorial,settings){
       if(good)reasons.push('Метка настроения соответствует');
       if(q.genre_review_needed||conf==='low')score-=3;
       if(!seed&&!pin){
+        // An auto-added track must have track-level identity evidence, never
+        // only an artist-level genre guess. Apple confirms song identity, not
+        // automatically its narrow genre, energy or mood.
+        const apple=t.verified_metadata||{};
+        const exactApple=Boolean(/^https:\/\/music\.apple\.com\//i.test(String(apple.url||'')) &&
+          apple.title && apple.artist && norm(apple.title)===norm(t.title) && norm(apple.artist)===norm(t.artist));
+        const reviewedEvidence=q.auto_evidence_validated===true;
+        if(!exactApple&&!reviewedEvidence){reject('auto_missing_exact_track_evidence');continue;}
+        reasons.push(exactApple?'Точная идентификация релиза Apple Music':'Ручная проверка доказательств');
         if(!['medium','high'].includes(conf)){reject('auto_low_confidence');continue;}
         if(!has(styles,cfg.preferredStyles)&&!good&&energy===null){reject('auto_no_style_or_mood');continue;}
         if(energy!==null&&(energy<cfg.energy[0]||energy>cfg.energy[1])&&!good){reject('auto_energy_mismatch');continue;}
