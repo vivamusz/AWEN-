@@ -44,7 +44,7 @@ let s=window.AWENDiscoveryUI.getState();
 assert.ok(s.boostGenres.includes('Pop')&&s.excludeGenres.includes('Phonk')&&s.boostLanguages.includes('Қазақша'));
 assert.ok(s.dislikes.includes('awen-2')&&s.excludedArtists.includes('Artist 4'));
 press('radio',{id:'awen-6'});
-assert.match(window.AWENDiscoveryUI.render(),/Радио: Track 5/);
+assert.match(window.AWENDiscoveryUI.render(),/Похожее на Track 5/);
 press('tab',{tab:'prompt'});
 els['ad-prompt']={value:'25 спокойных песен для вечерней дороги без рэпа, 2010-х'};
 press('generate-prompt');
