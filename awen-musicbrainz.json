@@ -740,6 +740,41 @@
       "genre": "",
       "evidence_tags": [],
       "artist_url": "https://musicbrainz.org/artist/e709ba81-1524-4431-b073-82e550f9eba8"
+    },
+    "dju dju": {
+      "status": "unclassified",
+      "artist_mbid": "af19cfa0-2178-49a4-ba09-e9b821964a10",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/af19cfa0-2178-49a4-ba09-e9b821964a10"
+    },
+    "kavabanga depo kolibri": {
+      "status": "unclassified",
+      "artist_mbid": "63b62ce4-07a5-4e4f-8331-dfe5422241af",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/63b62ce4-07a5-4e4f-8331-dfe5422241af"
+    },
+    "dropkillerz": {
+      "status": "unclassified",
+      "artist_mbid": "33b99495-5fe0-4cb3-94c7-d9f97e15dc8b",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/33b99495-5fe0-4cb3-94c7-d9f97e15dc8b"
+    },
+    "kid trunks": {
+      "status": "unclassified",
+      "artist_mbid": "7eed0e98-9bc7-4702-8bc5-92dad58d9b4d",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/7eed0e98-9bc7-4702-8bc5-92dad58d9b4d"
+    },
+    "dabro": {
+      "status": "unclassified",
+      "artist_mbid": "8c4840d6-8a5f-4411-b5f8-db69a5b349ed",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/8c4840d6-8a5f-4411-b5f8-db69a5b349ed"
     }
   },
   "tracks": {
