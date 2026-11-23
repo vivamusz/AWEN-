@@ -21014,7 +21014,20 @@
       "curation_confidence": "medium",
       "review_needed": true,
       "genre_evidence": "excel_artist_or_title_hint",
-      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx"
+      "source_spreadsheet": "AWEN_Жанры_обновлено_22-11-2026.xlsx",
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1532274650?i=1532275135",
+        "title": "Hang On",
+        "artist": "Petit Biscuit",
+        "genre_name": "House",
+        "release_date": "2020-10-30T12:00:00Z"
+      },
+      "genre_review_candidate": "House",
+      "album": "Parachute",
+      "year": 2020,
+      "year_type": "album_release",
+      "duration": 174
     },
     "awen-2196": {
       "genre": "House",
@@ -26337,7 +26350,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1201058048?i=1201058127",
+        "title": "Ain't My Fault",
+        "artist": "Zara Larsson",
+        "genre_name": "Pop",
+        "release_date": "2017-03-17T07:00:00Z"
+      },
+      "album": "So Good",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 224
     },
     "awen-959": {
       "genre": "Hip-Hop / Rap",
@@ -29883,7 +29908,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1472026375?i=1472026722",
+        "title": "Ride It",
+        "artist": "Regard",
+        "genre_name": "Dance",
+        "release_date": "2019-07-26T07:00:00Z"
+      },
+      "album": "Ride It - Single",
+      "year": 2019,
+      "year_type": "album_release",
+      "duration": 158
     },
     "awen-2226": {
       "genre": "House",
@@ -31590,7 +31627,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1752462773?i=1752462798",
+        "title": "Hard as Fuck",
+        "artist": "Doctor P",
+        "genre_name": "Dubstep",
+        "release_date": "2016-11-18T12:00:00Z"
+      },
+      "album": "Circus Three",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 218
     },
     "awen-2235": {
       "genre": "Bass Music / EDM",
@@ -31648,7 +31697,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1181185171?i=1181185625",
+        "title": "Fire (VIP)",
+        "artist": "4B & D.John",
+        "genre_name": "Dance",
+        "release_date": "2016-11-29T12:00:00Z"
+      },
+      "album": "Weapons 2.0 (VIP's) - Single",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 166
     },
     "awen-2237": {
       "genre": "Bass Music / EDM",
@@ -31996,7 +32057,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1641053047?i=1641053048",
+        "title": "Chameleon",
+        "artist": "Hardwell & Wiwek",
+        "genre_name": "Dance",
+        "release_date": "2015-07-13T12:00:00Z"
+      },
+      "album": "Chameleon - Single",
+      "year": 2015,
+      "year_type": "album_release",
+      "duration": 225
     },
     "awen-2249": {
       "genre": "Bass Music / EDM",
@@ -32025,7 +32098,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1198690519?i=1198690712",
+        "title": "Faka G",
+        "artist": "Wiwek",
+        "genre_name": "Electronic",
+        "release_date": "2017-02-01T12:00:00Z"
+      },
+      "album": "Faka G / Double Dribble - Single",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 173
     },
     "awen-2250": {
       "genre": "Bass Music / EDM",
@@ -32112,7 +32197,20 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1163965111?i=1163965214",
+        "title": "Hood Up",
+        "artist": "Stoltenhoff",
+        "genre_name": "House",
+        "release_date": "2016-10-14T12:00:00Z"
+      },
+      "genre_review_candidate": "House",
+      "album": "Hood Up EP",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 188
     },
     "awen-2253": {
       "genre": "Bass Music / EDM",
@@ -32373,7 +32471,20 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1173774987?i=1173775480",
+        "title": "More Than Ever",
+        "artist": "Kayzo & Junkie Kid",
+        "genre_name": "House",
+        "release_date": "2016-11-18T12:00:00Z"
+      },
+      "genre_review_candidate": "House",
+      "album": "Black & White EP",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 263
     },
     "awen-2264": {
       "genre": "Bass Music / EDM",
@@ -34342,7 +34453,20 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1795972786?i=1795973395",
+        "title": "Сырласу",
+        "artist": "The Kitchen Songs",
+        "genre_name": "Pop",
+        "release_date": "2016-11-26T12:00:00Z"
+      },
+      "genre_review_candidate": "Pop",
+      "album": "the kitchen songs - EP",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 216
     },
     "awen-2269": {
       "genre": "Pop",
@@ -34371,7 +34495,20 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1440880777?i=1440881280",
+        "title": "Birthday",
+        "artist": "JP Cooper",
+        "genre_name": "Soundtrack",
+        "release_date": "2017-02-10T12:00:00Z"
+      },
+      "genre_review_candidate": "Classical / Cinematic",
+      "album": "Fifty Shades Darker (Original Motion Picture Soundtrack)",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 202
     },
     "awen-2270": {
       "genre": "Pop",
@@ -34516,7 +34653,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1532427439?i=1532427440",
+        "title": "Till You're Loved",
+        "artist": "Mr. Probz",
+        "genre_name": "Pop",
+        "release_date": "2017-02-17T12:00:00Z"
+      },
+      "album": "Till You're Loved - Single",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 180
     },
     "awen-2275": {
       "genre": "Bass Music / EDM",
@@ -34574,7 +34723,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1443417391?i=1443417590",
+        "title": "Coattails",
+        "artist": "BROODS",
+        "genre_name": "Alternative",
+        "release_date": "2013-01-01T12:00:00Z"
+      },
+      "album": "Broods - EP",
+      "year": 2013,
+      "year_type": "album_release",
+      "duration": 195
     },
     "awen-2277": {
       "genre": "Bass Music / EDM",
@@ -34661,7 +34822,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1203981485?i=1203981907",
+        "title": "Your Voice",
+        "artist": "Sofía Reyes",
+        "genre_name": "Pop",
+        "release_date": "2017-02-03T12:00:00Z"
+      },
+      "album": "Louder!",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 210
     },
     "awen-2281": {
       "genre": "House",
@@ -34876,7 +35049,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1443147070?i=1443147242",
+        "title": "Some Way (feat. The Weeknd)",
+        "artist": "NAV",
+        "genre_name": "Hip-Hop/Rap",
+        "release_date": "2017-02-16T12:00:00Z"
+      },
+      "album": "NAV",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 180
     },
     "awen-2290": {
       "genre": "Pop",
@@ -34905,7 +35090,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1444623727?i=1444623730",
+        "title": "Cold (feat. Future)",
+        "artist": "Maroon 5",
+        "genre_name": "Pop",
+        "release_date": "2017-02-14T12:00:00Z"
+      },
+      "album": "Cold (feat. Future) - Single",
+      "year": 2017,
+      "year_type": "album_release",
+      "duration": 234
     },
     "awen-2291": {
       "genre": "Pop",
@@ -34971,7 +35168,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/974485462?i=974485474",
+        "title": "Stressed Out",
+        "artist": "twenty one pilots",
+        "genre_name": "Alternative",
+        "release_date": "2015-04-28T07:00:00Z"
+      },
+      "album": "Blurryface",
+      "year": 2015,
+      "year_type": "album_release",
+      "duration": 202
     },
     "awen-2294": {
       "genre": "Pop",
@@ -35000,7 +35209,20 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1154238159?i=1154239184",
+        "title": "CAN'T STOP THE FEELING!",
+        "artist": "Justin Timberlake",
+        "genre_name": "Soundtrack",
+        "release_date": "2016-05-06T07:00:00Z"
+      },
+      "genre_review_candidate": "Classical / Cinematic",
+      "album": "TROLLS (Original Motion Picture Soundtrack)",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 238
     },
     "awen-2295": {
       "genre": "Bass Music / EDM",
@@ -35029,7 +35251,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1170699510?i=1170699706",
+        "title": "Don't Let Me Down (feat. Daya)",
+        "artist": "The Chainsmokers",
+        "genre_name": "Dance",
+        "release_date": "2016-02-05T08:00:00Z"
+      },
+      "album": "Collage - EP",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 209
     },
     "awen-2296": {
       "genre": "Bass Music / EDM",
@@ -35157,7 +35391,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1159507212?i=1159507287",
+        "title": "Cranes in the Sky",
+        "artist": "Solange",
+        "genre_name": "R&B/Soul",
+        "release_date": "2016-09-30T12:00:00Z"
+      },
+      "album": "A Seat at the Table",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 251
     },
     "awen-2301": {
       "genre": "R&B / Soul",
@@ -35425,7 +35671,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1669536364?i=1669536452",
+        "title": "From Gold",
+        "artist": "Novo Amor",
+        "genre_name": "Alternative",
+        "release_date": "2014-03-31T12:00:00Z"
+      },
+      "album": "Woodgate, NY - EP",
+      "year": 2014,
+      "year_type": "album_release",
+      "duration": 214
     },
     "awen-2318": {
       "genre": "Folk / Ethno / World",
@@ -35483,7 +35741,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1440808821?i=1440809063",
+        "title": "Mountain Sound",
+        "artist": "Of Monsters and Men",
+        "genre_name": "Alternative",
+        "release_date": "2011-09-20T12:00:00Z"
+      },
+      "album": "My Head Is an Animal",
+      "year": 2011,
+      "year_type": "album_release",
+      "duration": 212
     },
     "awen-2325": {
       "genre": "Classical / Cinematic",
@@ -35512,7 +35782,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1647270810?i=1647270811",
+        "title": "Idea 10",
+        "artist": "Gibran Alcocer",
+        "genre_name": "Easy Listening",
+        "release_date": "2022-07-09T12:00:00Z"
+      },
+      "album": "Idea 10 - Single",
+      "year": 2022,
+      "year_type": "album_release",
+      "duration": 128
     },
     "awen-2326": {
       "genre": "Hip-Hop / Rap",
@@ -35570,7 +35852,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": true,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1648562802?i=1648562803",
+        "title": "Idea 10 (Slowed & Reverb)",
+        "artist": "Gibran Alcocer",
+        "genre_name": "Easy Listening",
+        "release_date": "2022-10-07T12:00:00Z"
+      },
+      "album": "Idea 10 (Remixes) - Single",
+      "year": 2022,
+      "year_type": "album_release",
+      "duration": 159
     },
     "awen-2330": {
       "genre": "Hip-Hop / Rap",
@@ -39850,7 +40144,19 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1394849934?i=1394851551",
+        "title": "Friend Like Me",
+        "artist": "Betty Who",
+        "genre_name": "Pop",
+        "release_date": "2018-06-15T12:00:00Z"
+      },
+      "album": "Betty, Pt. 1 - EP",
+      "year": 2018,
+      "year_type": "album_release",
+      "duration": 217
     },
     "awen-2220": {
       "genre": "Folk / Ethno / World",
@@ -39937,7 +40243,20 @@
         "duplicates_possible": [],
         "version_specific_match_required": false,
         "genre_status": "provisional_until_track_style_verified"
-      }
+      },
+      "verified_metadata": {
+        "provider": "Apple iTunes Search API",
+        "url": "https://music.apple.com/kz/album/1170366395?i=1170366716",
+        "title": "Turn Day Turn Night",
+        "artist": "The Galaxy",
+        "genre_name": "House",
+        "release_date": "2016-11-04T12:00:00Z"
+      },
+      "genre_review_candidate": "House",
+      "album": "Moon & the Stars EP",
+      "year": 2016,
+      "year_type": "album_release",
+      "duration": 167
     },
     "awen-2278": {
       "genre": "Hip-Hop / Rap",
