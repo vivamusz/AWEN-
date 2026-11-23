@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-22T23:35:20+00:00",
+  "generated_at_utc": "2026-11-23T04:00:00+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2369,
@@ -8,7 +8,7 @@
     "possible_import_errors": 59,
     "duplicate_groups": 47,
     "tracks_in_duplicate_groups": 104,
-    "genre_conflicts": 51,
+    "genre_conflicts": 58,
     "cross_source_conflicts": 0
   },
   "items": [
@@ -1527,7 +1527,18 @@
         "awen-706",
         "awen-735"
       ],
-      "proposed_genre": "Hip-Hop / Rap"
+      "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/49096702",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
     },
     {
       "id": "awen-711",
@@ -1571,6 +1582,17 @@
         "awen-735"
       ],
       "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/49096702",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1440848910?i=1440849528"
     },
     {
@@ -3669,6 +3691,17 @@
       ]
     },
     {
+      "id": "awen-2154",
+      "artist": "Petit Biscuit",
+      "title": "Hang On",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Bass Music / EDM",
+      "genre_conflict": "House",
+      "source_url": "https://music.apple.com/kz/album/1532274650?i=1532275135"
+    },
+    {
       "id": "awen-2158",
       "artist": "[9:24] OCULA",
       "title": "ID",
@@ -3854,6 +3887,17 @@
       ]
     },
     {
+      "id": "awen-2234",
+      "artist": "The Galaxy",
+      "title": "Turn Day Turn Night",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Bass Music / EDM",
+      "genre_conflict": "House",
+      "source_url": "https://music.apple.com/kz/album/1170366395?i=1170366716"
+    },
+    {
       "id": "awen-2240",
       "artist": "Cesqeaux",
       "title": "Backup",
@@ -3867,6 +3911,50 @@
       "proposed_genre": "Bass Music / EDM"
     },
     {
+      "id": "awen-2252",
+      "artist": "Stoltenhoff",
+      "title": "Hood Up",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Bass Music / EDM",
+      "genre_conflict": "House",
+      "source_url": "https://music.apple.com/kz/album/1163965111?i=1163965214"
+    },
+    {
+      "id": "awen-2263",
+      "artist": "Kayzo & Junkie Kid",
+      "title": "More Than Ever",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Bass Music / EDM",
+      "genre_conflict": "House",
+      "source_url": "https://music.apple.com/kz/album/1173774987?i=1173775480"
+    },
+    {
+      "id": "awen-2268",
+      "artist": "The Kitchen Songs",
+      "title": "Сырласу",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Folk / Ethno / World",
+      "genre_conflict": "Pop",
+      "source_url": "https://music.apple.com/kz/album/1795972786?i=1795973395"
+    },
+    {
+      "id": "awen-2269",
+      "artist": "JP Cooper",
+      "title": "Birthday",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Classical / Cinematic",
+      "source_url": "https://music.apple.com/kz/album/1440880777?i=1440881280"
+    },
+    {
       "id": "awen-2285",
       "artist": "Kygo & Selena Gomez",
       "title": "It Ain't Me",
@@ -3878,6 +3966,17 @@
         "awen-2285"
       ],
       "proposed_genre": "House"
+    },
+    {
+      "id": "awen-2294",
+      "artist": "Justin Timberlake",
+      "title": "Can't Stop The Feeling!",
+      "issues": [
+        "genre_metadata_conflict"
+      ],
+      "proposed_genre": "Pop",
+      "genre_conflict": "Classical / Cinematic",
+      "source_url": "https://music.apple.com/kz/album/1154238159?i=1154239184"
     },
     {
       "id": "awen-2320",
