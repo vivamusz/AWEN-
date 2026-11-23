@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-23T07:44:38+00:00",
+  "generated_at_utc": "2026-11-23T14:30:42+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2369,
@@ -1896,6 +1896,17 @@
       ],
       "proposed_genre": "Hip-Hop / Rap",
       "genre_conflict": "Pop",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/5111581",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/791354164?i=791354219"
     },
     {
@@ -2093,7 +2104,18 @@
         "awen-1154",
         "awen-1188"
       ],
-      "proposed_genre": "Hip-Hop / Rap"
+      "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/48633412",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
     },
     {
       "id": "awen-1158",
