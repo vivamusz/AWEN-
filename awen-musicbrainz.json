@@ -775,6 +775,25 @@
       "genre": "",
       "evidence_tags": [],
       "artist_url": "https://musicbrainz.org/artist/8c4840d6-8a5f-4411-b5f8-db69a5b349ed"
+    },
+    "ganju": {
+      "status": "unclassified",
+      "artist_mbid": "0a8e7593-02bc-401f-9f65-d538ba273430",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/0a8e7593-02bc-401f-9f65-d538ba273430"
+    },
+    "cursed king": {
+      "status": "not_found"
+    },
+    "bruno mars": {
+      "status": "found",
+      "artist_mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+      "genre": "Pop",
+      "evidence_tags": [
+        "pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/afb680f2-b6eb-4cd7-a70b-a63b25c763d5"
     }
   },
   "tracks": {
@@ -1010,6 +1029,15 @@
         "rap"
       ],
       "artist_url": "https://musicbrainz.org/artist/5df62a88-cac9-490a-b62c-c7c88f4020f4",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-430": {
+      "genre": "Pop",
+      "evidence_tags": [
+        "pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
       "curation_confidence": "artist_genre_inference",
       "review_needed": true
     }
