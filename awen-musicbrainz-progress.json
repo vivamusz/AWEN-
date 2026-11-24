@@ -1,9 +1,9 @@
 {
-  "next_index": 542,
-  "artists_checked": 150,
+  "next_index": 561,
+  "artists_checked": 151,
   "tracks_assigned": 28,
   "total": 2369,
   "complete": false,
   "last_error": "HTTP Error 503: Service Temporarily Unavailable",
-  "last_error_index": 542
+  "last_error_index": 561
 }
