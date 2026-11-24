@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-24T22:29:57+00:00",
+  "generated_at_utc": "2026-11-24T22:45:37+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2369,
@@ -2809,6 +2809,17 @@
         "awen-1667"
       ],
       "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/46723562",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1272352116?i=1272352856"
     },
     {
@@ -2820,6 +2831,17 @@
       ],
       "proposed_genre": "Hip-Hop / Rap",
       "genre_conflict": "Pop",
+      "external_genre_evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/9966918",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/979975991?i=979976002"
     },
     {
@@ -2831,6 +2853,17 @@
       ],
       "proposed_genre": "Hip-Hop / Rap",
       "genre_conflict": "R&B / Soul",
+      "external_genre_evidence": [
+        {
+          "genre": "Rock / Indie",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/286853",
+          "raw_tags": [
+            "Rock"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1443928567?i=1443928901"
     },
     {
@@ -2904,6 +2937,17 @@
         "awen-1667"
       ],
       "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/46723562",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1272352116?i=1272352856"
     },
     {
@@ -2978,6 +3022,17 @@
       ],
       "proposed_genre": "Chill / Lo-Fi / Ambient",
       "genre_conflict": "Pop",
+      "external_genre_evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/250648532",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1580477036?i=1580477038"
     },
     {
