@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-24T09:58:39+00:00",
+  "generated_at_utc": "2026-11-24T12:24:40+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2369,
@@ -2669,6 +2669,17 @@
       ],
       "proposed_genre": "R&B / Soul",
       "genre_conflict": "Rock / Indie",
+      "external_genre_evidence": [
+        {
+          "genre": "Rock / Indie",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/14284278",
+          "raw_tags": [
+            "Rock"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1147252993?i=1147253007"
     },
     {
@@ -2688,6 +2699,17 @@
       ],
       "proposed_genre": "Hip-Hop / Rap",
       "genre_conflict": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/15359729",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1199639601?i=1199641872"
     },
     {
@@ -2699,6 +2721,17 @@
       ],
       "proposed_genre": "Pop",
       "genre_conflict": "Pop",
+      "external_genre_evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/1450212",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/691961375?i=691961385"
     },
     {
@@ -2718,6 +2751,17 @@
       ],
       "proposed_genre": "R&B / Soul",
       "genre_conflict": "Pop",
+      "external_genre_evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/41093251",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1233476084?i=1233476099"
     },
     {
