@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-24T01:53:56+00:00",
+  "generated_at_utc": "2026-11-24T09:58:39+00:00",
   "catalog_tracks": 2369,
   "quarantined_possible_non_songs": 59,
   "public_music_candidates": 2310,
@@ -15,7 +15,7 @@
   "genre_conflicts": 58,
   "cross_source_conflicts": 0,
   "track_level_evidence_assignments": 0,
-  "deezer_album_genre_hints_applied": 54,
+  "deezer_album_genre_hints_applied": 49,
   "apple_verified_metadata": 464,
   "known_albums": 464,
   "known_release_years": 464,
@@ -64,13 +64,13 @@
     "complete": true
   },
   "musicbrainz_progress": {
-    "next_index": 430,
-    "artists_checked": 135,
-    "tracks_assigned": 23,
+    "next_index": 542,
+    "artists_checked": 150,
+    "tracks_assigned": 28,
     "total": 2369,
     "complete": false,
     "last_error": "HTTP Error 503: Service Temporarily Unavailable",
-    "last_error_index": 430
+    "last_error_index": 542
   },
   "cross_source_genre_progress": {
     "next_index": 1537,
