@@ -794,6 +794,113 @@
         "pop"
       ],
       "artist_url": "https://musicbrainz.org/artist/afb680f2-b6eb-4cd7-a70b-a63b25c763d5"
+    },
+    "neffex": {
+      "status": "unclassified",
+      "artist_mbid": "edc00972-9c39-43ee-9e28-5e65ee14a23d",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/edc00972-9c39-43ee-9e28-5e65ee14a23d"
+    },
+    "rupert holmes": {
+      "status": "unclassified",
+      "artist_mbid": "3e7ef7ed-18c1-436d-b946-7e7e63ace408",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/3e7ef7ed-18c1-436d-b946-7e7e63ace408"
+    },
+    "トリフトスタイル": {
+      "status": "not_found"
+    },
+    "liam payne": {
+      "status": "found",
+      "artist_mbid": "93ae8651-24ee-406c-b927-eb7cd773ae38",
+      "genre": "Pop",
+      "evidence_tags": [
+        "pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/93ae8651-24ee-406c-b927-eb7cd773ae38"
+    },
+    "bojet": {
+      "status": "not_found"
+    },
+    "rosalia": {
+      "status": "ambiguous"
+    },
+    "prxz": {
+      "status": "unclassified",
+      "artist_mbid": "722266c7-ed95-477d-b764-e9c01ed8d1d4",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/722266c7-ed95-477d-b764-e9c01ed8d1d4"
+    },
+    "josh turner": {
+      "status": "ambiguous"
+    },
+    "burgos": {
+      "status": "ambiguous"
+    },
+    "prince of falls": {
+      "status": "unclassified",
+      "artist_mbid": "f92b70d1-f41f-494a-ac91-17135435ed5c",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/f92b70d1-f41f-494a-ac91-17135435ed5c"
+    },
+    "why don t we": {
+      "status": "found",
+      "artist_mbid": "1c68773d-b1db-4529-b9ac-51810ced1a19",
+      "genre": "Pop",
+      "evidence_tags": [
+        "pop",
+        "future pop",
+        "rising pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/1c68773d-b1db-4529-b9ac-51810ced1a19"
+    },
+    "a ha": {
+      "status": "found",
+      "artist_mbid": "7364dea6-ca9a-48e3-be01-b44ad0d19897",
+      "genre": "Pop",
+      "evidence_tags": [
+        "dance-pop",
+        "pop",
+        "sophisti-pop",
+        "synth-pop",
+        "euro-pop",
+        "synth pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/7364dea6-ca9a-48e3-be01-b44ad0d19897"
+    },
+    "queen key": {
+      "status": "found",
+      "artist_mbid": "48825836-c6c3-4050-95a6-9de4d0a6ab1d",
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "hip hop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/48825836-c6c3-4050-95a6-9de4d0a6ab1d"
+    },
+    "sueco": {
+      "status": "unclassified",
+      "artist_mbid": "82cbe859-5255-4bbd-bda3-7610a3f857dc",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/82cbe859-5255-4bbd-bda3-7610a3f857dc"
+    },
+    "stormzy": {
+      "status": "found",
+      "artist_mbid": "67fd5116-7a49-4abf-a34f-b08774128a7a",
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "hip hop",
+        "pop rap",
+        "uk drill",
+        "british rap",
+        "contemporary rap",
+        "rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/67fd5116-7a49-4abf-a34f-b08774128a7a"
     }
   },
   "tracks": {
@@ -1038,6 +1145,63 @@
         "pop"
       ],
       "artist_url": "https://musicbrainz.org/artist/afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-457": {
+      "genre": "Pop",
+      "evidence_tags": [
+        "pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/93ae8651-24ee-406c-b927-eb7cd773ae38",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-499": {
+      "genre": "Pop",
+      "evidence_tags": [
+        "pop",
+        "future pop",
+        "rising pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/1c68773d-b1db-4529-b9ac-51810ced1a19",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-503": {
+      "genre": "Pop",
+      "evidence_tags": [
+        "dance-pop",
+        "pop",
+        "sophisti-pop",
+        "synth-pop",
+        "euro-pop",
+        "synth pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/7364dea6-ca9a-48e3-be01-b44ad0d19897",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-505": {
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "hip hop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/48825836-c6c3-4050-95a6-9de4d0a6ab1d",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-541": {
+      "genre": "Hip-Hop / Rap",
+      "evidence_tags": [
+        "hip hop",
+        "pop rap",
+        "uk drill",
+        "british rap",
+        "contemporary rap",
+        "rap"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/67fd5116-7a49-4abf-a34f-b08774128a7a",
       "curation_confidence": "artist_genre_inference",
       "review_needed": true
     }
