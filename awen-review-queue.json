@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-23T23:57:42+00:00",
+  "generated_at_utc": "2026-11-24T01:53:56+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2369,
@@ -2192,6 +2192,17 @@
         "awen-1188"
       ],
       "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/48633412",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1444869738?i=1444869855"
     },
     {
@@ -2319,6 +2330,17 @@
       ],
       "proposed_genre": "Rock / Indie",
       "genre_conflict": "Pop",
+      "external_genre_evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/44268711",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1440895067?i=1440895081"
     },
     {
@@ -2429,7 +2451,18 @@
         "awen-1399",
         "awen-1437"
       ],
-      "proposed_genre": "Hip-Hop / Rap"
+      "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/46787432",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
     },
     {
       "id": "awen-1408",
@@ -2511,7 +2544,18 @@
         "awen-1399",
         "awen-1437"
       ],
-      "proposed_genre": "Hip-Hop / Rap"
+      "proposed_genre": "Hip-Hop / Rap",
+      "external_genre_evidence": [
+        {
+          "genre": "Hip-Hop / Rap",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/46787432",
+          "raw_tags": [
+            "Rap/Hip Hop"
+          ]
+        }
+      ]
     },
     {
       "id": "awen-1439",
