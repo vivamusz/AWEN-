@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-24T22:45:37+00:00",
+  "generated_at_utc": "2026-11-25T05:25:11+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2369,
@@ -3152,6 +3152,17 @@
       ],
       "proposed_genre": "Electronica / Experimental",
       "genre_conflict": "Pop",
+      "external_genre_evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/48453022",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1290040581?i=1290040593"
     },
     {
@@ -3364,6 +3375,17 @@
         "awen-1867"
       ],
       "proposed_genre": "Classical / Cinematic",
+      "external_genre_evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/57156392",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/654221871?i=654222190"
     },
     {
