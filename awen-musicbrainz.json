@@ -924,6 +924,26 @@
     },
     "6ix9ine": {
       "status": "not_found"
+    },
+    "aaron may": {
+      "status": "ambiguous"
+    },
+    "angele": {
+      "status": "ambiguous"
+    },
+    "неизвестен": {
+      "status": "not_found"
+    },
+    "mylene farmer": {
+      "status": "found",
+      "artist_mbid": "18b23026-ed29-445a-9bb4-4e86598ab5a9",
+      "genre": "Pop",
+      "evidence_tags": [
+        "electropop",
+        "pop",
+        "french pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9"
     }
   },
   "tracks": {
@@ -1225,6 +1245,17 @@
         "rap"
       ],
       "artist_url": "https://musicbrainz.org/artist/67fd5116-7a49-4abf-a34f-b08774128a7a",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-657": {
+      "genre": "Pop",
+      "evidence_tags": [
+        "electropop",
+        "pop",
+        "french pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9",
       "curation_confidence": "artist_genre_inference",
       "review_needed": true
     }
