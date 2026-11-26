@@ -963,6 +963,33 @@
     },
     "new year": {
       "status": "not_found"
+    },
+    "bekzat kuttibayev": {
+      "status": "not_found"
+    },
+    "solonely": {
+      "status": "unclassified",
+      "artist_mbid": "3a39ffb3-d937-4549-a0a3-76b689044afb",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/3a39ffb3-d937-4549-a0a3-76b689044afb"
+    },
+    "lil hawk boy": {
+      "status": "unclassified",
+      "artist_mbid": "8fedd10b-cb47-4ce0-9a22-d9dce2dc3453",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/8fedd10b-cb47-4ce0-9a22-d9dce2dc3453"
+    },
+    "dennis lloyd": {
+      "status": "found",
+      "artist_mbid": "026c1c22-8d1c-473c-a33f-a27fd02d6975",
+      "genre": "Pop",
+      "evidence_tags": [
+        "indie pop",
+        "pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/026c1c22-8d1c-473c-a33f-a27fd02d6975"
     }
   },
   "tracks": {
@@ -1284,6 +1311,16 @@
         "indie rock"
       ],
       "artist_url": "https://musicbrainz.org/artist/a63a5c27-aae4-40b3-86c7-527496bfeeb9",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-734": {
+      "genre": "Pop",
+      "evidence_tags": [
+        "indie pop",
+        "pop"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/026c1c22-8d1c-473c-a33f-a27fd02d6975",
       "curation_confidence": "artist_genre_inference",
       "review_needed": true
     }
