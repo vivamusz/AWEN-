@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-26T18:57:53+00:00",
+  "generated_at_utc": "2026-11-26T21:37:48+00:00",
   "catalog_tracks": 2369,
   "quarantined_possible_non_songs": 59,
   "public_music_candidates": 2310,
@@ -64,13 +64,13 @@
     "complete": true
   },
   "musicbrainz_progress": {
-    "next_index": 745,
-    "artists_checked": 166,
+    "next_index": 851,
+    "artists_checked": 169,
     "tracks_assigned": 31,
     "total": 2369,
     "complete": false,
     "last_error": "HTTP Error 503: Service Temporarily Unavailable",
-    "last_error_index": 745
+    "last_error_index": 851
   },
   "cross_source_genre_progress": {
     "next_index": 2333,
