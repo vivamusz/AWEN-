@@ -944,6 +944,25 @@
         "french pop"
       ],
       "artist_url": "https://musicbrainz.org/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9"
+    },
+    "teen suicide": {
+      "status": "found",
+      "artist_mbid": "a63a5c27-aae4-40b3-86c7-527496bfeeb9",
+      "genre": "Rock / Indie",
+      "evidence_tags": [
+        "indie rock"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/a63a5c27-aae4-40b3-86c7-527496bfeeb9"
+    },
+    "devilish trio": {
+      "status": "unclassified",
+      "artist_mbid": "1222e7f2-b16e-4b9b-98c7-c00ec558292c",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/1222e7f2-b16e-4b9b-98c7-c00ec558292c"
+    },
+    "new year": {
+      "status": "not_found"
     }
   },
   "tracks": {
@@ -1256,6 +1275,15 @@
         "french pop"
       ],
       "artist_url": "https://musicbrainz.org/artist/18b23026-ed29-445a-9bb4-4e86598ab5a9",
+      "curation_confidence": "artist_genre_inference",
+      "review_needed": true
+    },
+    "awen-659": {
+      "genre": "Rock / Indie",
+      "evidence_tags": [
+        "indie rock"
+      ],
+      "artist_url": "https://musicbrainz.org/artist/a63a5c27-aae4-40b3-86c7-527496bfeeb9",
       "curation_confidence": "artist_genre_inference",
       "review_needed": true
     }
