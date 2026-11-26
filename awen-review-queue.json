@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-25T21:44:57+00:00",
+  "generated_at_utc": "2026-11-26T00:17:24+00:00",
   "description": "Текущая очередь редакторской проверки AWEN. Не удалять песни автоматически.",
   "counts": {
     "total": 2369,
@@ -4128,6 +4128,17 @@
       ],
       "proposed_genre": "Folk / Ethno / World",
       "genre_conflict": "Pop",
+      "external_genre_evidence": [
+        {
+          "genre": "Pop",
+          "provider": "Deezer",
+          "basis": "album_genre",
+          "url": "https://www.deezer.com/album/712035071",
+          "raw_tags": [
+            "Pop"
+          ]
+        }
+      ],
       "source_url": "https://music.apple.com/kz/album/1795972786?i=1795973395"
     },
     {
