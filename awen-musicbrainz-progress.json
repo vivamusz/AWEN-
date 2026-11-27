@@ -4,6 +4,6 @@
   "tracks_assigned": 31,
   "total": 2369,
   "complete": false,
-  "last_error": "HTTP Error 503: Service Temporarily Unavailable",
+  "last_error": "The read operation timed out",
   "last_error_index": 941
 }
