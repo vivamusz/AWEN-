@@ -999,6 +999,36 @@
     },
     "amiwntr": {
       "status": "not_found"
+    },
+    "philippe heithier": {
+      "status": "unclassified",
+      "artist_mbid": "99a7819f-545c-4491-9403-e7777b81701d",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/99a7819f-545c-4491-9403-e7777b81701d"
+    },
+    "apoch": {
+      "status": "not_found"
+    },
+    "2018": {
+      "status": "not_found"
+    },
+    "nick modern": {
+      "status": "unclassified",
+      "artist_mbid": "3ef98e2e-8c01-47c7-bb49-d3016f9cfbed",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/3ef98e2e-8c01-47c7-bb49-d3016f9cfbed"
+    },
+    "qsensx": {
+      "status": "unclassified",
+      "artist_mbid": "aafb19b9-a76b-4a6f-9693-6f118189f3a7",
+      "genre": "",
+      "evidence_tags": [],
+      "artist_url": "https://musicbrainz.org/artist/aafb19b9-a76b-4a6f-9693-6f118189f3a7"
+    },
+    "07 18": {
+      "status": "not_found"
     }
   },
   "tracks": {
