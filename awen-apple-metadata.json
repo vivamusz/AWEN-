@@ -7925,6 +7925,6 @@
   "verified_track_count": 464,
   "unresolved_linked_tracks": 0,
   "note": "Verified only for strict Apple track-ID + exact title + artist matches; release year is of the matched Apple album edition, not necessarily the song's original release year.",
-  "generated_at_utc": "2026-11-27T14:22:38+00:00",
+  "generated_at_utc": "2026-11-28T13:37:44+00:00",
   "failed_lookup_chunks": 0
 }
